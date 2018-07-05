@@ -1,0 +1,33 @@
+!!!!    2    0    1 1372471424  Ve149                                         
+test powered analog
+
+
+  test "PM_SLP_S3#"
+  test "PM_SLP_S3#"
+
+
+end test
+
+!=========================
+
+
+
+subtest "PM_SLP_S3#"
+   disconnect all
+   connect i to nodes "#%PM_SLP_S3#"
+   connect l to ground
+   detector dcv , expect 3.3
+   measure 3.3*1.05, 3.3*0.95
+end subtest
+
+
+subtest "PM_SLP_S4#"
+   disconnect all
+   connect i to nodes "#%PM_SLP_S4#"
+   connect l to ground
+   detector dcv , expect 3.3
+   measure 3.3*1.05, 3.3*0.95
+end subtest
+
+
+

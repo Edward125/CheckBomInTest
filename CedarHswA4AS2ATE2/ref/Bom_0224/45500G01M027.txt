@@ -1,0 +1,930 @@
+------------ PCB NO.: 13269-1
+------------ ITEM   : 455.00G01.M027
+------------ Model  : CEDAR14 MB DIS 13269-1 W/CPU I3 GM/H S
+ 
+021N2$AA                              IC VRAM H5TC4G63AFR-11C FBGA96P 1.5V 1GH 4    VRAM4
+021N2$AA                              IC VRAM H5TC4G63AFR-11C FBGA96P 1.5V 1GH 4    VRAM3
+021N2$AA                              IC VRAM H5TC4G63AFR-11C FBGA96P 1.5V 1GH 4    VRAM2
+021N2$AA                              IC VRAM H5TC4G63AFR-11C FBGA96P 1.5V 1GH 4    VRAM1
+022.10001.0551                        SKT RJ45 8P C100MR-10809-L               1    RJ45
+022.10002.0001                        SKT AUDIO JACK 7P DIP 2SJ3080-036111F    1    HPMIC1
+022.10019.0001                        SKT SATA S7+P15 127043HR022M28FZR        1    HDD1
+071.00285.000G                        IC KBC NPCE285PA0DX LQFP 128P            1    KBC24
+071.08106.0003                        IC LAN PCIe 10/100 RTL8106E-CGT QFN 32P  1    LOM30
+074.05016.0093                        IC LOAD SW G5016KD1U TDFN2X3 14P         2    U8301
+074.05016.0093                        IC LOAD SW G5016KD1U TDFN2X3 14P         2    U3601
+074.06288.009B                        IC PWM SW SY6288DAAC SOT23-5             3    U3504
+074.06288.009B                        IC PWM SW SY6288DAAC SOT23-5             3    U3503
+074.06288.009B                        IC PWM SW SY6288DAAC SOT23-5             3    U3505
+084.06970.0037                        FET MOS AON6970 NC DFN5X6D               1    PU4701
+20.81152.013                          CONN CTR 13P C185A1-11305-L              1    ODD1
+20.81925.009                          CONN CTR 9P C144LC-109A7-L BATTERY       1    BAT1
+20.F1639.004                          CONN CTR SMD 4P 50224-0040N-W02          1    SPK1
+20.F1783.007                          CONN CTR 7P SM 50299-00701-W01 ACES      1    DCIN1
+20.F1841.003                          CONN CTR 3P SMD 3703K-Q03N-11L           1    FAN1
+20.K0382.016                          CONN FPC 16P SMD 196353-16021-3          1    CON1
+20.K0465.004                          CONN FPC 4P SMD 6916K-Q04N-20L           1    SW1
+20.K0592.030                          COMN FPC 30P SMD 51518-03001-001 ACES    2    KB1
+20.K0592.030                          COMN FPC 30P SMD 51518-03001-001 ACES    2    KB2
+20.K0665.008                          CONN FPC 8P SMD 6915K-Q08N-00L           1    TPAD1
+20.K0678.040                          CONN FPC 40P SMD 51540-04001-W01         1    LCD1
+20.K0800.004                          CONNECTOR FPC 4P SMD 51575-00401-W01     1    KBLIT1
+22.10296.A31                          SKT HDMI 19P DIP C128C5-K1909-L          1    HDMI1
+22.10321.E91                          SKT USB 4P C107X3-10405-L                1    USB2
+22.10341.Q21                          SKT USB3.0 9P DIP C190B7-10909-L         1    USB1
+34.15J03.001                          EMI SMD SQ-75G EMI STOP                  1    SPR4
+34.41V01.001                          EMI SPRING J8(SQ_37)                     2    SPR2
+34.41V01.001                          EMI SPRING J8(SQ_37)                     2    SPR3
+34.44L12.101                          BOSS-MB-STAND-OFF-W/O MYLAR_LD           2    S1
+34.44L12.101                          BOSS-MB-STAND-OFF-W/O MYLAR_LD           2    S2
+34.4Y806.001                          SPRING EMI 2*3.3*3.8MM                   1    SPR5
+62.10024.R31                          SKT DDR3 204P 40-42045-20401RHF          1    DM1
+62.10043.C81                          SKT MINPCI 52P SMD AS0B221-S52QW-7H      1    WLAN1
+62.70014.001                          HOLDER BATTERY 2P SMD 060003HA002M213ZL  1    RTC1
+63.00000.00L                          CHIP RES 0 J 1/10W 0603                  10   R5229
+63.00000.00L                          CHIP RES 0 J 1/10W 0603                  10   R5232
+63.00000.00L                          CHIP RES 0 J 1/10W 0603                  10   R6205
+63.00000.00L                          CHIP RES 0 J 1/10W 0603                  10   L1101
+63.00000.00L                          CHIP RES 0 J 1/10W 0603                  10   PR8211
+63.00000.00L                          CHIP RES 0 J 1/10W 0603                  10   PR4217
+63.00000.00L                          CHIP RES 0 J 1/10W 0603                  10   PR4409
+63.00000.00L                          CHIP RES 0 J 1/10W 0603                  10   PR4701
+63.00000.00L                          CHIP RES 0 J 1/10W 0603                  10   PR8210
+63.00000.00L                          CHIP RES 0 J 1/10W 0603                  10   L1102
+63.10031.16L                          CHIP RES 10 J 1/8W 0805(ROHS)            1    PR4408
+63.10034.1DL                          CHIP RES 10 J 1/16W 0402                 3    PR8315
+63.10034.1DL                          CHIP RES 10 J 1/16W 0402                 3    PR8316
+63.10034.1DL                          CHIP RES 10 J 1/16W 0402                 3    PR8317
+63.10134.1DL                          CHIP RES 100 J 1/16W 0402                3    R5210
+63.10134.1DL                          CHIP RES 100 J 1/16W 0402                3    R5233
+63.10134.1DL                          CHIP RES 100 J 1/16W 0402                3    R6102
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R1909
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R1703
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R1702
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   PR8256
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   PR4215
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   PR4210
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R6214
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R6201
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R605
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R3603
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R3601
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R3014
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R2018
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R2432
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R2449
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R2452
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R2502
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R2922
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R2921
+63.10234.1DL                          CHIP RES 1K J 1/16W 0402                 20   R2717
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R1902
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R2005
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R2010
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R2013
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R2015
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R2023
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R1726
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R1701
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R1510
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   PR8258
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   PR4203
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R7645
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R7632
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R7628
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R7622
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R7621
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R7612
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R7609
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R7606
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R7601
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R7518
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R7303
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R2026
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R5412
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R5208
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R405
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R3033
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R3021
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R2439
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R2436
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R2418
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R2415
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R2414
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R6203
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   PR4209
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   PR4212
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   PR4213
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   PR4218
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   PR4403
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   PR4417
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   PR4419
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   PR4430
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   PR4434
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   PR8203
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   PR8311
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   PR8313
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   R1727
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   R2007
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   R2426
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   R2447
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   R2711
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   R2722
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   R3023
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   R5202
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   R5607
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   R6207
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   R7605
+63.10434.1DL                          CHIP RES 100K J 1/16W 0402               24   R7610
+63.10534.1DL                          CHIP RES 1M J 1/16W 0402                 2    R1802
+63.10534.1DL                          CHIP RES 1M J 1/16W 0402                 2    R1901
+63.10634.1DL                          CHIP RES 10M J 1/16W 0402                2    R2504
+63.10634.1DL                          CHIP RES 10M J 1/16W 0402                2    R1915
+63.15134.1DL                          CHIP RES 150 J 1/16W 0402                5    R5417
+63.15134.1DL                          CHIP RES 150 J 1/16W 0402                5    R5416
+63.15134.1DL                          CHIP RES 150 J 1/16W 0402                5    R5415
+63.15134.1DL                          CHIP RES 150 J 1/16W 0402                5    R5414
+63.15134.1DL                          CHIP RES 150 J 1/16W 0402                5    R705
+63.15334.1DL                          CHIP RES 15K J 1/16W 0402                1    R3015
+63.1R534.15L                          CHIP RES 1.5 J 1/10W 0603                2    PR4524
+63.1R534.15L                          CHIP RES 1.5 J 1/10W 0603                2    PR4528
+63.20334.1DL                          CHIP RES 20K J 1/16W 0402                1    R3022
+63.22234.1DL                          CHIP RES 2.2K J 1/16W 0402               2    PR4204
+63.22234.1DL                          CHIP RES 2.2K J 1/16W 0402               2    R3605
+63.22434.1DL                          CHIP RES 220K J 1/16W 0402               1    R1208
+63.24434.15L                          CHIP RES 240K J 1/10W 0603               1    PR4207
+63.2R233.15L                          CHIP RES 2.2 J 1/10W 0603                1    PR8223
+63.30231.16L                          CHIP RES 3K J 1/8W 0805                  1    PR4404
+63.33034.1DL                          CHIP RES 33 J 1/16W 0402                 9    PR4205
+63.33034.1DL                          CHIP RES 33 J 1/16W 0402                 9    R1805
+63.33034.1DL                          CHIP RES 33 J 1/16W 0402                 9    R1907
+63.33034.1DL                          CHIP RES 33 J 1/16W 0402                 9    R2423
+63.33034.1DL                          CHIP RES 33 J 1/16W 0402                 9    R1806
+63.33034.1DL                          CHIP RES 33 J 1/16W 0402                 9    R1912
+63.33034.1DL                          CHIP RES 33 J 1/16W 0402                 9    R2419
+63.33034.1DL                          CHIP RES 33 J 1/16W 0402                 9    R2420
+63.33034.1DL                          CHIP RES 33 J 1/16W 0402                 9    R2422
+63.33134.1DL                          CHIP RES 330 J 1/16W 0402                1    R6101
+63.33232.11L                          CHIP RES 3.3K J 1/4W 1206                1    PR4214
+63.33434.1DL                          CHIP RES 330K J 1/16W 0402               5    R2425
+63.33434.1DL                          CHIP RES 330K J 1/16W 0402               5    R1903
+63.33434.1DL                          CHIP RES 330K J 1/16W 0402               5    R1720
+63.33434.1DL                          CHIP RES 330K J 1/16W 0402               5    PR8312
+63.33434.1DL                          CHIP RES 330K J 1/16W 0402               5    R2431
+63.33534.1DL                          CHIP RES 3.3M J 1/16W 0402               1    PR4414
+63.43034.1DL                          CHIP RES 43 J 1/16W 0402                 2    R2429
+63.43034.1DL                          CHIP RES 43 J 1/16W 0402                 2    R701
+63.47134.1DL                          CHIP RES 470 J 1/16W 0402                1    R410
+63.47234.1DL                          CHIP RES 4.7K J 1/16W 0402               5    R2501
+63.47234.1DL                          CHIP RES 4.7K J 1/16W 0402               5    R2912
+63.47234.1DL                          CHIP RES 4.7K J 1/16W 0402               5    R6211
+63.47234.1DL                          CHIP RES 4.7K J 1/16W 0402               5    R2913
+63.47234.1DL                          CHIP RES 4.7K J 1/16W 0402               5    R3606
+63.47333.15L                          CHIP RES 47K J 1/10W 0603                1    PR4208
+63.47434.1DL                          CHIP RES 470K J 1/16W 0402               1    PR4405
+63.51034.1DL                          CHIP RES 51 J 1/16W 0402                 1    R406
+63.51334.1DL                          CHIP RES 51K J 1/16W 0402                1    R6206
+63.56034.1DL                          CHIP RES 56 J 1/16W 0402                 1    R403
+63.62034.1DL                          CHIP RES 62 J 1/16W 0402                 1    R401
+63.75434.1DL                          CHIP RES 750K J 1/16W 0402               1    R8314
+63.R0007.1BL                          CHIP RES 0 J 1/2W 1210(ROHS)             1    EL4203
+63.R0031.16L                          CHIP RES 0 J 1/8W 0805                   4    R5211
+63.R0031.16L                          CHIP RES 0 J 1/8W 0805                   4    R3801
+63.R0031.16L                          CHIP RES 0 J 1/8W 0805                   4    R2122
+63.R0031.16L                          CHIP RES 0 J 1/8W 0805                   4    R8304
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R2437
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R2448
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R2612
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R2712
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R2716
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R2720
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R6212
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R6216
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R7313
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R7652
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R7653
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R8312
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R8313
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   PR4422
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R1728
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R1710
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R1708
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R1704
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   PR8208
+63.R0034.1DL                          CHIP RES 0 J 1/16W 0402                  20   R1512
+64.10005.6DL                          CHIP RES 100 F 1/16W 0402                5    R702
+64.10005.6DL                          CHIP RES 100 F 1/16W 0402                5    R409
+64.10005.6DL                          CHIP RES 100 F 1/16W 0402                5    PR8213
+64.10005.6DL                          CHIP RES 100 F 1/16W 0402                5    PR8212
+64.10005.6DL                          CHIP RES 100 F 1/16W 0402                5    R901
+64.10015.6DL                          CHIP RES 1K F 1/16W 0402                 1    PR4908
+64.10025.6DL                          CHIP RES 10K F 1/16W 0402                14   R7509
+64.10025.6DL                          CHIP RES 10K F 1/16W 0402                14   R7510
+64.10025.6DL                          CHIP RES 10K F 1/16W 0402                14   R7511
+64.10025.6DL                          CHIP RES 10K F 1/16W 0402                14   R7512
+64.10025.6DL                          CHIP RES 10K F 1/16W 0402                14   R7614
+64.10025.6DL                          CHIP RES 10K F 1/16W 0402                14   R7618
+64.10025.6DL                          CHIP RES 10K F 1/16W 0402                14   R7620
+64.10025.6DL                          CHIP RES 10K F 1/16W 0402                14   R7508
+64.10025.6DL                          CHIP RES 10K F 1/16W 0402                14   R7302
+64.10025.6DL                          CHIP RES 10K F 1/16W 0402                14   PR4903
+64.10025.6DL                          CHIP RES 10K F 1/16W 0402                14   PR4822
+64.10025.6DL                          CHIP RES 10K F 1/16W 0402                14   PR4523
+64.10025.6DL                          CHIP RES 10K F 1/16W 0402                14   PR4401
+64.10025.6DL                          CHIP RES 10K F 1/16W 0402                14   PR4435
+64.10035.6DL                          CHIP RES 100K F 1/16W 0402               6    R7306
+64.10035.6DL                          CHIP RES 100K F 1/16W 0402               6    R713
+64.10035.6DL                          CHIP RES 100K F 1/16W 0402               6    R707
+64.10035.6DL                          CHIP RES 100K F 1/16W 0402               6    R2407
+64.10035.6DL                          CHIP RES 100K F 1/16W 0402               6    R2406
+64.10035.6DL                          CHIP RES 100K F 1/16W 0402               6    PR4610
+64.10055.6DL                          CHIP RES 10M F 1/16W 0402                1    PR4707
+64.10235.6DL                          CHIP RES 102K F 1/16W 0402(LF)           1    PR4411
+64.10535.60L                          CHIP RES 105K F 1/16W 0402               1    PR4817
+64.10R05.6DL                          CHIP RES 10 F 1/16W 0402                 4    R2910
+64.10R05.6DL                          CHIP RES 10 F 1/16W 0402                 4    R2908
+64.10R05.6DL                          CHIP RES 10 F 1/16W 0402                 4    PR4421
+64.10R05.6DL                          CHIP RES 10 F 1/16W 0402                 4    PR4604
+64.11025.6DL                          CHIP RES 11K F 1/16W 0402                1    PR4708
+64.12035.6DL                          CHIP RES 120K F 1/16W 0402               1    PR4432
+64.12105.6DL                          CHIP RES 121 F 1/16W 0402                1    R408
+64.12435.6DL                          CHIP RES 124K F 1/16W 0402               1    PR4607
+64.12715.6DL                          CHIP RES 1.27K F 1/16W 0402              1    PR4603
+64.13005.6DL                          CHIP RES 130 F 1/16W 0402                2    PR4630
+64.13005.6DL                          CHIP RES 130 F 1/16W 0402                2    R704
+64.13315.6DL                          CHIP RES 1.33K F 1/16W 0402              4    R7806
+64.13315.6DL                          CHIP RES 1.33K F 1/16W 0402              4    R7807
+64.13315.6DL                          CHIP RES 1.33K F 1/16W 0402              4    R7903
+64.13315.6DL                          CHIP RES 1.33K F 1/16W 0402              4    R7904
+64.13335.6DL                          CHIP RES 133K F 1/16W 0402               1    PR4902
+64.13735.6DL                          CHIP RES 137K F 1/16W 0402               1    PR4531
+64.15005.6DL                          CHIP RES 150 F 1/16W 0402                1    R7604
+64.15025.6DL                          CHIP RES 15K F 1/16W 0402                1    PR4202
+64.15035.6DL                          CHIP RES 150K F 1/16W 0402               2    PR4429
+64.15035.6DL                          CHIP RES 150K F 1/16W 0402               2    R5411
+64.15425.6DL                          CHIP RES 15.4K F 1/16W 0402              1    PR4527
+64.16025.6DL                          CHIP RES 16K F 1/16W 0402                1    PR4617
+64.16035.6DL                          CHIP RES 160K F 1/16W 0402               1    PR4437
+64.16205.6DL                          CHIP RES 162 F 1/16W 0402                2    R7810
+64.16205.6DL                          CHIP RES 162 F 1/16W 0402                2    R7914
+64.18015.6DL                          CHIP RES 1.8K F 1/16W 0402               4    R3701
+64.18015.6DL                          CHIP RES 1.8K F 1/16W 0402               4    R3703
+64.18015.6DL                          CHIP RES 1.8K F 1/16W 0402               4    R3706
+64.18015.6DL                          CHIP RES 1.8K F 1/16W 0402               4    R3709
+64.20005.6DL                          CHIP RES 200 F 1/16W 0402                1    R407
+64.20015.6DL                          CHIP RES 2K F 1/16W 0402                 1    R4622
+64.20025.6DL                          CHIP RES 20K F 1/16W 0402                1    R2433
+64.20035.6DL                          CHIP RES 200K F 1/16W 0402               1    R2709
+64.21025.6DL                          CHIP RES 21K F 1/16W 0402                1    PR4823
+64.22R65.6DL                          CHIP RES 22.6 F 1/16W 0402               1    R1602
+64.24305.6DL                          CHIP RES 243 F 1/16W 0402                4    R7808
+64.24305.6DL                          CHIP RES 243 F 1/16W 0402                4    R7913
+64.24305.6DL                          CHIP RES 243 F 1/16W 0402                4    R7912
+64.24305.6DL                          CHIP RES 243 F 1/16W 0402                4    R7809
+64.24915.6DL                          CHIP RES 2.49K F 1/16W 0402              2    R7301
+64.24915.6DL                          CHIP RES 2.49K F 1/16W 0402              2    R3032
+64.24925.6DL                          CHIP RES 24.9K F 1/16W 0402              1    R2608
+64.24R95.6DL                          CHIP RES 24.9 F 1/16W 0402               3    R3707
+64.24R95.6DL                          CHIP RES 24.9 F 1/16W 0402               3    R801
+64.24R95.6DL                          CHIP RES 24.9 F 1/16W 0402               3    R3711
+64.27025.6DL                          CHIP RES 27K F 1/16W 0402                1    PR8222
+64.2R005.6DL                          CHIP RES 2 F 1/16W 0402                  2    R3708
+64.2R005.6DL                          CHIP RES 2 F 1/16W 0402                  2    R3702
+64.2R205.55L                          CHIP RES 2.2 F 1/10W 0603(ROHS           3    R2403
+64.2R205.55L                          CHIP RES 2.2 F 1/10W 0603(ROHS           3    PR4820
+64.2R205.55L                          CHIP RES 2.2 F 1/10W 0603(ROHS           3    PR4905
+64.2R205.6DL                          CHIP RES 2.2 F 1/16W 0402                1    PR8202
+64.30015.6DL                          CHIP RES 3K F 1/16W 0402                 3    R1601
+64.30015.6DL                          CHIP RES 3K F 1/16W 0402                 3    R1803
+64.30015.6DL                          CHIP RES 3K F 1/16W 0402                 3    R1906
+64.30125.6DL                          CHIP RES 30.1K F 1/16W 0402              1    PR4901
+64.30935.6DL                          CHIP RES 309K F 1/16W 0402               1    PR4407
+64.33015.6DL                          CHIP RES 3.3K F 1/16W 0402               2    PR4412
+64.33015.6DL                          CHIP RES 3.3K F 1/16W 0402               2    PR4415
+64.35705.6DL                          CHIP RES 357 F 1/16W 0402                1    PR4705
+64.36515.6DL                          CHIP RES 3.65K F 1/16W 0402              1    PR4702
+64.38315.6DL                          CHIP RES 3.83K F 1/16W 0402              1    PR4615
+64.40R25.6DL                          CHIP RES 40.2 F 1/16W 0402               1    R7505
+64.42R25.6DL                          CHIP RES 42.2 F 1/16W 0402               1    R7507
+64.44215.6DL                          CHIP RES 4.42K F 1/16W 0402(RO           1    PR4703
+64.47025.6DL                          CHIP RES 47K F 1/16W 0402                3    R709
+64.47025.6DL                          CHIP RES 47K F 1/16W 0402                3    R712
+64.47025.6DL                          CHIP RES 47K F 1/16W 0402                3    PR4431
+64.47035.6DL                          CHIP RES 470K F 1/16W 0402               1    PR4824
+64.49905.6DL                          CHIP RES 499 F 1/16W 0402                1    R6103
+64.49925.6DL                          CHIP RES 49.9K F 1/16W 0402              1    R7602
+64.49935.6DL                          CHIP RES 499K F 1/16W 0402               1    PR8201
+64.49R95.6DL                          CHIP RES 49.9 F 1/16W 0402               3    R602
+64.49R95.6DL                          CHIP RES 49.9 F 1/16W 0402               3    R2003
+64.49R95.6DL                          CHIP RES 49.9 F 1/16W 0402               3    R601
+64.51015.6DL                          CHIP RES 5.1K F 1/16W 0402               1    PR4613
+64.51R15.6DL                          CHIP RES 51.1 F 1/16W 0402               1    R7506
+64.54R95.6DL                          CHIP RES 54.9 F 1/16W 0402               1    PR4620
+64.57625.6DL                          CHIP RES 57.6K F 1/16W 0402              1    R2445
+64.5R105.6DL                          CHIP RES 5.1 F 1/16W 0402                1    R2110
+64.64925.6DL                          CHIP RES 64.9K  F 1/16W 0402             1    R2404
+64.66525.6DL                          CHIP RES 66.5K F 1/16W 0402              1    PR4427
+64.66R55.6DL                          CHIP RES 66.5 F 1/16W 0402               2    R1206
+64.66R55.6DL                          CHIP RES 66.5 F 1/16W 0402               2    R1207
+64.68015.6DL                          CHIP RES 6.8K F 1/16W 0402               1    PR4512
+64.73225.6DL                          CHIP RES 73.2K F 1/16W 0402              1    PR4517
+64.75015.6DL                          CHIP RES 7.5K F 1/16W 0402               1    PR8206
+64.75R05.6DL                          CHIP RES 75 F 1/16W 0402                 1    R703
+64.78715.6DL                          CHIP RES 7.87K F 1/16W 0402              1    PR8209
+64.7R505.6DL                          CHIP RES 7.5 F 1/16W 0402                1    PR4420
+64.80615.6DL                          CHIP RES 8.06K F 1/16W 0402              1    PR8224
+64.82015.6DL                          CHIP RES 8.2K F 1/16W0402(ROHS           2    R603
+64.82015.6DL                          CHIP RES 8.2K F 1/16W0402(ROHS           2    R1714
+64.84525.6DL                          CHIP RES 84.5K F 1/16W 0402              1    PR4413
+64.90925.6DL                          CHIP RES 90.9K F 1/16W 0402              1    PR4614
+64.97615.6DL                          CHIP RES 9.76K F 0402(ROHS)              1    PR4526
+64.R0105.7FL                          CHIP RES 0.01 F 1W 3720                  2    PR4416
+64.R0105.7FL                          CHIP RES 0.01 F 1W 3720                  2    PR4402
+66.10136.A8L                          CHIP NTW 100 J 8P 2*1(ROHS)              2    RN5201
+66.10136.A8L                          CHIP NTW 100 J 8P 2*1(ROHS)              2    RN4301
+66.10236.04L                          CHIP NTW 1K J 4P 1*1 (ROHS)              1    RN1802
+66.10336.04L                          CHIP NTW 10K J I 4P 1*1(ROHS)            10   RN2006
+66.10336.04L                          CHIP NTW 10K J I 4P 1*1(ROHS)            10   RN1701
+66.10336.04L                          CHIP NTW 10K J I 4P 1*1(ROHS)            10   RN1703
+66.10336.04L                          CHIP NTW 10K J I 4P 1*1(ROHS)            10   RN1803
+66.10336.04L                          CHIP NTW 10K J I 4P 1*1(ROHS)            10   RN1804
+66.10336.04L                          CHIP NTW 10K J I 4P 1*1(ROHS)            10   RN1810
+66.10336.04L                          CHIP NTW 10K J I 4P 1*1(ROHS)            10   RN2007
+66.10336.04L                          CHIP NTW 10K J I 4P 1*1(ROHS)            10   RN6201
+66.10336.04L                          CHIP NTW 10K J I 4P 1*1(ROHS)            10   RN7602
+66.10336.04L                          CHIP NTW 10K J I 4P 1*1(ROHS)            10   RN1503
+66.10336.08L                          CHIP NTW 10K J 8P I 2*1                  8    RN2011
+66.10336.08L                          CHIP NTW 10K J 8P I 2*1                  8    RN2012
+66.10336.08L                          CHIP NTW 10K J 8P I 2*1                  8    RN2002
+66.10336.08L                          CHIP NTW 10K J 8P I 2*1                  8    RN1902
+66.10336.08L                          CHIP NTW 10K J 8P I 2*1                  8    RN1809
+66.10336.08L                          CHIP NTW 10K J 8P I 2*1                  8    RN1801
+66.10336.08L                          CHIP NTW 10K J 8P I 2*1                  8    RN1601
+66.10336.08L                          CHIP NTW 10K J 8P I 2*1                  8    RN1505
+66.10436.A8L                          CHIP NTW 100K J 8P I 2*1                 1    RN5203
+66.20336.04L                          CHIP NTW 20K J 4P I 1*1                  1    RN1901
+66.22236.04L                          CHIP NTW 2.2K J 4P 1*1                   5    RN6204
+66.22236.04L                          CHIP NTW 2.2K J 4P 1*1                   5    RN5401
+66.22236.04L                          CHIP NTW 2.2K J 4P 1*1                   5    RN2901
+66.22236.04L                          CHIP NTW 2.2K J 4P 1*1                   5    RN1811
+66.22236.04L                          CHIP NTW 2.2K J 4P 1*1                   5    RN1501
+66.22236.A8L                          CHIP NTW 2.2K J 8P 2.0*1.0               1    RN1807
+66.33036.04L                          CHIP NTW 33 J 4P 1*1                     3    RN6202
+66.33036.04L                          CHIP NTW 33 J 4P 1*1                     3    RN5204
+66.33036.04L                          CHIP NTW 33 J 4P 1*1                     3    RN6203
+66.47136.08L                          CHIP NTW 470 J 8P 2*1                    2    RN5402
+66.47136.08L                          CHIP NTW 470 J 8P 2*1                    2    RN5403
+66.47236.04L                          CHIP NTW 4.7K J I 4P 1*1                 2    RN2401
+66.47236.04L                          CHIP NTW 4.7K J I 4P 1*1                 2    RN7601
+66.75036.08L                          CHIP NTW 75 J 8P 2*1                     1    RN3101
+66.R0036.04L                          CHIP NTW 0 J 4P2R 1*1                    2    RN5206
+66.R0036.04L                          CHIP NTW 0 J 4P2R 1*1                    2    RN2701
+66.R0036.A8L                          CHIP NTW 0 J 8P I 2*1(ROHS)              1    RN1806
+68.00335.051                          CHIP BEAD MHC1608S300QBP INPAQ           2    L7501
+68.00335.051                          CHIP BEAD MHC1608S300QBP INPAQ           2    L7601
+68.00335.151                          CHIP BEAD MHC1608S121PBP INPAQ           1    L7301
+68.00909.261                          CHIP BEAD MCB1608S181FBP                 1    L7602
+68.2R210.20B                          CHIP CHOKE 2.2U PCMC063T-2R2MN           2    PL4801
+68.2R210.20B                          CHIP CHOKE 2.2U PCMC063T-2R2MN           2    PL4501
+68.2R21D.10R                          CHIP IND 2.2UH M GLFR1608T2R2M-LR        2    L1104
+68.2R21D.10R                          CHIP IND 2.2UH M GLFR1608T2R2M-LR        2    L1103
+68.3R310.20A                          CHIP IND 3.3UH PCMC063T-3R3MN            1    PL4502
+68.5R610.10U                          CHIP IND 5.6UH MMD-06CZ-5R6M-M           1    PL4401
+68.68167.30D                          XFORM LAN NS681679 SMD 12P               1    XF3101
+68.R2210.10C                          CHIP CHOKE 0.22UH PCMC104T-R22           1    PL4701
+68.R3310.201                          CHIP CHOKE 0.33UH PCMC063T-R33MN         2    PL8202
+68.R3310.201                          CHIP CHOKE 0.33UH PCMC063T-R33MN         2    PL8201
+68.R6810.20B                          CHIP CHOKE 0.68UH PCMC063T-R68           1    PL4902
+69.10103.041                          CHIP FILTER MCM2012B900GBE               5    TR3404
+69.10103.041                          CHIP FILTER MCM2012B900GBE               5    TR6302
+69.10103.041                          CHIP FILTER MCM2012B900GBE               5    TR6301
+69.10103.041                          CHIP FILTER MCM2012B900GBE               5    TR5209
+69.10103.041                          CHIP FILTER MCM2012B900GBE               5    TR3401
+69.48001.081                          POLYSW 1.1A6V SPR-P110 SMD               1    F5401
+69.60035.041                          THERM 100K TSM1B104F3591RZ SMD           1    R2610
+69.60037.001                          CHIP THERMIS 470K TH05-4K474HR           1    PR4622
+69.60037.011                          THERMIS 10K TH05-3H103FR SMD             1    PR4704
+69.60040.001                          POLYSWITH 24V 1.1A KMC5S110RY24          1    F5201
+71.03234.003                          IC AUDIO CODEC ALC3234-CG MQFN 48P REVA2 1    HDA27
+72.25647.00A                          IC FEROM MX25L6473EM2I-10G SOP 8P 8M     1    SPI25
+73.01G08.EHG                          IC CMOS U74LVC1G08G-AL5-R SOT-           1    U7301
+74.01810.0BB                          IC SENSOR SW AH1810-W-7 SC59             1    LIDSW1
+74.02113.0E1                          IC DC FAN DRV AP2113MTR-G1 SOIC 8P       1    FAN261
+74.02224.073                          IC BTY CHARG HPA02224RGRR QFN 20P        1    PU4404
+74.06288.079                          IC PWR SW SY6288CCAC MSOP 8P             1    U5601
+74.08237.B73                          IC PWM CTRL RT8237CZQW(2) WDFN 10P       1    PU4806
+74.08812.073                          IC PWM CTRL RT8812AGQW WQFN 20P          1    PU8201
+74.09724.09F                          IC LOAD SW RT9724GB SOT-23-5             1    U5201
+74.51225.073                          IC PWM CTRL TPS51225RUKR QFN 20P         1    PU4503
+74.51716.073                          IC BUCK CTRL TPS51716RUKR QFN 20P        1    PU4901
+74.70215.03F                          IC LDO TLV70215DBVR SOT23-5              1    PU5101
+74.95813.B73                          IC PWM CTRL ISL95813HRZ QFN 20P          1    PU4601
+75.00040.07D                          IC DIODE BAS40C SOT-23                   1    D2501
+75.00054.E7D                          IC DIODE S.B BAT54C-7-F SOT-23 3P        3    D5202
+75.00054.E7D                          IC DIODE S.B BAT54C-7-F SOT-23 3P        3    D2701
+75.00054.E7D                          IC DIODE S.B BAT54C-7-F SOT-23 3P        3    D5201
+75.00099.O7D                          IC DIODE SW LBAV99LT1G 75V SOT-23        4    PD4203
+75.00099.O7D                          IC DIODE SW LBAV99LT1G 75V SOT-23        4    D4303
+75.00099.O7D                          IC DIODE SW LBAV99LT1G 75V SOT-23        4    D4302
+75.00099.O7D                          IC DIODE SW LBAV99LT1G 75V SOT-23        4    D4301
+78.10134.1FL                          CHIP CAP 100P50V J0402 NPO(ROH           1    C2613
+78.1013N.1AL                          CHIP CAP C 100P 3KV J1808 NPO T1.25MM    1    C3101
+78.10224.2FL                          CHIP CAP 1000P50V K0402 X7R(RO           4    C5202
+78.10224.2FL                          CHIP CAP 1000P50V K0402 X7R(RO           4    PC4613
+78.10224.2FL                          CHIP CAP 1000P50V K0402 X7R(RO           4    PC4612
+78.10224.2FL                          CHIP CAP 1000P50V K0402 X7R(RO           4    PC4609
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   PC4902
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   PC8302
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   C5612
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   C5611
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   C5608
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   C5607
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   C5603
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   C5602
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   C3106
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   PC4531
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   PC4425
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   PC4412
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   PC4209
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   C5615
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   C5616
+78.10324.2FL                          CHIP CAP C 0.01U 50V K0402 X7R           16   PC4203
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1121
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1201
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1202
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1204
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1206
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1211
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1218
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1220
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1221
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1222
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1601
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1602
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1603
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1604
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1605
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1606
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1607
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1608
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1609
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1610
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1611
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C1612
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2110
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2147
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2401
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2404
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2406
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2408
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2410
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2412
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2414
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2417
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2502
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2605
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2612
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2707
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2709
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2710
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2717
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2719
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C2720
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3003
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3008
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3013
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3014
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3016
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3021
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3022
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3025
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3403
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3404
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3501
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3503
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3504
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3507
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3517
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C3604
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5201
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5203
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5209
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5210
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5211
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5212
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5213
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5401
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5402
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5403
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5404
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5405
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5406
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5407
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5408
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5409
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5606
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5802
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C5804
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C6201
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C6202
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C6204
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C6402
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7316
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7318
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7501
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7502
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7503
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7504
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7505
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7506
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7511
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7526
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7601
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7602
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7605
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7711
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7712
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7713
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7714
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7727
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7729
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7734
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7804
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7820
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7821
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7827
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7829
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7830
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7831
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7832
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7833
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7834
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7835
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7836
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7910
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7912
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7913
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7921
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7922
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7925
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7927
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7928
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C7930
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C8306
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  C8308
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  PC4606
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  PC4708
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  PC4824
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  PC4903
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  PC4915
+78.10421.2FL                          CHIP CAP C 0.1U 16V K0402 X7R            129  PC4921
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   PC4423
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   PC4710
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   PC4421
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   PC4402
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   EC9744
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   EC9743
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   EC9739
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   EC9717
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   EC9707
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   EC9706
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   EC9705
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   EC9701
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   EC4701
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   EC4303
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   EC4202
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   EC2705
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   PC8202
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   PC8220
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   PC8221
+78.10422.5FL                          CHIP CAP C 0.1U 25V K0402 X5R            20   EC2703
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC4825
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC8216
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC4704
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC4535
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC4530
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC4525
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC4516
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC4419
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC4409
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC4202
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC8211
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC8207
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC4919
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC4913
+78.10424.2BL                          CHIP CAP C 0.1U 50V K0603 X7R            15   PC4822
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7926
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7917
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7919
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   PC4524
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7805
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7810
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7811
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7812
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7814
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7816
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7817
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7822
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7906
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7911
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7915
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7916
+78.10520.2BL                          CHIP CAP C 1U 6.3V K0603 X7R             17   C7924
+78.10522.5BL                          CHIP CAP C 1U 25V K0603 X5R              4    PC4407
+78.10522.5BL                          CHIP CAP C 1U 25V K0603 X5R              4    PC4404
+78.10522.5BL                          CHIP CAP C 1U 25V K0603 X5R              4    PC4208
+78.10522.5BL                          CHIP CAP C 1U 25V K0603 X5R              4    PC4403
+78.10523.5BL                          CHIP CAP 1U10V K0603 X5R(ROHS)           3    PC4604
+78.10523.5BL                          CHIP CAP 1U10V K0603 X5R(ROHS)           3    PC4901
+78.10523.5BL                          CHIP CAP 1U10V K0603 X5R(ROHS)           3    PC4904
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1105
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1109
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1111
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1113
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1116
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1117
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1118
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1122
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1212
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1213
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1214
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1216
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1901
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1902
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C2104
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C2109
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C2114
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C2116
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C2128
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C2135
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C2137
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C2138
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C2416
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C2703
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C2704
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C3015
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C3018
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C3502
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C3506
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C3508
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C3510
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C3518
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C5206
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7311
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7312
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7313
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7314
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7319
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7507
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7515
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7516
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7519
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7521
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7525
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7527
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7528
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7530
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7531
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C7728
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   PC4815
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   PC5119
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   PC5120
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1101
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1102
+78.10523.5FL                          CHIP CAP C 1U 10V K0402 X5R              55   C1103
+78.10594.41L                          CHIP CAP C 1U 50V Z0805 Y5V              1    PC4201
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C2713
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   PC8303
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   PC4916
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C7815
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C7813
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C7732
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C7604
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C7328
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C7327
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C7326
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C7325
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C7323
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C2123
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C2712
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   PC8307
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C7320
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C7321
+78.10610.5BL                          CHIP CAP C 10U 6.3V M0603 X5R            18   C7322
+78.10622.51L                          CHIP CAP C 10U 25V K0805 X5R             12   PC8224
+78.10622.51L                          CHIP CAP C 10U 25V K0805 X5R             12   PC8215
+78.10622.51L                          CHIP CAP C 10U 25V K0805 X5R             12   PC8214
+78.10622.51L                          CHIP CAP C 10U 25V K0805 X5R             12   PC8210
+78.10622.51L                          CHIP CAP C 10U 25V K0805 X5R             12   PC4703
+78.10622.51L                          CHIP CAP C 10U 25V K0805 X5R             12   PC4206
+78.10622.51L                          CHIP CAP C 10U 25V K0805 X5R             12   PC4701
+78.10622.51L                          CHIP CAP C 10U 25V K0805 X5R             12   PC4527
+78.10622.51L                          CHIP CAP C 10U 25V K0805 X5R             12   PC4417
+78.10622.51L                          CHIP CAP C 10U 25V K0805 X5R             12   PC4415
+78.10622.51L                          CHIP CAP C 10U 25V K0805 X5R             12   PC4406
+78.10622.51L                          CHIP CAP C 10U 25V K0805 X5R             12   PC4702
+78.10623.51L                          CHIP CAP 10U10V K0805 X5R(ROHS           12   C1001
+78.10623.51L                          CHIP CAP 10U10V K0805 X5R(ROHS           12   C1002
+78.10623.51L                          CHIP CAP 10U10V K0805 X5R(ROHS           12   C1003
+78.10623.51L                          CHIP CAP 10U10V K0805 X5R(ROHS           12   C1209
+78.10623.51L                          CHIP CAP 10U10V K0805 X5R(ROHS           12   C3603
+78.10623.51L                          CHIP CAP 10U10V K0805 X5R(ROHS           12   C3605
+78.10623.51L                          CHIP CAP 10U10V K0805 X5R(ROHS           12   C5610
+78.10623.51L                          CHIP CAP 10U10V K0805 X5R(ROHS           12   C5803
+78.10623.51L                          CHIP CAP 10U10V K0805 X5R(ROHS           12   C7517
+78.10623.51L                          CHIP CAP 10U10V K0805 X5R(ROHS           12   C7918
+78.10623.51L                          CHIP CAP 10U10V K0805 X5R(ROHS           12   C7920
+78.10623.51L                          CHIP CAP 10U10V K0805 X5R(ROHS           12   PC4723
+78.15034.1FL                          CHIP CAP C 15P 50V J0402 NPO             8    C1801
+78.15034.1FL                          CHIP CAP C 15P 50V J0402 NPO             8    C1802
+78.15034.1FL                          CHIP CAP C 15P 50V J0402 NPO             8    C1903
+78.15034.1FL                          CHIP CAP C 15P 50V J0402 NPO             8    C7608
+78.15034.1FL                          CHIP CAP C 15P 50V J0402 NPO             8    C3001
+78.15034.1FL                          CHIP CAP C 15P 50V J0402 NPO             8    C3011
+78.15034.1FL                          CHIP CAP C 15P 50V J0402 NPO             8    C7607
+78.15034.1FL                          CHIP CAP C 15P 50V J0402 NPO             8    C1904
+78.22134.1FL                          CHIP CAP C 220P 50V J0402 NPO            1    PC4422
+78.22224.2FL                          CHIP CAP 2200P50V K0402 X7R(RO           1    C8316
+78.22321.2FL                          CHIP CAP 0.022U 16V K0402 X7R            2    C3702
+78.22321.2FL                          CHIP CAP 0.022U 16V K0402 X7R            2    C3701
+78.22422.2BL                          CHIP C 0.22U25V K0603 X7R T1.0           1    PC4706
+78.22423.5FL                          CHIP CAP C 0.22U 10V K0402 X5R           9    C7307
+78.22423.5FL                          CHIP CAP C 0.22U 10V K0402 X5R           9    C7308
+78.22423.5FL                          CHIP CAP C 0.22U 10V K0402 X5R           9    PC4918
+78.22423.5FL                          CHIP CAP C 0.22U 10V K0402 X5R           9    C7306
+78.22423.5FL                          CHIP CAP C 0.22U 10V K0402 X5R           9    C7305
+78.22423.5FL                          CHIP CAP C 0.22U 10V K0402 X5R           9    C7304
+78.22423.5FL                          CHIP CAP C 0.22U 10V K0402 X5R           9    C7303
+78.22423.5FL                          CHIP CAP C 0.22U 10V K0402 X5R           9    C7301
+78.22423.5FL                          CHIP CAP C 0.22U 10V K0402 X5R           9    C7302
+78.22510.5FL                          CHIP CAP C 2.2U 6.3V M0402 X5R           4    C2705
+78.22510.5FL                          CHIP CAP C 2.2U 6.3V M0402 X5R           4    C1018
+78.22510.5FL                          CHIP CAP C 2.2U 6.3V M0402 X5R           4    C1017
+78.22510.5FL                          CHIP CAP C 2.2U 6.3V M0402 X5R           4    C7606
+78.22523.5BL                          CHIP CAP 2.2U 10V K 0603 X5R             1    C2411
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   C3516
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   C3509
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   C3512
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   C3513
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   C3514
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   C3515
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4925
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   C7518
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   C7520
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   C7717
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4717
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4718
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4719
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4720
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4721
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4724
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4725
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4726
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4730
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4731
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4732
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4733
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4734
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4736
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4739
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4740
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4741
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4742
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4744
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4923
+78.22610.51L                          CHIP CAP C 22U 6.3V M0805 X5R            31   PC4924
+78.27224.2FL                          CHIP CAP C 2700P 50V K0402 X7R           1    C7609
+78.47034.1FL                          CHIP CAP C 47P 50V J0402 NPO             1    PC8219
+78.47124.2FL                          CHIP CAP 470P50V K0402 X7R(ROH           3    C3602
+78.47124.2FL                          CHIP CAP 470P50V K0402 X7R(ROH           3    C8305
+78.47124.2FL                          CHIP CAP 470P50V K0402 X7R(ROH           3    C3601
+78.47322.2FL                          CHIP CAP C 0.047U 25V K0402 X7           2    PC4707
+78.47322.2FL                          CHIP CAP C 0.047U 25V K0402 X7           2    PC4411
+78.47420.5FL                          CHIP CAP C 0.47U 6.3V K0402 X5           2    C2101
+78.47420.5FL                          CHIP CAP C 0.47U 6.3V K0402 X5           2    PC4210
+78.47422.5BL                          CHIP CAP 0.47U 25V K0603 X5R             1    PC4010
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C2706
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C2708
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C2711
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C2715
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C2716
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C2718
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C2907
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C2908
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C5204
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C5207
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7309
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7310
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7315
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7317
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7324
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7513
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7514
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7701
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7702
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7703
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7708
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7709
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7719
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7721
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7723
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7724
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7725
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7726
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C7730
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   PC4526
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C2611
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C2701
+78.47520.5BL                          CHIP CAP C 4.7U 6.3V K0603 X5R           33   C2702
+78.47522.51L                          CHIP CAP C 4.7U 25V K0805 X5R            11   PC4408
+78.47522.51L                          CHIP CAP C 4.7U 25V K0805 X5R            11   PC8213
+78.47522.51L                          CHIP CAP C 4.7U 25V K0805 X5R            11   PC8212
+78.47522.51L                          CHIP CAP C 4.7U 25V K0805 X5R            11   PC8209
+78.47522.51L                          CHIP CAP C 4.7U 25V K0805 X5R            11   PC8208
+78.47522.51L                          CHIP CAP C 4.7U 25V K0805 X5R            11   PC4509
+78.47522.51L                          CHIP CAP C 4.7U 25V K0805 X5R            11   PC4529
+78.47522.51L                          CHIP CAP C 4.7U 25V K0805 X5R            11   PC4814
+78.47522.51L                          CHIP CAP C 4.7U 25V K0805 X5R            11   PC4909
+78.47522.51L                          CHIP CAP C 4.7U 25V K0805 X5R            11   PC4911
+78.47522.51L                          CHIP CAP C 4.7U 25V K0805 X5R            11   PC4914
+78.47610.51L                          CHIP CAP C 47U 6.3V M0805 X5R            1    C7710
+78.56222.2FL                          CHIP CAP C 5600P 25V K0402 X7R           1    PC8223
+78.68224.2BL                          CHIP CAP 6800P 50V K0603 X7R             1    PC4611
+78.82124.2FL                          CHIP CAP C 820P 50V K0402 X7R            2    C7902
+78.82124.2FL                          CHIP CAP C 820P 50V K0402 X7R            2    C7803
+79.22710.3KL                          CHIP CAP EL 220U 6.3V M6.3*4.4           2    PT4501
+79.22710.3KL                          CHIP CAP EL 220U 6.3V M6.3*4.4           2    PT4502
+79.3371V.6CL                          CHIP CAP EL 330U 2.5V M6.3*4.4           4    PT8208
+79.3371V.6CL                          CHIP CAP EL 330U 2.5V M6.3*4.4           4    PT8206
+79.3371V.6CL                          CHIP CAP EL 330U 2.5V M6.3*4.4           4    PT4803
+79.3371V.6CL                          CHIP CAP EL 330U 2.5V M6.3*4.4           4    PT8207
+82.30001.841                          XTAL 32.768K 12.5P10PPM MC-146           1    X1901
+82.30004.841                          XTAL 24MHZ 12PF 20PPM HCX-3FB SMD        1    X1801
+82.30020.G71                          XTAL 25MHZ 12PF 20PPM HCX-3FB SMD        1    X3001
+82.30034.641                          XTAL 27M 12P10PPM HCX-3SB SMD            1    X7601
+83.00016.K11                          DIODE SW BAS16 SOT-23 YEASHIN            1    D3602
+83.00056.Q11                          DIODE SW BAW56 70V SOT23                 1    D5401
+83.00400.C1F                          DIODE SW 1SS400GPT 90V SOD-723           1    D7602
+83.1R504.A8F                          DIODE S.B SD103AWS SOD323 40V            1    PD4401
+83.P6SBM.AAG                          DIODE TVS P6SBMJ24APT SMB                1    PD4201
+83.R2004.H8F                          DIODE S.B RB751V-40-H SOD-323            1    D2401
+84.00124.H1K                          XTOR PDTC124EU NPN SOT323                1    PQ4204
+84.00124.K1K                          XTOR PDTA124EU PNP SOT323                1    PQ4205
+84.00144.N11                          XTOR DDTA144VCA-7-F PNP SOT-23           3    Q6104
+84.00144.N11                          XTOR DDTA144VCA-7-F PNP SOT-23           3    Q6201
+84.00144.N11                          XTOR DDTA144VCA-7-F PNP SOT-23           3    Q6103
+84.02130.031                          FET MOS DMP2130L-7 PC SOT-23             3    Q6203
+84.02130.031                          FET MOS DMP2130L-7 PC SOT-23             3    Q3004
+84.02130.031                          FET MOS DMP2130L-7 PC SOT-23             3    Q2402
+84.02222.V11                          XTOR MMBT2222A NPN SOT-23                1    Q3602
+84.03404.C31                          FET MOS DMN3404L-7 NC SOT-23             1    Q6202
+84.05067.031                          FET MOS DMN5L06K-7 NC SOT-23 3P          2    Q1201
+84.05067.031                          FET MOS DMN5L06K-7 NC SOT-23 3P          2    PQ4201
+84.08062.037@0AB     4ZA.00G01.0002   FET MOS TPCA8062-H NC 2-5Q1S 8P          4    PU8209
+84.08062.037@0AB     4ZA.00G01.0002   FET MOS TPCA8062-H NC 2-5Q1S 8P          4    PU8207
+84.08062.037@0AB     4ZA.00G01.0002   FET MOS TPCA8062-H NC 2-5Q1S 8P          4    PU8205
+84.08062.037@0AB     4ZA.00G01.0002   FET MOS TPCA8062-H NC 2-5Q1S 8P          4    PU8203
+84.08064.A37@0AB     4ZA.00G01.0002   FET MOS TPCA8064-H NC 2-5Q1S 8P          2    PU8204
+84.08064.A37@0AB     4ZA.00G01.0002   FET MOS TPCA8064-H NC 2-5Q1S 8P          2    PU8208
+84.08065.B37@0AD     4ZA.00G01.0004   FET MOS TPCC8065-H NC 8P                 2    PU4502
+84.08065.B37@0AD     4ZA.00G01.0004   FET MOS TPCC8065-H NC 8P                 2    PU4903
+84.08067.A37@0AD     4ZA.00G01.0004   FET MOS TPCC8067-H NC 2-3X1S 8P          8    PU4505
+84.08067.A37@0AD     4ZA.00G01.0004   FET MOS TPCC8067-H NC 2-3X1S 8P          8    PU4902
+84.08067.A37@0AD     4ZA.00G01.0004   FET MOS TPCC8067-H NC 2-3X1S 8P          8    PU4808
+84.08067.A37@0AD     4ZA.00G01.0004   FET MOS TPCC8067-H NC 2-3X1S 8P          8    PU4405
+84.08067.A37@0AD     4ZA.00G01.0004   FET MOS TPCC8067-H NC 2-3X1S 8P          8    PU4406
+84.08067.A37@0AD     4ZA.00G01.0004   FET MOS TPCC8067-H NC 2-3X1S 8P          8    PU4501
+84.08067.A37@0AD     4ZA.00G01.0004   FET MOS TPCC8067-H NC 2-3X1S 8P          8    PU4504
+84.08067.A37@0AD     4ZA.00G01.0004   FET MOS TPCC8067-H NC 2-3X1S 8P          8    PU4805
+84.08131.037                          FET MOS TPCC8131 PC 2-3X1S 8P            3    PU4201
+84.08131.037                          FET MOS TPCC8131 PC 2-3X1S 8P            3    PU4403
+84.08131.037                          FET MOS TPCC8131 PC 2-3X1S 8P            3    PU4402
+84.2N702.A3F                          FET MOS 2N7002KDW NC SOT-363 ESD 2KV     12   Q7602
+84.2N702.A3F                          FET MOS 2N7002KDW NC SOT-363 ESD 2KV     12   Q7601
+84.2N702.A3F                          FET MOS 2N7002KDW NC SOT-363 ESD 2KV     12   Q5402
+84.2N702.A3F                          FET MOS 2N7002KDW NC SOT-363 ESD 2KV     12   Q1801
+84.2N702.A3F                          FET MOS 2N7002KDW NC SOT-363 ESD 2KV     12   Q1701
+84.2N702.A3F                          FET MOS 2N7002KDW NC SOT-363 ESD 2KV     12   PQ8305
+84.2N702.A3F                          FET MOS 2N7002KDW NC SOT-363 ESD 2KV     12   PQ8304
+84.2N702.A3F                          FET MOS 2N7002KDW NC SOT-363 ESD 2KV     12   PQ4407
+84.2N702.A3F                          FET MOS 2N7002KDW NC SOT-363 ESD 2KV     12   PQ4402
+84.2N702.A3F                          FET MOS 2N7002KDW NC SOT-363 ESD 2KV     12   PQ4206
+84.2N702.A3F                          FET MOS 2N7002KDW NC SOT-363 ESD 2KV     12   PQ4203
+84.2N702.A3F                          FET MOS 2N7002KDW NC SOT-363 ESD 2KV     12   PQ4408
+84.2N702.J31                          FET MOS 2N7002K NC SOT-23 ESD 2KV 300MA  11   PQ8306
+84.2N702.J31                          FET MOS 2N7002K NC SOT-23 ESD 2KV 300MA  11   PQ4208
+84.2N702.J31                          FET MOS 2N7002K NC SOT-23 ESD 2KV 300MA  11   Q1202
+84.2N702.J31                          FET MOS 2N7002K NC SOT-23 ESD 2KV 300MA  11   Q1901
+84.2N702.J31                          FET MOS 2N7002K NC SOT-23 ESD 2KV 300MA  11   Q2401
+84.2N702.J31                          FET MOS 2N7002K NC SOT-23 ESD 2KV 300MA  11   Q2403
+84.2N702.J31                          FET MOS 2N7002K NC SOT-23 ESD 2KV 300MA  11   Q2505
+84.2N702.J31                          FET MOS 2N7002K NC SOT-23 ESD 2KV 300MA  11   Q3001
+84.2N702.J31                          FET MOS 2N7002K NC SOT-23 ESD 2KV 300MA  11   Q5403
+84.2N702.J31                          FET MOS 2N7002K NC SOT-23 ESD 2KV 300MA  11   Q7301
+84.2N702.J31                          FET MOS 2N7002K NC SOT-23 ESD 2KV 300MA  11   PQ8307
+84.SRA06.037                          FET MOS SIRA06DP-T1-GE3 NC POWERPAK SO-8 1    PQ8308
+84.T3904.H11                          XTOR LMBT3904LT1G NPN SOT-23             2    Q5401
+84.T3904.H11                          XTOR LMBT3904LT1G NPN SOT-23             2    PQ4202
+84.T3906.E11                          XTOR LMBT3906LT1G PNP SOT-23             1    Q2404
+JG0YH                                 IC VGA N15V-GM-S-A2 GB2-64 FCBGA595P     1    GPU1
+XY941                                 PRC,HSW,I3-4030U,1.9,15W,3M,D0           1    CPU1

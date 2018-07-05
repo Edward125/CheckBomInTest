@@ -1,0 +1,21 @@
+!!!!    2    0    1 1334021725  Ve9a0                                         
+
+test powered analog ;A
+
+     test "PM_SLP_S3#"
+
+end test
+
+!=====================================================================
+
+subtest "PM_SLP_S3#"
+   global A
+   disconnect all
+   connect i to nodes "#%PM_SLP_S3#"
+   connect l to ground
+   detector dcv , expect 3.3
+   initiate detector
+   fetch A
+end subtest
+
+

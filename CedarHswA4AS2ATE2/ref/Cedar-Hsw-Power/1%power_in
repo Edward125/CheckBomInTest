@@ -1,0 +1,107 @@
+!!!!    2    0    1 1372385461  V7df0                                         
+
+!####################################################################
+!CheckPowerNode_2.5
+!Wistron 3B ATE
+!! nonanalog pins 1,2,3,4
+!! source dcv,am3,terminated 5000,ico1,on
+!! auxiliary dcv,am3.5,ico1,on
+!####################################################################
+
+test powered analog
+
+     test "+DC_IN"
+     test "AD+"
+     test "DCBATOUT"
+     test "15V_S5"
+     test "3D3V_AUX_S5"
+     test "3D3V_AUX_KBC"
+     test "5V_S5"
+     test "3D3V_S5"
+     test "3D3V_LAN_S5"
+     test "3D3V_S5_PCH"
+
+end test
+
+!====================================================================
+
+subtest "+DC_IN"
+   disconnect all
+   connect i to nodes"#%+DC_IN"
+   connect l to ground
+   detector dcv , expect 19
+   measure 19*1.1,19*0.9
+end subtest
+
+subtest "AD+"
+   disconnect all
+   connect i to nodes"#%AD+"
+   connect l to ground
+   detector dcv , expect 19
+   measure 19*1.1,19*0.9
+end subtest
+
+subtest "DCBATOUT"
+   disconnect all
+   connect i to nodes"#%DCBATOUT"
+   connect l to ground
+   detector dcv , expect 19
+   measure 19*1.1,19*0.9
+end subtest
+
+subtest "15V_S5"
+   disconnect all
+   connect i to nodes"#%15V_S5"
+   connect l to ground
+   detector dcv , expect 15
+   measure 15*1.1,15*0.9
+end subtest
+
+subtest "3D3V_AUX_S5"
+   disconnect all
+   connect i to nodes"#%3D3V_AUX_S5"
+   connect l to ground
+   detector dcv , expect 3.3
+   measure 3.3*1.1,3.3*0.9
+end subtest
+
+subtest "3D3V_AUX_KBC"
+   disconnect all
+   connect i to nodes"#%3D3V_AUX_KBC"
+   connect l to ground
+   detector dcv , expect 3.3
+   measure 3.3*1.1,3.3*0.9
+end subtest
+
+subtest "5V_S5"
+   disconnect all
+   connect i to nodes"#%5V_S5"
+   connect l to ground
+   detector dcv , expect 5
+   measure 5*1.1,5*0.9
+end subtest
+
+subtest "3D3V_S5"
+   disconnect all
+   connect i to nodes"#%3D3V_S5"
+   connect l to ground
+   detector dcv , expect 3.3
+   measure 3.3*1.1,3.3*0.9
+end subtest
+
+subtest "3D3V_LAN_S5"
+   disconnect all
+   connect i to nodes"#%3D3V_LAN_S5"
+   connect l to ground
+   detector dcv , expect 3.3
+   measure 3.3*1.1,3.3*0.9
+end subtest
+
+subtest "3D3V_S5_PCH"
+   disconnect all
+   connect i to nodes"#%3D3V_S5_PCH"
+   connect l to ground
+   detector dcv , expect 3.3
+   measure 3.3*1.1,3.3*0.9
+end subtest
+

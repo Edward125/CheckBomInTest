@@ -1,0 +1,15 @@
+!!!!    8    0    1 1391818305   0000                                         
+
+parameters "standard_ttl"
+   backdrive current of 100m for "0", 275m for "1"
+   bond wire 2540 by 25.4
+   heat source 50 by 10, 2 per output
+   operating temperature 40
+   overdrive power 970m, 600m dissipated by heat source
+   package ceramic
+   thermal resistance 60
+end parameters
+
+use parameters "standard_ttl" for "1%u701"
+use parameters "standard_ttl" for "1%u7301"
+

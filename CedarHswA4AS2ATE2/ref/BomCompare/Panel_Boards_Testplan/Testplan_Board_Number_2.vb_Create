@@ -1,0 +1,3 @@
+sub Analog_Tests ,on boards BoardSet_boards_2_to_2(*)
+     test "analog/c201"
+     test "analog/c402"

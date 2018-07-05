@@ -1,0 +1,1183 @@
+!!!!   16    0    1 1391819005   0000                                         
+!IPG: rev 08.30p  Sat Feb 08 08:23:26 2014
+nodes "#%+5V_KB_BL"
+nodes "#%GND"
+nodes "#%1D05V_S0"
+nodes "#%+V1_05S_AXCK_DCB"
+nodes "#%+V1_05S_AXCK_LCPLL"
+nodes "#%XCLK_BIASREF"
+nodes "#%PWR_1D05V_FB"
+nodes "#%PWR_1D05V_PHASE"
+nodes "#%PWR_1D05V_BOOT_R"
+nodes "#%PWR_1D05V_BOOT"
+!nodes "#%PWR_1D05V_SNUB"   ! Node resistively isolated. 
+nodes "#%PWR_1D05V_UGATE"
+nodes "#%PWR_VCC_ALERT#"
+nodes "#%H_CPU_SVIDALRT#"
+nodes "#%PWR_VCC_VRHOT#"
+nodes "#%PQ4203_5"
+nodes "#%BAT_IN#"
+nodes "#%PQ4406_G"
+nodes "#%PWR_CHG_AD_OFF_R"
+nodes "#%AD_OFF_L"
+nodes "#%AD_OFF_R"
+nodes "#%+DC_IN"
+nodes "#%+DC_IN_C"
+nodes "#%JGND"
+!nodes "#%AC_IN#_G"   ! Not accessible 
+nodes "#%AC_IN_KBC#"
+nodes "#%3D3V_AUX_KBC"
+nodes "#%BAT_SDA"
+nodes "#%PBAT_SMBDAT1"
+nodes "#%BAT_SCL"
+nodes "#%PBAT_SMBCLK1"
+nodes "#%BOOST_MODE#"
+nodes "#%3D3V_AUX_S5"
+nodes "#%KBC_ON#_GATE"
+nodes "#%S5_ENABLE"
+nodes "#%3V_5V_EN"
+nodes "#%KBC_ON#_GATE_L"
+nodes "#%PSL_OUT#"
+nodes "#%PWR_CHG_ILIM"
+nodes "#%PWR_CHG_ACOK"
+nodes "#%AD+_G_1"
+!nodes "#%DC_IN_D"   ! Not accessible 
+nodes "#%AD+"
+nodes "#%PWR_CHG_ACDET"
+nodes "#%PWR_CHG_VCC"
+nodes "#%PQ4408_E"
+nodes "#%DCBATOUT"
+nodes "#%DCBATOUT_LCD"
+nodes "#%AD+_TO_SYS"
+nodes "#%AD+_G_2"
+nodes "#%PD4403_K"
+nodes "#%15V_S5"
+nodes "#%1D35V_ENABLE"
+nodes "#%1D35V_VGA_EN#"
+nodes "#%1D35V_VGA_EN"
+nodes "#%PWR_VRAM_PWR_EN"
+nodes "#%DGPU_PWROK"
+nodes "#%3V3_AON_S0"
+nodes "#%VGA_CORE_PSI"
+nodes "#%PEG_CLKREQ#"
+nodes "#%GPU_CLKREQ#"
+nodes "#%3D3V_S0"
+!nodes "#%GPIO5_GC6_PWR_EN_R#"   ! Node resistively isolated. 
+nodes "#%3D3V_VGA_S0"
+nodes "#%PWR_VGA_CORE_EN"
+nodes "#%DGPU_PWR_EN"
+nodes "#%DGPU_PWR_EN#"
+nodes "#%1D05V_VGA_S0_DISCHG"
+nodes "#%1D05V_VGA_S0"
+nodes "#%VCC1R05VIDEO_PEX_PLLVDD"
+nodes "#%FBA_PLL_AVDD"
+nodes "#%GPU_PLL_VDD"
+nodes "#%SP_PLLVDD"
+nodes "#%VGA_CORE_DISCHG"
+nodes "#%VGA_CORE"
+nodes "#%PWR_VGA_CORE_PHASE1"
+nodes "#%PWR_VGA_CORE_BOOT1_1"
+nodes "#%PWR_VGA_CORE_BOOT1"
+!nodes "#%PWR_VGA_SNUB1"   ! Node resistively isolated. 
+nodes "#%PWR_VGA_CORE_UGATE1"
+nodes "#%PWR_VGA_CORE_PHASE2"
+nodes "#%PWR_VGA_CORE_BOOT2_1"
+nodes "#%PWR_VGA_CORE_BOOT2"
+!nodes "#%PWR_VGA_SNUB2"   ! Node resistively isolated. 
+nodes "#%PWR_VGA_CORE_UGATE2"
+nodes "#%PWR_VGA_CORE_VSNS"
+nodes "#%PWR_VGA_CORE_RGND"
+nodes "#%PWR_VGA_CORE_VREF"
+nodes "#%REFIN_VREF"
+nodes "#%PWR_VGA_CORE_REFIN"
+nodes "#%PWR_VGA_CORE_REFADJ"
+nodes "#%1D05V_VGA_EN"
+nodes "#%ROM_SCLK"
+nodes "#%ROM_SO"
+nodes "#%ROM_SI"
+!nodes "#%ROM_CS#"   ! Not accessible 
+nodes "#%GC6_FB_EN_GPU"
+nodes "#%FB_CLAMP_MON_S"
+nodes "#%GC6_FB_EN"
+nodes "#%GC6_FB_EN_KBC"
+nodes "#%FB_CLAM"
+nodes "#%GPIO5_GC6_PWR_EN#"
+!nodes "#%GPIO5_GC6_PWR_EN"   ! Node resistively isolated. 
+nodes "#%GPIO5_GC6_PWR_EN_GPU"
+nodes "#%1D35V_VTT_PWRGD"
+nodes "#%H_VCCST_PWRGD"
+!nodes "#%VCCST_PWRGD_XDP"   ! Node resistively isolated. 
+nodes "#%PCH_SMBDATA"
+nodes "#%I2C1_SDA_R"
+!nodes "#%Q6204_G"   ! Not accessible 
+nodes "#%I2C1_SCL_R"
+nodes "#%PCH_SMBCLK"
+!nodes "#%XDP_SMBCLK"   ! Node resistively isolated. 
+nodes "#%I2C1_SCL"
+nodes "#%TP_VDD"
+nodes "#%TP_ON#_GATE"
+nodes "#%Q6203_S"
+nodes "#%3D3V_S5"
+nodes "#%+PCH_VCCDSW"
+nodes "#%PCH_VCCDSW_R"
+nodes "#%PM_LAN_ENABLE_R"
+nodes "#%3D3V_LAN_S5"
+nodes "#%CLK_LAN_REQ#_EN"
+nodes "#%CLK_LAN_REQ4#_R"
+nodes "#%Q402_1"
+nodes "#%PLT_RST#"
+nodes "#%H_THERMTRIP_EN"
+nodes "#%H_CPUPWRGD"
+nodes "#%PLT_RST#_DEBUG"
+!nodes "#%XDP_RST"   ! Node resistively isolated. 
+nodes "#%LAN_ENABLE_R_C"
+nodes "#%PM_LAN_ENABLE"
+nodes "#%PWR_3D3V_LL2"
+nodes "#%PWR_3D3V_VBST2_1"
+nodes "#%PWR_3D3V_VBST2"
+!nodes "#%PWR_3D3V_SNUB"   ! Node resistively isolated. 
+nodes "#%PWR_3D3V_DRVH2"
+nodes "#%PSID_EC"
+nodes "#%PS_ID"
+nodes "#%PSID_DISABLE#_R_C"
+nodes "#%PS_ID_R2"
+nodes "#%PQ3802_1"
+nodes "#%PS_ID_R"
+nodes "#%5V_S5"
+nodes "#%PWR_5V_LL1"
+nodes "#%PWR_5V_VBST1_1"
+nodes "#%PWR_5V_VBST1"
+!nodes "#%PWR_5V_SNUB"   ! Node resistively isolated. 
+nodes "#%PWR_5V_DRVH1"
+!nodes "#%PWR_5V_FB1_R"   ! Node resistively isolated. 
+nodes "#%PWR_5V_FB1"
+nodes "#%DDR_VTT_PG_CTRL"
+nodes "#%1D35V_S3"
+nodes "#%PWR_1D35V_SW"
+nodes "#%PR4605_2"
+nodes "#%PWR_1D35V_VBST"
+!nodes "#%TPS51216_PHS_SET"   ! Not accessible 
+nodes "#%PWR_1D35V_DRVH"
+nodes "#%DDR_PG_CTRL"
+nodes "#%DDR3_DRAMRST#"
+nodes "#%M_VREF_DQ_DIMMA"
+nodes "#%DDR_WR_VREF01"
+nodes "#%+V_VREF_PATH1"
+nodes "#%DDR_VREF_S3"
+nodes "#%M_VREF_CA_DIMMA"
+nodes "#%+V_SM_VREF_CNT"
+nodes "#%+V_VREF_PATH3"
+nodes "#%M_A_B_DIMM_ODT"
+nodes "#%M_A_DIMA_ODT0"
+nodes "#%M_A_DIMA_ODT1"
+nodes "#%PM_SLP_S3#"
+nodes "#%PS_S3CNTRL"
+nodes "#%PCH_PWROK"
+nodes "#%PURE_HW_SHUTDOWN#"
+nodes "#%ECRST#"
+nodes "#%VD_OUT1#"
+nodes "#%THERM_SYS_SHDN#"
+nodes "#%T_CRIT#"
+nodes "#%P_H_S#"
+nodes "#%GPU_PEX_RST#"
+nodes "#%OVERT#"
+nodes "#%OVERT_GPU#"
+!nodes "#%GPU_PEX_RST_D#"   ! Node resistively isolated. 
+nodes "#%SYS_PEX_RST_MON#"
+nodes "#%DGPU_HOLD_RST#"
+nodes "#%SYS_PEX_RST_MON_GPU#"
+nodes "#%PQ4405_6"
+!nodes "#%PQ4405_5"   ! Node resistively isolated. 
+nodes "#%PQ4405_3"
+!nodes "#%PQ4405_2"   ! Node resistively isolated. 
+nodes "#%PQ4408_C"
+nodes "#%PWR_3D3V_FB2"
+!nodes "#%PWR_3D3V_FB2_R"   ! Node resistively isolated. 
+nodes "#%3V_5V_POK"
+nodes "#%3V_5V_POK_C"
+nodes "#%3V_5V_POK#"
+nodes "#%PM_RSMRST#"
+nodes "#%RSMRST#_KBC"
+nodes "#%PCH_DPWROK"
+nodes "#%KBC_DPWROK"
+nodes "#%PM_SLP_SUS#"
+!nodes "#%DS3_PWRCTL"   ! Non-digital library pin. 
+nodes "#%VRAM_PWR_BYP"
+nodes "#%PCH_WAKE#"
+nodes "#%PCIE_WAKE#"
+nodes "#%USB_PWR_EN#"
+nodes "#%LID_CLOSE#"
+nodes "#%SPI_CS0#_R"
+nodes "#%EC_SPI_CS#_C"
+nodes "#%V3D3_STB"
+nodes "#%3D3V_S5_PCH"
+!nodes "#%PM_SUS_STAT#"   ! Node resistively isolated. 
+nodes "#%INT_TP#_GPIO46"
+nodes "#%INT_TP#"
+nodes "#%INT_TP#_GPIO55"
+!nodes "#%INT_TP#_GPIO8"   ! Not accessible 
+nodes "#%INT_TP#_KBC"
+nodes "#%MCP_R"
+!nodes "#%MCP_GPIO15"   ! Node resistively isolated. 
+nodes "#%USB_OC#2_3"
+nodes "#%USB_OC#6_7"
+nodes "#%MCP_GPIO73"
+nodes "#%PM_SUSWARN#_R"
+nodes "#%PM_SUSACK#_R"
+nodes "#%PM_SUSACK#"
+nodes "#%PM_SUSWARN#"
+nodes "#%SML1_CLK"
+nodes "#%SML1_DATA"
+nodes "#%SML0_DATA"
+nodes "#%SML0_CLK"
+nodes "#%CARD_PWR_EN"
+nodes "#%USB_OC#0_1"
+nodes "#%EC_SCI#"
+nodes "#%MCP_GPIO11"
+nodes "#%SMB_DATA"
+nodes "#%SMB_CLK"
+nodes "#%EC_SWI#"
+nodes "#%USB_OC#4_5"
+nodes "#%RTC_DET#"
+nodes "#%RTC_PWR"
+nodes "#%+RTC_VCC"
+nodes "#%WLAN_PLT_RST#"
+nodes "#%MCP_GPIO12"
+nodes "#%AC_PRESENT"
+nodes "#%SPI_HOLD#"
+nodes "#%SPI_WP#"
+nodes "#%BATLOW#"
+!nodes "#%MCP_GPIO27"   ! Not accessible 
+nodes "#%TP_ON#"
+nodes "#%TP_LID_CLOSE#"
+nodes "#%TP_LID_CLOSE#_KBC"
+nodes "#%TPCLK"
+nodes "#%TPCLK_C"
+nodes "#%TPDATA"
+nodes "#%TPDATA_C"
+nodes "#%I2C1_SDA"
+nodes "#%5V_S0"
+nodes "#%AUD_AGND"
+nodes "#%LDO1_CAP"
+nodes "#%AUD_VREF"
+nodes "#%LDO2_CAP"
+nodes "#%MIC_CAP"
+nodes "#%1D5V_S0"
+nodes "#%AUD_SENSE"
+nodes "#%AUD_SENSE_A"
+nodes "#%RING2"
+nodes "#%MIC2_VREFO"
+nodes "#%SLEEVE"
+nodes "#%SLEEVE_CTRL"
+nodes "#%5V_PWR_2"
+!nodes "#%MUTE_CTRL"   ! Non-digital library pin. 
+nodes "#%HDA_RST#"
+nodes "#%AUD_HP1_JACK_L1"
+nodes "#%AUD_HP1_JACK_L"
+nodes "#%LINE1_VREFO_L"
+nodes "#%LINE1-L_C"
+nodes "#%LINE1_L"
+nodes "#%AUD_HP1_JACK_R1"
+nodes "#%AUD_HP1_JACK_R"
+nodes "#%LINE1_VREFO_R"
+nodes "#%LINE1-L_R"
+nodes "#%LINE1_R"
+nodes "#%JDREF"
+nodes "#%5V_HDMI_S0"
+nodes "#%RT8812_PVCC"
+nodes "#%HDMI_PLL_GND"
+nodes "#%HDMI_DATA2_R"
+!nodes "#%HDMI_DATA2"   ! Node capacitively isolated. 
+nodes "#%HDMI_DATA2#_R"
+!nodes "#%HDMI_DATA2#"   ! Node capacitively isolated. 
+nodes "#%HDMI_DATA1_R"
+!nodes "#%HDMI_DATA1"   ! Node capacitively isolated. 
+nodes "#%HDMI_DATA1#_R"
+!nodes "#%HDMI_DATA1#"   ! Node capacitively isolated. 
+nodes "#%HDMI_DATA0_R"
+!nodes "#%HDMI_DATA0"   ! Node capacitively isolated. 
+nodes "#%HDMI_DATA0#_R"
+!nodes "#%HDMI_DATA0#"   ! Node capacitively isolated. 
+nodes "#%HDMI_CLK_R"
+!nodes "#%HDMI_CLK"   ! Node capacitively isolated. 
+nodes "#%HDMI_CLK#_R"
+!nodes "#%HDMI_CLK#"   ! Node capacitively isolated. 
+nodes "#%+5V_PVDD"
+nodes "#%TPAN_VDD"
+nodes "#%ODD_PWR_5V"
+nodes "#%BLUETOOTH_EN"
+!nodes "#%BT_ACT"   ! Node resistively isolated. 
+!nodes "#%DEBUG"   ! Node resistively isolated. 
+!nodes "#%XDP_SMBDAT"   ! Node resistively isolated. 
+nodes "#%THM_SML1_CLK"
+nodes "#%PCH_HDMI_DATA"
+nodes "#%DDC_DATA_HDMI"
+nodes "#%DDC_DATA_PH2"
+nodes "#%DDC_CLK_HDMI"
+nodes "#%DDC_CLK_PH1"
+nodes "#%PCH_HDMI_CLK"
+nodes "#%CEDAR_JANUS_ID"
+nodes "#%XDP_DBRESET#"
+nodes "#%PM_CLKRUN#"
+!nodes "#%SATA_LED#"   ! Node resistively isolated. 
+nodes "#%BOARD_ID2"
+nodes "#%HDA_SPKR"
+nodes "#%HDA_SPKR_R"
+nodes "#%HSIOPC"
+!nodes "#%HSIOPC_R"   ! Non-digital library pin. 
+!nodes "#%LPSS_SDIO_D0_CMNHDR"   ! Not accessible 
+!nodes "#%LPSS_GSPI0_MOSI_BBS0_R"   ! Node resistively isolated. 
+nodes "#%BOARD_ID1"
+nodes "#%BOARD_ID3"
+nodes "#%FAN_TACH1"
+nodes "#%TP_RS"
+nodes "#%TOUCH_PANEL_INTR_KBC#"
+nodes "#%ALERT#"
+nodes "#%ISOLATE#"
+nodes "#%PWR_VCC_POK"
+nodes "#%IMVP_PWRGD_R"
+nodes "#%PWR_VCC_EN"
+nodes "#%PANEL_SIZE_ID"
+nodes "#%PANEL_SIZE_ID_CONN"
+nodes "#%3D3V_CAMERA_S0"
+nodes "#%SATA_ODD_PWRGT"
+nodes "#%GPU_EVENT#"
+nodes "#%GPU_EVENT_GPU#"
+nodes "#%PIRQC#"
+nodes "#%PIRQD#"
+nodes "#%CLK_PCIE_WLAN_REQ3#"
+nodes "#%PIRQB#"
+nodes "#%MCP_GPIO76"
+nodes "#%CLK_PCIE_REQ#"
+!nodes "#%NC"   ! Not accessible 
+nodes "#%SATA_ODD_PRSNT#"
+nodes "#%EC_SMI#"
+nodes "#%MCP_GPIO36"
+nodes "#%H_RCIN#"
+nodes "#%SATA_ODD_DA#"
+nodes "#%INT_SERIRQ"
+nodes "#%KB_DET#"
+nodes "#%I2C0_SDA"
+!nodes "#%I2C0_SCL"   ! Not accessible 
+nodes "#%PIRQA#"
+nodes "#%DBC_EN"
+nodes "#%THM_SML1_DATA"
+nodes "#%SMBC_THERM_NV"
+nodes "#%SMBD_THERM_NV"
+nodes "#%GPIO9_ALERT"
+nodes "#%VIDEO_THERM_OVERT#"
+nodes "#%PWR_LEVEL"
+nodes "#%STRAP2"
+nodes "#%STRAP3"
+nodes "#%N12P_XTAL_OUTBUFF"
+nodes "#%STRAP0"
+nodes "#%GPU_PEX_RST_HOLD"
+nodes "#%GPU_PEX_RST_HOLD_GPU#"
+nodes "#%STRAP4"
+nodes "#%STRAP1"
+nodes "#%I2CA_SDA"
+nodes "#%I2CA_SCL"
+nodes "#%I2CC_SDA"
+nodes "#%I2CC_SCL"
+nodes "#%I2CB_SDA"
+nodes "#%I2CB_SCL"
+nodes "#%DGPU_PWROK_KBC"
+nodes "#%DIS_1D35V_VGA_S0"
+nodes "#%1D35V_VGA_S0"
+nodes "#%VRAM_PWR_FB"
+nodes "#%VRAM_PWR_PH"
+!nodes "#%VRAM_PWR_BS_R"   ! Node resistively isolated. 
+nodes "#%VRAM_PWR_BS"
+nodes "#%1D35V_ENABLE_RC"
+!nodes "#%FBA_DEBUG0"   ! Not accessible 
+nodes "#%FBA_DEBUG1"
+nodes "#%FB_CAL_PD_VDDQ"
+nodes "#%FBA_VREF_0"
+nodes "#%FBA_VREF_1"
+nodes "#%PWR_VGA_CORE_TON_1"
+nodes "#%PWR_VGA_CORE_TON"
+nodes "#%PWR_VCC_UG"
+nodes "#%PWR_VCC_PHASE"
+!nodes "#%PWR_VCC_BOOT_RC"   ! Not accessible 
+nodes "#%PWR_VCC_BOOT"
+nodes "#%VCC_CORE"
+nodes "#%PWR_VCC_ISUMP"
+!nodes "#%PHASE_R_R"   ! Not accessible 
+!nodes "#%ISUM_R_R"   ! Not accessible 
+nodes "#%PWR_VCC_ISUMN"
+nodes "#%VCC_SENSE"
+!nodes "#%PWR_VCC_FB_RC"   ! Node resistively isolated. 
+nodes "#%PWR_VCC_FB"
+nodes "#%PWR_VCC_LG"
+nodes "#%AC_IN#"
+nodes "#%PWR_CHG_REGN"
+nodes "#%PWR_CHG_CMPOUT"
+nodes "#%PWR_CHG_CMPIN"
+nodes "#%PWR_CHG_IOUT"
+nodes "#%AD_IA"
+nodes "#%PWR_CHG_CMPIN_RR"
+nodes "#%AD_IA_HW2"
+nodes "#%PWR_CHG_CMPIN_R"
+nodes "#%AD_IA_HW"
+nodes "#%PQ4008_2"
+nodes "#%KBC_PWRBTN#"
+nodes "#%KBC_PWRBTN#_C"
+nodes "#%VD_IN1"
+nodes "#%3D3V_AUX_KBC_VCC"
+nodes "#%PCB_VER_AD"
+nodes "#%MODEL_ID_DET"
+!nodes "#%PQ3809_D"   ! Not accessible 
+nodes "#%PWR_CHG_AD_OFF"
+nodes "#%PQ3808D"
+nodes "#%PQ3808G"
+nodes "#%PBAT_PRES1#"
+nodes "#%PQ4406_D"
+nodes "#%PROCHOT_EC"
+nodes "#%H_PROCHOT#_R"
+nodes "#%PWR_VCC_SCLK"
+nodes "#%PWR_VCC_SDA"
+nodes "#%PWR_DEBUG"
+!nodes "#%XDP_PWR_DEBUG"   ! Node resistively isolated. 
+nodes "#%+V1_05S_CORE_PCH"
+!nodes "#%PCH_JTAG_TDI"   ! Node resistively isolated. 
+!nodes "#%PCH_JTAG_TDO"   ! Node resistively isolated. 
+!nodes "#%PCH_JTAG_TMS"   ! Node resistively isolated. 
+!nodes "#%XDP_TCK_JTAGX"   ! Node resistively isolated. 
+nodes "#%PCH_THERMTRIP"
+nodes "#%H_THERMTRIP#"
+nodes "#%1D05V_HSIO"
+nodes "#%+V1_05S_AUSB3PLL"
+!nodes "#%PCIE_RCOMP"   ! Not accessible 
+nodes "#%SATA_IREF"
+nodes "#%SATA_RCOMP"
+nodes "#%+V1_05DX_MODPHY_PCH"
+!nodes "#%HSIO_OUT"   ! Non-digital library pin. 
+!nodes "#%XDP_TMS"   ! Node resistively isolated. 
+!nodes "#%XDP_TDI"   ! Node resistively isolated. 
+!nodes "#%XDP_TDO"   ! Node resistively isolated. 
+nodes "#%RTC_AUX_S5"
+nodes "#%DSWODVREN"
+!nodes "#%SM_INTRUDER#"   ! Node resistively isolated. 
+nodes "#%PCH_INTVRMEN"
+nodes "#%RTC_RST#"
+nodes "#%RTCRST_ON"
+nodes "#%SRTC_RST#"
+nodes "#%0D675V_S0"
+!nodes "#%XTAL24_IN"   ! Node resistively isolated. 
+!nodes "#%XTAL24_OUT"   ! Node resistively isolated. 
+!nodes "#%RTC_X1"   ! Node resistively isolated. 
+!nodes "#%RTC_X2"   ! Node resistively isolated. 
+!nodes "#%+VCCRTCEXT"   ! Node capacitively isolated. 
+nodes "#%KBC_VCORF"
+nodes "#%PECI"
+nodes "#%H_PECI"
+nodes "#%FAN_VCC1"
+nodes "#%CPVEE"
+!nodes "#%LDO3_CAP"   ! Not accessible 
+nodes "#%DMIC_CLK"
+nodes "#%DMIC_CLK_R"
+!nodes "#%DMIC_CLK_C"   ! Node resistively isolated. 
+nodes "#%DMIC_CLK_EDP"
+nodes "#%LANXIN"
+nodes "#%REGOUT"
+nodes "#%VDD10"
+nodes "#%LANXOUT"
+!nodes "#%MCT"   ! Not accessible 
+!nodes "#%MCT0"   ! Not accessible 
+nodes "#%MDO3-"
+nodes "#%MDO3+"
+!nodes "#%MCT1"   ! Not accessible 
+nodes "#%MDO2-"
+nodes "#%MDO2+"
+!nodes "#%MCT2"   ! Not accessible 
+nodes "#%MDO1+"
+nodes "#%MDO1-"
+!nodes "#%MCT3"   ! Not accessible 
+nodes "#%MDO0+"
+nodes "#%MDO0-"
+nodes "#%LOM_TCT"
+nodes "#%LAN_MDI1N"
+nodes "#%LAN_MDI1P"
+nodes "#%LAN_MDI0N"
+nodes "#%LAN_MDI0P"
+nodes "#%LAN_MDI2P"
+nodes "#%LAN_MDI2N"
+nodes "#%LAN_MDI3P"
+nodes "#%LAN_MDI3N"
+nodes "#%USB3_PTX_CRX_P0_C"
+!nodes "#%USB3_PTX_CRX_P0"   ! Node capacitively isolated. 
+nodes "#%USB3_PTX_CRX_N0_C"
+!nodes "#%USB3_PTX_CRX_N0"   ! Node capacitively isolated. 
+nodes "#%USB30_VCCC"
+nodes "#%USB20_VCCA"
+nodes "#%USB20_VCCB"
+nodes "#%3V5V_CT2"
+nodes "#%3V5V_CT1"
+nodes "#%LCDVDD_LCD"
+nodes "#%LCDVDD"
+!nodes "#%WLAN_ACT"   ! Node capacitively isolated. 
+nodes "#%KB_LED_DET_C"
+nodes "#%KB_LED_BL_DET"
+nodes "#%27MHZ_IN"
+nodes "#%27MHZ_OUT"
+nodes "#%27MHZ_OUT_R"
+nodes "#%VTT_CT_3VC_1"
+nodes "#%VTT_CT_105VC_2"
+nodes "#%SUS_CLK_PCH"
+nodes "#%SUS_CLK"
+nodes "#%SYS_PWROK"
+!nodes "#%XDP_SYS_PWROK"   ! Node resistively isolated. 
+nodes "#%CLK_PCI_KBC"
+nodes "#%CLK_PCI_KBC_R"
+nodes "#%CLK_PCI_LPC"
+!nodes "#%CLK_PCI_LPC_R"   ! Node resistively isolated. 
+nodes "#%HDA_CODEC_BITCLK"
+nodes "#%HDA_BITCLK"
+nodes "#%CODEC_BITCLK_R"
+nodes "#%PCH_SPI_SI"
+nodes "#%EC_SPI_DI_C"
+nodes "#%PCH_SPI_SO"
+nodes "#%EC_SPI_DO_C"
+nodes "#%SPI_CLK_R"
+nodes "#%PCH_SPI_CLK"
+nodes "#%EC_SPI_CLK_C"
+nodes "#%DMIC_DATA"
+!nodes "#%DMIC_DATA_C"   ! Node resistively isolated. 
+nodes "#%DMIC_DATA_EDP"
+nodes "#%CODEC_SDOUT_R"
+nodes "#%HDA_SDOUT"
+nodes "#%ME_UNLOCK"
+nodes "#%AUD_SPK_L-"
+nodes "#%AUD_SPK_L+"
+nodes "#%AUD_SPK_R-"
+nodes "#%AUD_SPK_R+"
+nodes "#%BT+"
+nodes "#%BT+_R"
+nodes "#%PWR_CHG_PHASE"
+nodes "#%PWR_CHG_BTST_R"
+nodes "#%PWR_CHG_BTST"
+nodes "#%PWR_CHG_HIDRV"
+nodes "#%PWR_CHG_SRP"
+!nodes "#%PU4401_5"   ! Non-digital library pin. 
+!nodes "#%PU4401_4"   ! Non-digital library pin. 
+nodes "#%PWR_CHG_SRN"
+nodes "#%WHITE_LED_BAT"
+nodes "#%BATT_WHITE_LED#"
+nodes "#%BAT_WHITE"
+nodes "#%AMBER_LED_BAT"
+nodes "#%CHG_AMBER_LED#"
+nodes "#%BAT_AMBER"
+!nodes "#%BOOST_MON_1"   ! Node resistively isolated. 
+!nodes "#%PU4401_6"   ! Not accessible 
+nodes "#%BOOST_MON"
+nodes "#%PWR_5V_VCLK"
+nodes "#%BST15V_1"
+nodes "#%BST15V_2"
+nodes "#%BOOST_10V"
+nodes "#%PWR_VCC_IMON"
+nodes "#%PWR_VCC_COMP"
+nodes "#%PWR_VCC_COMP_RC"
+nodes "#%VSS_SENSE"
+nodes "#%PWR_1D35V_REFIN"
+nodes "#%PWR_1D35V_VREF"
+nodes "#%PM_SLP_S4#"
+nodes "#%VRAM_PWR_LDO"
+nodes "#%VGA_CORE_VID"
+nodes "#%PWR_VGA_CORE_SS"
+nodes "#%PWR_3D3V_CS2"
+nodes "#%PWR_5V_CS1"
+nodes "#%PWR_VCC_PRGM2"
+nodes "#%PWR_VCC_PRGM1"
+nodes "#%PWR_VCC_NTC_R"
+nodes "#%PWR_VCC_NTC"
+nodes "#%PWR_1D05V_TRIP"
+nodes "#%PWR_1D05V_CCM"
+nodes "#%PWR_1D35V_TRIP"
+nodes "#%PWR_1D35V_MODE"
+nodes "#%PWR_VRAM_PWR_ILIM"
+nodes "#%PWR_VGA_CORE_LGATE1"
+nodes "#%PWR_CHG_LODRV"
+nodes "#%PWR_5V_DRVL1"
+nodes "#%PWR_3D3V_DRVL2"
+nodes "#%PWR_1D05V_LGATE"
+nodes "#%PWR_1D35V_DRVL"
+nodes "#%PWR_VGA_CORE_LGATE2"
+nodes "#%KB_BL_CTRL"
+nodes "#%KB_BL_CTRL#"
+!nodes "#%XDP_TRST#"   ! Node resistively isolated. 
+nodes "#%XDP_TCLK"
+nodes "#%SM_RCOMP_0"
+nodes "#%SM_RCOMP_1"
+nodes "#%SM_RCOMP_2"
+nodes "#%CFG_RCOMP"
+nodes "#%PROC_OPI_COMP"
+!nodes "#%TD_IREF"   ! Not accessible 
+!nodes "#%CFG3"   ! Node resistively isolated. 
+nodes "#%CFG4"
+!nodes "#%PROC_OPI_COMP3"   ! Node resistively isolated. 
+nodes "#%USB_COMP"
+!nodes "#%PCH_JTAG_TCK"   ! Node resistively isolated. 
+nodes "#%PCH_OPIRCOMP"
+nodes "#%L_BKLT_EN"
+nodes "#%VD1_EN#"
+!nodes "#%FON#"   ! Node resistively isolated. 
+nodes "#%AUD_PC_BEEP_C"
+nodes "#%AUD_PC_BEEP"
+nodes "#%RSET"
+nodes "#%LCDVDD_EN"
+!nodes "#%CAM1_MIC_GND"   ! Node resistively isolated. 
+nodes "#%HPD_HDMI_CON"
+nodes "#%HDMI_HPD_B"
+nodes "#%HDMI_HPD_E"
+nodes "#%PEX_TERMP"
+nodes "#%TESTMODE"
+nodes "#%FB_CAL_TERM_GND"
+nodes "#%FB_CAL_PU_GND"
+nodes "#%FBA_CMD18"
+nodes "#%FBA_CMD19"
+nodes "#%FBA_CMD3"
+nodes "#%FBA_CMD2"
+nodes "#%FBA_CMD5"
+nodes "#%VIDEO_CLK_XTAL_SS"
+nodes "#%STRAP_REF0_GND_N9"
+!nodes "#%GPIO10_FBVREF"   ! Not accessible 
+nodes "#%BUFRST#"
+nodes "#%FBA_ZQ0"
+nodes "#%FBA_ZQ1"
+nodes "#%FBA_ZQ2"
+nodes "#%FBA_ZQ3"
+nodes "#%MCP_TESTLOW1"
+nodes "#%MCP_TESTLOW2"
+nodes "#%MCP_TESTLOW4"
+nodes "#%MCP_TESTLOW3"
+nodes "#%BKLT_CTRL"
+nodes "#%EDP_BKLT_CTRL"
+nodes "#%LCD_BRIGHTNESS"
+nodes "#%BLON_OUT_C"
+nodes "#%BLON_OUT"
+nodes "#%EDP_HPD"
+nodes "#%EDP_HPD_CONN"
+nodes "#%IFPC_PLLVDD"
+nodes "#%IFPC_IOVDD"
+nodes "#%IFPAB_PLLVDD"
+nodes "#%IFPAB_IOVDD"
+nodes "#%IFPEF_PLLVDD"
+nodes "#%IFPEF_IOVDD"
+nodes "#%IFPD_PLLVDD"
+nodes "#%IFPD_IOVDD"
+nodes "#%N12P_JTAG_TCK"
+nodes "#%N12P_JTAG_TRST"
+!nodes "#%+V1_05A_AOSCSUS"   ! Node is isolated 
+!nodes "#%+V1_05A_SUS_PCH"   ! Not accessible 
+!nodes "#%+V1_05A_USB2SUS"   ! Node is isolated 
+!nodes "#%+V1_05A_VCCUSB3SUS"   ! Node is isolated 
+nodes "#%+VCCIOA_OUT"
+nodes "#%EDP_COMP"
+!nodes "#%BAT_ALERT"   ! Node is isolated 
+!nodes "#%BP_PWRGD_RST#"   ! Node resistively isolated. 
+nodes "#%PM_PWRBTN#"
+!nodes "#%CAMERA_PWR_EN"   ! Node is isolated 
+nodes "#%CAP_LED"
+nodes "#%CAP_LED_Q"
+nodes "#%CAP_LED#"
+!nodes "#%CARD_WLAN_OUT#"   ! Node is isolated 
+!nodes "#%CARD_WPAN_OUT#"   ! Node is isolated 
+nodes "#%CBN"
+nodes "#%CBP"
+!nodes "#%CFG0"   ! Node is isolated 
+!nodes "#%CFG1"   ! Node is isolated 
+!nodes "#%CFG2"   ! Node is isolated 
+!nodes "#%CFG5"   ! Node is isolated 
+!nodes "#%CFG6"   ! Node is isolated 
+!nodes "#%CFG7"   ! Node is isolated 
+!nodes "#%CFG8"   ! Node is isolated 
+!nodes "#%CFG9"   ! Node is isolated 
+!nodes "#%CFG10"   ! Node is isolated 
+!nodes "#%CFG11"   ! Node is isolated 
+!nodes "#%CFG12"   ! Node is isolated 
+!nodes "#%CFG13"   ! Node is isolated 
+!nodes "#%CFG14"   ! Node is isolated 
+!nodes "#%CFG15"   ! Node is isolated 
+!nodes "#%CFG16"   ! Node is isolated 
+!nodes "#%CFG17"   ! Node is isolated 
+!nodes "#%CFG18"   ! Node is isolated 
+!nodes "#%CFG19"   ! Node is isolated 
+nodes "#%CLK_PCIE_LAN_N4"
+!nodes "#%CLK_PCIE_LAN_P4"   ! Not accessible 
+nodes "#%CLK_PCIE_VGA"
+nodes "#%CLK_PCIE_VGA#"
+!nodes "#%CLK_PCIE_WLAN_N3"   ! Node is isolated 
+!nodes "#%CLK_PCIE_WLAN_P3"   ! Node is isolated 
+!nodes "#%COLOR_ENGINE"   ! Node is isolated 
+nodes "#%COMBO-GPI"
+nodes "#%CPU_RXN_C_DGPU_TXN0"
+nodes "#%DGPU_TXN_CPU_RXN0"
+nodes "#%CPU_RXN_C_DGPU_TXN1"
+nodes "#%DGPU_TXN_CPU_RXN1"
+nodes "#%CPU_RXN_C_DGPU_TXN2"
+nodes "#%DGPU_TXN_CPU_RXN2"
+nodes "#%CPU_RXN_C_DGPU_TXN3"
+nodes "#%DGPU_TXN_CPU_RXN3"
+nodes "#%CPU_RXP_C_DGPU_TXP0"
+!nodes "#%DGPU_TXP_CPU_RXP0"   ! Not accessible 
+nodes "#%CPU_RXP_C_DGPU_TXP1"
+nodes "#%DGPU_TXP_CPU_RXP1"
+nodes "#%CPU_RXP_C_DGPU_TXP2"
+nodes "#%DGPU_TXP_CPU_RXP2"
+nodes "#%CPU_RXP_C_DGPU_TXP3"
+nodes "#%DGPU_TXP_CPU_RXP3"
+!nodes "#%DC_TEST_A3_B3"   ! Not accessible 
+!nodes "#%DC_TEST_A61_B61"   ! Not accessible 
+!nodes "#%DC_TEST_AY2_AW2"   ! Not accessible 
+!nodes "#%DC_TEST_AY3_AW3"   ! Not accessible 
+!nodes "#%DC_TEST_AY61_AW61"   ! Node is isolated 
+!nodes "#%DC_TEST_AY62_AW62"   ! Node is isolated 
+!nodes "#%DC_TEST_B62_B63"   ! Not accessible 
+!nodes "#%DC_TEST_C1_C2"   ! Not accessible 
+!nodes "#%DDPC_CTRLDATA"   ! Node is isolated 
+nodes "#%DGPU_RXN_C_CPU_TXN0"
+!nodes "#%DGPU_RXN_CPU_TXN0"   ! Node capacitively isolated. 
+nodes "#%DGPU_RXN_C_CPU_TXN1"
+!nodes "#%DGPU_RXN_CPU_TXN1"   ! Node capacitively isolated. 
+nodes "#%DGPU_RXN_C_CPU_TXN2"
+!nodes "#%DGPU_RXN_CPU_TXN2"   ! Node capacitively isolated. 
+nodes "#%DGPU_RXN_C_CPU_TXN3"
+!nodes "#%DGPU_RXN_CPU_TXN3"   ! Node capacitively isolated. 
+nodes "#%DGPU_RXP_C_CPU_TXP0"
+!nodes "#%DGPU_RXP_CPU_TXP0"   ! Node capacitively isolated. 
+nodes "#%DGPU_RXP_C_CPU_TXP1"
+!nodes "#%DGPU_RXP_CPU_TXP1"   ! Node capacitively isolated. 
+nodes "#%DGPU_RXP_C_CPU_TXP2"
+!nodes "#%DGPU_RXP_CPU_TXP2"   ! Node capacitively isolated. 
+nodes "#%DGPU_RXP_C_CPU_TXP3"
+!nodes "#%DGPU_RXP_CPU_TXP3"   ! Node capacitively isolated. 
+!nodes "#%E51_RX"   ! Node is isolated 
+!nodes "#%E51_TX"   ! Node resistively isolated. 
+nodes "#%E51_TXD"
+nodes "#%EAPD#"
+nodes "#%EC_BRIGHTNESS"
+nodes "#%EDP_AUX"
+!nodes "#%EDP_AUX_DP"   ! Node capacitively isolated. 
+nodes "#%EDP_AUX#"
+!nodes "#%EDP_AUX_DN"   ! Node capacitively isolated. 
+!nodes "#%EDP_BRIGHTNESS"   ! Node is isolated 
+!nodes "#%EDP_SPARE"   ! Node is isolated 
+nodes "#%EDP_TX0"
+!nodes "#%EDP_TX0_DP"   ! Node capacitively isolated. 
+nodes "#%EDP_TX0#"
+!nodes "#%EDP_TX0_DN"   ! Node capacitively isolated. 
+nodes "#%EDP_TX1"
+!nodes "#%EDP_TX1_DP"   ! Node capacitively isolated. 
+nodes "#%EDP_TX1#"
+!nodes "#%EDP_TX1_DN"   ! Node capacitively isolated. 
+nodes "#%EDP_VDD_EN"
+nodes "#%FAN1_DAC_1"
+nodes "#%FB_VREF"
+nodes "#%FBA_CLK0N"
+nodes "#%FBA_CLK0P"
+nodes "#%FBA_CLK1N"
+nodes "#%FBA_CLK1P"
+nodes "#%FBA_CMD0"
+nodes "#%FBA_CMD1"
+nodes "#%FBA_CMD4"
+nodes "#%FBA_CMD6"
+nodes "#%FBA_CMD7"
+nodes "#%FBA_CMD8"
+nodes "#%FBA_CMD9"
+nodes "#%FBA_CMD10"
+nodes "#%FBA_CMD11"
+nodes "#%FBA_CMD12"
+nodes "#%FBA_CMD13"
+nodes "#%FBA_CMD14"
+nodes "#%FBA_CMD15"
+nodes "#%FBA_CMD16"
+nodes "#%FBA_CMD17"
+nodes "#%FBA_CMD20"
+nodes "#%FBA_CMD21"
+nodes "#%FBA_CMD22"
+nodes "#%FBA_CMD23"
+nodes "#%FBA_CMD24"
+nodes "#%FBA_CMD25"
+nodes "#%FBA_CMD26"
+nodes "#%FBA_CMD27"
+nodes "#%FBA_CMD28"
+nodes "#%FBA_CMD29"
+nodes "#%FBA_CMD30"
+nodes "#%FBA_CMD31"
+nodes "#%FBA_D0"
+!nodes "#%FBA_D1"   ! Not accessible 
+nodes "#%FBA_D2"
+nodes "#%FBA_D3"
+nodes "#%FBA_D4"
+nodes "#%FBA_D5"
+nodes "#%FBA_D6"
+nodes "#%FBA_D7"
+nodes "#%FBA_D8"
+nodes "#%FBA_D9"
+!nodes "#%FBA_D10"   ! Not accessible 
+nodes "#%FBA_D11"
+nodes "#%FBA_D12"
+nodes "#%FBA_D13"
+nodes "#%FBA_D14"
+nodes "#%FBA_D15"
+nodes "#%FBA_D16"
+nodes "#%FBA_D17"
+nodes "#%FBA_D18"
+nodes "#%FBA_D19"
+nodes "#%FBA_D20"
+nodes "#%FBA_D21"
+nodes "#%FBA_D22"
+nodes "#%FBA_D23"
+nodes "#%FBA_D24"
+nodes "#%FBA_D25"
+nodes "#%FBA_D26"
+nodes "#%FBA_D27"
+nodes "#%FBA_D28"
+nodes "#%FBA_D29"
+nodes "#%FBA_D30"
+nodes "#%FBA_D31"
+!nodes "#%FBA_D32"   ! Not accessible 
+nodes "#%FBA_D33"
+!nodes "#%FBA_D34"   ! Not accessible 
+nodes "#%FBA_D35"
+nodes "#%FBA_D36"
+nodes "#%FBA_D37"
+nodes "#%FBA_D38"
+nodes "#%FBA_D39"
+nodes "#%FBA_D40"
+!nodes "#%FBA_D41"   ! Not accessible 
+!nodes "#%FBA_D42"   ! Not accessible 
+nodes "#%FBA_D43"
+nodes "#%FBA_D44"
+nodes "#%FBA_D45"
+!nodes "#%FBA_D46"   ! Not accessible 
+nodes "#%FBA_D47"
+nodes "#%FBA_D48"
+nodes "#%FBA_D49"
+nodes "#%FBA_D50"
+nodes "#%FBA_D51"
+nodes "#%FBA_D52"
+nodes "#%FBA_D53"
+nodes "#%FBA_D54"
+nodes "#%FBA_D55"
+nodes "#%FBA_D56"
+nodes "#%FBA_D57"
+nodes "#%FBA_D58"
+nodes "#%FBA_D59"
+nodes "#%FBA_D60"
+nodes "#%FBA_D61"
+nodes "#%FBA_D62"
+nodes "#%FBA_D63"
+nodes "#%FBA_DQM0"
+nodes "#%FBA_DQM1"
+nodes "#%FBA_DQM2"
+nodes "#%FBA_DQM3"
+!nodes "#%FBA_DQM4"   ! Not accessible 
+nodes "#%FBA_DQM5"
+nodes "#%FBA_DQM6"
+nodes "#%FBA_DQM7"
+!nodes "#%FBA_DQS_RN0"   ! Not accessible 
+nodes "#%FBA_DQS_RN1"
+nodes "#%FBA_DQS_RN2"
+nodes "#%FBA_DQS_RN3"
+nodes "#%FBA_DQS_RN4"
+nodes "#%FBA_DQS_RN5"
+nodes "#%FBA_DQS_RN6"
+nodes "#%FBA_DQS_RN7"
+nodes "#%FBA_EDC0"
+nodes "#%FBA_EDC1"
+nodes "#%FBA_EDC2"
+nodes "#%FBA_EDC3"
+!nodes "#%FBA_EDC4"   ! Not accessible 
+nodes "#%FBA_EDC5"
+nodes "#%FBA_EDC6"
+nodes "#%FBA_EDC7"
+!nodes "#%H_CATERR#"   ! Node is isolated 
+nodes "#%HDA_SDIN0"
+nodes "#%HDA_SYNC"
+!nodes "#%HDD_DEVSLP"   ! Node is isolated 
+!nodes "#%HVM_CLK"   ! Node is isolated 
+!nodes "#%HVM_CLK#"   ! Node is isolated 
+nodes "#%KBC_BEEP"
+nodes "#%KBC_BEEP_R"
+nodes "#%KCOL0"
+nodes "#%KCOL1"
+nodes "#%KCOL2"
+nodes "#%KCOL3"
+nodes "#%KCOL4"
+nodes "#%KCOL5"
+nodes "#%KCOL6"
+nodes "#%KCOL7"
+nodes "#%KCOL8"
+nodes "#%KCOL9"
+nodes "#%KCOL10"
+nodes "#%KCOL11"
+nodes "#%KCOL12"
+nodes "#%KCOL13"
+nodes "#%KCOL14"
+nodes "#%KCOL15"
+nodes "#%KCOL16"
+nodes "#%KROW0"
+nodes "#%KROW1"
+nodes "#%KROW2"
+nodes "#%KROW3"
+nodes "#%KROW4"
+nodes "#%KROW5"
+nodes "#%KROW6"
+nodes "#%KROW7"
+nodes "#%LAN_TXN_C_PCH_RXN4"
+!nodes "#%PCIE_PRX_LANTX_N4"   ! Node capacitively isolated. 
+nodes "#%LAN_TXP_C_PCH_RXP4"
+!nodes "#%PCIE_PRX_LANTX_P4"   ! Node capacitively isolated. 
+nodes "#%LCD_TST"
+nodes "#%LCD_TST_C"
+nodes "#%LED0"
+nodes "#%LED1"
+nodes "#%LED2"
+nodes "#%LPC_AD0"
+!nodes "#%LPC_LAD0_PCH"   ! Not accessible 
+nodes "#%LPC_LAD0_R"
+nodes "#%LPC_AD1"
+!nodes "#%LPC_LAD1_PCH"   ! Not accessible 
+nodes "#%LPC_LAD1_R"
+nodes "#%LPC_AD2"
+nodes "#%LPC_LAD2_PCH"
+nodes "#%LPC_LAD2_R"
+nodes "#%LPC_AD3"
+nodes "#%LPC_LAD3_PCH"
+nodes "#%LPC_LAD3_R"
+nodes "#%LPC_FRAME#"
+nodes "#%LPC_FRAME#_DEBUG"
+!nodes "#%M_A_A0"   ! Node is isolated 
+!nodes "#%M_A_A1"   ! Node is isolated 
+!nodes "#%M_A_A2"   ! Node is isolated 
+!nodes "#%M_A_A3"   ! Node is isolated 
+!nodes "#%M_A_A4"   ! Node is isolated 
+!nodes "#%M_A_A5"   ! Node is isolated 
+!nodes "#%M_A_A6"   ! Node is isolated 
+!nodes "#%M_A_A7"   ! Node is isolated 
+!nodes "#%M_A_A8"   ! Node is isolated 
+!nodes "#%M_A_A9"   ! Node is isolated 
+!nodes "#%M_A_A10"   ! Node is isolated 
+!nodes "#%M_A_A11"   ! Node is isolated 
+!nodes "#%M_A_A12"   ! Node is isolated 
+!nodes "#%M_A_A13"   ! Node is isolated 
+!nodes "#%M_A_A14"   ! Node is isolated 
+!nodes "#%M_A_A15"   ! Node is isolated 
+!nodes "#%M_A_BS0"   ! Node is isolated 
+!nodes "#%M_A_BS1"   ! Node is isolated 
+!nodes "#%M_A_BS2"   ! Node is isolated 
+!nodes "#%M_A_CAS#"   ! Node is isolated 
+!nodes "#%M_A_DIMA_CKE0"   ! Node is isolated 
+!nodes "#%M_A_DIMA_CKE1"   ! Node is isolated 
+!nodes "#%M_A_DIMA_CLK_DDR#0"   ! Node is isolated 
+!nodes "#%M_A_DIMA_CLK_DDR#1"   ! Node is isolated 
+!nodes "#%M_A_DIMA_CLK_DDR0"   ! Node is isolated 
+!nodes "#%M_A_DIMA_CLK_DDR1"   ! Node is isolated 
+!nodes "#%M_A_DIMA_CS#0"   ! Node is isolated 
+!nodes "#%M_A_DIMA_CS#1"   ! Node is isolated 
+!nodes "#%M_A_DQ0"   ! Node is isolated 
+!nodes "#%M_A_DQ1"   ! Node is isolated 
+!nodes "#%M_A_DQ2"   ! Node is isolated 
+!nodes "#%M_A_DQ3"   ! Node is isolated 
+!nodes "#%M_A_DQ4"   ! Node is isolated 
+!nodes "#%M_A_DQ5"   ! Node is isolated 
+!nodes "#%M_A_DQ6"   ! Node is isolated 
+!nodes "#%M_A_DQ7"   ! Node is isolated 
+!nodes "#%M_A_DQ8"   ! Node is isolated 
+!nodes "#%M_A_DQ9"   ! Node is isolated 
+!nodes "#%M_A_DQ10"   ! Node is isolated 
+!nodes "#%M_A_DQ11"   ! Node is isolated 
+!nodes "#%M_A_DQ12"   ! Node is isolated 
+!nodes "#%M_A_DQ13"   ! Node is isolated 
+!nodes "#%M_A_DQ14"   ! Node is isolated 
+!nodes "#%M_A_DQ15"   ! Node is isolated 
+!nodes "#%M_A_DQ16"   ! Node is isolated 
+!nodes "#%M_A_DQ17"   ! Node is isolated 
+!nodes "#%M_A_DQ18"   ! Node is isolated 
+!nodes "#%M_A_DQ19"   ! Node is isolated 
+!nodes "#%M_A_DQ20"   ! Node is isolated 
+!nodes "#%M_A_DQ21"   ! Node is isolated 
+!nodes "#%M_A_DQ22"   ! Node is isolated 
+!nodes "#%M_A_DQ23"   ! Node is isolated 
+!nodes "#%M_A_DQ24"   ! Node is isolated 
+!nodes "#%M_A_DQ25"   ! Node is isolated 
+!nodes "#%M_A_DQ26"   ! Node is isolated 
+!nodes "#%M_A_DQ27"   ! Node is isolated 
+!nodes "#%M_A_DQ28"   ! Node is isolated 
+!nodes "#%M_A_DQ29"   ! Node is isolated 
+!nodes "#%M_A_DQ30"   ! Node is isolated 
+!nodes "#%M_A_DQ31"   ! Node is isolated 
+!nodes "#%M_A_DQ32"   ! Node is isolated 
+!nodes "#%M_A_DQ33"   ! Node is isolated 
+!nodes "#%M_A_DQ34"   ! Node is isolated 
+!nodes "#%M_A_DQ35"   ! Node is isolated 
+!nodes "#%M_A_DQ36"   ! Node is isolated 
+!nodes "#%M_A_DQ37"   ! Node is isolated 
+!nodes "#%M_A_DQ38"   ! Node is isolated 
+!nodes "#%M_A_DQ39"   ! Node is isolated 
+!nodes "#%M_A_DQ40"   ! Node is isolated 
+!nodes "#%M_A_DQ41"   ! Node is isolated 
+!nodes "#%M_A_DQ42"   ! Node is isolated 
+!nodes "#%M_A_DQ43"   ! Node is isolated 
+!nodes "#%M_A_DQ44"   ! Node is isolated 
+!nodes "#%M_A_DQ45"   ! Node is isolated 
+!nodes "#%M_A_DQ46"   ! Node is isolated 
+!nodes "#%M_A_DQ47"   ! Node is isolated 
+!nodes "#%M_A_DQ48"   ! Node is isolated 
+!nodes "#%M_A_DQ49"   ! Node is isolated 
+!nodes "#%M_A_DQ50"   ! Node is isolated 
+!nodes "#%M_A_DQ51"   ! Node is isolated 
+!nodes "#%M_A_DQ52"   ! Node is isolated 
+!nodes "#%M_A_DQ53"   ! Node is isolated 
+!nodes "#%M_A_DQ54"   ! Node is isolated 
+!nodes "#%M_A_DQ55"   ! Node is isolated 
+!nodes "#%M_A_DQ56"   ! Node is isolated 
+!nodes "#%M_A_DQ57"   ! Node is isolated 
+!nodes "#%M_A_DQ58"   ! Node is isolated 
+!nodes "#%M_A_DQ59"   ! Node is isolated 
+!nodes "#%M_A_DQ60"   ! Node is isolated 
+!nodes "#%M_A_DQ61"   ! Node is isolated 
+!nodes "#%M_A_DQ62"   ! Node is isolated 
+!nodes "#%M_A_DQ63"   ! Node is isolated 
+!nodes "#%M_A_DQS#0"   ! Node is isolated 
+!nodes "#%M_A_DQS#1"   ! Node is isolated 
+!nodes "#%M_A_DQS#2"   ! Node is isolated 
+!nodes "#%M_A_DQS#3"   ! Node is isolated 
+!nodes "#%M_A_DQS#4"   ! Node is isolated 
+!nodes "#%M_A_DQS#5"   ! Node is isolated 
+!nodes "#%M_A_DQS#6"   ! Node is isolated 
+!nodes "#%M_A_DQS#7"   ! Node is isolated 
+!nodes "#%M_A_DQS0"   ! Node is isolated 
+!nodes "#%M_A_DQS1"   ! Node is isolated 
+!nodes "#%M_A_DQS2"   ! Node is isolated 
+!nodes "#%M_A_DQS3"   ! Node is isolated 
+!nodes "#%M_A_DQS4"   ! Node is isolated 
+!nodes "#%M_A_DQS5"   ! Node is isolated 
+!nodes "#%M_A_DQS6"   ! Node is isolated 
+!nodes "#%M_A_DQS7"   ! Node is isolated 
+!nodes "#%M_A_RAS#"   ! Node is isolated 
+!nodes "#%M_A_WE#"   ! Node is isolated 
+nodes "#%N12P_JTAG_TDI"
+nodes "#%N12P_JTAG_TDO"
+nodes "#%N12P_JTAG_TMS"
+nodes "#%NCT7718_DXN"
+nodes "#%NCT7718_DXP"
+nodes "#%OVER_CURRENT_P8#"
+nodes "#%P2800_VGA_DXN"
+nodes "#%P2800_VGA_DXP"
+!nodes "#%PCH_JTAG_TRST#"   ! Node is isolated 
+!nodes "#%PCH_SLP_S0#"   ! Node is isolated 
+!nodes "#%PCH_SLP_WLAN#"   ! Node is isolated 
+!nodes "#%PCI_PME#"   ! Node is isolated 
+!nodes "#%PCIE_CLK_XDP_N"   ! Node is isolated 
+!nodes "#%PCIE_CLK_XDP_P"   ! Node is isolated 
+!nodes "#%PCIE_PRX_WLANTX_N3"   ! Node is isolated 
+!nodes "#%PCIE_PRX_WLANTX_P3"   ! Node is isolated 
+!nodes "#%PCIE_PTX_LANRX_N4"   ! Node capacitively isolated. 
+nodes "#%PCIE_PTX_LANRX_N4_C"
+!nodes "#%PCIE_PTX_LANRX_P4"   ! Not accessible 
+!nodes "#%PCIE_PTX_LANRX_P4_C"   ! Not accessible 
+!nodes "#%PCIE_PTX_WLANRX_N3"   ! Node capacitively isolated. 
+!nodes "#%PCIE_PTX_WLANRX_N3_C"   ! Node capacitively isolated. 
+!nodes "#%PCIE_PTX_WLANRX_P3"   ! Not accessible 
+!nodes "#%PCIE_PTX_WLANRX_P3_C"   ! Node capacitively isolated. 
+nodes "#%PD4403_A"
+nodes "#%PEXTSTCLK_OUT"
+nodes "#%PEXTSTCLK_OUT#"
+!nodes "#%PM_SLP_A#"   ! Node is isolated 
+!nodes "#%PM_SLP_LAN#"   ! Not accessible 
+!nodes "#%PM_SLP_S5#"   ! Node is isolated 
+nodes "#%PU5102_PG"
+!nodes "#%RSVDA51"   ! Node is isolated 
+!nodes "#%RSVDAU63"   ! Node is isolated 
+!nodes "#%RSVDAV63"   ! Node is isolated 
+!nodes "#%RSVDB51"   ! Node is isolated 
+!nodes "#%RSVDC62"   ! Node is isolated 
+!nodes "#%RSVDC63"   ! Node is isolated 
+!nodes "#%RSVDL60"   ! Node is isolated 
+!nodes "#%RSVDN59"   ! Node is isolated 
+!nodes "#%RSVDN61"   ! Node is isolated 
+!nodes "#%RSVDP60"   ! Node is isolated 
+!nodes "#%RSVDP61"   ! Node is isolated 
+!nodes "#%SATA3_PRX_HDDTX_N0"   ! Node capacitively isolated. 
+nodes "#%SATA_RXN0_R"
+!nodes "#%SATA3_PRX_HDDTX_P0"   ! Node capacitively isolated. 
+nodes "#%SATA_RXP0_R"
+!nodes "#%SATA3_PTX_HDDRX_N0"   ! Node capacitively isolated. 
+nodes "#%SATA_TXN0_R"
+!nodes "#%SATA3_PTX_HDDRX_P0"   ! Node capacitively isolated. 
+nodes "#%SATA_TXP0_R"
+!nodes "#%SATA_PRX_ODDTX_N2"   ! Node capacitively isolated. 
+!nodes "#%SATA_RXN2_R"   ! Node capacitively isolated. 
+!nodes "#%SATA_PRX_ODDTX_P2"   ! Node capacitively isolated. 
+!nodes "#%SATA_RXP2_R"   ! Node capacitively isolated. 
+!nodes "#%SATA_PTX_ODDRX_N2"   ! Node capacitively isolated. 
+!nodes "#%SATA_TXN2_R"   ! Node capacitively isolated. 
+!nodes "#%SATA_PTX_ODDRX_P2"   ! Node capacitively isolated. 
+!nodes "#%SATA_TXP2_R"   ! Node capacitively isolated. 
+!nodes "#%TP_CL_CLK"   ! Node is isolated 
+!nodes "#%TP_CL_DATA"   ! Node is isolated 
+!nodes "#%TP_CL_RST#"   ! Node is isolated 
+!nodes "#%TP_DC_TEST_A4"   ! Node is isolated 
+!nodes "#%TP_DC_TEST_A60"   ! Node is isolated 
+!nodes "#%TP_DC_TEST_A62"   ! Node is isolated 
+!nodes "#%TP_DC_TEST_AV1"   ! Node is isolated 
+!nodes "#%TP_DC_TEST_AW1"   ! Node is isolated 
+!nodes "#%TP_DC_TEST_AW63"   ! Node is isolated 
+!nodes "#%TP_DC_TEST_AY60"   ! Node is isolated 
+!nodes "#%TP_DC_TEST_B2"   ! Node is isolated 
+!nodes "#%TP_HDA_DOCK_EN#"   ! Node is isolated 
+!nodes "#%TP_M_A_DIMA_ODT0"   ! Node is isolated 
+!nodes "#%TP_V1_05S_APLLOPI"   ! Node is isolated 
+!nodes "#%TP_V1_05S_AXCK_DCB"   ! Node is isolated 
+!nodes "#%TP_V1_05S_SSCF100"   ! Node is isolated 
+!nodes "#%TP_V1_05S_SSCFF"   ! Node is isolated 
+!nodes "#%TP_VCCAPLLOPI_VAL"   ! Node is isolated 
+!nodes "#%TP_VCCIO_OUT"   ! Node is isolated 
+nodes "#%USB3_PRX_CTX_N0"
+nodes "#%USB3_PRX_CTX_P0"
+!nodes "#%USB_CAMERA"   ! Non-digital library pin. 
+!nodes "#%USB_CAMERA#"   ! Non-digital library pin. 
+nodes "#%USB_CAMERA_EDP"
+!nodes "#%USB_PP4_EDP"   ! Not accessible 
+nodes "#%USB_PP4"
+!nodes "#%USB_PP4_CAM"   ! Non-digital library pin. 
+nodes "#%USB_CAMERA_EDP#"
+nodes "#%USB_PN4_EDP"
+nodes "#%USB_PN4"
+!nodes "#%USB_PN4_CAM#"   ! Non-digital library pin. 
+nodes "#%USB_PN0"
+nodes "#%USB_PN0_C"
+nodes "#%USB_PN1"
+nodes "#%USB_PN1_R"
+nodes "#%USB_PN2"
+nodes "#%USB_PN2_IOBD1"
+!nodes "#%USB_PN3"   ! Node is isolated 
+!nodes "#%USB_PN5"   ! Node resistively isolated. 
+nodes "#%USB_PN6"
+nodes "#%USB_PN7"
+nodes "#%USB_PN7_IOBD1"
+nodes "#%USB_PP0"
+nodes "#%USB_PP0_C"
+nodes "#%USB_PP1"
+nodes "#%USB_PP1_R"
+nodes "#%USB_PP2"
+nodes "#%USB_PP2_IOBD1"
+!nodes "#%USB_PP3"   ! Node is isolated 
+!nodes "#%USB_PP5"   ! Node resistively isolated. 
+nodes "#%USB_PP6"
+nodes "#%USB_PP7"
+nodes "#%USB_PP7_IOBD1"
+nodes "#%WIFI_RF_EN"
+!nodes "#%XDP_BPM0"   ! Node is isolated 
+!nodes "#%XDP_BPM1"   ! Node is isolated 
+!nodes "#%XDP_BPM2"   ! Node is isolated 
+!nodes "#%XDP_BPM3"   ! Node is isolated 
+!nodes "#%XDP_BPM4"   ! Node is isolated 
+!nodes "#%XDP_BPM5"   ! Node is isolated 
+!nodes "#%XDP_BPM6"   ! Node is isolated 
+!nodes "#%XDP_BPM7"   ! Node is isolated 
+!nodes "#%XDP_PRDY#"   ! Node is isolated 
+!nodes "#%XDP_PREQ#"   ! Node is isolated 
+

@@ -1,0 +1,2352 @@
+!!!!   14    0    1 1391819621   0000                                         
+! IPG: Sat Feb 08 08:33:42 2014
+! IPG: board type 13269-1
+boards 1 to 1
+test shorts "shorts"
+test shorts "shorts_uma"
+test shorts "shorts_dis"
+test pins "pins"
+test capacitor ".discharge"
+test jumper "el4201"; preshorts
+test jumper "el4202"; nulltest !tested in parallel with el4201
+test jumper "el4203"; preshorts
+test jumper "f5201"; preshorts
+test jumper "f5401"; preshorts
+test jumper "l1101"; preshorts
+test jumper "l1102"; preshorts
+test jumper "l1103"; preshorts
+test jumper "l1104"; preshorts
+test jumper "l3001"; preshorts
+test jumper "l7301"; preshorts
+test jumper "l7501"; preshorts
+test jumper "l7601"; preshorts
+test jumper "l7602"; preshorts
+test jumper "pg4402"; nulltest
+test jumper "pg4403"; nulltest
+test jumper "pg4404"; nulltest
+test jumper "pg4405"; nulltest
+test jumper "pg4407"; nulltest
+test jumper "pg4408"; nulltest
+test jumper "pg4409"; nulltest
+test jumper "pg4410"; nulltest
+test jumper "pg4411"; nulltest
+test jumper "pg4412"; nulltest
+test jumper "pg4413"; nulltest
+test jumper "pg4414"; nulltest
+test jumper "pg4415"; nulltest
+test jumper "pg4517"; nulltest
+test jumper "pg4518"; nulltest
+test jumper "pg4519"; nulltest
+test jumper "pg4520"; nulltest
+test jumper "pg4521"; nulltest
+test jumper "pg4522"; nulltest
+test jumper "pg4523"; nulltest
+test jumper "pg4524"; nulltest
+test jumper "pg4525"; nulltest
+test jumper "pg4526"; nulltest
+test jumper "pg4527"; nulltest
+test jumper "pg4528"; nulltest
+test jumper "pg4529"; nulltest
+test jumper "pg4530"; nulltest
+test jumper "pg4531"; nulltest
+test jumper "pg4532"; nulltest
+test jumper "pg4533"; nulltest
+test jumper "pg4534"; nulltest
+test jumper "pg4535"; nulltest
+test jumper "pg4536"; nulltest
+test jumper "pg4537"; nulltest
+test jumper "pg4538"; nulltest
+test jumper "pg4540"; nulltest
+test jumper "pg4541"; nulltest
+test jumper "pg4542"; nulltest
+test jumper "pg4543"; nulltest
+test jumper "pg4544"; nulltest
+test jumper "pg4545"; nulltest
+test jumper "pg4701"; nulltest
+test jumper "pg4702"; nulltest
+test jumper "pg4703"; nulltest
+test jumper "pg4704"; nulltest
+test jumper "pg4705"; nulltest
+test jumper "pg4706"; nulltest
+test jumper "pg4707"; nulltest
+test jumper "pg4708"; nulltest
+test jumper "pg4824"; nulltest
+test jumper "pg4825"; nulltest
+test jumper "pg4826"; nulltest
+test jumper "pg4827"; nulltest
+test jumper "pg4828"; nulltest
+test jumper "pg4830"; nulltest
+test jumper "pg4831"; nulltest
+test jumper "pg4832"; nulltest
+test jumper "pg4834"; nulltest
+test jumper "pg4837"; nulltest
+test jumper "pg4838"; nulltest
+test jumper "pg4901"; nulltest
+test jumper "pg4902"; nulltest
+test jumper "pg4903"; nulltest
+test jumper "pg4904"; nulltest
+test jumper "pg4905"; nulltest
+test jumper "pg4906"; nulltest
+test jumper "pg4907"; nulltest
+test jumper "pg4908"; nulltest
+test jumper "pg4909"; nulltest
+test jumper "pg4910"; nulltest
+test jumper "pg4911"; nulltest
+test jumper "pg4912"; nulltest
+test jumper "pg4913"; nulltest
+test jumper "pg4914"; nulltest
+test jumper "pg4915"; nulltest
+test jumper "pg4916"; nulltest
+test jumper "pg4917"; nulltest
+test jumper "pg4918"; nulltest
+test jumper "pg4919"; nulltest
+test jumper "pg4920"; nulltest
+test jumper "pg5101"; nulltest
+test jumper "pg5102"; nulltest
+test jumper "pg5103"; nulltest
+test jumper "pg5104"; nulltest
+test jumper "pg5105"; nulltest
+test jumper "pg8201"; nulltest
+test jumper "pg8202"; nulltest
+test jumper "pg8203"; nulltest
+test jumper "pg8204"; nulltest
+test jumper "pg8205"; nulltest
+test jumper "pg8206"; nulltest
+test jumper "pg8207"; nulltest
+test jumper "pg8208"; nulltest
+test jumper "pg8209"; nulltest
+test jumper "pg8210"; nulltest
+test jumper "pg8211"; nulltest
+test jumper "pg8212"; nulltest
+test jumper "pg8312"; nulltest
+test jumper "pg8313"; nulltest
+test jumper "pg8314"; nulltest
+test jumper "pg8315"; nulltest
+test jumper "pl4401"; preshorts
+test jumper "pl4501"; preshorts
+test jumper "pl4502"; preshorts
+test jumper "pl4701"; preshorts
+test jumper "pl4801"; preshorts
+test jumper "pl4902"; preshorts
+test jumper "pl5101"; preshorts
+test jumper "pl8201"; preshorts
+test jumper "pl8202"; preshorts
+test jumper "pr4217"; preshorts
+test jumper "pr4402"; preshorts
+test jumper "pr4409"; preshorts
+test jumper "pr4416"; preshorts
+test jumper "pr4420"; preshorts
+test jumper "pr4422"; preshorts
+test jumper "pr4524"; preshorts
+test jumper "pr4528"; preshorts
+test jumper "pr4701"; nulltest
+test jumper "pr4820"; preshorts
+test jumper "pr4905"; preshorts
+test jumper "pr8202"; preshorts
+test jumper "pr8208"; preshorts
+test jumper "pr8210"; preshorts
+test jumper "pr8211"; preshorts
+test jumper "pr8223"; preshorts
+test jumper "r1512"; preshorts
+test jumper "r1704"; preshorts
+test jumper "r1708"; preshorts
+test jumper "r1710"; preshorts
+test jumper "r1728"; preshorts
+test jumper "r2110"; preshorts
+test jumper "r2122"; preshorts
+test jumper "r2403"; preshorts
+test jumper "r2437"; preshorts
+test jumper "r2448"; preshorts
+test jumper "r2612"; preshorts
+test jumper "r2712"; preshorts
+test jumper "r2716"; preshorts
+test jumper "r2720"; preshorts
+test jumper "r3702"; preshorts
+test jumper "r3708"; preshorts
+test jumper "r3801"; preshorts
+test jumper "r5211"; preshorts
+test jumper "r5229"; preshorts
+test jumper "r5232"; preshorts
+test jumper "r6205"; preshorts
+test jumper "r6212"; preshorts
+test jumper "r6216"; nulltest
+test jumper "r7313"; preshorts
+test jumper "r7652"; preshorts
+test jumper "r7653"; preshorts
+test jumper "r8304"; preshorts
+test jumper "r8312"; preshorts
+test jumper "r8313"; preshorts
+test jumper "rn1806%jp1"; preshorts
+test jumper "rn1806%jp2"; nulltest
+test jumper "rn1806%jp3"; preshorts
+test jumper "rn1806%jp4"; nulltest
+test jumper "rn2701%jp1"; preshorts
+test jumper "rn2701%jp2"; preshorts
+test jumper "rn5206%jp1"; preshorts
+test jumper "rn5206%jp2"; nulltest
+test jumper "tr3401%jp1"; preshorts
+test jumper "tr3401%jp2"; preshorts
+test jumper "tr3404%jp1"; preshorts
+test jumper "tr3404%jp2"; preshorts
+test jumper "tr5209%jp1"; preshorts
+test jumper "tr5209%jp2"; preshorts
+test jumper "tr6301%jp1"; preshorts
+test jumper "tr6301%jp2"; preshorts
+test jumper "tr6302%jp1"; preshorts
+test jumper "tr6302%jp2"; preshorts
+test jumper "xf3101%jp1"; preshorts
+test jumper "xf3101%jp2"; preshorts
+test jumper "xf3101%jp3"; preshorts
+test jumper "xf3101%jp4"; preshorts
+test jumper "xf3101%jp5"; preshorts
+test jumper "xf3101%jp6"; preshorts
+test jumper "xf3101%jp7"; preshorts
+test jumper "xf3101%jp8"; preshorts
+test jumper "xf3102%jp1"; preshorts
+test jumper "xf3102%jp2"; preshorts
+test jumper "xf3102%jp3"; preshorts
+test jumper "xf3102%jp4"; preshorts
+test jumper "xf3102%jp5"; preshorts
+test jumper "xf3102%jp6"; preshorts
+test jumper "xf3102%jp7"; preshorts
+test jumper "xf3102%jp8"; preshorts
+test jumper "f5203"; nulltest
+test jumper "f6201"; nulltest
+test jumper "g1901"; preshorts
+test jumper "tr5208%jp1"; preshorts
+test jumper "tr5208%jp2"; preshorts
+test capacitor "c1"; nulltest
+test capacitor "c2"; nulltest
+test capacitor "c3"; nulltest
+test capacitor "pt4803"
+test capacitor "c1103"; nulltest !tested in parallel with pt4803
+test capacitor "c1105"; nulltest !tested in parallel with pt4803
+test capacitor "c1109"; nulltest !tested in parallel with pt4803
+test capacitor "c1111"; nulltest !tested in parallel with pt4803
+test capacitor "c1113"; nulltest !tested in parallel with pt4803
+test capacitor "c1116"; nulltest !tested in parallel with pt4803
+test capacitor "c2135"; nulltest !tested in parallel with pt4803
+test capacitor "c2137"; nulltest !tested in parallel with pt4803
+test capacitor "c2138"; nulltest !tested in parallel with pt4803
+test capacitor "c2401"; nulltest !tested in parallel with pt4803
+test capacitor "pc4606"; nulltest !tested in parallel with pt4803
+test capacitor "pc4824"; nulltest !tested in parallel with pt4803
+test capacitor "c701"; nulltest !tested in parallel with pt4803
+test capacitor "c703"; nulltest !tested in parallel with pt4803
+test capacitor "c1104"; nulltest !tested in parallel with pt4803
+test capacitor "c1106"; nulltest !tested in parallel with pt4803
+test capacitor "c1107"; nulltest !tested in parallel with pt4803
+test capacitor "c1110"; nulltest !tested in parallel with pt4803
+test capacitor "c1112"; nulltest !tested in parallel with pt4803
+test capacitor "c1114"; nulltest !tested in parallel with pt4803
+test capacitor "c1115"; nulltest !tested in parallel with pt4803
+test capacitor "c1123"; nulltest !tested in parallel with pt4803
+test capacitor "c1124"; nulltest !tested in parallel with pt4803
+test capacitor "c1125"; nulltest !tested in parallel with pt4803
+test capacitor "c2105"; nulltest !tested in parallel with pt4803
+test capacitor "c2141"; nulltest !tested in parallel with pt4803
+test capacitor "c2142"; nulltest !tested in parallel with pt4803
+test capacitor "c8302"; nulltest !tested in parallel with pt4803
+test capacitor "pt4502"
+test capacitor "c2109"; nulltest !tested in parallel with pt4502
+test capacitor "c2116"; nulltest !tested in parallel with pt4502
+test capacitor "pc5119"; nulltest !tested in parallel with pt4502
+test capacitor "c2147"; nulltest !tested in parallel with pt4502
+test capacitor "c2502"; nulltest !tested in parallel with pt4502
+test capacitor "c3013"; nulltest !tested in parallel with pt4502
+test capacitor "c6402"; nulltest !tested in parallel with pt4502
+test capacitor "c702"; nulltest !tested in parallel with pt4502
+test capacitor "c1108"; nulltest !tested in parallel with pt4502
+test capacitor "c2136"; nulltest !tested in parallel with pt4502
+test capacitor "c2501"; nulltest !tested in parallel with pt4502
+test capacitor "c3801"; nulltest !tested in parallel with pt4502
+test capacitor "c3802"; nulltest !tested in parallel with pt4502
+test capacitor "pc4517"; nulltest !tested in parallel with pt4502
+test capacitor "pc5109"; nulltest !tested in parallel with pt4502
+test capacitor "pc4923"; comment
+test capacitor "pc4924"; nulltest !commented: see test pc4923
+test capacitor "pc4925"; nulltest !commented: see test pc4923
+test capacitor "c1001"; nulltest !commented: see test pc4923
+test capacitor "c1002"; nulltest !commented: see test pc4923
+test capacitor "c1003"; nulltest !commented: see test pc4923
+test capacitor "c1209"; nulltest !commented: see test pc4923
+test capacitor "pc8303"; nulltest !commented: see test pc4923
+test capacitor "c1017"; nulltest !commented: see test pc4923
+test capacitor "c1018"; nulltest !commented: see test pc4923
+test capacitor "c1212"; nulltest !commented: see test pc4923
+test capacitor "c1213"; nulltest !commented: see test pc4923
+test capacitor "pc4904"; nulltest !commented: see test pc4923
+test capacitor "c1211"; nulltest !commented: see test pc4923
+test capacitor "c1220"; nulltest !commented: see test pc4923
+test capacitor "c1221"; nulltest !commented: see test pc4923
+test capacitor "c1222"; nulltest !commented: see test pc4923
+test capacitor "pc4921"; nulltest !commented: see test pc4923
+test capacitor "c1004"; nulltest !commented: see test pc4923
+test capacitor "c1005"; nulltest !commented: see test pc4923
+test capacitor "c1006"; nulltest !commented: see test pc4923
+test capacitor "c1019"; nulltest !commented: see test pc4923
+test capacitor "c1020"; nulltest !commented: see test pc4923
+test capacitor "c1207"; nulltest !commented: see test pc4923
+test capacitor "c1208"; nulltest !commented: see test pc4923
+test capacitor "c1210"; nulltest !commented: see test pc4923
+test capacitor "ec4601"; nulltest !commented: see test pc4923
+test capacitor "pc4920"; nulltest !commented: see test pc4923
+test capacitor "pc4926"; nulltest !commented: see test pc4923
+test capacitor "tc1201"; nulltest !commented: see test pc4923
+test capacitor "c1117"
+test capacitor "c1118"; nulltest !tested in parallel with c1117
+test capacitor "c1119"; nulltest !tested in parallel with c1117
+test capacitor "c1122"
+test capacitor "c1121"; nulltest !tested in parallel with c1122
+test capacitor "c1120"; nulltest !tested in parallel with c1122
+test capacitor "c2503"; nulltest !tested in parallel with c1122
+test capacitor "c2123"
+test capacitor "c3605"; nulltest !tested in parallel with c2123
+test capacitor "c5803"; nulltest !tested in parallel with c2123
+test capacitor "c2701"; nulltest !tested in parallel with c2123
+test capacitor "c2716"; nulltest !tested in parallel with c2123
+test capacitor "c5204"; nulltest !tested in parallel with c2123
+test capacitor "c5207"; nulltest !tested in parallel with c2123
+test capacitor "c2104"; nulltest !tested in parallel with c2123
+test capacitor "c2128"; nulltest !tested in parallel with c2123
+test capacitor "c2412"; nulltest !tested in parallel with c2123
+test capacitor "c2717"; nulltest !tested in parallel with c2123
+test capacitor "c2719"; nulltest !tested in parallel with c2123
+test capacitor "c5802"; nulltest !tested in parallel with c2123
+test capacitor "c5804"; nulltest !tested in parallel with c2123
+test capacitor "c1203"; nulltest !tested in parallel with c2123
+test capacitor "c2413"; nulltest !tested in parallel with c2123
+test capacitor "c2601"; nulltest !tested in parallel with c2123
+test capacitor "c2602"; nulltest !tested in parallel with c2123
+test capacitor "c8304"; nulltest !tested in parallel with c2123
+test capacitor "c8311"; nulltest !tested in parallel with c2123
+test capacitor "ec5210"; nulltest !tested in parallel with c2123
+test capacitor "ec9735"; nulltest !tested in parallel with c2123
+test capacitor "ec9736"; nulltest !tested in parallel with c2123
+test capacitor "ec9737"; nulltest !tested in parallel with c2123
+test capacitor "ec9738"; nulltest !tested in parallel with c2123
+test capacitor "c1204"
+test capacitor "c1206"; nulltest !tested in parallel with c1204
+test capacitor "c1205"; nulltest !tested in parallel with c1204
+test capacitor "pc4916"
+test capacitor "c1214"; nulltest !tested in parallel with pc4916
+test capacitor "c1216"; nulltest !tested in parallel with pc4916
+test capacitor "pc4915"; nulltest !tested in parallel with pc4916
+test capacitor "c1215"; nulltest !tested in parallel with pc4916
+test capacitor "pc4917"; nulltest !tested in parallel with pc4916
+test capacitor "c1217"; characterize, comment
+test capacitor "c1701"; characterize
+test capacitor "c2415"; nulltest !tested in parallel with c1701
+test capacitor "c5214"; nulltest !tested in parallel with c1701
+test capacitor "ec1703"; nulltest !tested in parallel with c1701
+test capacitor "c2402"; characterize, comment
+test capacitor "c2403"; characterize, comment
+test capacitor "c2411"
+test capacitor "c2404"; nulltest !tested in parallel with c2411
+test capacitor "c2406"; nulltest !tested in parallel with c2411
+test capacitor "c2408"; nulltest !tested in parallel with c2411
+test capacitor "c2410"; nulltest !tested in parallel with c2411
+test capacitor "c2405"; nulltest !tested in parallel with c2411
+test capacitor "c2407"; nulltest !tested in parallel with c2411
+test capacitor "c2409"; nulltest !tested in parallel with c2411
+test capacitor "c2418"; characterize, comment
+test capacitor "c2421"; characterize, comment
+test capacitor "c2422"; characterize
+test capacitor "c2603"; characterize
+test capacitor "c2604"; nulltest !tested in parallel with c2603
+test capacitor "ec2601"; nulltest !tested in parallel with c2603
+test capacitor "c2606"; characterize
+test capacitor "c2607"; nulltest !tested in parallel with c2606
+test capacitor "c2608"; characterize, comment
+test capacitor "c2609"; characterize, comment
+test capacitor "c2610"; characterize, comment
+test capacitor "c7610"; nulltest !commented: see test c2610
+test capacitor "c2723"; characterize
+test capacitor "ec5206"; nulltest !tested in parallel with c2723
+test capacitor "c2901"; characterize, comment
+test capacitor "q2901%cgs"; characterize
+test capacitor "c2902"; nulltest !tested in parallel with q2901%cgs
+test capacitor "c3018"
+test capacitor "c3021"; nulltest !tested in parallel with c3018
+test capacitor "c3022"; nulltest !tested in parallel with c3018
+test capacitor "c3025"; nulltest !tested in parallel with c3018
+test capacitor "c3002"; nulltest !tested in parallel with c3018
+test capacitor "c3012"; nulltest !tested in parallel with c3018
+test capacitor "c3019"; nulltest !tested in parallel with c3018
+test capacitor "c3023"; nulltest !tested in parallel with c3018
+test capacitor "c3024"; nulltest !tested in parallel with c3018
+test capacitor "c3003"
+test capacitor "c3008"; nulltest !tested in parallel with c3003
+test capacitor "c3004"; nulltest !tested in parallel with c3003
+test capacitor "c3005"; nulltest !tested in parallel with c3003
+test capacitor "c3007"; nulltest !tested in parallel with c3003
+test capacitor "c3009"; nulltest !tested in parallel with c3003
+test capacitor "c3010"; nulltest !tested in parallel with c3003
+test capacitor "c3017"; nulltest !tested in parallel with c3003
+test capacitor "c3401"; characterize
+test capacitor "c3402"; characterize
+test capacitor "c3512"
+test capacitor "c3513"; nulltest !tested in parallel with c3512
+test capacitor "c3508"; nulltest !tested in parallel with c3512
+test capacitor "c3507"; nulltest !tested in parallel with c3512
+test capacitor "c3405"; nulltest !tested in parallel with c3512
+test capacitor "tc3501"; nulltest !tested in parallel with c3512
+test capacitor "c3509"
+test capacitor "c3514"; nulltest !tested in parallel with c3509
+test capacitor "c3506"; nulltest !tested in parallel with c3509
+test capacitor "c3503"; nulltest !tested in parallel with c3509
+test capacitor "c3406"; nulltest !tested in parallel with c3509
+test capacitor "tc3502"; nulltest !tested in parallel with c3509
+test capacitor "pt4501"
+test capacitor "c3502"; nulltest !tested in parallel with pt4501
+test capacitor "c3510"; nulltest !tested in parallel with pt4501
+test capacitor "pc4815"; nulltest !tested in parallel with pt4501
+test capacitor "pc4901"; nulltest !tested in parallel with pt4501
+test capacitor "c3501"; nulltest !tested in parallel with pt4501
+test capacitor "c3504"; nulltest !tested in parallel with pt4501
+test capacitor "c3505"; nulltest !tested in parallel with pt4501
+test capacitor "ec9732"; nulltest !tested in parallel with pt4501
+test capacitor "ec9733"; nulltest !tested in parallel with pt4501
+test capacitor "ec9734"; nulltest !tested in parallel with pt4501
+test capacitor "pc4515"; nulltest !tested in parallel with pt4501
+test capacitor "pc4518"; nulltest !tested in parallel with pt4501
+test capacitor "pc4406"
+test capacitor "pc4527"; nulltest !tested in parallel with pc4406
+test capacitor "pc4701"; nulltest !tested in parallel with pc4406
+test capacitor "pc4702"; nulltest !tested in parallel with pc4406
+test capacitor "pc4703"; nulltest !tested in parallel with pc4406
+test capacitor "pc8210"; nulltest !tested in parallel with pc4406
+test capacitor "pc8214"; nulltest !tested in parallel with pc4406
+test capacitor "pc8215"; nulltest !tested in parallel with pc4406
+test capacitor "pc8224"; nulltest !tested in parallel with pc4406
+test capacitor "pc4408"; nulltest !tested in parallel with pc4406
+test capacitor "pc4509"; nulltest !tested in parallel with pc4406
+test capacitor "pc4529"; nulltest !tested in parallel with pc4406
+test capacitor "pc4814"; nulltest !tested in parallel with pc4406
+test capacitor "pc4909"; nulltest !tested in parallel with pc4406
+test capacitor "pc4911"; nulltest !tested in parallel with pc4406
+test capacitor "pc4914"; nulltest !tested in parallel with pc4406
+test capacitor "pc8208"; nulltest !tested in parallel with pc4406
+test capacitor "pc8209"; nulltest !tested in parallel with pc4406
+test capacitor "pc8212"; nulltest !tested in parallel with pc4406
+test capacitor "pc8213"; nulltest !tested in parallel with pc4406
+test capacitor "pc4403"; nulltest !tested in parallel with pc4406
+test capacitor "pc4404"; nulltest !tested in parallel with pc4406
+test capacitor "ec9701"; nulltest !tested in parallel with pc4406
+test capacitor "ec9705"; nulltest !tested in parallel with pc4406
+test capacitor "ec9706"; nulltest !tested in parallel with pc4406
+test capacitor "ec9707"; nulltest !tested in parallel with pc4406
+test capacitor "ec9717"; nulltest !tested in parallel with pc4406
+test capacitor "pc4409"; nulltest !tested in parallel with pc4406
+test capacitor "pc4525"; nulltest !tested in parallel with pc4406
+test capacitor "pc4530"; nulltest !tested in parallel with pc4406
+test capacitor "pc4704"; nulltest !tested in parallel with pc4406
+test capacitor "pc4825"; nulltest !tested in parallel with pc4406
+test capacitor "pc4913"; nulltest !tested in parallel with pc4406
+test capacitor "pc8202"; nulltest !tested in parallel with pc4406
+test capacitor "pc8220"; nulltest !tested in parallel with pc4406
+test capacitor "pc8221"; nulltest !tested in parallel with pc4406
+test capacitor "pc4531"; nulltest !tested in parallel with pc4406
+test capacitor "c5202"; nulltest !tested in parallel with pc4406
+test capacitor "c5205"; nulltest !tested in parallel with pc4406
+test capacitor "ec4401"; nulltest !tested in parallel with pc4406
+test capacitor "ec4402"; nulltest !tested in parallel with pc4406
+test capacitor "ec9702"; nulltest !tested in parallel with pc4406
+test capacitor "ec9703"; nulltest !tested in parallel with pc4406
+test capacitor "ec9704"; nulltest !tested in parallel with pc4406
+test capacitor "ec9708"; nulltest !tested in parallel with pc4406
+test capacitor "ec9709"; nulltest !tested in parallel with pc4406
+test capacitor "ec9710"; nulltest !tested in parallel with pc4406
+test capacitor "ec9711"; nulltest !tested in parallel with pc4406
+test capacitor "ec9712"; nulltest !tested in parallel with pc4406
+test capacitor "ec9713"; nulltest !tested in parallel with pc4406
+test capacitor "ec9714"; nulltest !tested in parallel with pc4406
+test capacitor "ec9715"; nulltest !tested in parallel with pc4406
+test capacitor "ec9716"; nulltest !tested in parallel with pc4406
+test capacitor "ec9740"; nulltest !tested in parallel with pc4406
+test capacitor "ec9741"; nulltest !tested in parallel with pc4406
+test capacitor "ec9742"; nulltest !tested in parallel with pc4406
+test capacitor "ec9747"; nulltest !tested in parallel with pc4406
+test capacitor "ec9748"; nulltest !tested in parallel with pc4406
+test capacitor "ec9749"; nulltest !tested in parallel with pc4406
+test capacitor "pc4426"; nulltest !tested in parallel with pc4406
+test capacitor "pc4431"; nulltest !tested in parallel with pc4406
+test capacitor "pc4519"; nulltest !tested in parallel with pc4406
+test capacitor "pc4528"; nulltest !tested in parallel with pc4406
+test capacitor "pc4826"; nulltest !tested in parallel with pc4406
+test capacitor "pc4912"; nulltest !tested in parallel with pc4406
+test capacitor "pc5113"; nulltest !tested in parallel with pc4406
+test capacitor "pc5115"; nulltest !tested in parallel with pc4406
+test capacitor "pt4702"; nulltest !tested in parallel with pc4406
+test capacitor "c5208"; characterize, comment
+test capacitor "c3603"
+test capacitor "c2611"; nulltest !tested in parallel with c3603
+test capacitor "pc4604"; nulltest !tested in parallel with c3603
+test capacitor "c2605"; nulltest !tested in parallel with c3603
+test capacitor "c5401"; nulltest !tested in parallel with c3603
+test capacitor "c5606"; nulltest !tested in parallel with c3603
+test capacitor "c6202"; nulltest !tested in parallel with c3603
+test capacitor "pc8207"; nulltest !tested in parallel with c3603
+test capacitor "q5403%cgs"; nulltest !tested in parallel with c3603
+test capacitor "c5605"; nulltest !tested in parallel with c3603
+test capacitor "c5609"; nulltest !tested in parallel with c3603
+test capacitor "ec9718"; nulltest !tested in parallel with c3603
+test capacitor "ec9719"; nulltest !tested in parallel with c3603
+test capacitor "ec9720"; nulltest !tested in parallel with c3603
+test capacitor "ec9721"; nulltest !tested in parallel with c3603
+test capacitor "ec9722"; nulltest !tested in parallel with c3603
+test capacitor "ec9723"; nulltest !tested in parallel with c3603
+test capacitor "ec9724"; nulltest !tested in parallel with c3603
+test capacitor "c5807"; characterize
+test capacitor "c6203"; characterize
+test capacitor "c6401"; characterize, comment
+test capacitor "c7518"
+test capacitor "c7320"; nulltest !tested in parallel with c7518
+test capacitor "c7321"; nulltest !tested in parallel with c7518
+test capacitor "c7322"; nulltest !tested in parallel with c7518
+test capacitor "c7323"; nulltest !tested in parallel with c7518
+test capacitor "c7325"; nulltest !tested in parallel with c7518
+test capacitor "c7326"; nulltest !tested in parallel with c7518
+test capacitor "c7327"; nulltest !tested in parallel with c7518
+test capacitor "c7328"; nulltest !tested in parallel with c7518
+test capacitor "c7604"; nulltest !tested in parallel with c7518
+test capacitor "c7309"; nulltest !tested in parallel with c7518
+test capacitor "c7310"; nulltest !tested in parallel with c7518
+test capacitor "c7317"; nulltest !tested in parallel with c7518
+test capacitor "c7606"; nulltest !tested in parallel with c7518
+test capacitor "c7311"; nulltest !tested in parallel with c7518
+test capacitor "c7312"; nulltest !tested in parallel with c7518
+test capacitor "c7313"; nulltest !tested in parallel with c7518
+test capacitor "c7314"; nulltest !tested in parallel with c7518
+test capacitor "c7319"; nulltest !tested in parallel with c7518
+test capacitor "c7318"; nulltest !tested in parallel with c7518
+test capacitor "c7505"; nulltest !tested in parallel with c7518
+test capacitor "c7506"; nulltest !tested in parallel with c7518
+test capacitor "c7601"; nulltest !tested in parallel with c7518
+test capacitor "c7602"; nulltest !tested in parallel with c7518
+test capacitor "c7605"; nulltest !tested in parallel with c7518
+test capacitor "c8306"; nulltest !tested in parallel with c7518
+test capacitor "c7603"; nulltest !tested in parallel with c7518
+test capacitor "c8310"; nulltest !tested in parallel with c7518
+test capacitor "pt8206"
+test capacitor "pt8207"; nulltest !tested in parallel with pt8206
+test capacitor "pt8208"; nulltest !tested in parallel with pt8206
+test capacitor "c7710"; nulltest !tested in parallel with pt8206
+test capacitor "c7717"; nulltest !tested in parallel with pt8206
+test capacitor "c7732"; nulltest !tested in parallel with pt8206
+test capacitor "c7701"; nulltest !tested in parallel with pt8206
+test capacitor "c7702"; nulltest !tested in parallel with pt8206
+test capacitor "c7708"; nulltest !tested in parallel with pt8206
+test capacitor "c7709"; nulltest !tested in parallel with pt8206
+test capacitor "c7719"; nulltest !tested in parallel with pt8206
+test capacitor "c7721"; nulltest !tested in parallel with pt8206
+test capacitor "c7723"; nulltest !tested in parallel with pt8206
+test capacitor "c7724"; nulltest !tested in parallel with pt8206
+test capacitor "c7725"; nulltest !tested in parallel with pt8206
+test capacitor "c7726"; nulltest !tested in parallel with pt8206
+test capacitor "c7730"; nulltest !tested in parallel with pt8206
+test capacitor "c7711"; nulltest !tested in parallel with pt8206
+test capacitor "c7712"; nulltest !tested in parallel with pt8206
+test capacitor "c7713"; nulltest !tested in parallel with pt8206
+test capacitor "c7714"; nulltest !tested in parallel with pt8206
+test capacitor "c7720"; nulltest !tested in parallel with pt8206
+test capacitor "c7722"; nulltest !tested in parallel with pt8206
+test capacitor "c7731"; nulltest !tested in parallel with pt8206
+test capacitor "c7733"; nulltest !tested in parallel with pt8206
+test capacitor "c7520"
+test capacitor "c7517"; nulltest !tested in parallel with c7520
+test capacitor "c7813"; nulltest !tested in parallel with c7520
+test capacitor "c7815"; nulltest !tested in parallel with c7520
+test capacitor "c7918"; nulltest !tested in parallel with c7520
+test capacitor "c7920"; nulltest !tested in parallel with c7520
+test capacitor "pc8307"; nulltest !tested in parallel with c7520
+test capacitor "c7513"; nulltest !tested in parallel with c7520
+test capacitor "c7514"; nulltest !tested in parallel with c7520
+test capacitor "c7507"; nulltest !tested in parallel with c7520
+test capacitor "c7515"; nulltest !tested in parallel with c7520
+test capacitor "c7516"; nulltest !tested in parallel with c7520
+test capacitor "c7519"; nulltest !tested in parallel with c7520
+test capacitor "c7521"; nulltest !tested in parallel with c7520
+test capacitor "c7525"; nulltest !tested in parallel with c7520
+test capacitor "c7527"; nulltest !tested in parallel with c7520
+test capacitor "c7528"; nulltest !tested in parallel with c7520
+test capacitor "c7530"; nulltest !tested in parallel with c7520
+test capacitor "c7531"; nulltest !tested in parallel with c7520
+test capacitor "c7805"; nulltest !tested in parallel with c7520
+test capacitor "c7810"; nulltest !tested in parallel with c7520
+test capacitor "c7811"; nulltest !tested in parallel with c7520
+test capacitor "c7812"; nulltest !tested in parallel with c7520
+test capacitor "c7814"; nulltest !tested in parallel with c7520
+test capacitor "c7816"; nulltest !tested in parallel with c7520
+test capacitor "c7817"; nulltest !tested in parallel with c7520
+test capacitor "c7822"; nulltest !tested in parallel with c7520
+test capacitor "c7906"; nulltest !tested in parallel with c7520
+test capacitor "c7911"; nulltest !tested in parallel with c7520
+test capacitor "c7915"; nulltest !tested in parallel with c7520
+test capacitor "c7916"; nulltest !tested in parallel with c7520
+test capacitor "c7917"; nulltest !tested in parallel with c7520
+test capacitor "c7919"; nulltest !tested in parallel with c7520
+test capacitor "c7924"; nulltest !tested in parallel with c7520
+test capacitor "c7926"; nulltest !tested in parallel with c7520
+test capacitor "c7501"; nulltest !tested in parallel with c7520
+test capacitor "c7502"; nulltest !tested in parallel with c7520
+test capacitor "c7503"; nulltest !tested in parallel with c7520
+test capacitor "c7504"; nulltest !tested in parallel with c7520
+test capacitor "c7511"; nulltest !tested in parallel with c7520
+test capacitor "c7526"; nulltest !tested in parallel with c7520
+test capacitor "c7804"; nulltest !tested in parallel with c7520
+test capacitor "c7820"; nulltest !tested in parallel with c7520
+test capacitor "c7821"; nulltest !tested in parallel with c7520
+test capacitor "c7827"; nulltest !tested in parallel with c7520
+test capacitor "c7829"; nulltest !tested in parallel with c7520
+test capacitor "c7830"; nulltest !tested in parallel with c7520
+test capacitor "c7831"; nulltest !tested in parallel with c7520
+test capacitor "c7832"; nulltest !tested in parallel with c7520
+test capacitor "c7833"; nulltest !tested in parallel with c7520
+test capacitor "c7834"; nulltest !tested in parallel with c7520
+test capacitor "c7835"; nulltest !tested in parallel with c7520
+test capacitor "c7836"; nulltest !tested in parallel with c7520
+test capacitor "c7910"; nulltest !tested in parallel with c7520
+test capacitor "c7912"; nulltest !tested in parallel with c7520
+test capacitor "c7913"; nulltest !tested in parallel with c7520
+test capacitor "c7921"; nulltest !tested in parallel with c7520
+test capacitor "c7922"; nulltest !tested in parallel with c7520
+test capacitor "c7925"; nulltest !tested in parallel with c7520
+test capacitor "c7927"; nulltest !tested in parallel with c7520
+test capacitor "c7928"; nulltest !tested in parallel with c7520
+test capacitor "c7930"; nulltest !tested in parallel with c7520
+test capacitor "c7909"; nulltest !tested in parallel with c7520
+test capacitor "c7923"; nulltest !tested in parallel with c7520
+test capacitor "c7929"; nulltest !tested in parallel with c7520
+test capacitor "ec9725"; nulltest !tested in parallel with c7520
+test capacitor "ec9726"; nulltest !tested in parallel with c7520
+test capacitor "ec9727"; nulltest !tested in parallel with c7520
+test capacitor "ec9728"; nulltest !tested in parallel with c7520
+test capacitor "ec9729"; nulltest !tested in parallel with c7520
+test capacitor "ec9730"; nulltest !tested in parallel with c7520
+test capacitor "ec9731"; nulltest !tested in parallel with c7520
+test capacitor "pc5101"; nulltest !tested in parallel with c7520
+test capacitor "pc5108"; nulltest !tested in parallel with c7520
+test capacitor "pc5114"; nulltest !tested in parallel with c7520
+test capacitor "pc5116"; nulltest !tested in parallel with c7520
+test capacitor "pc5117"; nulltest !tested in parallel with c7520
+test capacitor "pc5118"; nulltest !tested in parallel with c7520
+test capacitor "q8302%cgs"; characterize
+test capacitor "c8301"; nulltest !tested in parallel with q8302%cgs
+test capacitor "c7315"
+test capacitor "c7324"; nulltest !tested in parallel with c7315
+test capacitor "c7703"; nulltest !tested in parallel with c7315
+test capacitor "c7728"; nulltest !tested in parallel with c7315
+test capacitor "c7316"; nulltest !tested in parallel with c7315
+test capacitor "c7727"; nulltest !tested in parallel with c7315
+test capacitor "c7729"; nulltest !tested in parallel with c7315
+test capacitor "c7734"; nulltest !tested in parallel with c7315
+test capacitor "c8308"; nulltest !tested in parallel with c7315
+test capacitor "c8303"; nulltest !tested in parallel with c7315
+test capacitor "c8307"; nulltest !tested in parallel with c7315
+test capacitor "pq8304%c12"; characterize
+test capacitor "c8309"; nulltest !tested in parallel with pq8304%c12
+test capacitor "ec1501"; nulltest !tested in parallel with pq8304%c12
+test capacitor "c9602"; characterize, comment
+test capacitor "ec1706"; nulltest !commented: see test c9602
+test capacitor "ec701"; characterize, comment
+test capacitor "ec702"; characterize
+test capacitor "ec1502"; characterize
+test capacitor "ec1701"; characterize
+test capacitor "ec1702"; characterize
+test capacitor "ec1704"; characterize, comment
+test capacitor "ec1705"; characterize
+test capacitor "ec1707"; characterize, comment
+test capacitor "ec1801"; characterize
+test capacitor "ec1802"; characterize
+test capacitor "ec1901"; characterize
+test capacitor "ec2709"; nulltest !tested in parallel with ec1901
+test capacitor "ec2501"; characterize
+test capacitor "ec2502"; characterize
+test capacitor "ec2503"; characterize
+test capacitor "ec2602"; characterize, comment
+test capacitor "ec2701"; characterize
+test capacitor "ec5205"; nulltest !tested in parallel with ec2701
+test capacitor "ec2703"
+test capacitor "ec2705"; nulltest !tested in parallel with ec2703
+test capacitor "ec9739"; nulltest !tested in parallel with ec2703
+test capacitor "ec9743"; nulltest !tested in parallel with ec2703
+test capacitor "ec9744"; nulltest !tested in parallel with ec2703
+test capacitor "ec2704"; nulltest !tested in parallel with ec2703
+test capacitor "ec2706"; nulltest !tested in parallel with ec2703
+test capacitor "ec2707"; nulltest !tested in parallel with ec2703
+test capacitor "ec9745"; nulltest !tested in parallel with ec2703
+test capacitor "ec2708"; characterize
+test capacitor "ec2901"; characterize
+test capacitor "ec2902"; characterize
+test capacitor "ec2903"; characterize
+test capacitor "ec2904"; characterize
+test capacitor "ec2905"; characterize
+test capacitor "ec2906"; characterize
+test capacitor "ec2907"; characterize
+test capacitor "ec2908"; characterize
+test capacitor "c3106"
+test capacitor "ec3101"; nulltest !tested in parallel with c3106
+test capacitor "ec3102"; nulltest !tested in parallel with c3106
+test capacitor "ec3103"; nulltest !tested in parallel with c3106
+test capacitor "ec3104"; nulltest !tested in parallel with c3106
+test capacitor "ec3105"; nulltest !tested in parallel with c3106
+test capacitor "ec3106"; nulltest !tested in parallel with c3106
+test capacitor "ec3107"; nulltest !tested in parallel with c3106
+test capacitor "ec3108"; nulltest !tested in parallel with c3106
+test capacitor "ec4202"; comment
+test capacitor "pc4202"; nulltest !commented: see test ec4202
+test capacitor "ec4201"; nulltest !commented: see test ec4202
+test capacitor "ec4301"; characterize, comment
+test capacitor "ec4302"; characterize, comment
+test capacitor "pc4415"
+test capacitor "pc4417"; nulltest !tested in parallel with pc4415
+test capacitor "ec4303"; nulltest !tested in parallel with pc4415
+test capacitor "pc4419"; nulltest !tested in parallel with pc4415
+test capacitor "pc4423"; nulltest !tested in parallel with pc4415
+test capacitor "ec4304"; nulltest !tested in parallel with pc4415
+test capacitor "pc4416"; nulltest !tested in parallel with pc4415
+test capacitor "pc4418"; nulltest !tested in parallel with pc4415
+test capacitor "pc4420"; nulltest !tested in parallel with pc4415
+test capacitor "pq4203%c12"; characterize
+test capacitor "ec4305"; nulltest !tested in parallel with pq4203%c12
+test capacitor "ec6103"; characterize
+test capacitor "ec6104"; characterize
+test capacitor "ec6105"; characterize
+test capacitor "ec6201"; characterize
+test capacitor "ec6202"; characterize
+test capacitor "ec6203"; characterize, comment
+test capacitor "ec6204"; characterize, comment
+test capacitor "ec6205"; characterize, comment
+test capacitor "ec6206"; characterize, comment
+test capacitor "pc4206"
+test capacitor "pc4203"; nulltest !tested in parallel with pc4206
+test capacitor "pc4204"; nulltest !tested in parallel with pc4206
+test capacitor "pc4205"; nulltest !tested in parallel with pc4206
+test capacitor "pq4408%c45"; characterize
+test capacitor "pc4401"; nulltest !tested in parallel with pq4408%c45
+test capacitor "pu4405%cgs"
+test capacitor "pc4413"; nulltest !tested in parallel with pu4405%cgs
+test capacitor "pc4424"; characterize
+test capacitor "pc4427"; characterize
+test capacitor "pc4433"; characterize
+test capacitor "pc4434"; characterize
+test capacitor "pc4514"; characterize
+test capacitor "pc4520"; characterize, comment
+test capacitor "pc4521"; characterize
+test capacitor "pc4522"; characterize
+test capacitor "pc4523"; characterize
+test capacitor "pc4532"; characterize
+test capacitor "pc4533"; characterize
+test capacitor "pc4534"; characterize
+test capacitor "pc4536"; characterize, comment
+test capacitor "pc4601"; characterize
+test capacitor "pc4610"; characterize
+test capacitor "pc4709"; nulltest
+test capacitor "pc4717"
+test capacitor "pc4718"; nulltest !tested in parallel with pc4717
+test capacitor "pc4719"; nulltest !tested in parallel with pc4717
+test capacitor "pc4720"; nulltest !tested in parallel with pc4717
+test capacitor "pc4721"; nulltest !tested in parallel with pc4717
+test capacitor "pc4724"; nulltest !tested in parallel with pc4717
+test capacitor "pc4725"; nulltest !tested in parallel with pc4717
+test capacitor "pc4726"; nulltest !tested in parallel with pc4717
+test capacitor "pc4730"; nulltest !tested in parallel with pc4717
+test capacitor "pc4731"; nulltest !tested in parallel with pc4717
+test capacitor "pc4732"; nulltest !tested in parallel with pc4717
+test capacitor "pc4733"; nulltest !tested in parallel with pc4717
+test capacitor "pc4734"; nulltest !tested in parallel with pc4717
+test capacitor "pc4736"; nulltest !tested in parallel with pc4717
+test capacitor "pc4739"; nulltest !tested in parallel with pc4717
+test capacitor "pc4740"; nulltest !tested in parallel with pc4717
+test capacitor "pc4741"; nulltest !tested in parallel with pc4717
+test capacitor "pc4742"; nulltest !tested in parallel with pc4717
+test capacitor "pc4744"; nulltest !tested in parallel with pc4717
+test capacitor "pc4723"; nulltest !tested in parallel with pc4717
+test capacitor "ec4701"; nulltest !tested in parallel with pc4717
+test capacitor "pc4710"; nulltest !tested in parallel with pc4717
+test capacitor "pc4722"; nulltest !tested in parallel with pc4717
+test capacitor "pc4727"; nulltest !tested in parallel with pc4717
+test capacitor "pc4728"; nulltest !tested in parallel with pc4717
+test capacitor "pc4729"; nulltest !tested in parallel with pc4717
+test capacitor "pc4735"; nulltest !tested in parallel with pc4717
+test capacitor "pc4737"; nulltest !tested in parallel with pc4717
+test capacitor "pc4738"; nulltest !tested in parallel with pc4717
+test capacitor "pc4743"; nulltest !tested in parallel with pc4717
+test capacitor "pt4701"; nulltest !tested in parallel with pc4717
+test capacitor "pc4821"; characterize
+test capacitor "pc4823"; characterize, comment
+test capacitor "pc4838"; characterize, comment
+test capacitor "pc4906"; characterize
+test capacitor "pc4922"; nulltest
+test capacitor "pc5110"; characterize
+test capacitor "pc5111"; characterize, comment
+test capacitor "pc5112"; characterize
+test capacitor "pc8201"; characterize
+test capacitor "pc8203"; characterize
+test capacitor "pc8223"
+test capacitor "pc8204"; nulltest !tested in parallel with pc8223
+test capacitor "pc8205"; characterize
+test capacitor "pc8206"; characterize, comment
+test capacitor "pc8217"; characterize, comment
+test capacitor "pc8218"; characterize, comment
+test capacitor "pc8222"; characterize, comment
+test capacitor "pc8225"; characterize, comment
+test capacitor "pc8226"; characterize, comment
+test capacitor "c3515"
+test capacitor "c3516"; nulltest !tested in parallel with c3515
+test capacitor "c3518"; nulltest !tested in parallel with c3515
+test capacitor "c3517"; nulltest !tested in parallel with c3515
+test capacitor "tc6301"; nulltest !tested in parallel with c3515
+test capacitor "c2712"
+test capacitor "c2713"
+test capacitor "c5610"
+test capacitor "c2705"
+test capacitor "c1101"
+test capacitor "c1102"; nulltest !tested in parallel with c1101
+test capacitor "c1901"
+test capacitor "c1902"
+test capacitor "c2114"
+test capacitor "c2416"
+test capacitor "c2703"
+test capacitor "c2704"
+test capacitor "c3015"
+test capacitor "q3004%cgs"; nulltest !tested in parallel with c3015
+test capacitor "c5206"
+test capacitor "c5201"; nulltest !tested in parallel with c5206
+test capacitor "pc4201"
+test capacitor "pu4201%cgs"; nulltest !tested in parallel with pc4201
+test capacitor "pc4208"
+test capacitor "pc4407"
+test capacitor "pc4524"
+test capacitor "pc5120"
+test capacitor "c1201"
+test capacitor "c1202"; nulltest !tested in parallel with c1201
+test capacitor "c1218"; nulltest !tested in parallel with c1201
+test capacitor "c1601"
+test capacitor "c1602"; nulltest
+test capacitor "c1603"
+test capacitor "c1604"; nulltest
+test capacitor "c1605"
+test capacitor "c1606"
+test capacitor "c1607"
+test capacitor "c1608"
+test capacitor "c1609"
+test capacitor "c1610"
+test capacitor "c1611"
+test capacitor "c1612"
+test capacitor "c2110"
+test capacitor "c2414"
+test capacitor "pc4422"; nulltest !tested in parallel with c2414
+test capacitor "c2417"
+test capacitor "q2402%cgs"; nulltest !tested in parallel with c2417
+test capacitor "c2612"
+test capacitor "c2613"; nulltest !tested in parallel with c2612
+test capacitor "c2706"
+test capacitor "c2708"; nulltest !tested in parallel with c2706
+test capacitor "c2707"; nulltest !tested in parallel with c2706
+test capacitor "c2709"; nulltest !tested in parallel with c2706
+test capacitor "c2711"
+test capacitor "c2710"; nulltest !tested in parallel with c2711
+test capacitor "c2720"
+test capacitor "c3014"
+test capacitor "c3016"
+test capacitor "c3403"
+test capacitor "c3404"
+test capacitor "c3604"
+test capacitor "c5203"
+test capacitor "c5209"
+test capacitor "c5210"
+test capacitor "c5211"
+test capacitor "c5212"
+test capacitor "c5213"
+test capacitor "c5402"
+test capacitor "c5403"
+test capacitor "c5404"
+test capacitor "c5405"
+test capacitor "c5406"
+test capacitor "c5407"
+test capacitor "c5408"
+test capacitor "c5409"
+test capacitor "c6201"
+test capacitor "c6204"
+test capacitor "q6203%cgs"; nulltest !tested in parallel with c6204
+test capacitor "pc4402"; nulltest
+test capacitor "pc4421"; nulltest
+test capacitor "pc4516"
+test capacitor "pc4535"
+test capacitor "pc4708"; comment
+test capacitor "pc4707"; nulltest !commented: see test pc4708
+test capacitor "pc4822"
+test capacitor "pc4903"
+test capacitor "pc4919"
+test capacitor "pc8211"
+test capacitor "pc8216"
+test capacitor "c1801"; characterize
+test capacitor "c1802"; characterize
+test capacitor "c1903"; characterize
+test capacitor "c1904"; characterize
+test capacitor "c3001"; characterize
+test capacitor "c3011"; characterize
+test capacitor "c7607"; characterize
+test capacitor "c7608"; characterize
+test capacitor "c2101"
+test capacitor "pc4010"
+test capacitor "pc4210"
+test capacitor "c2702"
+test capacitor "c2715"
+test capacitor "c2718"; nulltest
+test capacitor "c2907"
+test capacitor "c2908"
+test capacitor "pc4526"
+test capacitor "c3101"; nulltest
+test capacitor "c5602"
+test capacitor "c5603"
+test capacitor "c5607"
+test capacitor "c5608"
+test capacitor "c5611"
+test capacitor "c5612"
+test capacitor "c5615"
+test capacitor "c5616"
+test capacitor "pc4209"
+test capacitor "pq4208%cgs"; nulltest !tested in parallel with pc4209
+test capacitor "pc4412"
+test capacitor "pc4425"
+test capacitor "pq4408%c12"; nulltest !tested in parallel with pc4425
+test capacitor "pc4902"
+test capacitor "pc8302"
+test capacitor "c3601"; characterize
+test capacitor "c3602"; characterize
+test capacitor "c8305"; characterize
+test capacitor "c3701"
+test capacitor "c3702"
+test capacitor "pc4609"; characterize
+test capacitor "pc4612"; characterize, comment
+test capacitor "pc4613"; characterize, comment
+test capacitor "pq4201%cgd"; characterize
+test capacitor "pq4201%cgs"; characterize
+test capacitor "pq4203%c26"; characterize
+test capacitor "pq4203%c35"; characterize
+test capacitor "pq4203%c45"; characterize
+test capacitor "pq4206%c12"; nulltest
+test capacitor "pq4206%c26"; nulltest
+test capacitor "pq4206%c35"; nulltest
+test capacitor "pq4206%c45"; characterize
+test capacitor "pq4208%cgd"; characterize
+test capacitor "pq4402%c12"; characterize
+test capacitor "pq4402%c26"; characterize
+test capacitor "pq4402%c35"; nulltest
+test capacitor "pq4402%c45"; characterize
+test capacitor "pq4407%c12"; characterize
+test capacitor "pq4407%c26"; characterize
+test capacitor "pq4407%c35"; characterize
+test capacitor "pq4407%c45"; characterize
+test capacitor "pq4408%c26"; characterize
+test capacitor "pq4408%c35"; characterize
+test capacitor "pq8304%c26"; characterize
+test capacitor "pq8304%c35"; characterize
+test capacitor "pq8304%c45"
+test capacitor "pq8306%cgs"; nulltest !tested in parallel with pq8304%c45
+test capacitor "pq8305%c12"; characterize
+test capacitor "pq8305%c26"; characterize
+test capacitor "pq8305%c35"; characterize
+test capacitor "pq8305%c45"
+test capacitor "pq8307%cgs"; nulltest !tested in parallel with pq8305%c45
+test capacitor "pq8306%cgd"; characterize
+test capacitor "pq8307%cgd"; characterize
+test capacitor "q1201%cgd"
+test capacitor "q1202%cgd"; nulltest !tested in parallel with q1201%cgd
+test capacitor "q1201%cgs"; characterize
+test capacitor "q1202%cgs"; characterize
+test capacitor "q1701%c12"; characterize
+test capacitor "q1701%c26"; characterize
+test capacitor "q1701%c35"; characterize
+test capacitor "q1701%c45"; characterize
+test capacitor "q1801%c12"; characterize, comment
+test capacitor "q1801%c26"; characterize, comment
+test capacitor "q1801%c35"; characterize, comment
+test capacitor "q1801%c45"; characterize, comment
+test capacitor "q1901%cgd"; characterize
+test capacitor "q1901%cgs"; characterize
+test capacitor "q2401%cgd"; characterize
+test capacitor "q2401%cgs"; characterize
+test capacitor "q2402%cgd"; characterize
+test capacitor "q2403%cgd"; characterize
+test capacitor "q2403%cgs"; characterize
+test capacitor "q2505%cgd"; characterize
+test capacitor "q2505%cgs"; characterize
+test capacitor "q2602%cgd"; characterize
+test capacitor "q2602%cgs"; characterize
+test capacitor "q2901%cgd"; nulltest
+test capacitor "q3001%cgd"; characterize
+test capacitor "q3001%cgs"; characterize
+test capacitor "q3004%cgd"; characterize
+test capacitor "q5402%c12"; characterize
+test capacitor "q5402%c26"; characterize
+test capacitor "q5402%c35"; characterize
+test capacitor "q5402%c45"; characterize
+test capacitor "q5403%cgd"; characterize
+test capacitor "q6202%cgd"; characterize
+test capacitor "q6202%cgs"; characterize
+test capacitor "q6203%cgd"; characterize
+test capacitor "q7301%cgd"; characterize
+test capacitor "q7301%cgs"; characterize
+test capacitor "q7601%c12"; characterize
+test capacitor "q7601%c26"; characterize, comment
+test capacitor "q7601%c35"; characterize, comment
+test capacitor "q7601%c45"; characterize
+test capacitor "q7602%c12"; characterize
+test capacitor "q7602%c26"; characterize
+test capacitor "q7602%c35"; characterize
+test capacitor "q7602%c45"; characterize
+test capacitor "q7606%cgd"; characterize
+test capacitor "q7606%cgs"; characterize
+test capacitor "q8301%cgd"; characterize
+test capacitor "q8301%cgs"; characterize
+test capacitor "q8302%cgd"; characterize
+test capacitor "c7301"; nulltest
+test capacitor "c7302"
+test capacitor "c7303"
+test capacitor "c7304"
+test capacitor "c7305"
+test capacitor "c7306"
+test capacitor "c7307"
+test capacitor "c7308"
+test capacitor "pc4706"
+test capacitor "pc4918"
+test capacitor "c7609"
+test capacitor "c7803"; characterize, comment
+test capacitor "c7902"; characterize, comment
+test capacitor "c8316"
+test capacitor "pc4411"
+test capacitor "pc4611"
+test capacitor "pc8219"; characterize, comment
+test capacitor "pq4410%c12"; nulltest
+test capacitor "pq4410%c26"; characterize
+test capacitor "pq4410%c35"; characterize
+test capacitor "pq4410%c45"; characterize
+test capacitor "q2601%c12"; nulltest
+test capacitor "q2601%c26"; characterize, comment
+test capacitor "q2601%c35"; characterize, comment
+test capacitor "q2601%c45"; characterize
+test capacitor "q3601%c12"; nulltest
+test capacitor "q3601%c26"; characterize
+test capacitor "q3601%c35"; characterize
+test capacitor "q3601%c45"; characterize
+test capacitor "q6204%c12"; nulltest
+test capacitor "q6204%c26"; characterize
+test capacitor "q6204%c35"; characterize
+test capacitor "q6204%c45"; characterize
+test capacitor "q7603%c12"; nulltest
+test capacitor "q7603%c26"; characterize
+test capacitor "q7603%c35"; characterize
+test capacitor "q7603%c45"; characterize
+test capacitor "u2901%c12"; nulltest
+test capacitor "u2901%c26"; characterize
+test capacitor "u2901%c35"; characterize
+test capacitor "u2901%c45"; characterize
+test capacitor "pq8308%cgs"
+test capacitor "pu4402%cgs"
+test capacitor "pu4403%cgs"; comment
+test capacitor "pu4406%cgs"
+test capacitor "pu4501%cgs"
+test capacitor "pu4502%cgs"
+test capacitor "pu4504%cgs"
+test capacitor "pu4505%cgs"
+test capacitor "pu4805%cgs"
+test capacitor "pu4808%cgs"
+test capacitor "pu4902%cgs"
+test capacitor "pu4903%cgs"
+test capacitor "pu8202%cgs"
+test capacitor "pu8204%cgs"; nulltest !tested in parallel with pu8202%cgs
+test capacitor "pu8203%cgs"
+test capacitor "pu8205%cgs"; nulltest !tested in parallel with pu8203%cgs
+test capacitor "pu8206%cgs"
+test capacitor "pu8208%cgs"; nulltest !tested in parallel with pu8206%cgs
+test capacitor "pu8207%cgs"
+test capacitor "pu8209%cgs"; nulltest !tested in parallel with pu8207%cgs
+test capacitor "pu4701%c12"; characterize
+test capacitor "pu4701%c19"; characterize
+test capacitor "pu4701%c85"; characterize, comment
+test capacitor "pu4701%c89"; characterize, comment
+test resistor "pq4204%r1"
+test resistor "pq4205%r1"
+test resistor "q2603%r1"; nulltest
+test resistor "q3002%r1"
+test resistor "q3003%r1"
+test resistor "q6103%r1"
+test resistor "q6104%r1"
+test resistor "q6201%r1"
+test resistor "pr4202"
+test resistor "r3015"
+test resistor "pr4203"
+test resistor "pr4401"
+test resistor "pr4435"
+test resistor "pr4523"
+test resistor "pr4704"; nulltest
+test resistor "pr4822"
+test resistor "pr4903"
+test resistor "pr8258"
+test resistor "r405"
+test resistor "r1510"
+test resistor "r1701"
+test resistor "r1726"
+test resistor "r1902"
+test resistor "r2005"
+test resistor "r2010"
+test resistor "r2013"
+test resistor "r2015"; nulltest
+test resistor "r2023"
+test resistor "r2026"
+test resistor "r2414"
+test resistor "r2415"
+test resistor "r2418"
+test resistor "r2436"
+test resistor "r2439"
+test resistor "r3021"
+test resistor "r3033"
+test resistor "r5208"
+test resistor "r5412"
+test resistor "r6203"
+test resistor "r7302"
+test resistor "r7303"
+test resistor "r7508"
+test resistor "r7509"
+test resistor "r7510"
+test resistor "r7511"
+test resistor "r7512"
+test resistor "r7518"
+test resistor "r7601"
+test resistor "r7606"
+test resistor "r7612"
+test resistor "r7614"
+test resistor "r7616"; nulltest !tested in parallel with r7614
+test resistor "r7615"
+test resistor "r7618"
+test resistor "r7640"; nulltest !tested in parallel with r7618
+test resistor "r7641"; nulltest !tested in parallel with r7618
+test resistor "r7642"; nulltest !tested in parallel with r7618
+test resistor "r7620"
+test resistor "r7651"; nulltest !tested in parallel with r7620
+test resistor "r7622"
+test resistor "r7625"
+test resistor "r7646"; nulltest !tested in parallel with r7625
+test resistor "r7628"
+test resistor "r7632"
+test resistor "r7645"
+test resistor "pr4204"
+test resistor "r3605"
+test resistor "pr4205"
+test resistor "r1805"
+test resistor "r1806"
+test resistor "r1907"
+test resistor "r1912"
+test resistor "r2419"
+test resistor "r2420"
+test resistor "r2422"
+test resistor "r2423"
+test resistor "pr4206"
+test resistor "pr4211"
+test resistor "pr4216"; comment
+test resistor "pr4406"; nulltest
+test resistor "pr4410"
+test resistor "pr4418"; nulltest
+test resistor "pr4423"
+test resistor "pr4424"
+test resistor "pr4425"
+test resistor "pr4426"; nulltest
+test resistor "pr4428"
+test resistor "pr4433"
+test resistor "pr4436"
+test resistor "pr4438"
+test resistor "pr4439"
+test resistor "pr4446"; nulltest
+test resistor "pr4448"
+test resistor "pr4452"
+test resistor "pr4454"
+test resistor "pr4464"
+test resistor "pr4465"
+test resistor "pr4466"
+test resistor "pr4467"
+test resistor "pr4468"
+test resistor "pr4469"
+test resistor "pr4470"
+test resistor "pr4471"
+test resistor "pr4472"; comment
+test resistor "pr4473"
+test resistor "pr4474"
+test resistor "pr4475"
+test resistor "pr4476"
+test resistor "pr4501"
+test resistor "pr4504"; nulltest
+test resistor "pr4506"; nulltest
+test resistor "pr4507"; nulltest
+test resistor "pr4525"
+test resistor "pr4529"
+test resistor "pr4530"
+test resistor "r3602"; nulltest !tested in parallel with pr4530
+test resistor "pr4532"; nulltest
+test resistor "pr4533"
+test resistor "pr4534"
+test resistor "pr4535"
+test resistor "r703"
+test resistor "pr4601"; nulltest !tested in parallel with r703
+test resistor "r401"
+test resistor "pr4602"; nulltest !tested in parallel with r401
+test resistor "pr4606"
+test resistor "pr4616"; nulltest
+test resistor "pr4618"; nulltest
+test resistor "pr4619"; nulltest
+test resistor "pr4621"; nulltest
+test resistor "pr4617"
+test resistor "pr4622"; nulltest !tested in parallel with pr4617
+test resistor "pr4624"; nulltest
+test resistor "pr4628"; nulltest
+test resistor "pr4706"; nulltest
+test resistor "pr4819"; nulltest
+test resistor "pr4821"; nulltest
+test resistor "pr4837"
+test resistor "r3601"
+test resistor "pr4904"; nulltest !tested in parallel with r3601
+test resistor "pr4906"; nulltest
+test resistor "pr4907"; nulltest
+test resistor "pr4911"; nulltest
+test resistor "pr4912"; nulltest
+test resistor "pr5102"
+test resistor "pr5103"
+test resistor "pr5104"
+test resistor "pr5110"; nulltest
+test resistor "pr5111"
+test resistor "pr5112"
+test resistor "pr5113"
+test resistor "pr5114"
+test resistor "pr8207"; nulltest
+test resistor "pr8215"
+test resistor "pr8216"
+test resistor "pr8220"; nulltest
+test resistor "pr8221"; nulltest
+test resistor "pr8257"; nulltest
+test resistor "pr8259"; comment
+test resistor "pr8260"; comment
+test resistor "pr8203"
+test resistor "pr8301"; nulltest !tested in parallel with pr8203
+test resistor "pr8310"
+test resistor "pr8314"
+test resistor "r402"
+test resistor "r404"; nulltest
+test resistor "r411"
+test resistor "r604"
+test resistor "r606"
+test resistor "r706"
+test resistor "r710"
+test resistor "r711"; nulltest
+test resistor "r1101"
+test resistor "r1102"; nulltest
+test resistor "r1103"; nulltest
+test resistor "r1104"; nulltest
+test resistor "r1105"
+test resistor "r1201"; nulltest
+test resistor "r1202"; nulltest
+test resistor "r1204"
+test resistor "r1205"; nulltest
+test resistor "r1509"
+test resistor "r8305"; nulltest !tested in parallel with r1509
+test resistor "r1511"; comment
+test resistor "r1705"
+test resistor "r1706"; nulltest
+test resistor "r1707"; nulltest
+test resistor "r1709"; nulltest
+test resistor "r1713"; nulltest
+test resistor "r1715"
+test resistor "r1717"
+test resistor "r1718"
+test resistor "r1721"
+test resistor "r1724"
+test resistor "r1725"
+test resistor "r1729"
+test resistor "r1801"; nulltest
+test resistor "r1804"
+test resistor "r1807"; nulltest
+test resistor "r1808"; nulltest
+test resistor "r1809"; nulltest
+test resistor "r1810"; nulltest
+test resistor "r1811"; nulltest
+test resistor "r1812"; nulltest
+test resistor "r1904"; nulltest
+test resistor "r1905"
+test resistor "r1908"; nulltest
+test resistor "r1911"; nulltest
+test resistor "r1913"
+test resistor "r1916"
+test resistor "r1917"
+test resistor "r1918"
+test resistor "r1919"
+test resistor "r1920"
+test resistor "r2001"; nulltest
+test resistor "r2002"; nulltest
+test resistor "r2004"; nulltest
+test resistor "r2006"
+test resistor "r2008"; comment
+test resistor "r2009"; nulltest
+test resistor "r2011"; nulltest
+test resistor "r2012"
+test resistor "r2014"
+test resistor "r2016"; nulltest
+test resistor "r2017"; nulltest
+test resistor "r2020"; nulltest
+test resistor "r2022"; nulltest
+test resistor "r2024"; comment
+test resistor "r2025"; comment
+test resistor "r2027"
+test resistor "r2028"; nulltest
+test resistor "r2029"; nulltest
+test resistor "r2030"
+test resistor "r2031"; nulltest
+test resistor "r2101"; nulltest
+test resistor "r2102"; nulltest
+test resistor "r2103"; nulltest
+test resistor "r2105"; nulltest
+test resistor "r2108"; nulltest
+test resistor "r2112"; nulltest
+test resistor "r2114"
+test resistor "r2117"; nulltest
+test resistor "r2118"; nulltest
+test resistor "r2123"
+test resistor "r2401"; nulltest
+test resistor "r2402"; nulltest
+test resistor "r2445"
+test resistor "r2405"; nulltest !tested in parallel with r2445
+test resistor "r2446"; nulltest !tested in parallel with r2445
+test resistor "r2408"; nulltest
+test resistor "r2409"; nulltest
+test resistor "r2410"; nulltest
+test resistor "r2411"
+test resistor "r2412"
+test resistor "r2413"
+test resistor "r2416"; nulltest
+test resistor "r2417"; nulltest
+test resistor "r2421"
+test resistor "r6401"; nulltest !tested in parallel with r2421
+test resistor "r2424"
+test resistor "r2427"; nulltest
+test resistor "r2428"; nulltest
+test resistor "r2430"; nulltest
+test resistor "r2434"
+test resistor "r2435"; nulltest
+test resistor "r2438"
+test resistor "r2440"; nulltest
+test resistor "r2441"; nulltest
+test resistor "r2442"
+test resistor "r2443"
+test resistor "r2444"; nulltest
+test resistor "r2450"
+test resistor "r2451"
+test resistor "r2453"
+test resistor "r2601"
+test resistor "r2602"
+test resistor "r2603"
+test resistor "r2604"
+test resistor "r2605"
+test resistor "r2606"; nulltest
+test resistor "r2607"
+test resistor "r2609"
+test resistor "r2611"; nulltest
+test resistor "r2701"; nulltest
+test resistor "r2702"
+test resistor "r2704"; nulltest !tested in parallel with r2702
+test resistor "r2703"; nulltest
+test resistor "r2705"; nulltest
+test resistor "r2706"
+test resistor "r2707"
+test resistor "r2708"; nulltest
+test resistor "r2710"
+test resistor "r2714"; nulltest
+test resistor "r2718"; nulltest
+test resistor "r2719"; nulltest
+test resistor "r2901"; nulltest
+test resistor "r2902"; nulltest
+test resistor "r2903"; nulltest
+test resistor "r2904"; nulltest
+test resistor "r2905"
+test resistor "r2906"; nulltest
+test resistor "r2907"; nulltest
+test resistor "r2909"; nulltest
+test resistor "r2911"; nulltest
+test resistor "r2914"; comment
+test resistor "r2915"
+test resistor "r2916"; nulltest
+test resistor "r2917"
+test resistor "r2918"
+test resistor "r2919"
+test resistor "r2920"
+test resistor "r2923"; nulltest
+test resistor "r3001"; nulltest
+test resistor "r3003"
+test resistor "r3004"
+test resistor "r3005"; nulltest
+test resistor "r3006"; nulltest
+test resistor "r3016"; nulltest
+test resistor "r3408"; nulltest
+test resistor "r3409"; nulltest
+test resistor "r3410"; nulltest
+test resistor "r3411"; nulltest
+test resistor "r3501"; comment
+test resistor "r3502"; comment
+test resistor "r3607"
+test resistor "r3608"
+test resistor "r3609"; nulltest
+test resistor "r3610"; nulltest
+test resistor "r3611"; nulltest
+test resistor "r3704"
+test resistor "r3710"
+test resistor "r3802"
+test resistor "r4909"; nulltest
+test resistor "r4910"
+test resistor "r5201"; nulltest
+test resistor "r5203"; nulltest
+test resistor "r5204"; nulltest
+test resistor "r5205"; nulltest
+test resistor "r5206"; nulltest
+test resistor "r5207"
+test resistor "r5209"; comment
+test resistor "r5212"; nulltest
+test resistor "r5222"
+test resistor "r5224"; nulltest
+test resistor "r5230"; nulltest
+test resistor "r5231"; comment
+test resistor "r6217"; nulltest !commented: see test r5231
+test resistor "r5401"; nulltest
+test resistor "r5402"; nulltest
+test resistor "r5403"; nulltest
+test resistor "r5404"; nulltest
+test resistor "r5405"; nulltest
+test resistor "r5406"; nulltest
+test resistor "r5407"; nulltest
+test resistor "r5408"; nulltest
+test resistor "r5409"; nulltest
+test resistor "r5410"
+test resistor "r5413"; comment
+test resistor "r5418"
+test resistor "r5419"; nulltest
+test resistor "r5602"; nulltest
+test resistor "r5603"; comment
+test resistor "r5604"; comment
+test resistor "r5801"; comment
+test resistor "r5802"; nulltest
+test resistor "r5803"; nulltest
+test resistor "r5804"
+test resistor "r5805"; nulltest
+test resistor "r5806"
+test resistor "r5807"
+test resistor "r6104"; nulltest
+test resistor "r6105"; nulltest
+test resistor "r6202"; nulltest
+test resistor "r6204"
+test resistor "r6208"
+test resistor "r6209"; comment
+test resistor "r6210"
+test resistor "r6213"; comment
+test resistor "r6215"
+test resistor "r6501"
+test resistor "r6502"
+test resistor "r7304"
+test resistor "r7305"
+test resistor "r7307"
+test resistor "r7308"
+test resistor "r7312"
+test resistor "r7501"; nulltest
+test resistor "r7503"
+test resistor "r7519"
+test resistor "r7603"
+test resistor "r7607"
+test resistor "r7608"; comment
+test resistor "r7609"; comment
+test resistor "r7611"; comment
+test resistor "r7613"
+test resistor "r7617"; comment
+test resistor "r7619"
+test resistor "r7638"; nulltest !tested in parallel with r7619
+test resistor "r7639"; nulltest !tested in parallel with r7619
+test resistor "r7621"; comment
+test resistor "r7623"
+test resistor "r7624"; nulltest
+test resistor "r7626"; nulltest
+test resistor "r7627"
+test resistor "r7629"
+test resistor "r7630"
+test resistor "r7631"
+test resistor "r7633"
+test resistor "r7634"; comment
+test resistor "r7635"; comment
+test resistor "r7636"
+test resistor "r7637"; comment
+test resistor "r7643"
+test resistor "r7644"
+test resistor "r7647"
+test resistor "r7648"
+test resistor "r7649"
+test resistor "r7650"
+test resistor "r8301"
+test resistor "r8302"
+test resistor "r8303"
+test resistor "r8315"
+test resistor "r9601"
+test resistor "r9602"
+test resistor "r9603"
+test resistor "r9604"
+test resistor "r9605"
+test resistor "pr4207"
+test resistor "pr4208"
+test resistor "pr4431"
+test resistor "r709"
+test resistor "r712"
+test resistor "pr4209"
+test resistor "pr4212"; nulltest
+test resistor "pr4213"; nulltest
+test resistor "pr4218"
+test resistor "pr4403"
+test resistor "pr4417"
+test resistor "pr4419"
+test resistor "pr4430"
+test resistor "pr4434"
+test resistor "pr4610"
+test resistor "pr8311"
+test resistor "pr8313"
+test resistor "r707"
+test resistor "r713"
+test resistor "r1727"
+test resistor "r2007"
+test resistor "r2406"
+test resistor "r2407"
+test resistor "r2426"
+test resistor "r2447"
+test resistor "r2610"
+test resistor "r2711"
+test resistor "r2722"
+test resistor "r3023"
+test resistor "r5202"
+test resistor "r5607"
+test resistor "r6207"
+test resistor "r7306"
+test resistor "r7605"
+test resistor "r7610"; nulltest
+test resistor "pr4210"
+test resistor "pr4215"
+test resistor "pr4908"
+test resistor "pr8256"
+test resistor "r605"
+test resistor "r1702"
+test resistor "r1703"
+test resistor "r1909"
+test resistor "r2018"
+test resistor "r2432"
+test resistor "r2449"
+test resistor "r2452"
+test resistor "r2502"
+test resistor "r2717"
+test resistor "r2921"
+test resistor "r2922"
+test resistor "r3014"
+test resistor "r3603"
+test resistor "r6201"
+test resistor "r6214"
+test resistor "pr4214"; nulltest
+test resistor "pr4412"
+test resistor "rn2401%r1"; nulltest !tested in parallel with pr4412
+test resistor "pr4415"
+test resistor "rn2401%r2"; nulltest !tested in parallel with pr4415
+test resistor "pr4404"; nulltest
+test resistor "r1601"; nulltest
+test resistor "r1803"
+test resistor "r1906"
+test resistor "pr4405"
+test resistor "pr4824"
+test resistor "pr4407"
+test resistor "pr4408"
+test resistor "pr4421"
+test resistor "pr4604"
+test resistor "r901"; nulltest !tested in parallel with pr4604
+test resistor "pr8315"
+test resistor "pr8316"
+test resistor "pr8317"
+test resistor "r2908"
+test resistor "r2910"
+test resistor "pr4411"
+test resistor "pr4413"
+test resistor "pr4414"
+test resistor "pr4427"
+test resistor "pr4429"
+test resistor "r5411"
+test resistor "pr4432"
+test resistor "pr4437"
+test resistor "pr4512"
+test resistor "pr4517"
+test resistor "pr4526"
+test resistor "pr4527"
+test resistor "pr4531"
+test resistor "pr4603"
+test resistor "pr4607"
+test resistor "pr4613"
+test resistor "pr4614"
+test resistor "pr4615"
+test resistor "pr4620"
+test resistor "pr4630"
+test resistor "r704"; nulltest !tested in parallel with pr4630
+test resistor "pr4702"; comment
+test resistor "pr4708"; nulltest !commented: see test pr4702
+test resistor "pr4703"; nulltest
+test resistor "pr4705"
+test resistor "pr4707"; comment
+test resistor "r1915"
+test resistor "r2504"
+test resistor "pr4817"
+test resistor "pr4823"
+test resistor "pr4901"
+test resistor "pr4902"
+test resistor "pr8201"
+test resistor "pr8206"
+test resistor "pr8209"
+test resistor "pr8212"
+test resistor "pr8213"
+test resistor "r409"
+test resistor "r702"
+test resistor "r5210"
+test resistor "r5233"
+test resistor "r6102"
+test resistor "pr8222"
+test resistor "pr8224"
+test resistor "pr8312"
+test resistor "r1720"
+test resistor "r1903"
+test resistor "r2425"
+test resistor "r2431"
+test resistor "r403"
+test resistor "r406"
+test resistor "r407"
+test resistor "r408"
+test resistor "r410"
+test resistor "rn5402%r1-8"
+test resistor "rn5402%r2-7"
+test resistor "rn5402%r3-6"
+test resistor "rn5402%r4-5"
+test resistor "rn5403%r1-8"
+test resistor "rn5403%r2-7"
+test resistor "rn5403%r3-6"
+test resistor "rn5403%r4-5"
+test resistor "r601"
+test resistor "r602"
+test resistor "r2003"
+test resistor "r603"; nulltest
+test resistor "r1714"
+test resistor "r701"
+test resistor "r2429"
+test resistor "r705"
+test resistor "r5414"
+test resistor "r5415"
+test resistor "r5416"
+test resistor "r5417"
+test resistor "r7604"
+test resistor "r801"
+test resistor "r3707"
+test resistor "r3711"
+test resistor "r1206"
+test resistor "r1207"
+test resistor "r1208"
+test resistor "r1602"
+test resistor "r1802"
+test resistor "r1901"
+test resistor "r2404"
+test resistor "r2433"
+test resistor "r3022"
+test resistor "r2501"
+test resistor "r2912"
+test resistor "r2913"
+test resistor "r3606"
+test resistor "r6211"
+test resistor "r2608"
+test resistor "r2709"
+test resistor "r3032"
+test resistor "r7301"
+test resistor "r3701"
+test resistor "r3703"
+test resistor "r3706"
+test resistor "r3709"
+test resistor "r4622"
+test resistor "r6101"
+test resistor "r6103"
+test resistor "r6206"
+test resistor "r7505"
+test resistor "r7506"
+test resistor "r7507"
+test resistor "r7602"
+test resistor "r7806"
+test resistor "r7807"
+test resistor "r7903"
+test resistor "r7904"
+test resistor "r7808"
+test resistor "r7809"
+test resistor "r7912"
+test resistor "r7913"
+test resistor "r7810"
+test resistor "r7914"
+test resistor "r8314"
+test resistor "rn401%r1"
+test resistor "rn401%r2"
+test resistor "rn401%r4"
+test resistor "rn1702%r1"
+test resistor "rn1702%r2"
+test resistor "rn2008%r1"; comment
+test resistor "rn2008%r2"; comment
+test resistor "rn1802%r2"
+test resistor "rn2501%r1"; nulltest !tested in parallel with rn1802%r2
+test resistor "rn1802%r1"
+test resistor "rn2501%r2"; nulltest !tested in parallel with rn1802%r1
+test resistor "rn2602%r1"
+test resistor "rn2602%r2"
+test resistor "rn3001%r1"
+test resistor "rn3001%r2"
+test resistor "rn5202%r1"
+test resistor "rn5202%r2"
+test resistor "rn5205%r1"
+test resistor "rn5205%r2"
+test resistor "rn6501%r1"
+test resistor "rn6501%r2"
+test resistor "rn6501%r3"
+test resistor "rn6501%r4"
+test resistor "rn7401%r1"
+test resistor "rn7401%r2"
+test resistor "rn7402%r1"
+test resistor "rn7402%r2"
+test resistor "rn7403%r1"
+test resistor "rn7403%r2"
+test resistor "rn7404%r1"
+test resistor "rn7404%r2"
+test resistor "rn7603%r1"
+test resistor "rn7603%r2"
+test resistor "rn7604%r1"
+test resistor "rn7604%r2"
+test resistor "rn7605%r1"
+test resistor "rn7605%r2"
+test resistor "rn9601%r1"
+test resistor "rn9601%r2"
+test resistor "rn1501%r1"
+test resistor "rn1501%r2"
+test resistor "rn1807%r1"
+test resistor "rn1807%r2"
+test resistor "rn1807%r3"
+test resistor "rn1807%r4"
+test resistor "rn1811%r1"
+test resistor "rn1811%r2"
+test resistor "rn2901%r1"
+test resistor "rn2901%r2"
+test resistor "rn5401%r1"
+test resistor "rn5401%r2"
+test resistor "rn6204%r1"
+test resistor "rn6204%r2"
+test resistor "rn1503%r1"
+test resistor "rn1503%r2"
+test resistor "rn1505%r1"
+test resistor "rn1505%r2"
+test resistor "rn1505%r3"
+test resistor "rn1505%r4"
+test resistor "rn1601%r1"
+test resistor "rn1601%r2"
+test resistor "rn1601%r3"
+test resistor "rn1601%r4"
+test resistor "rn1701%r1"
+test resistor "rn1701%r2"
+test resistor "rn1703%r1"
+test resistor "rn1703%r2"
+test resistor "rn1801%r1"
+test resistor "rn1801%r2"
+test resistor "rn1801%r3"
+test resistor "rn1801%r4"; nulltest
+test resistor "rn1803%r1"
+test resistor "rn1803%r2"
+test resistor "rn1804%r1"
+test resistor "rn1804%r2"
+test resistor "rn1809%r1"
+test resistor "rn1809%r2"
+test resistor "rn1809%r3"
+test resistor "rn1809%r4"
+test resistor "rn1810%r1"
+test resistor "rn1810%r2"
+test resistor "rn1902%r1"
+test resistor "rn1902%r2"; nulltest
+test resistor "rn1902%r3"
+test resistor "rn1902%r4"
+test resistor "rn2002%r1"
+test resistor "rn2002%r2"
+test resistor "rn2002%r3"
+test resistor "rn2002%r4"
+test resistor "rn2006%r1"
+test resistor "rn2006%r2"; nulltest
+test resistor "rn2007%r1"
+test resistor "rn2007%r2"; nulltest
+test resistor "rn2011%r1"
+test resistor "rn2011%r2"
+test resistor "rn2011%r3"
+test resistor "rn2011%r4"
+test resistor "rn2012%r1"
+test resistor "rn2012%r2"
+test resistor "rn2012%r3"
+test resistor "rn2012%r4"
+test resistor "rn6201%r1"
+test resistor "rn6201%r2"
+test resistor "rn7602%r1"
+test resistor "rn7602%r2"
+test resistor "rn1901%r1"
+test resistor "rn1901%r2"
+test resistor "rn7601%r1"
+test resistor "rn7601%r2"
+test resistor "rn3101%r1"; nulltest
+test resistor "rn3101%r2"; nulltest
+test resistor "rn3101%r3"; nulltest
+test resistor "rn3101%r4"; nulltest
+test resistor "rn4301%r1"
+test resistor "rn4301%r2"
+test resistor "rn4301%r3"
+test resistor "rn4301%r4"; nulltest
+test resistor "rn5201%r1"
+test resistor "rn5201%r2"
+test resistor "rn5201%r3"
+test resistor "rn5201%r4"; nulltest
+test resistor "rn5203%r1"
+test resistor "rn5203%r2"
+test resistor "rn5203%r3"
+test resistor "rn5203%r4"; nulltest
+test resistor "rn5204%r1"
+test resistor "rn5204%r2"
+test resistor "rn6202%r1"
+test resistor "rn6202%r2"
+test resistor "rn6203%r1"
+test resistor "rn6203%r2"
+test diode "d2401"
+test diode "d2402"
+test diode "d2501%cr1"
+test diode "d2501%cr2"
+test diode "d2601"
+test diode "d2701%cr1"
+test diode "d2701%cr2"
+test diode "d3602%cr1"
+test diode "d3602%cr2"; nulltest
+test diode "d4301%cr1"
+test diode "d4301%cr2"
+test diode "d4302%cr1"
+test diode "d4302%cr2"
+test diode "d4303%cr1"
+test diode "d4303%cr2"
+test diode "d5201%cr1"
+test diode "d5201%cr2"
+test diode "d5202%cr1"
+test diode "d5202%cr2"
+test diode "d5401%cr1"
+test diode "d5401%cr2"
+test diode "d7301%cr1"
+test diode "d7601"
+test diode "d7602"
+test diode "d8301%cr1"; nulltest
+test diode "d8301%cr2"
+test diode "pd4201"
+test diode "pd4203%cr1"
+test diode "pd4203%cr2"
+test diode "pd4204%cr1"
+test diode "pd4204%cr2"; nulltest !tested in parallel with pd4204%cr1
+test diode "pd4302"
+test diode "pd4401"
+test diode "pd4404"
+test diode "pd4501"
+test diode "pd4502%cr1"
+test diode "pd4502%cr2"
+test diode "pd4503%cr1"
+test diode "pd4503%cr2"
+test diode "pq4202%cr1"
+test diode "pq4202%cr2"
+test diode "pq4409%cr1"
+test diode "pq4409%cr2"
+test transistor "pq4409%q1" !tested in parallel with pq4409%cr2
+test diode "pq4410%cr1"
+test diode "pq4410%cr2"
+test diode "pq4414%cr1"
+test diode "pq4414%cr2"
+test transistor "pq4414%q1" !tested in parallel with pq4414%cr2
+test diode "pu4701%cr29"
+test diode "pu4701%cr59"
+test diode "q2404%cr1"
+test diode "q2404%cr2"
+test diode "q2601%cr1"
+test diode "q2601%cr2"
+test diode "q3601%cr1"
+test diode "q3601%cr2"
+test diode "q3602%cr1"
+test diode "q3602%cr2"
+test diode "q5401%cr1"
+test diode "q5401%cr2"
+test diode "q6204%cr1"
+test diode "q6204%cr2"
+test diode "q7603%cr1"
+test diode "q7603%cr2"
+test diode "u2901%cr1"
+test diode "u2901%cr2"
+test diode "pq4201%cr1-3"
+test diode "pq4203%cr1"
+test diode "pq4203%cr2"
+test diode "pq4206%cr1"; nulltest
+test diode "pq4206%cr2"
+test diode "pq4208%cr1-3"
+test diode "pq4402%cr1"; nulltest
+test diode "pq4402%cr2"
+test diode "pq4407%cr1"
+test diode "pq4407%cr2"
+test diode "pq4408%cr1"
+test diode "pq4408%cr2"
+test diode "q2401%cr1-3"; nulltest !tested in parallel with pq4408%cr2
+test diode "pq8304%cr1"
+test diode "pq8304%cr2"
+test diode "pq8305%cr1"
+test diode "pq8305%cr2"
+test diode "pq8306%cr1-3"
+test diode "pq8307%cr1-3"
+test diode "q1201%cr1-3"
+test diode "q1202%cr1-3"
+test diode "q1701%cr1"
+test diode "q1701%cr2"
+test diode "q1801%cr1"
+test diode "q1801%cr2"
+test diode "q1901%cr1-3"
+test diode "q2402%cr1-3"
+test diode "q2403%cr1-3"
+test diode "q2505%cr1-3"
+test diode "q2602%cr1-3"
+test diode "q2901%cr1-3"
+test diode "q3001%cr1-3"
+test diode "q3004%cr1-3"
+test diode "q5402%cr1"
+test diode "q5402%cr2"
+test diode "q5403%cr1-3"
+test diode "q6202%cr1-3"
+test diode "q6203%cr1-3"
+test diode "q7301%cr1-3"
+test diode "q7601%cr1"
+test diode "q7601%cr2"
+test diode "q7602%cr1"
+test diode "q7602%cr2"
+test diode "q7606%cr1-3"
+test diode "q8301%cr1-3"
+test diode "q8302%cr1-3"
+test diode "pq8308%cr1-8"
+test diode "pu4201%cr1-8"
+test diode "pu4402%cr1-8"
+test diode "pu4403%cr1-8"
+test diode "pu4405%cr1-8"
+test diode "pu4406%cr1-8"
+test diode "pu4501%cr1-8"
+test diode "pu4502%cr1-8"
+test diode "pu4504%cr1-8"
+test diode "pu4505%cr1-8"
+test diode "pu4805%cr1-8"
+test diode "pu4808%cr1-8"
+test diode "pu4902%cr1-8"
+test diode "pu4903%cr1-8"
+test diode "pu8202%cr1-8"
+test diode "pu8204%cr1-8"; nulltest !tested in parallel with pu8202%cr1-8
+test diode "pu8206%cr1-8"; nulltest !tested in parallel with pu8202%cr1-8
+test diode "pu8208%cr1-8"; nulltest !tested in parallel with pu8202%cr1-8
+test diode "pu8203%cr1-8"
+test diode "pu8205%cr1-8"; nulltest !tested in parallel with pu8203%cr1-8
+test diode "pu8207%cr1-8"; nulltest !tested in parallel with pu8203%cr1-8
+test diode "pu8209%cr1-8"; nulltest !tested in parallel with pu8203%cr1-8
+test testjet "testjet"
+test testjet "testjet_uma_l"
+test testjet "testjet_uma_r"
+test testjet "testjet_dis_l"
+test testjet "testjet_dis_r"
+test analog powered "fan261"
+test analog powered "lidsw1"
+test analog powered "pq4201%gnd"
+test analog powered "pq4201%m123"
+test analog powered "pq4201%m231"
+test analog powered "pq4201%m312"
+test analog powered "pq4201%on_off"
+test analog powered "pq4203%g216"
+test analog powered "pq4203%g534"
+test analog powered "pq4203%u216"
+test analog powered "pq4203%u534"
+test analog powered "pq4204%m123"
+test analog powered "pq4204%m231"
+test analog powered "pq4204%m312"
+test analog powered "pq4205%m123"
+test analog powered "pq4205%m231"
+test analog powered "pq4205%m312"
+test analog powered "pq4206%g216"; comment
+test analog powered "pq4206%g534"; comment
+test analog powered "pq4206%u216"; comment
+test analog powered "pq4206%u534"; comment
+test analog powered "pq4208%gnd"
+test analog powered "pq4208%m123"
+test analog powered "pq4208%m231"
+test analog powered "pq4208%m312"
+test analog powered "pq4208%on_off"
+test analog powered "pq4402%g216"
+test analog powered "pq4402%g534"; comment
+test analog powered "pq4402%u216"
+test analog powered "pq4402%u534"; comment
+test analog powered "pq4407%g216"
+test analog powered "pq4407%g534"
+test analog powered "pq4407%u216"
+test analog powered "pq4407%u534"
+test analog powered "pq4408%g216"
+test analog powered "pq4408%g534"
+test analog powered "pq4408%u216"
+test analog powered "pq4408%u534"
+test analog powered "pq4409%gnd"
+test analog powered "pq4409%m123"
+test analog powered "pq4409%m231"
+test analog powered "pq4409%m312"
+test analog powered "pq4409%on_off"
+test analog powered "pq4410%g216"
+test analog powered "pq4410%g534"
+test analog powered "pq4410%u216"
+test analog powered "pq4410%u534"
+test analog powered "pq4414%gnd"
+test analog powered "pq4414%m123"
+test analog powered "pq4414%m231"
+test analog powered "pq4414%m312"
+test analog powered "pq4414%on_off"
+test analog powered "pq8304%g216"
+test analog powered "pq8304%g534"
+test analog powered "pq8304%u216"
+test analog powered "pq8304%u534"
+test analog powered "pq8305%g216"
+test analog powered "pq8305%g534"
+test analog powered "pq8305%u216"
+test analog powered "pq8305%u534"
+test analog powered "pq8306%gnd"
+test analog powered "pq8306%m123"
+test analog powered "pq8306%m231"
+test analog powered "pq8306%m312"
+test analog powered "pq8306%on_off"
+test analog powered "pq8307%gnd"
+test analog powered "pq8307%m123"
+test analog powered "pq8307%m231"
+test analog powered "pq8307%m312"
+test analog powered "pq8307%on_off"
+test analog powered "pq8308%gnd"
+test analog powered "pq8308%m148"
+test analog powered "pq8308%m481"
+test analog powered "pq8308%m814"
+test analog powered "pq8308%on_off"
+test analog powered "pu4201%gnd"
+test analog powered "pu4201%m148"
+test analog powered "pu4201%m481"
+test analog powered "pu4201%m814"
+test analog powered "pu4201%on_off"
+test analog powered "pu4402%gnd"
+test analog powered "pu4402%m148"
+test analog powered "pu4402%m481"
+test analog powered "pu4402%m814"
+test analog powered "pu4402%on_off"
+test analog powered "pu4403%gnd"
+test analog powered "pu4403%m148"
+test analog powered "pu4403%m481"
+test analog powered "pu4403%m814"
+test analog powered "pu4403%on_off"
+test analog powered "pu4405%gnd"
+test analog powered "pu4405%m148"
+test analog powered "pu4405%m481"
+test analog powered "pu4405%m814"
+test analog powered "pu4405%on_off"
+test analog powered "pu4406%gnd"
+test analog powered "pu4406%m148"
+test analog powered "pu4406%m481"
+test analog powered "pu4406%m814"
+test analog powered "pu4406%on_off"
+test analog powered "pu4407"; comment
+test analog powered "pu4501%gnd"
+test analog powered "pu4501%m148"
+test analog powered "pu4501%m481"
+test analog powered "pu4501%m814"
+test analog powered "pu4501%on_off"
+test analog powered "pu4502%gnd"
+test analog powered "pu4502%m148"
+test analog powered "pu4502%m481"
+test analog powered "pu4502%m814"
+test analog powered "pu4502%on_off"
+test analog powered "pu4504%gnd"
+test analog powered "pu4504%m148"
+test analog powered "pu4504%m481"
+test analog powered "pu4504%m814"
+test analog powered "pu4504%on_off"
+test analog powered "pu4505%gnd"
+test analog powered "pu4505%m148"
+test analog powered "pu4505%m481"
+test analog powered "pu4505%m814"
+test analog powered "pu4505%on_off"
+test analog powered "pu4805%gnd"
+test analog powered "pu4805%m148"
+test analog powered "pu4805%m481"
+test analog powered "pu4805%m814"
+test analog powered "pu4805%on_off"
+test analog powered "pu4808%gnd"
+test analog powered "pu4808%m148"
+test analog powered "pu4808%m481"
+test analog powered "pu4808%m814"
+test analog powered "pu4808%on_off"
+test analog powered "pu4902%gnd"
+test analog powered "pu4902%m148"
+test analog powered "pu4902%m481"
+test analog powered "pu4902%m814"
+test analog powered "pu4902%on_off"
+test analog powered "pu4903%gnd"
+test analog powered "pu4903%m148"
+test analog powered "pu4903%m481"
+test analog powered "pu4903%m814"
+test analog powered "pu4903%on_off"
+test analog powered "pu5101"
+test analog powered "pu8202%gnd"
+test analog powered "pu8202%m148"
+test analog powered "pu8202%m481"
+test analog powered "pu8202%m814"
+test analog powered "pu8202%on_off"
+test analog powered "pu8203%gnd"
+test analog powered "pu8203%m148"
+test analog powered "pu8203%m481"
+test analog powered "pu8203%m814"
+test analog powered "pu8203%on_off"
+test analog powered "pu8204%gnd"
+test analog powered "pu8204%m148"
+test analog powered "pu8204%m481"
+test analog powered "pu8204%m814"
+test analog powered "pu8204%on_off"
+test analog powered "pu8205%gnd"
+test analog powered "pu8205%m148"
+test analog powered "pu8205%m481"
+test analog powered "pu8205%m814"
+test analog powered "pu8205%on_off"
+test analog powered "pu8206%gnd"
+test analog powered "pu8206%m148"
+test analog powered "pu8206%m481"
+test analog powered "pu8206%m814"
+test analog powered "pu8206%on_off"
+test analog powered "pu8207%gnd"
+test analog powered "pu8207%m148"
+test analog powered "pu8207%m481"
+test analog powered "pu8207%m814"
+test analog powered "pu8207%on_off"
+test analog powered "pu8208%gnd"
+test analog powered "pu8208%m148"
+test analog powered "pu8208%m481"
+test analog powered "pu8208%m814"
+test analog powered "pu8208%on_off"
+test analog powered "pu8209%gnd"
+test analog powered "pu8209%m148"
+test analog powered "pu8209%m481"
+test analog powered "pu8209%m814"
+test analog powered "pu8209%on_off"
+test analog powered "q1201%gnd"
+test analog powered "q1201%m123"
+test analog powered "q1201%m231"
+test analog powered "q1201%m312"
+test analog powered "q1201%on_off"
+test analog powered "q1202%gnd"
+test analog powered "q1202%m123"
+test analog powered "q1202%m231"
+test analog powered "q1202%m312"
+test analog powered "q1202%on_off"
+test analog powered "q1701%g216"
+test analog powered "q1701%g534"
+test analog powered "q1701%u216"
+test analog powered "q1701%u534"
+test analog powered "q1801%g216"
+test analog powered "q1801%g534"
+test analog powered "q1801%u216"
+test analog powered "q1801%u534"
+test analog powered "q1901%gnd"
+test analog powered "q1901%m123"
+test analog powered "q1901%m231"
+test analog powered "q1901%m312"
+test analog powered "q1901%on_off"
+test analog powered "q2401%gnd"
+test analog powered "q2401%m123"
+test analog powered "q2401%m231"
+test analog powered "q2401%m312"
+test analog powered "q2401%on_off"
+test analog powered "q2402%gnd"
+test analog powered "q2402%m123"
+test analog powered "q2402%m231"
+test analog powered "q2402%m312"
+test analog powered "q2402%on_off"
+test analog powered "q2403%gnd"
+test analog powered "q2403%m123"
+test analog powered "q2403%m231"
+test analog powered "q2403%m312"
+test analog powered "q2403%on_off"
+test analog powered "q2505%gnd"
+test analog powered "q2505%m123"
+test analog powered "q2505%m231"
+test analog powered "q2505%m312"
+test analog powered "q2505%on_off"
+test analog powered "q2601%g216"
+test analog powered "q2601%g534"
+test analog powered "q2601%u216"
+test analog powered "q2601%u534"
+test analog powered "q2602%gnd"
+test analog powered "q2602%m123"
+test analog powered "q2602%m231"
+test analog powered "q2602%m312"
+test analog powered "q2602%on_off"
+test analog powered "q2603%m123"
+test analog powered "q2603%m231"
+test analog powered "q2603%m312"
+test analog powered "q2901%gnd"
+test analog powered "q2901%m123"
+test analog powered "q2901%m231"
+test analog powered "q2901%m312"
+test analog powered "q2901%on_off"
+test analog powered "q3001%gnd"
+test analog powered "q3001%m123"
+test analog powered "q3001%m231"
+test analog powered "q3001%m312"
+test analog powered "q3001%on_off"
+test analog powered "q3002%m123"
+test analog powered "q3002%m231"
+test analog powered "q3002%m312"
+test analog powered "q3003%m123"
+test analog powered "q3003%m231"
+test analog powered "q3003%m312"
+test analog powered "q3004%gnd"
+test analog powered "q3004%m123"
+test analog powered "q3004%m231"
+test analog powered "q3004%m312"
+test analog powered "q3004%on_off"
+test analog powered "q3601%g216"
+test analog powered "q3601%g534"
+test analog powered "q3601%u216"
+test analog powered "q3601%u534"
+test analog powered "q5402%g216"
+test analog powered "q5402%g534"
+test analog powered "q5402%u216"
+test analog powered "q5402%u534"
+test analog powered "q5403%gnd"
+test analog powered "q5403%m123"
+test analog powered "q5403%m231"
+test analog powered "q5403%m312"
+test analog powered "q5403%on_off"
+test analog powered "q6103%m123"
+test analog powered "q6103%m231"
+test analog powered "q6103%m312"
+test analog powered "q6104%m123"
+test analog powered "q6104%m231"
+test analog powered "q6104%m312"
+test analog powered "q6201%m123"
+test analog powered "q6201%m231"
+test analog powered "q6201%m312"
+test analog powered "q6202%gnd"
+test analog powered "q6202%m123"
+test analog powered "q6202%m231"
+test analog powered "q6202%m312"
+test analog powered "q6202%on_off"
+test analog powered "q6203%gnd"
+test analog powered "q6203%m123"
+test analog powered "q6203%m231"
+test analog powered "q6203%m312"
+test analog powered "q6203%on_off"
+test analog powered "q6204%g216"; comment
+test analog powered "q6204%g534"; comment
+test analog powered "q6204%u216"; comment
+test analog powered "q6204%u534"; comment
+test analog powered "q7301%gnd"
+test analog powered "q7301%m123"
+test analog powered "q7301%m231"
+test analog powered "q7301%m312"
+test analog powered "q7301%on_off"
+test analog powered "q7601%g216"
+test analog powered "q7601%g534"
+test analog powered "q7601%u216"
+test analog powered "q7601%u534"
+test analog powered "q7602%g216"
+test analog powered "q7602%g534"
+test analog powered "q7602%u216"
+test analog powered "q7602%u534"
+test analog powered "q7603%g216"
+test analog powered "q7603%g534"
+test analog powered "q7603%u216"
+test analog powered "q7603%u534"
+test analog powered "q7606%gnd"
+test analog powered "q7606%m123"
+test analog powered "q7606%m231"
+test analog powered "q7606%m312"
+test analog powered "q7606%on_off"
+test analog powered "q8301%gnd"
+test analog powered "q8301%m123"
+test analog powered "q8301%m231"
+test analog powered "q8301%m312"
+test analog powered "q8301%on_off"
+test analog powered "q8302%gnd"
+test analog powered "q8302%m123"
+test analog powered "q8302%m231"
+test analog powered "q8302%m312"
+test analog powered "q8302%on_off"
+test digital "u701"; nulltest !IPG: No digital pins
+test analog powered "u2101"
+test analog powered "u2901%g216"
+test analog powered "u2901%g534"
+test analog powered "u2901%u216"
+test analog powered "u2901%u534"
+test analog powered "u3401"; comment
+test analog powered "u3403"; comment
+test analog powered "u3501"
+test analog powered "u3502"
+test analog powered "u3503"
+test analog powered "u3504"
+test analog powered "u3505"
+test analog powered "u3801"; comment
+test analog powered "u5201"
+test analog powered "u5601"
+test digital "u7301"
+! IPG: board type 13804-1
+boards 2 to 2
+test shorts "shorts"
+test pins "pins"
+test capacitor ".discharge"
+test jumper "r201"; nulltest
+test jumper "r203"; nulltest
+test jumper "r204"; nulltest
+test jumper "r301"; nulltest
+test jumper "r401"; preshorts
+test jumper "r402"; preshorts
+test jumper "r501"; nulltest
+test jumper "r502"; nulltest
+test capacitor "c201"
+test capacitor "c202"; nulltest !tested in parallel with c201
+test capacitor "c602"; nulltest !tested in parallel with c201
+test capacitor "ec602"; nulltest !tested in parallel with c201
+test capacitor "c203"; nulltest
+test capacitor "c204"; nulltest
+test capacitor "c402"
+test capacitor "c404"; nulltest !tested in parallel with c402
+test capacitor "c601"; nulltest !tested in parallel with c402
+test capacitor "c403"; nulltest !tested in parallel with c402
+test capacitor "c603"; nulltest !tested in parallel with c402
+test capacitor "ec601"; nulltest !tested in parallel with c402
+test capacitor "c205"; nulltest
+test capacitor "c301"; nulltest
+test capacitor "c206"; nulltest
+test capacitor "c303"; nulltest
+test capacitor "c501"; nulltest
+test capacitor "c502"; nulltest
+test capacitor "ec201"; nulltest
+test capacitor "ec301"; nulltest
+test capacitor "ec302"; nulltest
+test capacitor "ec303"; nulltest
+test capacitor "ec304"; nulltest
+test capacitor "ec305"; nulltest
+test capacitor "ec306"; nulltest
+test capacitor "ec307"; nulltest
+test capacitor "c302"; nulltest
+test resistor "r202"; nulltest
+test resistor "r205"; nulltest
+test diode "led1%cr1"; nulltest
+test diode "led1%cr2"; nulltest
+test testjet "testjet"
+test analog powered "u601"

@@ -1,0 +1,16 @@
+!=#BOM_1#===========================45500G01M030.txt file  =True ,45500G01M003.txt file not find devices=============================
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R2024
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R7621
+DNPH5                                 PRC,HSW,CEL,2957U,1.4,15W,D0             1    CPU1
+X1PRC$AA                              IC VRAM H5TC2G63FFR-11C FBG96P 1.5V 1GHZ 4    VRAM1
+X1PRC$AA                              IC VRAM H5TC2G63FFR-11C FBG96P 1.5V 1GHZ 4    VRAM2
+X1PRC$AA                              IC VRAM H5TC2G63FFR-11C FBG96P 1.5V 1GHZ 4    VRAM3
+X1PRC$AA                              IC VRAM H5TC2G63FFR-11C FBG96P 1.5V 1GHZ 4    VRAM4
+!=#BOM_2#===========================45500G01M003.txt file  =True ,45500G01M030.txt file not find devices=============================
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R2023
+63.10334.1DL                          CHIP RES 10K J 1/16W 0402                34   R7625
+R5RH5$AA                              IC VRAM MT41K256M16HA-107G:E FBGA96P     4    VRAM1
+R5RH5$AA                              IC VRAM MT41K256M16HA-107G:E FBGA96P     4    VRAM2
+R5RH5$AA                              IC VRAM MT41K256M16HA-107G:E FBGA96P     4    VRAM3
+R5RH5$AA                              IC VRAM MT41K256M16HA-107G:E FBGA96P     4    VRAM4
+R62JF                                 PRC,HSW,I7-4510U,2.0,15W,4M,D0           1    CPU1

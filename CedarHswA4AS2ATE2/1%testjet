@@ -1,0 +1,1873 @@
+!!!!   25    0    1 1391819567   0000                                         
+
+default threshold low 20 high 10000
+
+default throughput adjustment 4
+
+device "#%ccd1" bottom
+!  test pins 1, 8, 9, 10    !! fixed pins commented by IPG
+   test pins 3
+   test pins 4
+   test pins 5
+   test pins 6
+   test pins 7
+
+   inaccessible pins 2
+end device
+
+device "#%con1" bottom
+!  test pins 1, 7, 10, 13, 16, 17, 18, 2, 3    !! ground pins commented by IPG
+!       pins 4    !! ground pins commented by IPG
+!  test pins 5    !! fixed pins commented by IPG
+   test pins 8
+   test pins 9
+   test pins 11
+   test pins 12
+   test pins 14
+   test pins 15
+
+   inaccessible pins 6
+end device
+
+device "#%cpu1"
+   test pins "A4"
+   test pins "A9"
+!  test pins "A11", "AH26", "AJ31", "AJ33"    !! ground pins commented by IPG
+!       pins "AJ37", "AN33", "AP43", "AR48"    !! ground pins commented by IPG
+!       pins "AY35", "AY40", "AY44", "AY50"    !! ground pins commented by IPG
+!       pins "K9", "L10", "M9", "B18", "B27"    !! ground pins commented by IPG
+!       pins "A12", "B11", "AA21", "AC22"    !! ground pins commented by IPG
+!       pins "AE9", "AE22", "AE23", "AF9"    !! ground pins commented by IPG
+!       pins "AG8", "AG13", "AG14", "AG16"    !! ground pins commented by IPG
+!       pins "AG17", "J17", "N8", "P9", "R21"    !! ground pins commented by IPG
+!       pins "T21", "W21", "J18", "K19"    !! ground pins commented by IPG
+!       pins "A20", "AE8", "AF22", "H11"    !! ground pins commented by IPG
+!       pins "H15", "J11", "AG10", "AU7"    !! ground pins commented by IPG
+!       pins "AV6", "K14", "K16", "T9", "U8"    !! ground pins commented by IPG
+!       pins "V8", "W9", "AA9", "AC9", "AE20"    !! ground pins commented by IPG
+!       pins "AE21", "AH11", "AH14", "A14"    !! ground pins commented by IPG
+!       pins "A18", "A24", "A28", "A32"    !! ground pins commented by IPG
+!       pins "A36", "A40", "A44", "A48"    !! ground pins commented by IPG
+!       pins "A52", "A56", "AA1", "AA58"    !! ground pins commented by IPG
+!       pins "AB7", "AB10", "AB20", "AB22"    !! ground pins commented by IPG
+!       pins "AC61", "AD3", "AD21", "AD63"    !! ground pins commented by IPG
+!       pins "AE5", "AE10", "AE58", "AF11"    !! ground pins commented by IPG
+!       pins "AF12", "AF14", "AF15", "AF17"    !! ground pins commented by IPG
+!       pins "AF18", "AG1", "AG11", "AG21"    !! ground pins commented by IPG
+!       pins "AG23", "AG60", "AG61", "AG62"    !! ground pins commented by IPG
+!       pins "AG63", "AH16", "AH17", "AH19"    !! ground pins commented by IPG
+!       pins "AH20", "AH22", "AH24", "AH28"    !! ground pins commented by IPG
+!       pins "AH30", "AH32", "AH34", "AH36"    !! ground pins commented by IPG
+!       pins "AH38", "AH40", "AH42", "AH44"    !! ground pins commented by IPG
+!       pins "AH46", "AH49", "AH51", "AH53"    !! ground pins commented by IPG
+!       pins "AH55", "AH57", "AJ13", "AJ14"    !! ground pins commented by IPG
+!       pins "AJ23", "AJ25", "AJ27", "AJ29"    !! ground pins commented by IPG
+!       pins "AJ35", "AJ39", "AJ41", "AJ43"    !! ground pins commented by IPG
+!       pins "AJ45", "AJ47", "AJ50", "AJ52"    !! ground pins commented by IPG
+!       pins "AJ54", "AJ56", "AJ58", "AJ60"    !! ground pins commented by IPG
+!       pins "AJ63", "AK3", "AK23", "AK52"    !! ground pins commented by IPG
+!       pins "AL10", "AL13", "AL17", "AL20"    !! ground pins commented by IPG
+!       pins "AL22", "AL23", "AL26", "AL29"    !! ground pins commented by IPG
+!       pins "AL31", "AL33", "AL36", "AL39"    !! ground pins commented by IPG
+!       pins "AL40", "AL45", "AL46", "AL51"    !! ground pins commented by IPG
+!       pins "AL52", "AL54", "AL57", "AL60"    !! ground pins commented by IPG
+!       pins "AL61", "AM1", "AM17", "AM23"    !! ground pins commented by IPG
+!       pins "AM31", "AM52", "AN7", "AN17"    !! ground pins commented by IPG
+!       pins "AN23", "AN31", "AN32", "AN35"    !! ground pins commented by IPG
+!       pins "AN36", "AN39", "AN40", "AN42"    !! ground pins commented by IPG
+!       pins "AN43", "AN45", "AN46", "AN48"    !! ground pins commented by IPG
+!       pins "AN49", "AN51", "AN52", "AN60"    !! ground pins commented by IPG
+!       pins "AN63", "AP3", "AP10", "AP17"    !! ground pins commented by IPG
+!       pins "AP20", "AP22", "AP23", "AP26"    !! ground pins commented by IPG
+!       pins "AP29", "AP31", "AP38", "AP39"    !! ground pins commented by IPG
+!       pins "AP48", "AP52", "AP54", "AP57"    !! ground pins commented by IPG
+!       pins "AR5", "AR11", "AR15", "AR17"    !! ground pins commented by IPG
+!       pins "AR23", "AR31", "AR33", "AR39"    !! ground pins commented by IPG
+!       pins "AR43", "AR49", "AR52", "AT13"    !! ground pins commented by IPG
+!       pins "AT35", "AT37", "AT40", "AT42"    !! ground pins commented by IPG
+!       pins "AT43", "AT46", "AT49", "AT61"    !! ground pins commented by IPG
+!       pins "AT62", "AT63", "AU1", "AU16"    !! ground pins commented by IPG
+!       pins "AU18", "AU20", "AU22", "AU24"    !! ground pins commented by IPG
+!       pins "AU26", "AU28", "AU30", "AU33"    !! ground pins commented by IPG
+!       pins "AU51", "AU53", "AU55", "AU57"    !! ground pins commented by IPG
+!       pins "AU59", "AV8", "AV14", "AV16"    !! ground pins commented by IPG
+!       pins "AV20", "AV24", "AV28", "AV33"    !! ground pins commented by IPG
+!       pins "AV34", "AV36", "AV39", "AV41"    !! ground pins commented by IPG
+!       pins "AV43", "AV46", "AV49", "AV51"    !! ground pins commented by IPG
+!       pins "AV55", "AV59", "AW4", "AW16"    !! ground pins commented by IPG
+!       pins "AW24", "AW33", "AW35", "AW37"    !! ground pins commented by IPG
+!       pins "AW40", "AW42", "AW44", "AW47"    !! ground pins commented by IPG
+!       pins "AW50", "AW51", "AW59", "AW60"    !! ground pins commented by IPG
+!       pins "AY4", "AY6", "AY11", "AY16"    !! ground pins commented by IPG
+!       pins "AY18", "AY22", "AY24", "AY26"    !! ground pins commented by IPG
+!       pins "AY30", "AY33", "AY51", "AY53"    !! ground pins commented by IPG
+!       pins "AY57", "AY59", "B4", "B20"    !! ground pins commented by IPG
+!       pins "B24", "B26", "B28", "B32"    !! ground pins commented by IPG
+!       pins "B36", "B40", "B44", "B48"    !! ground pins commented by IPG
+!       pins "B52", "B56", "B60", "C11"    !! ground pins commented by IPG
+!       pins "C14", "C18", "C20", "C25"    !! ground pins commented by IPG
+!       pins "C27", "C38", "C39", "C57", "D2"    !! ground pins commented by IPG
+!       pins "D5", "D8", "D12", "D14", "D18"    !! ground pins commented by IPG
+!       pins "D21", "D23", "D25", "D26"    !! ground pins commented by IPG
+!       pins "D27", "D29", "D30", "D31"    !! ground pins commented by IPG
+!       pins "D33", "D34", "D35", "D37"    !! ground pins commented by IPG
+!       pins "D38", "D39", "D41", "D42"    !! ground pins commented by IPG
+!       pins "D43", "D45", "D46", "D47"    !! ground pins commented by IPG
+!       pins "D49", "D50", "D51", "D53"    !! ground pins commented by IPG
+!       pins "D54", "D55", "D57", "D59"    !! ground pins commented by IPG
+!       pins "D62", "D63", "E11", "E17"    !! ground pins commented by IPG
+!       pins "F20", "F26", "F30", "F34"    !! ground pins commented by IPG
+!       pins "F38", "F42", "F46", "F50"    !! ground pins commented by IPG
+!       pins "F54", "F58", "F61", "G3", "G5"    !! ground pins commented by IPG
+!       pins "G6", "G8", "G18", "G22", "H13"    !! ground pins commented by IPG
+!       pins "H17", "H57", "J10", "J22"    !! ground pins commented by IPG
+!       pins "J59", "J63", "K1", "K12", "L7"    !! ground pins commented by IPG
+!       pins "L13", "L15", "L17", "L18"    !! ground pins commented by IPG
+!       pins "L20", "L58", "L61", "M22", "N3"    !! ground pins commented by IPG
+!       pins "N10", "N21", "P22", "P59"    !! ground pins commented by IPG
+!       pins "P62", "P63", "R8", "R10", "R22"    !! ground pins commented by IPG
+!       pins "T1", "T58", "U9", "U20", "U22"    !! ground pins commented by IPG
+!       pins "U61", "V3", "V7", "V10", "V23"    !! ground pins commented by IPG
+!       pins "V58", "W20", "W22", "Y10"    !! ground pins commented by IPG
+!       pins "Y59", "Y63", "AB57", "AD57"    !! ground pins commented by IPG
+!       pins "AG57", "C24", "C28", "C32"    !! ground pins commented by IPG
+!       pins "C36", "C40", "C44", "C48"    !! ground pins commented by IPG
+!       pins "C52", "C56", "E23", "E25"    !! ground pins commented by IPG
+!       pins "E27", "E29", "E31", "E33"    !! ground pins commented by IPG
+!       pins "E35", "E37", "E39", "E41"    !! ground pins commented by IPG
+!       pins "E43", "E45", "E47", "E49"    !! ground pins commented by IPG
+!       pins "E51", "E53", "E55", "E57"    !! ground pins commented by IPG
+!       pins "F24", "F28", "F32", "F36"    !! ground pins commented by IPG
+!       pins "F40", "F44", "F48", "F52"    !! ground pins commented by IPG
+!       pins "F56", "F59", "G23", "G25"    !! ground pins commented by IPG
+!       pins "G27", "G29", "G31", "G33"    !! ground pins commented by IPG
+!       pins "G35", "G37", "G39", "G41"    !! ground pins commented by IPG
+!       pins "G43", "G45", "G47", "G49"    !! ground pins commented by IPG
+!       pins "G51", "G53", "G55", "G57"    !! ground pins commented by IPG
+!       pins "H23", "J23", "K23", "K57"    !! ground pins commented by IPG
+!       pins "L22", "M23", "M57", "P57"    !! ground pins commented by IPG
+!       pins "U57", "W57", "AH10", "Y8"    !! ground pins commented by IPG
+!       pins "J15"    !! ground pins commented by IPG
+   test pins "A15"
+   test pins "A17"
+   test pins "A21"
+   test pins "A23"
+   test pins "A25"
+   test pins "A35"
+   test pins "A39"
+   test pins "A43"
+   test pins "A45"
+   test pins "A47"
+   test pins "A51"
+   test pins "A55"
+   test pins "A57"
+   test pins "A59"
+   test pins "A60"
+   test pins "A62"
+   test pins "AA2"
+   test pins "AA3"
+   test pins "AA4"
+   test pins "AA60"
+   test pins "AA61"
+   test pins "AA62"
+   test pins "AA63"
+!  test pins "AB5", "AY7"    !! fixed pins commented by IPG
+   test pins "AB6"
+!  test pins "AB8"    !! fixed pins commented by IPG
+   test pins "AC1"
+   test pins "AC3"
+   test pins "AC20"
+   test pins "AC60"
+   test pins "AC62"
+   test pins "AC63"
+   test pins "AD1"
+   test pins "AD2"
+   test pins "AD4"
+   test pins "AD5"
+   test pins "AD6"
+   test pins "AD7", "AG6", "AH4", "AK4", "AL4", "AN3", "AP1", "AT3"
+   test pins "AD61"
+   test pins "AD62"
+   test pins "AE6"
+!  test pins "AE7"    !! fixed pins commented by IPG
+   test pins "AE61"
+   test pins "AE62"
+   test pins "AE63"
+   test pins "AF1"
+   test pins "AF2"
+!  test pins "AF3"    !! fixed pins commented by IPG
+   test pins "AF4"
+!  test pins "AG2"    !! fixed pins commented by IPG
+   test pins "AG3"
+!  test pins "AG4"    !! fixed pins commented by IPG
+   test pins "AG5"
+   test pins "AG7"
+!  test pins "AG19", "AG20"    !! fixed pins commented by IPG
+   test pins "AH1"
+   test pins "AH2"
+   test pins "AH3"
+!  test pins "AH13"    !! fixed pins commented by IPG
+   test pins "AH60"
+   test pins "AH61"
+   test pins "AH62"
+   test pins "AH63"
+   test pins "AJ5"
+!  test pins "AJ6"    !! fixed pins commented by IPG
+   test pins "AJ8"
+!  test pins "AJ10", "AJ11"    !! fixed pins commented by IPG
+   test pins "AJ61"
+   test pins "AJ62"
+   test pins "AK1"
+!  test pins "AK2", "AV4"    !! fixed pins commented by IPG
+   test pins "AK8"
+   test pins "AK40"
+   test pins "AK42"
+   test pins "AK43"
+   test pins "AK45"
+   test pins "AK46"
+   test pins "AK48"
+   test pins "AK49"
+   test pins "AK51"
+   test pins "AK54"
+   test pins "AK55"
+   test pins "AK57"
+   test pins "AK58"
+   test pins "AK60"
+   test pins "AK61"
+   test pins "AK62"
+   test pins "AK63"
+!  test pins "AL2"    !! fixed pins commented by IPG
+   test pins "AL3"
+!  test pins "AL5"    !! fixed pins commented by IPG
+!  test pins "AL7"    !! fixed pins commented by IPG
+   test pins "AL8"
+   test pins "AL15"
+   test pins "AL42"
+   test pins "AL43"
+   test pins "AL48"
+   test pins "AL49"
+   test pins "AL55"
+   test pins "AL58"
+   test pins "AM2"
+   test pins "AM3"
+!  test pins "AM4"    !! fixed pins commented by IPG
+!  test pins "AM5"    !! fixed pins commented by IPG
+   test pins "AM7"
+   test pins "AM8"
+   test pins "AM13"
+   test pins "AM15"
+   test pins "AM40"
+   test pins "AM42"
+   test pins "AM43"
+   test pins "AM45"
+   test pins "AM46"
+   test pins "AM48"
+   test pins "AM49"
+   test pins "AM51"
+   test pins "AM54"
+   test pins "AM55"
+   test pins "AM57"
+   test pins "AM58"
+   test pins "AM60"
+   test pins "AM61"
+   test pins "AM62"
+   test pins "AM63"
+   test pins "AN1"
+   test pins "AN2"
+   test pins "AN4"
+   test pins "AN8"
+   test pins "AN11"
+   test pins "AN13"
+   test pins "AN15"
+   test pins "AN54"
+   test pins "AN55"
+   test pins "AN57"
+   test pins "AN58"
+   test pins "AN61"
+   test pins "AN62"
+   test pins "AP2"
+!  test pins "AP4"    !! fixed pins commented by IPG
+!  test pins "AP5"    !! fixed pins commented by IPG
+   test pins "AP8"
+   test pins "AP11"
+   test pins "AP13"
+   test pins "AP15"
+   test pins "AP32"
+   test pins "AP33"
+   test pins "AP35"
+   test pins "AP36"
+!  test pins "AP49"    !! fixed pins commented by IPG
+   test pins "AP55"
+   test pins "AP58"
+   test pins "AP60"
+   test pins "AP61"
+   test pins "AP62"
+   test pins "AP63"
+   test pins "AR7"
+   test pins "AR8"
+   test pins "AR10"
+   test pins "AR13"
+   test pins "AR32"
+   test pins "AR35"
+   test pins "AR36"
+   test pins "AR38"
+   test pins "AR51"
+   test pins "AR54"
+   test pins "AR55"
+   test pins "AR57"
+   test pins "AR58"
+   test pins "AT1"
+!  test pins "AT4"    !! fixed pins commented by IPG
+   test pins "AT5"
+   test pins "AT7"
+   test pins "AT10"
+   test pins "AU3"
+   test pins "AU4"
+   test pins "AU6"
+   test pins "AU8"
+   test pins "AU11"
+   test node "#%LPC_AD0" !pins "AU14" through rn1806%jp4
+   test pins "AU34"
+   test pins "AU35"
+   test pins "AU36"
+   test pins "AU37"
+   test pins "AU39"
+   test pins "AU40"
+   test pins "AU41"
+   test pins "AU42"
+   test pins "AU43"
+   test pins "AU52"
+   test pins "AU54"
+   test pins "AU56"
+   test pins "AU58"
+   test pins "AU60"
+   test pins "AU61"
+   test pins "AU62"
+   test pins "AU63"
+   test pins "AV1"
+   test pins "AV3"
+   test pins "AV5", "AW6"
+   test pins "AV7"
+   test pins "AV11"
+   test pins "AV12"
+   test pins "AV15"
+   test pins "AV35"
+   test pins "AV37"
+   test pins "AV40"
+   test pins "AV42"
+   test pins "AV52"
+   test pins "AV53"
+   test pins "AV54"
+   test pins "AV56"
+   test pins "AV57"
+   test pins "AV58"
+   test pins "AV60"
+   test pins "AV61"
+   test pins "AV63"
+   test pins "AW1"
+   test pins "AW5"
+   test pins "AW7"
+   test pins "AW8"
+   test pins "AW10"
+   test pins "AW11"
+   test node "#%LPC_AD1" !pins "AW12" through rn1806%jp2
+   test pins "AW15"
+   test pins "AW34"
+   test pins "AW36"
+   test pins "AW39"
+   test pins "AW41"
+   test pins "AW43"
+   test pins "AW52"
+   test pins "AW53"
+   test pins "AW54"
+   test pins "AW56"
+   test pins "AW57"
+   test pins "AW58"
+   test pins "AW61", "AY61"
+   test pins "AW62", "AY62"
+   test pins "AW63"
+   test pins "AY5"
+   test pins "AY10"
+   test pins "AY12"
+   test pins "AY15"
+   test pins "AY34"
+   test pins "AY36"
+   test pins "AY37"
+   test pins "AY39"
+   test pins "AY41"
+   test pins "AY52"
+   test pins "AY54"
+   test pins "AY56"
+   test pins "AY58"
+   test pins "AY60"
+   test pins "B2"
+   test pins "B8"
+   test pins "B9"
+   test pins "B15"
+   test pins "B17"
+   test pins "B21"
+   test pins "B22"
+   test pins "B23"
+   test pins "B25"
+   test pins "B29"
+   test node "#%PCIE_PTX_WLANRX_P3_C" !pins "B30" through c1602
+   test pins "B34"
+   test pins "B35"
+   test pins "B38"
+   test pins "B39"
+   test pins "B42"
+   test pins "B43"
+   test pins "B45"
+   test pins "B46"
+   test pins "B47"
+   test pins "B51"
+   test pins "B55"
+   test pins "B57"
+   test pins "B58"
+!  test pins "B59"    !! fixed pins commented by IPG
+   test pins "C6"
+   test pins "C8"
+   test pins "C9"
+   test pins "C12"
+   test pins "C21"
+   test pins "C22"
+   test pins "C23"
+   test pins "C26"
+   test pins "C29"
+   test pins "C33"
+   test pins "C34"
+   test pins "C35"
+   test pins "C41"
+   test pins "C45"
+   test pins "C54"
+   test pins "C55"
+   test pins "C58"
+!  test pins "C59"    !! fixed pins commented by IPG
+   test pins "C61"
+   test pins "C62"
+   test pins "C63"
+   test pins "D6"
+   test pins "D11"
+!  test pins "D20"    !! fixed pins commented by IPG
+   test pins "D60"
+   test pins "E3"
+   test pins "E6"
+   test pins "E8"
+   test pins "E10"
+!  test pins "E20"    !! fixed pins commented by IPG
+   test pins "E59"
+   test pins "E60"
+   test pins "E61"
+!  test pins "E62"    !! fixed pins commented by IPG
+!  test pins "E63"    !! fixed pins commented by IPG
+   test pins "F1"
+   test pins "F2"
+   test pins "F6"
+   test pins "F8"
+   test pins "F10"
+   test pins "F11"
+   test pins "F13"
+!  test pins "F60"    !! fixed pins commented by IPG
+   test pins "F62"
+   test pins "F63"
+   test pins "G4"
+   test pins "G10"
+   test pins "G11"
+   test pins "G13"
+   test pins "G20"
+   test pins "H5"
+   test pins "H8"
+   test pins "H10"
+   test pins "H20"
+   test pins "H59"
+   test pins "H60"
+   test pins "H61"
+   test pins "H62"
+   test pins "H63"
+   test pins "J1"
+   test pins "J2"
+   test pins "J4"
+   test pins "J5"
+   test pins "J8"
+!  test pins "J13"    !! fixed pins commented by IPG
+   test pins "J60"
+   test pins "J61"
+   test pins "J62"
+   test pins "K2"
+   test pins "K3"
+   test pins "K18"
+   test pins "K59"
+   test pins "K60"
+   test pins "K61"
+   test pins "K62"
+   test pins "K63"
+!  test pins "L1"    !! fixed pins commented by IPG
+   test pins "L3"
+   test pins "L8"
+   test pins "L60"
+   test pins "L62"
+   test pins "L63"
+   test pins "M20"
+   test pins "N1"
+   test pins "N2"
+   test pins "N4"
+!  test pins "N6"    !! fixed pins commented by IPG
+   test pins "N59"
+   test pins "N61"
+   test pins "N62"
+   test pins "N63"
+   test pins "P1"
+   test pins "P2"
+   test pins "P3"
+   test pins "P4"
+   test pins "P20"
+   test pins "P60"
+   test pins "P61"
+!  test pins "R5"    !! fixed pins commented by IPG
+   test pins "R20"
+   test pins "T2", "U2", "Y5"
+   test pins "T3"
+   test pins "T4"
+   test pins "T60"
+   test pins "T61"
+   test pins "T62"
+   test pins "T63"
+   test pins "U1"
+   test pins "U3"
+   test pins "U4"
+   test pins "U5"
+   test pins "U6"
+   test pins "U7"
+   test pins "U60"
+   test pins "U62"
+   test pins "U63"
+   test pins "V1"
+   test pins "V2"
+   test pins "V4"
+   test pins "V5"
+   test pins "V6"
+   test pins "V21"
+   test pins "V60"
+   test pins "V61"
+   test pins "V62"
+   test pins "V63"
+   test pins "Y2"
+   test pins "Y3"
+   test pins "Y6"
+   test pins "Y7"
+   test pins "Y20"
+   test pins "Y22"
+   test pins "Y60"
+   test pins "Y61"
+   test pins "Y62"
+
+   inaccessible pins "A3", "B3", "A5", "A6", "A8", "A31", "A33", "A37", "A41"
+   inaccessible pins "A49", "A53", "AA23", "AA59", "AB21", "AB23", "AC2", "AC4"
+   inaccessible pins "AC58", "AC59", "AD23", "AD59", "AD60", "AE59", "AE60"
+   inaccessible pins "AF20", "AG58", "AK18", "AK20", "AK21", "AK22", "AK25"
+   inaccessible pins "AK26", "AK28", "AK29", "AK32", "AK33", "AK35", "AK36"
+   inaccessible pins "AK38", "AL1", "AL11", "AL18", "AL21", "AL25", "AL28"
+   inaccessible pins "AL32", "AL35", "AL38", "AM10", "AM11", "AM18", "AM20"
+   inaccessible pins "AM21", "AM22", "AM25", "AM26", "AM28", "AM29", "AM32"
+   inaccessible pins "AM33", "AM35", "AM36", "AM38", "AN10", "AN18", "AN20"
+   inaccessible pins "AN21", "AN22", "AN25", "AN26", "AN28", "AN29", "AN38"
+   inaccessible pins "AP7", "AP18", "AP21", "AP25", "AP28", "AP40", "AP42"
+   inaccessible pins "AP45", "AP46", "AP51", "AR18", "AR20", "AR21", "AR22"
+   inaccessible pins "AR25", "AR26", "AR28", "AR29", "AR40", "AR42", "AR45"
+   inaccessible pins "AR46", "AT2", "AU10", "AU12", "AU15", "AU17", "AU19"
+   inaccessible pins "AU21", "AU23", "AU25", "AU27", "AU29", "AU31", "AU44"
+   inaccessible pins "AU46", "AU47", "AU49", "AU50", "AV2", "AV10", "AV17"
+   inaccessible pins "AV18", "AV19", "AV21", "AV22", "AV23", "AV25", "AV26"
+   inaccessible pins "AV27", "AV29", "AV30", "AV31", "AV44", "AV47", "AV50"
+   inaccessible pins "AV62", "AW14", "AW17", "AW18", "AW19", "AW21", "AW22"
+   inaccessible pins "AW23", "AW25", "AW26", "AW27", "AW29", "AW30", "AW31"
+   inaccessible pins "AW46", "AW49", "AY8", "AY14", "AY17", "AY19", "AY21"
+   inaccessible pins "AY23", "AY25", "AY27", "AY29", "AY31", "AY42", "AY43"
+   inaccessible pins "AY46", "AY47", "AY49", "B5", "B6", "B14", "B31", "B33"
+   inaccessible pins "B37", "B41", "B49", "B50", "B53", "B54", "C3", "C4", "C5"
+   inaccessible pins "C15", "C17", "C30", "C31", "C42", "C43", "C46", "C47"
+   inaccessible pins "C49", "C50", "C51", "C53", "D1", "D9", "D15", "D17", "D58"
+   inaccessible pins "D61", "E1", "E2", "E4", "E5", "E13", "E15", "E18", "F4"
+   inaccessible pins "F5", "F15", "F17", "F18", "F22", "G1", "G2", "G15", "G17"
+   inaccessible pins "H6", "H18", "H22", "J3", "J6", "J20", "J21", "J58", "K4"
+   inaccessible pins "K10", "K21", "L2", "L4", "L5", "L6", "L11", "L59", "M21"
+   inaccessible pins "N5", "N7", "N23", "N58", "N60", "R6", "R7", "R23", "T23"
+   inaccessible pins "T59", "U10", "U59", "V59", "W23", "Y1", "Y4", "A27", "A29"
+   inaccessible pins "A61", "B61", "AD8", "AD10", "AJ7", "AN5", "AU2", "AW2"
+   inaccessible pins "AY2", "AW3", "AY3", "B12", "B62", "B63", "C1", "C2", "C37"
+   inaccessible pins "D3", "F3"
+   inaccessible pins "AU14", "AW12", "B30" !! drive-thru
+end device
+
+device "#%dcin1" bottom
+!  test pins 1, 2, 3    !! fixed pins commented by IPG
+   test pins 4
+!  test pins 5, 6, 7    !! fixed pins commented by IPG
+
+   inaccessible pins 8, 9
+end device
+
+device "#%dm1"
+   test pins 1
+!  test pins 2, 75, 76, 81, 82, 87, 88, 93    !! ground pins commented by IPG
+!       pins 94, 99, 100, 105, 106, 111, 112    !! ground pins commented by IPG
+!       pins 117, 118, 123, 124, 203, 204    !! ground pins commented by IPG
+!       pins 199, 3, 8, 9, 11, 13, 14, 19, 20    !! ground pins commented by IPG
+!       pins 25, 26, 28, 31, 32, 37, 38, 43    !! ground pins commented by IPG
+!       pins 44, 46, 48, 49, 54, 55, 60, 61    !! ground pins commented by IPG
+!       pins 63, 65, 66, 71, 72, 127, 128    !! ground pins commented by IPG
+!       pins 133, 134, 136, 138, 139, 144    !! ground pins commented by IPG
+!       pins 145, 150, 151, 153, 155, 156    !! ground pins commented by IPG
+!       pins 161, 162, 167, 168, 170, 172    !! ground pins commented by IPG
+!       pins 173, 178, 179, 184, 185, 187    !! ground pins commented by IPG
+!       pins 189, 190, 195, 196, 197, 201    !! ground pins commented by IPG
+!       pins 205, 206    !! ground pins commented by IPG
+   test pins 4
+   test pins 5
+   test pins 6
+   test pins 7
+   test pins 10
+   test pins 12
+   test pins 15
+   test pins 16
+   test pins 17
+   test pins 18
+   test pins 21
+   test pins 22
+   test pins 23
+   test pins 24
+   test pins 27
+   test pins 29
+   test pins 30
+   test pins 33
+   test pins 34
+   test pins 35
+   test pins 36
+   test pins 39
+   test pins 40
+   test pins 41
+   test pins 42
+   test pins 45
+   test pins 47
+   test pins 50
+   test pins 51
+   test pins 52
+   test pins 53
+   test pins 56
+   test pins 57
+   test pins 58
+   test pins 59
+   test pins 62
+   test pins 64
+   test pins 67
+   test pins 68
+   test pins 69
+   test pins 70
+   test pins 73
+   test pins 74
+   test pins 78
+   test pins 79
+   test pins 80
+   test pins 83
+   test pins 84
+   test pins 85
+   test pins 86
+   test pins 89
+   test pins 90
+   test pins 91
+   test pins 92
+   test pins 95
+   test pins 96
+   test pins 97
+   test pins 98
+   test pins 101
+   test pins 102
+   test pins 103
+   test pins 104
+   test pins 107
+   test pins 108
+   test pins 109
+   test pins 110
+   test pins 113
+   test pins 114
+   test pins 115
+   test pins 116
+   test pins 119
+   test pins 120
+   test pins 121
+!  test pins 126    !! fixed pins commented by IPG
+   test pins 129
+   test pins 130
+   test pins 131
+   test pins 132
+   test pins 135
+   test pins 137
+   test pins 140
+   test pins 141
+   test pins 142
+   test pins 143
+   test pins 146
+   test pins 147
+   test pins 148
+   test pins 149
+   test pins 152
+   test pins 154
+   test pins 157
+   test pins 158
+   test pins 159
+   test pins 160
+   test pins 163
+   test pins 164
+   test pins 165
+   test pins 166
+   test pins 169
+   test pins 171
+   test pins 174
+   test pins 175
+   test pins 176
+   test pins 177
+   test pins 180
+   test pins 181
+   test pins 182
+   test pins 183
+   test pins 186
+   test pins 188
+   test pins 191
+   test pins 192
+   test pins 193
+   test pins 194
+   test pins 200
+   test pins 202
+
+   inaccessible pins 77, 122, 125, 198, 207, 208
+end device
+
+device "#%fan1"
+   test pins 1
+!  test pins 2, 4, 5    !! ground pins commented by IPG
+   test pins 3
+
+end device
+
+device "#%hdd1"
+!  test pins 6, 9, 10, 11, 7, 8, 12, 14, 18    !! ground pins commented by IPG
+!       pins 21, 23, 24, 26    !! ground pins commented by IPG
+   test pins 19
+   test pins 20
+   test pins 22
+   test pins 25
+
+   inaccessible pins 1, 2, 3, 4, 5, 13, 15, 16, 17
+end device
+
+device "#%kb1" bottom
+!  test pins 1, 31, 32    !! ground pins commented by IPG
+   test pins 4
+   test pins 5
+   test pins 6
+   test pins 7
+   test pins 8
+   test pins 9
+   test pins 10
+   test pins 11
+   test pins 12
+   test pins 13
+   test pins 14
+   test pins 15
+   test pins 16
+   test pins 17
+   test pins 18
+   test pins 19
+   test pins 20
+   test pins 21
+   test pins 22
+   test pins 23
+   test pins 24
+   test pins 25
+   test pins 26
+   test pins 27
+   test pins 28
+   test pins 29
+   test pins 30
+
+   inaccessible pins 2, 3
+end device
+
+device "#%kb2" bottom
+!  test pins 1, 31, 32    !! ground pins commented by IPG
+   test pins 4
+   test pins 5
+   test pins 6
+   test pins 7
+   test pins 8
+   test pins 9
+   test pins 10
+   test pins 11
+   test pins 12
+   test pins 13
+   test pins 14
+   test pins 15
+   test pins 16
+   test pins 17
+   test pins 18
+   test pins 19
+   test pins 20
+   test pins 21
+   test pins 22
+   test pins 23
+   test pins 24
+   test pins 25
+   test pins 26
+   test pins 27
+   test pins 28
+   test pins 29
+   test pins 30
+
+   inaccessible pins 2, 3
+end device
+
+device "#%odd1"
+   test pins 1
+!  test pins 2, 5, 6, 9, 12, 14, 15, 17, 3    !! fixed pins commented by IPG
+   test pins 4
+   test pins 10
+   test pins 11
+   test pins 13
+   test pins 16
+
+   inaccessible pins 7, 8
+end device
+
+device "#%spk1" bottom
+   test pins 1
+   test pins 2
+   test pins 3
+   test pins 4
+!  test pins 5, 6    !! ground pins commented by IPG
+
+end device
+
+! device "#%sw1" bottom
+!  test pins 1, 2, 5, 6    !! ground pins commented by IPG
+!  test pins 4    !! fixed pins commented by IPG
+
+!  inaccessible pins 3
+! end device
+
+device "#%tpad1" bottom
+   test pins 1
+   test pins 2
+   test pins 3
+   test pins 4
+!  test pins 5, 9, 10    !! ground pins commented by IPG
+   test pins 6
+   test pins 7
+   test pins 8
+
+end device
+
+device "#%wlan1"
+!  test pins 2, 4, 9, 15, 18, 21, 26, 27, 29    !! fixed pins commented by IPG
+!       pins 34, 35, 37, 40, 43, 50, 53, 54    !! fixed pins commented by IPG
+!       pins 24, 39, 41, 52    !! fixed pins commented by IPG
+   test pins 3
+   test pins 5
+   test pins 7
+   test pins 11
+   test pins 13
+   test pins 17
+   test pins 19
+   test pins 20
+   test pins 22
+   test pins 23
+   test pins 25
+   test pins 31
+   test pins 33
+   test pins 36
+   test pins 38
+   test pins 44
+   test pins 46
+   test pins 49
+   test pins 51
+
+   inaccessible pins 1, 6, 8, 10, 12, 14, 16, 28, 30, 32, 42, 45, 47, 48, 55, 56
+end device
+
+device "#%db1"
+!  test pins 1, 8, 10, 11, 12    !! fixed pins commented by IPG
+   test pins 2
+   test pins 3
+   test pins 4
+   test pins 5
+   test pins 6
+   test pins 7
+   test pins 9
+
+end device
+
+device "#%gpu1"
+!  test pins "A2", "AA10", "AA12", "AA13"    !! ground pins commented by IPG
+!       pins "AA16", "AA18", "AA19", "AA20"    !! ground pins commented by IPG
+!       pins "AA21", "AA22", "AB22", "AB23"    !! ground pins commented by IPG
+!       pins "AC23", "AC24", "AD24", "AD25"    !! ground pins commented by IPG
+!       pins "AE25", "AE26", "AE27", "AF26"    !! ground pins commented by IPG
+!       pins "AF27", "AA8", "AA9", "AB8"    !! ground pins commented by IPG
+!       pins "G10", "G12", "AA14", "AA15"    !! ground pins commented by IPG
+!       pins "B26", "C25", "E23", "E26"    !! ground pins commented by IPG
+!       pins "F14", "F21", "G13", "G14"    !! ground pins commented by IPG
+!       pins "G15", "G16", "G18", "G19"    !! ground pins commented by IPG
+!       pins "G20", "G21", "H24", "H26"    !! ground pins commented by IPG
+!       pins "J21", "K21", "L22", "L24"    !! ground pins commented by IPG
+!       pins "L26", "M21", "N21", "R21"    !! ground pins commented by IPG
+!       pins "T21", "V21", "W21", "F16"    !! ground pins commented by IPG
+!       pins "H22", "P22", "M6", "N6", "L6"    !! ground pins commented by IPG
+!       pins "K10", "K12", "K14", "K16"    !! ground pins commented by IPG
+!       pins "K18", "L11", "L13", "L15"    !! ground pins commented by IPG
+!       pins "L17", "M10", "M12", "M14"    !! ground pins commented by IPG
+!       pins "M16", "M18", "N11", "N13"    !! ground pins commented by IPG
+!       pins "N15", "N17", "P10", "P12"    !! ground pins commented by IPG
+!       pins "P14", "P16", "P18", "R11"    !! ground pins commented by IPG
+!       pins "R13", "R15", "R17", "T10"    !! ground pins commented by IPG
+!       pins "T12", "T14", "T16", "T18"    !! ground pins commented by IPG
+!       pins "U11", "U13", "U15", "U17"    !! ground pins commented by IPG
+!       pins "V10", "V12", "V14", "V16"    !! ground pins commented by IPG
+!       pins "V18", "G8", "G9", "A26", "AA7"    !! ground pins commented by IPG
+!       pins "AB7", "AB11", "AB14", "AB17"    !! ground pins commented by IPG
+!       pins "AB20", "AB24", "AC2", "AC5"    !! ground pins commented by IPG
+!       pins "AC8", "AC22", "AC26", "AD12"    !! ground pins commented by IPG
+!       pins "AD13", "AD15", "AD16", "AD18"    !! ground pins commented by IPG
+!       pins "AD19", "AD21", "AD22", "AE11"    !! ground pins commented by IPG
+!       pins "AE14", "AE17", "AE20", "AF1"    !! ground pins commented by IPG
+!       pins "AF5", "AF8", "AF11", "AF14"    !! ground pins commented by IPG
+!       pins "AF17", "AF20", "AF23", "AG2"    !! ground pins commented by IPG
+!       pins "AG26", "B1", "B5", "B8", "B11"    !! ground pins commented by IPG
+!       pins "B14", "B17", "B20", "B23"    !! ground pins commented by IPG
+!       pins "B27", "E2", "E5", "E8", "E11"    !! ground pins commented by IPG
+!       pins "E14", "E17", "E20", "E22"    !! ground pins commented by IPG
+!       pins "E25", "H2", "H5", "H23", "H25"    !! ground pins commented by IPG
+!       pins "K11", "K13", "K15", "K17", "L2"    !! ground pins commented by IPG
+!       pins "L5", "L10", "L12", "L14", "L16"    !! ground pins commented by IPG
+!       pins "L18", "L23", "L25", "M11"    !! ground pins commented by IPG
+!       pins "M13", "M15", "M17", "N10"    !! ground pins commented by IPG
+!       pins "N12", "N14", "N16", "N18", "P2"    !! ground pins commented by IPG
+!       pins "P5", "P11", "P13", "P15", "P17"    !! ground pins commented by IPG
+!       pins "P23", "P26", "R10", "R12"    !! ground pins commented by IPG
+!       pins "R14", "R16", "R18", "T11"    !! ground pins commented by IPG
+!       pins "T13", "T15", "T17", "U2", "U5"    !! ground pins commented by IPG
+!       pins "U10", "U12", "U14", "U16"    !! ground pins commented by IPG
+!       pins "U18", "U23", "U26", "V11"    !! ground pins commented by IPG
+!       pins "V13", "V15", "V17", "Y2", "Y5"    !! ground pins commented by IPG
+!       pins "Y23", "Y26"    !! ground pins commented by IPG
+!  test pins "A3"    !! fixed pins commented by IPG
+   test pins "A4"
+   test pins "A6"
+   test pins "A7"
+   test pins "A9"
+   test pins "A10"
+   test pins "A12"
+   test pins "A13"
+   test pins "A15"
+   test pins "A16"
+   test pins "A18"
+   test pins "A19"
+   test pins "A21"
+   test pins "A22"
+   test pins "A24"
+   test pins "A25"
+   test pins "AA23"
+   test pins "AA24"
+   test pins "AA25"
+   test pins "AA26"
+   test pins "AA27"
+   test pins "AB9"
+   test pins "AB10"
+   test pins "AB12"
+   test pins "AB25"
+   test pins "AB26"
+   test pins "AB27"
+   test pins "AC6"
+   test pins "AC7"
+   test node "#%CPU_RXP_C_DGPU_TXP0" !pins "AC9" through c7301
+   test pins "AC10"
+   test pins "AC11"
+   test pins "AC12"
+   test pins "AC25"
+   test pins "AD6"
+   test pins "AD8"
+   test pins "AD9"
+   test pins "AD11"
+   test pins "AD26"
+   test pins "AD27"
+   test pins "AE5"
+   test pins "AE6"
+   test pins "AE7"
+   test pins "AE8"
+   test pins "AE9"
+   test pins "AE22"
+   test pins "AF6"
+   test pins "AF7"
+   test pins "AF9"
+   test pins "AF22"
+   test pins "AF25"
+   test pins "AG4"
+   test pins "AG6"
+   test pins "AG7"
+   test pins "AG9"
+   test pins "AG10"
+   test pins "B4"
+   test pins "B7"
+   test pins "B9"
+   test pins "B10"
+   test pins "B12"
+   test pins "B13"
+   test pins "B15"
+   test pins "B16"
+   test pins "B18"
+   test pins "B21"
+   test pins "B22"
+   test pins "B24"
+   test pins "B25"
+   test pins "C4"
+   test pins "C6"
+   test pins "C8"
+   test pins "C9"
+   test pins "C10"
+   test pins "C11"
+   test pins "C12"
+   test pins "C13"
+   test pins "C14"
+   test pins "C15"
+   test pins "C16"
+   test pins "C17"
+   test pins "C19"
+   test pins "C20"
+   test pins "C21"
+   test pins "C22"
+   test pins "C23"
+   test pins "C24"
+   test pins "C26"
+   test pins "C27"
+   test pins "D1"
+   test pins "D2"
+   test pins "D3"
+   test pins "D7"
+   test pins "D8"
+   test pins "D9"
+   test pins "D11"
+   test pins "D13"
+   test pins "D14"
+   test pins "D15"
+   test pins "D19"
+   test pins "D20"
+   test pins "D21"
+!  test pins "D22"    !! fixed pins commented by IPG
+   test pins "D23"
+   test pins "D24"
+   test pins "D25"
+   test pins "D26"
+   test pins "D27"
+   test pins "E3"
+   test pins "E4"
+   test pins "E7"
+   test pins "E9"
+   test pins "E12"
+   test pins "E13"
+   test pins "E15"
+   test pins "E16"
+   test pins "E18"
+   test pins "E19"
+   test pins "E21"
+   test pins "E24"
+   test pins "F1"
+   test pins "F2"
+   test pins "F3"
+   test pins "F6"
+   test pins "F8"
+   test pins "F12"
+   test pins "F13"
+   test pins "F17"
+   test pins "F20"
+   test pins "F23"
+   test pins "F24"
+   test pins "F25"
+   test pins "F26"
+   test pins "F27"
+   test pins "G22"
+   test pins "G23"
+   test pins "G24"
+   test pins "G25"
+   test pins "G26"
+   test pins "G27"
+   test pins "H6", "J6"
+   test pins "J7", "K7"
+   test pins "J22"
+   test pins "J23"
+   test pins "J24"
+   test pins "J25"
+   test pins "J26"
+   test pins "J27"
+   test pins "K22"
+   test pins "K23"
+   test pins "K24"
+   test pins "K25"
+   test pins "K26"
+   test pins "K27"
+   test pins "M7", "N7"
+   test pins "M22"
+   test pins "M23"
+   test pins "M24"
+   test pins "M25"
+   test pins "M26"
+   test pins "M27"
+   test pins "N22"
+   test pins "N23"
+   test pins "N24"
+   test pins "N25"
+   test pins "N26"
+   test pins "N27"
+   test pins "P6"
+   test pins "P25"
+   test pins "R6"
+   test pins "R7", "T7"
+   test pins "R23"
+   test pins "R24"
+   test pins "R26"
+   test pins "R27"
+   test pins "T25"
+   test pins "T26"
+   test pins "T27"
+   test pins "U22"
+   test pins "U25"
+   test pins "V7", "W7"
+   test pins "V23"
+   test pins "V26"
+   test pins "V27"
+   test pins "W6", "Y6"
+   test pins "W22"
+   test pins "W23"
+   test pins "W24"
+   test pins "W25"
+   test pins "W26"
+   test pins "W27"
+   test pins "Y24"
+   test pins "Y25"
+
+   inaccessible pins "AA1", "AA2", "AA3", "AA4", "AA5", "AA6", "AB1", "AB2"
+   inaccessible pins "AB3", "AB4", "AB5", "AB6", "AB13", "AB15", "AB16", "AB18"
+   inaccessible pins "AB19", "AB21", "AC3", "AC4", "AC13", "AC14", "AC15"
+   inaccessible pins "AC16", "AC17", "AC18", "AC19", "AC20", "AC21", "AD1"
+   inaccessible pins "AD2", "AD3", "AD4", "AD5", "AD7", "AD10", "AD14", "AD17"
+   inaccessible pins "AD20", "AD23", "AE1", "AE2", "AE3", "AE4", "AE10", "AE12"
+   inaccessible pins "AE13", "AE15", "AE16", "AE18", "AE19", "AE21", "AE23"
+   inaccessible pins "AE24", "AF2", "AF3", "AF4", "AF10", "AF12", "AF13", "AF15"
+   inaccessible pins "AF16", "AF18", "AF19", "AF21", "AF24", "AG3", "AG12"
+   inaccessible pins "AG13", "AG15", "AG16", "AG18", "AG19", "AG21", "AG22"
+   inaccessible pins "AG24", "AG25", "B2", "B3", "B6", "B19", "C1", "C2", "C3"
+   inaccessible pins "C7", "C18", "D4", "D5", "D6", "D10", "D16", "D17", "D18"
+   inaccessible pins "E6", "E10", "F4", "F5", "F7", "F9", "F10", "F11", "G1"
+   inaccessible pins "G2", "G3", "G4", "G5", "G6", "G7", "H3", "H4", "J1", "J2"
+   inaccessible pins "J3", "J4", "J5", "K1", "K2", "K3", "K4", "K5", "K6", "L3"
+   inaccessible pins "L4", "M1", "M2", "M3", "M4", "M5", "N1", "N2", "N3", "N4"
+   inaccessible pins "N5", "P3", "P4", "R1", "R2", "R3", "R4", "R5", "T1", "T2"
+   inaccessible pins "T3", "T4", "T5", "T6", "T24", "U3", "U4", "U6", "U24"
+   inaccessible pins "V1", "V2", "V3", "V4", "V5", "V6", "V24", "V25", "W1"
+   inaccessible pins "W2", "W3", "W4", "W5", "Y3", "Y4", "C5", "D12", "F15"
+   inaccessible pins "F18", "F19", "F22", "P24", "R22", "R25", "T22", "T23"
+   inaccessible pins "V22", "Y22"
+   inaccessible pins "AC9" !! drive-thru
+end device
+
+device "#%hda27" bottom
+!  test pins 1, 4, 49, 9, 36    !! fixed pins commented by IPG
+   test pins 2
+   test pins 3
+   test pins 5
+   test pins 6
+   test pins 8
+   test pins 10
+   test pins 11
+   test pins 12
+   test pins 13
+   test pins 15
+   test pins 17
+   test pins 18
+   test pins 19, 25, 38
+!  test pins 20    !! fixed pins commented by IPG
+   test pins 21
+   test pins 22
+!  test pins 26    !! fixed pins commented by IPG
+   test pins 27
+   test pins 28
+   test pins 29
+   test pins 30
+   test pins 31
+   test pins 32
+   test pins 33
+!  test pins 34    !! ground pins commented by IPG
+   test pins 35, 37
+   test pins 39
+!  test pins 40    !! fixed pins commented by IPG
+!  test pins 41, 46    !! fixed pins commented by IPG
+   test pins 42
+   test pins 43
+   test pins 44
+   test pins 45
+   test pins 47
+   test pins 48
+
+   inaccessible pins 7, 14, 16, 23, 24
+end device
+
+device "#%kbc24" bottom
+   test pins 1
+   test pins 2
+   test pins 3
+!  test pins 4, 5, 18, 45, 78, 89, 103, 116    !! fixed pins commented by IPG
+   test pins 6
+   test pins 7
+   test pins 8
+   test pins 9
+!  test pins 10    !! fixed pins commented by IPG
+   test pins 11
+!  test pins 12    !! fixed pins commented by IPG
+   test pins 13
+   test pins 14
+   test pins 15
+   test pins 16
+   test pins 17
+!  test pins 19, 46, 76, 88, 115, 102    !! fixed pins commented by IPG
+   test pins 20
+!  test pins 21    !! fixed pins commented by IPG
+   test pins 22
+   test pins 23
+   test pins 24
+   test pins 25
+   test pins 26
+   test pins 27
+   test pins 28
+   test pins 29
+   test pins 30
+   test pins 31
+   test pins 32
+   test pins 33
+   test pins 34
+   test pins 35
+   test pins 36
+   test pins 37
+   test pins 38
+   test pins 39
+   test pins 40
+   test pins 41
+   test pins 42
+   test pins 43
+!  test pins 44    !! ground pins commented by IPG
+   test pins 47
+   test pins 48
+   test pins 49
+   test pins 50
+   test pins 51
+   test pins 52
+   test pins 53
+   test pins 54
+   test pins 55
+   test pins 56
+   test pins 57
+   test pins 58
+   test pins 59
+   test pins 60
+   test pins 61
+   test pins 62
+!  test pins 63    !! fixed pins commented by IPG
+!  test pins 64    !! fixed pins commented by IPG
+   test pins 65
+   test pins 66
+   test pins 67
+   test pins 68
+   test pins 69
+   test pins 70
+   test pins 71
+   test pins 72
+   test pins 73
+   test pins 74
+!  test pins 75    !! fixed pins commented by IPG
+   test pins 77
+!  test pins 79    !! fixed pins commented by IPG
+   test pins 80
+   test pins 81
+   test pins 82
+!  test pins 83    !! fixed pins commented by IPG
+!  test pins 84    !! fixed pins commented by IPG
+   test pins 85
+   test pins 86
+   test pins 87
+   test pins 90
+!  test pins 91    !! fixed pins commented by IPG
+   test pins 92
+!  test pins 93    !! fixed pins commented by IPG
+   test pins 94
+   test pins 95
+   test pins 96
+   test pins 97
+   test pins 98
+   test pins 99
+!  test pins 100    !! fixed pins commented by IPG
+   test pins 101
+   test pins 104
+   test pins 105
+   test pins 106
+!  test pins 107    !! fixed pins commented by IPG
+!  test pins 108    !! fixed pins commented by IPG
+   test pins 109
+   test pins 110
+   test pins 111
+   test pins 112
+   test pins 113
+!  test pins 114    !! ground pins commented by IPG
+!  test pins 117    !! fixed pins commented by IPG
+   test pins 118
+   test pins 119
+   test pins 120
+   test pins 121
+   test pins 122
+   test pins 123
+   test pins 124
+   test pins 125
+   test pins 126
+   test pins 127
+   test pins 128
+
+end device
+
+device "#%kblit1" bottom
+!  test pins 1    !! fixed pins commented by IPG
+   test pins 2
+   test pins 4
+!  test pins 5, 6    !! ground pins commented by IPG
+
+   inaccessible pins 3
+end device
+
+device "#%lcd1" bottom
+!  test pins 1, 2    !! fixed pins commented by IPG
+!  test pins 4, 13, 16, 19, 23, 24, 25, 26    !! fixed pins commented by IPG
+!       pins 29, 36, 41, 42, 5, 6, 7    !! fixed pins commented by IPG
+   test pins 8
+   test pins 9
+   test pins 10
+   test pins 11
+   test pins 12
+   test pins 14
+   test pins 15
+   test pins 17
+   test pins 18
+   test pins 20
+   test pins 21
+   test pins 22
+   test pins 27
+   test pins 28
+   test pins 30
+   test pins 31
+!  test pins 32    !! fixed pins commented by IPG
+   test pins 34
+   test pins 35
+   test pins 37
+   test pins 38
+!  test pins 40    !! fixed pins commented by IPG
+
+   inaccessible pins 3, 33, 39
+end device
+
+device "#%lom30"
+   test pins 1
+   test pins 2
+!  test pins 3, 33, 24, 8, 22, 30    !! ground pins commented by IPG
+   test pins 4
+   test pins 5
+   test pins 6
+   test pins 7
+   test pins 9
+   test pins 10
+!  test pins 11, 23, 32    !! fixed pins commented by IPG
+   test pins 12
+   test pins 14
+   test pins 16
+   test pins 17
+   test pins 18
+   test pins 19
+   test pins 20
+   test pins 21
+   test pins 25
+   test pins 26
+   test pins 27
+   test pins 28
+   test pins 29
+   test pins 31
+
+   inaccessible pins 13, 15
+end device
+
+device "#%pu4404"
+!  test pins 1, 14, 21, 2    !! fixed pins commented by IPG
+   test pins 3
+   test pins 4
+   test pins 5
+   test pins 6
+   test pins 7
+   test pins 8
+   test pins 9
+   test pins 10
+   test pins 11
+!  test pins 12    !! fixed pins commented by IPG
+!  test pins 13    !! fixed pins commented by IPG
+   test pins 15
+!  test pins 16    !! ground pins commented by IPG
+   test pins 17
+   test pins 18
+!  test pins 19    !! fixed pins commented by IPG
+!  test pins 20    !! fixed pins commented by IPG
+
+end device
+
+device "#%pu4503" bottom
+   test pins 1
+   test pins 2
+!  test pins 3, 21    !! fixed pins commented by IPG
+   test pins 4
+   test pins 5
+!  test pins 6, 20    !! fixed pins commented by IPG
+!  test pins 7    !! fixed pins commented by IPG
+!  test pins 8    !! fixed pins commented by IPG
+   test pins 9
+   test pins 10
+   test pins 11
+!  test pins 12    !! fixed pins commented by IPG
+!  test pins 13    !! fixed pins commented by IPG
+!  test pins 14, 18    !! fixed pins commented by IPG
+   test pins 15
+   test pins 16
+   test pins 17
+   test pins 19
+
+end device
+
+device "#%pu4601" bottom
+!  test pins 1    !! fixed pins commented by IPG
+!  test pins 2    !! fixed pins commented by IPG
+!  test pins 3    !! fixed pins commented by IPG
+!  test pins 4    !! fixed pins commented by IPG
+!  test pins 5    !! fixed pins commented by IPG
+!  test pins 6    !! fixed pins commented by IPG
+   test pins 7
+!  test pins 8    !! fixed pins commented by IPG
+!  test pins 9    !! fixed pins commented by IPG
+!  test pins 10    !! fixed pins commented by IPG
+!  test pins 11    !! fixed pins commented by IPG
+!  test pins 12, 21    !! fixed pins commented by IPG
+!  test pins 13    !! fixed pins commented by IPG
+!  test pins 14    !! fixed pins commented by IPG
+!  test pins 15    !! fixed pins commented by IPG
+!  test pins 16    !! fixed pins commented by IPG
+!  test pins 17    !! fixed pins commented by IPG
+   test pins 18
+!  test pins 19    !! fixed pins commented by IPG
+   test pins 20
+
+end device
+
+device "#%pu4806" bottom
+!  test pins 1    !! fixed pins commented by IPG
+   test pins 2
+!  test pins 3    !! fixed pins commented by IPG
+   test pins 4
+   test pins 5
+   test pins 6
+!  test pins 7, 11    !! fixed pins commented by IPG
+!  test pins 8    !! fixed pins commented by IPG
+   test pins 9
+   test pins 10
+
+end device
+
+! device "#%pu4901" bottom
+!  test pins 1, 4, 7, 10, 21, 3    !! fixed pins commented by IPG
+!  test pins 2, 9, 13    !! fixed pins commented by IPG
+!  test pins 5    !! fixed pins commented by IPG
+!  test pins 6    !! fixed pins commented by IPG
+!  test pins 8    !! fixed pins commented by IPG
+!  test pins 11    !! fixed pins commented by IPG
+!  test pins 12    !! fixed pins commented by IPG
+!  test pins 14    !! fixed pins commented by IPG
+!  test pins 15    !! fixed pins commented by IPG
+!  test pins 16    !! fixed pins commented by IPG
+!  test pins 17    !! fixed pins commented by IPG
+!  test pins 18    !! fixed pins commented by IPG
+!  test pins 19    !! fixed pins commented by IPG
+!  test pins 20    !! fixed pins commented by IPG
+
+! end device
+
+device "#%pu5102"
+!  test pins 1    !! fixed pins commented by IPG
+   test pins 2
+!  test pins 3    !! fixed pins commented by IPG
+   test pins 4
+!  test pins 5    !! fixed pins commented by IPG
+!  test pins 6    !! fixed pins commented by IPG
+!  test pins 7    !! fixed pins commented by IPG
+!  test pins 8, 9    !! fixed pins commented by IPG
+!  test pins 10    !! fixed pins commented by IPG
+
+end device
+
+device "#%pu8201"
+   test pins 1
+   test pins 2
+   test pins 3
+   test pins 4
+   test pins 5
+   test pins 6
+   test pins 7
+   test pins 8
+   test pins 9
+   test pins 10
+   test pins 11
+   test pins 12
+!  test pins 13    !! fixed pins commented by IPG
+   test pins 14
+   test pins 15
+   test pins 16
+   test pins 17
+!  test pins 18    !! fixed pins commented by IPG
+   test pins 19
+   test pins 20
+!  test pins 21    !! ground pins commented by IPG
+
+end device
+
+device "#%spi25"
+   test pins 1
+   test pins 2
+   test pins 3
+!  test pins 4, 8    !! ground pins commented by IPG
+   test pins 5
+   test pins 6
+   test pins 7
+
+end device
+
+device "#%thm26" bottom
+!  test pins 1, 5    !! fixed pins commented by IPG
+   test pins 2
+   test pins 3
+   test pins 4
+   test pins 6
+   test pins 7
+   test pins 8
+
+end device
+
+device "#%u3101"
+   test pins 1, 10
+   test pins 2, 9
+!  test pins 3, 8    !! ground pins commented by IPG
+   test pins 4, 7
+   test pins 5, 6
+
+end device
+
+device "#%u3102" bottom
+   test pins 1, 10
+   test pins 2, 9
+!  test pins 3, 8    !! ground pins commented by IPG
+   test pins 4, 7
+   test pins 5, 6
+
+end device
+
+device "#%u3402"
+   test pins 1, 10
+   test pins 2, 9
+!  test pins 3, 8    !! ground pins commented by IPG
+   test pins 4, 7
+   test pins 5, 6
+
+end device
+
+! device "#%u3601" bottom
+!  test pins 1, 11, 15, 2, 4    !! fixed pins commented by IPG
+!  test pins 3, 5    !! fixed pins commented by IPG
+!  test pins 6, 7    !! fixed pins commented by IPG
+!  test pins 8, 9    !! fixed pins commented by IPG
+!  test pins 10    !! fixed pins commented by IPG
+!  test pins 12    !! fixed pins commented by IPG
+!  test pins 13, 14    !! fixed pins commented by IPG
+
+! end device
+
+device "#%u5602"
+   test pins 1, 10
+   test pins 2, 9
+!  test pins 3, 8    !! ground pins commented by IPG
+   test pins 4, 7
+   test pins 5, 6
+
+end device
+
+! device "#%u8301" bottom
+!  test pins 1, 11, 15, 2    !! fixed pins commented by IPG
+!  test pins 3    !! fixed pins commented by IPG
+!  test pins 4    !! fixed pins commented by IPG
+!  test pins 5    !! fixed pins commented by IPG
+!  test pins 6, 7    !! fixed pins commented by IPG
+!  test pins 8, 9    !! fixed pins commented by IPG
+!  test pins 10    !! fixed pins commented by IPG
+!  test pins 12    !! fixed pins commented by IPG
+!  test pins 13, 14    !! fixed pins commented by IPG
+
+! end device
+
+device "#%vram1" bottom
+!  test pins "A1", "A9", "B1", "B3", "B9"    !! fixed pins commented by IPG
+!       pins "D1", "D8", "E1", "E2", "E8"    !! fixed pins commented by IPG
+!       pins "F9", "G1", "G8", "G9", "J2"    !! fixed pins commented by IPG
+!       pins "J8", "M1", "M9", "P1", "P9"    !! fixed pins commented by IPG
+!       pins "T1", "T9", "A8", "B2", "C1"    !! fixed pins commented by IPG
+!       pins "C9", "D2", "D9", "E9", "F1"    !! fixed pins commented by IPG
+!       pins "G7", "H2", "H9", "K2", "K8"    !! fixed pins commented by IPG
+!       pins "N1", "N9", "R1", "R9"    !! fixed pins commented by IPG
+   test pins "A2"
+   test pins "A3"
+   test pins "A7"
+   test pins "B7"
+   test pins "B8"
+   test pins "C2"
+   test pins "C3"
+   test pins "C7"
+   test pins "C8"
+   test pins "D3"
+   test pins "E3"
+   test pins "E7"
+   test pins "F2"
+   test pins "F3"
+   test pins "F7"
+   test pins "F8"
+   test pins "G2"
+   test pins "H1", "M8"
+   test pins "H7"
+   test pins "H8"
+   test pins "J3"
+   test pins "J7"
+   test pins "K1"
+   test pins "K3"
+   test pins "K7"
+   test pins "K9"
+   test pins "L2"
+   test pins "L3"
+   test pins "L7"
+   test pins "L8"
+   test pins "M2"
+   test pins "M3"
+   test pins "N2"
+   test pins "N3"
+   test pins "N7"
+   test pins "N8"
+   test pins "P2"
+   test pins "P3"
+   test pins "P7"
+   test pins "P8"
+   test pins "R2"
+   test pins "R3"
+   test pins "R7"
+   test pins "R8"
+   test pins "T2"
+   test pins "T3"
+   test pins "T7"
+   test pins "T8"
+
+   inaccessible pins "D7", "G3", "H3", "J1", "J9", "L1", "L9", "M7"
+end device
+
+device "#%vram2"
+!  test pins "A1", "A9", "B1", "B3", "B9"    !! fixed pins commented by IPG
+!       pins "D1", "D8", "E1", "E2", "E8"    !! fixed pins commented by IPG
+!       pins "F9", "G1", "G8", "G9", "J2"    !! fixed pins commented by IPG
+!       pins "J8", "M1", "M9", "P1", "P9"    !! fixed pins commented by IPG
+!       pins "T1", "T9", "A8", "B2", "C1"    !! fixed pins commented by IPG
+!       pins "C9", "D2", "D9", "E9", "F1"    !! fixed pins commented by IPG
+!       pins "G7", "H2", "H9", "K2", "K8"    !! fixed pins commented by IPG
+!       pins "N1", "N9", "R1", "R9"    !! fixed pins commented by IPG
+   test pins "A2"
+   test pins "A3"
+   test pins "A7"
+   test pins "B7"
+   test pins "B8"
+   test pins "C2"
+   test pins "C3"
+   test pins "C7"
+   test pins "C8"
+   test pins "D3"
+   test pins "D7"
+   test pins "E3"
+   test pins "E7"
+   test pins "F2"
+   test pins "F3"
+   test pins "F7"
+   test pins "F8"
+   test pins "G2"
+   test pins "G3"
+   test pins "H1", "M8"
+   test pins "H3"
+   test pins "H7"
+   test pins "H8"
+   test pins "J3"
+   test pins "J7"
+   test pins "K1"
+   test pins "K3"
+   test pins "K7"
+   test pins "K9"
+   test pins "L2"
+   test pins "L3"
+   test pins "L7"
+   test pins "L8"
+   test pins "M2"
+   test pins "M3"
+   test pins "N2"
+   test pins "N3"
+   test pins "N7"
+   test pins "N8"
+   test pins "P2"
+   test pins "P3"
+   test pins "P7"
+   test pins "P8"
+   test pins "R2"
+   test pins "R3"
+   test pins "R7"
+   test pins "R8"
+   test pins "T2"
+   test pins "T3"
+   test pins "T7"
+   test pins "T8"
+
+   inaccessible pins "J1", "J9", "L1", "L9", "M7"
+end device
+
+device "#%vram3"
+!  test pins "A1", "A9", "B1", "B3", "B9"    !! fixed pins commented by IPG
+!       pins "D1", "D8", "E1", "E2", "E8"    !! fixed pins commented by IPG
+!       pins "F9", "G1", "G8", "G9", "J2"    !! fixed pins commented by IPG
+!       pins "J8", "M1", "M9", "P1", "P9"    !! fixed pins commented by IPG
+!       pins "T1", "T9", "A8", "B2", "C1"    !! fixed pins commented by IPG
+!       pins "C9", "D2", "D9", "E9", "F1"    !! fixed pins commented by IPG
+!       pins "G7", "H2", "H9", "K2", "K8"    !! fixed pins commented by IPG
+!       pins "N1", "N9", "R1", "R9"    !! fixed pins commented by IPG
+   test pins "A2"
+   test pins "A3"
+   test pins "A7"
+   test pins "B7"
+   test pins "B8"
+   test pins "C2"
+   test pins "C3"
+   test pins "C7"
+   test pins "C8"
+   test pins "D3"
+   test pins "D7"
+   test pins "F2"
+   test pins "F7"
+   test pins "F8"
+   test pins "G2"
+   test pins "G3"
+   test pins "H1", "M8"
+   test pins "H7"
+   test pins "H8"
+   test pins "J3"
+   test pins "J7"
+   test pins "K1"
+   test pins "K3"
+   test pins "K7"
+   test pins "K9"
+   test pins "L2"
+   test pins "L3"
+   test pins "L7"
+   test pins "L8"
+   test pins "M2"
+   test pins "M3"
+   test pins "N2"
+   test pins "N3"
+   test pins "N7"
+   test pins "N8"
+   test pins "P2"
+   test pins "P3"
+   test pins "P7"
+   test pins "P8"
+   test pins "R2"
+   test pins "R3"
+   test pins "R7"
+   test pins "R8"
+   test pins "T2"
+   test pins "T3"
+   test pins "T7"
+   test pins "T8"
+
+   inaccessible pins "E3", "E7", "F3", "H3", "J1", "J9", "L1", "L9", "M7"
+end device
+
+device "#%vram4" bottom
+!  test pins "A1", "A9", "B1", "B3", "B9"    !! fixed pins commented by IPG
+!       pins "D1", "D8", "E1", "E2", "E8"    !! fixed pins commented by IPG
+!       pins "F9", "G1", "G8", "G9", "J2"    !! fixed pins commented by IPG
+!       pins "J8", "M1", "M9", "P1", "P9"    !! fixed pins commented by IPG
+!       pins "T1", "T9", "A8", "B2", "C1"    !! fixed pins commented by IPG
+!       pins "C9", "D2", "D9", "E9", "F1"    !! fixed pins commented by IPG
+!       pins "G7", "H2", "H9", "K2", "K8"    !! fixed pins commented by IPG
+!       pins "N1", "N9", "R1", "R9"    !! fixed pins commented by IPG
+   test pins "A2"
+   test pins "A3"
+   test pins "A7"
+   test pins "B7"
+   test pins "B8"
+   test pins "C2"
+   test pins "C3"
+   test pins "C7"
+   test pins "C8"
+   test pins "D3"
+   test pins "D7"
+   test pins "E7"
+   test pins "F2"
+   test pins "F3"
+   test pins "F7"
+   test pins "F8"
+   test pins "G3"
+   test pins "H1", "M8"
+   test pins "H3"
+   test pins "H7"
+   test pins "J3"
+   test pins "J7"
+   test pins "K1"
+   test pins "K3"
+   test pins "K7"
+   test pins "K9"
+   test pins "L2"
+   test pins "L3"
+   test pins "L7"
+   test pins "L8"
+   test pins "M2"
+   test pins "M3"
+   test pins "N2"
+   test pins "N3"
+   test pins "N7"
+   test pins "N8"
+   test pins "P2"
+   test pins "P3"
+   test pins "P7"
+   test pins "P8"
+   test pins "R2"
+   test pins "R3"
+   test pins "R7"
+   test pins "R8"
+   test pins "T2"
+   test pins "T3"
+   test pins "T7"
+   test pins "T8"
+
+   inaccessible pins "E3", "G2", "H8", "J1", "J9", "L1", "L9", "M7"
+end device

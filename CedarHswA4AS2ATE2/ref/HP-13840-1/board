@@ -1,0 +1,648 @@
+!!!!   12    1    1 1392277742   0000                                         
+!---------------------------------------------------------------------------
+!AGILENT ICT BOARD CONFIGURATION FORMAT         Thu Feb 13, 2014 03:49:03 PM
+!
+! board
+!---------------------------------------------------------------------------
+
+HEADING
+  "13804-1";
+
+GLOBAL OPTIONS
+  Fixture Type    EXPRESS;
+  Fixture Size    BANK2;
+  Top Probes Allowed  ON;
+  Heavy Probe Force      8;
+  Light Probe Force      4;
+  Mechanical Density Threshold    800;
+  Vacuum Density Threshold    104;
+  Test Strategy COMBINATIONAL;
+  WireWrapping AUTO;
+  Metric Units OFF;
+  Common Lead Resistance      0.5;    ! (ohms) from probe to component.
+  Common Lead Inductance       1u;    ! (Henries) from probe to component.
+  Capacitance Compensation ON;
+  IPG Digital Resistance Threshold       42;    ! (ohms)
+  Preconditioning Levels    1;
+  IPG TestJet Drive Thru Threshold      10k;    ! (ohms)
+  Boundary Scan Overdrive  OFF;
+  Boundary Scan Disables  OFF;
+  Ground Bounce Suppression  OFF;
+
+DEVICE OPTIONS
+  Tolerance Multiplier    5;
+  Remote Sensing  ON;
+  Fuse Threshold    10;
+  Diode Current     5m;
+  Zener Current  10m;
+  Adjust  FAST;
+  Upstream Disable  ON;
+  Upstream Condition  ON;
+  END
+
+FAMILY OPTIONS
+  CMOS
+    Drive High       4;
+    Drive Low      0.8;
+    Receive High   3.6;
+    Receive Low    1.3;
+    Edge Speed      50;
+    Open Input Default  X;
+    Load        NONE;
+  TTL
+    Drive High     3.5;
+    Drive Low      0.2;
+    Receive High     2;
+    Receive Low    0.8;
+    Edge Speed     100;
+    Open Input Default  X;
+    Load        UP;
+  LVCMOS
+    Drive High     2.5;
+    Drive Low      0.2;
+    Receive High   1.7;
+    Receive Low    0.7;
+    Edge Speed     100;
+    Open Input Default  1;
+    Load        NONE;
+  V1_8
+    Drive High     1.8;
+    Drive Low      0.2;
+    Receive High  1.35;
+    Receive Low    0.8;
+    Edge Speed     100;
+    Open Input Default  X;
+    Load        NONE;
+  LV_TTL
+    Drive High       3;
+    Drive Low      0.2;
+    Receive High   1.8;
+    Receive Low    0.8;
+    Edge Speed     100;
+    Open Input Default  1;
+    Load        NONE;
+  LVTTL
+    Drive High     2.4;
+    Drive Low      0.4;
+    Receive High     2;
+    Receive Low    0.8;
+    Edge Speed     100;
+    Open Input Default  1;
+    Load        NONE;
+  LVCTTL
+    Drive High     2.4;
+    Drive Low      0.4;
+    Receive High     2;
+    Receive Low    0.8;
+    Edge Speed     100;
+    Open Input Default  1;
+    Load        NONE;
+  AHCTTL
+    Drive High     3.5;
+    Drive Low      0.4;
+    Receive High     2;
+    Receive Low    0.8;
+    Edge Speed     100;
+    Open Input Default  X;
+    Load        UP;
+
+CARD OPTIONS
+  CMOS
+    HYBRID;
+  TTL
+    HYBRID;
+  LVCMOS
+    HYBRID;
+  V1_8
+    HYBRID;
+  LV_TTL
+    HYBRID;
+  LVTTL
+    HYBRID;
+  LVCTTL
+    HYBRID;
+  AHCTTL
+    HYBRID;
+
+LIBRARY OPTIONS
+  "./custom_lib"
+  "/hp3070/library/ttl"
+  "/hp3070/library/lsi"
+  "/hp3070/library/cmos"
+  "/hp3070/library/ecl"
+  "/hp3070/library/setup";
+
+UNCONNECTED PIN NC;
+
+
+CAPACITOR
+  C201          1n    10    10 f PN"C201";
+  C202          1n    10    10 f PN"C202";
+  C203          1n    10    10 f PN"C203";
+  C204          1n    10    10 f PN"C204";
+  C205          1n    10    10 f PN"C205";
+  C206          1n    10    10 f PN"C206";
+  C301          1n    10    10 f PN"C301";
+  C302          1n    10    10 f PN"C302";
+  C303          1n    10    10 f PN"C303";
+  C402          1n    10    10 f PN"C402";
+  C403          1n    10    10 f PN"C403";
+  C404          1n    10    10 f PN"C404";
+  C501          1n    10    10 f PN"C501";
+  C502          1n    10    10 f PN"C502";
+  C601          1n    10    10 f PN"C601";
+  C602          1n    10    10 f PN"C602";
+  C603          1n    10    10 f PN"C603";
+  EC201         1n    10    10 f PN"EC201";
+  EC301         1n    10    10 f PN"EC301";
+  EC302         1n    10    10 f PN"EC302";
+  EC303         1n    10    10 f PN"EC303";
+  EC304         1n    10    10 f PN"EC304";
+  EC305         1n    10    10 f PN"EC305";
+  EC306         1n    10    10 f PN"EC306";
+  EC307         1n    10    10 f PN"EC307";
+  EC601         1n    10    10 f PN"EC601";
+  EC602         1n    10    10 f PN"EC602";
+
+CONNECTOR
+  AFTP301   NT PN"AFTP301";
+  AFTP401   NT PN"AFTP401";
+  AFTP402   NT PN"AFTP402";
+  AFTP403   NT PN"AFTP403";
+  AFTP404   NT PN"AFTP404";
+  AFTP601   NT PN"AFTP601";
+  AFTP602   NT PN"AFTP602";
+  AFTP603   NT PN"AFTP603";
+  AFTP604   NT PN"AFTP604";
+  AFTP605   NT PN"AFTP605";
+  AFTP606   NT PN"AFTP606";
+  AFTP607   NT PN"AFTP607";
+  CARD1     NT PN"CARD1";
+  H10       NT PN"H10";
+  H11       NT PN"H11";
+  IOBD2     NT PN"IOBD2";
+  TP201     NT PN"TP201";
+  USB3      NT PN"USB3";
+
+PIN LIBRARY
+  LED1      PN"LED1";
+  U201      PN"U201";
+  U601      PN"U601";
+
+RESISTOR
+  R201         999    10    10 f PN"R201";
+  R202         999    10    10 f PN"R202";
+  R203         999    10    10 f PN"R203";
+  R204         999    10    10 f PN"R204";
+  R205         999    10    10 f PN"R205";
+  R301         999    10    10 f PN"R301";
+  R401         999    10    10 f PN"R401";
+  R402         999    10    10 f PN"R402";
+  R501         999    10    10 f PN"R501";
+  R502         999    10    10 f PN"R502";
+
+PIN_MAP
+  DIODE
+    1 C;
+    2 A;
+  FET
+    1 S;
+    2 G;
+    3 D;
+  TRANSISTOR
+    1 E;
+    2 B;
+    3 C;
+  ZENER
+    1 C;
+    2 A;
+  END
+
+CONNECTIONS
+  3D3V_CARD_S0
+    C205.1
+    C206.1
+    C301.1
+    C302.1
+    C303.1
+    CARD1.4
+    U201.5;
+  3D3V_S0
+    AFTP602.1
+    C201.1
+    C202.1
+    C602.1
+    EC602.1
+    IOBD2.5
+    U201.4;
+  BAT_AMBER
+    C501.1
+    IOBD2.14
+    R501.1;
+  BAT_AMBER_R
+    LED1.1
+    R501.2;
+  BAT_WHITE
+    C502.1
+    IOBD2.15
+    R502.1;
+  BAT_WHITE_R
+    LED1.2
+    R502.2;
+  CR_GPIO0
+    TP201.1
+    U201.17;
+  GND
+    AFTP301.1
+    AFTP404.1
+    AFTP603.1
+    C201.2
+    C202.2
+    C203.1
+    C204.2
+    C205.2
+    C206.2
+    C301.2
+    C302.2
+    C303.2
+    C402.2
+    C403.2
+    C404.2
+    C501.2
+    C502.2
+    C601.2
+    C602.2
+    C603.2
+    CARD1.3
+    CARD1.6
+    CARD1.12
+    CARD1.13
+    CARD1.14
+    CARD1.15
+    EC201.2
+    EC301.2
+    EC302.2
+    EC303.2
+    EC304.2
+    EC305.2
+    EC306.2
+    EC307.2
+    EC601.2
+    EC602.2
+    H10.1
+    H11.1
+    IOBD2.7
+    IOBD2.10
+    IOBD2.13
+    IOBD2.16
+    IOBD2.17
+    IOBD2.18
+    LED1.3
+    R205.2
+    U201.25
+    U601.2
+    USB3.4
+    USB3.5
+    USB3.6
+    USB3.7
+    USB3.8;
+  RREF
+    R205.1
+    U201.1;
+  SD_CD#
+    R301.1
+    U201.13;
+  SD_CD_R#
+    CARD1.10
+    EC305.1
+    R301.2;
+  SD_CLK
+    CARD1.5
+    EC201.1
+    R202.2;
+  SD_CLK_5170
+    R202.1
+    U201.15;
+  SD_CMD
+    CARD1.2
+    EC304.1
+    U201.18;
+  SD_D0
+    CARD1.7
+    EC306.1
+    U201.11;
+  SD_D1
+    CARD1.8
+    EC301.1
+    U201.10;
+  SD_D2
+    CARD1.9
+    EC302.1
+    U201.21;
+  SD_D3
+    CARD1.1
+    EC303.1
+    U201.20;
+  SD_WP
+    CARD1.11
+    EC307.1
+    R201.1;
+  SD_WP_5170
+    R201.2
+    U201.8;
+  SDREFG
+    C204.1
+    U201.6;
+  USB20_VCCB
+    AFTP403.1
+    AFTP601.1
+    C402.1
+    C403.1
+    C404.1
+    C601.1
+    C603.1
+    EC601.1
+    IOBD2.1
+    IOBD2.2
+    IOBD2.3
+    IOBD2.4
+    U601.5
+    USB3.1;
+  USB_PN2
+    AFTP604.1
+    IOBD2.8
+    R402.1
+    U601.6;
+  USB_PN2_R
+    AFTP401.1
+    R402.2
+    USB3.2;
+  USB_PN7
+    AFTP606.1
+    IOBD2.11
+    R204.1
+    U601.4;
+  USB_PN7_R
+    R204.2
+    U201.2;
+  USB_PP2
+    AFTP605.1
+    IOBD2.9
+    R401.1
+    U601.1;
+  USB_PP2_R
+    AFTP402.1
+    R401.2
+    USB3.3;
+  USB_PP7
+    AFTP607.1
+    IOBD2.12
+    R203.1
+    U601.3;
+  USB_PP7_R
+    R203.2
+    U201.3;
+  V18
+    C203.2
+    U201.24;
+
+  NC
+    CARD1.16
+    CARD1.17
+    IOBD2.6
+    U201.7
+    U201.9
+    U201.12
+    U201.14
+    U201.16
+    U201.19
+    U201.22
+    U201.23;
+
+DEVICES
+  C201
+    1.3D3V_S0
+    2.GND;
+  C202
+    1.3D3V_S0
+    2.GND;
+  C203
+    1.GND
+    2.V18;
+  C204
+    1.SDREFG
+    2.GND;
+  C205
+    1.3D3V_CARD_S0
+    2.GND;
+  C206
+    1.3D3V_CARD_S0
+    2.GND;
+  C301
+    1.3D3V_CARD_S0
+    2.GND;
+  C302
+    1.3D3V_CARD_S0
+    2.GND;
+  C303
+    1.3D3V_CARD_S0
+    2.GND;
+  C402
+    1.USB20_VCCB
+    2.GND;
+  C403
+    1.USB20_VCCB
+    2.GND;
+  C404
+    1.USB20_VCCB
+    2.GND;
+  C501
+    1.BAT_AMBER
+    2.GND;
+  C502
+    1.BAT_WHITE
+    2.GND;
+  C601
+    1.USB20_VCCB
+    2.GND;
+  C602
+    1.3D3V_S0
+    2.GND;
+  C603
+    1.USB20_VCCB
+    2.GND;
+  EC201
+    1.SD_CLK
+    2.GND;
+  EC301
+    1.SD_D1
+    2.GND;
+  EC302
+    1.SD_D2
+    2.GND;
+  EC303
+    1.SD_D3
+    2.GND;
+  EC304
+    1.SD_CMD
+    2.GND;
+  EC305
+    1.SD_CD_R#
+    2.GND;
+  EC306
+    1.SD_D0
+    2.GND;
+  EC307
+    1.SD_WP
+    2.GND;
+  EC601
+    1.USB20_VCCB
+    2.GND;
+  EC602
+    1.3D3V_S0
+    2.GND;
+  AFTP301
+    1.GND;
+  AFTP401
+    1.USB_PN2_R;
+  AFTP402
+    1.USB_PP2_R;
+  AFTP403
+    1.USB20_VCCB;
+  AFTP404
+    1.GND;
+  AFTP601
+    1.USB20_VCCB;
+  AFTP602
+    1.3D3V_S0;
+  AFTP603
+    1.GND;
+  AFTP604
+    1.USB_PN2;
+  AFTP605
+    1.USB_PP2;
+  AFTP606
+    1.USB_PN7;
+  AFTP607
+    1.USB_PP7;
+  CARD1
+    1.SD_D3
+    2.SD_CMD
+    3.GND
+    4.3D3V_CARD_S0
+    5.SD_CLK
+    6.GND
+    7.SD_D0
+    8.SD_D1
+    9.SD_D2
+    10.SD_CD_R#
+    11.SD_WP
+    12.GND
+    13.GND
+    14.GND
+    15.GND
+    16.NC
+    17.NC;
+  H10
+    1.GND;
+  H11
+    1.GND;
+  IOBD2
+    1.USB20_VCCB
+    2.USB20_VCCB
+    3.USB20_VCCB
+    4.USB20_VCCB
+    5.3D3V_S0
+    6.NC
+    7.GND
+    8.USB_PN2
+    9.USB_PP2
+    10.GND
+    11.USB_PN7
+    12.USB_PP7
+    13.GND
+    14.BAT_AMBER
+    15.BAT_WHITE
+    16.GND
+    17.GND
+    18.GND;
+  TP201
+    1.CR_GPIO0;
+  USB3
+    1.USB20_VCCB
+    2.USB_PN2_R
+    3.USB_PP2_R
+    4.GND
+    5.GND
+    6.GND
+    7.GND
+    8.GND;
+  LED1
+    1.BAT_AMBER_R
+    2.BAT_WHITE_R
+    3.GND;
+  U201
+    1.RREF
+    2.USB_PN7_R
+    3.USB_PP7_R
+    4.3D3V_S0
+    5.3D3V_CARD_S0
+    6.SDREFG
+    7.NC
+    8.SD_WP_5170
+    9.NC
+    10.SD_D1
+    11.SD_D0
+    12.NC
+    13.SD_CD#
+    14.NC
+    15.SD_CLK_5170
+    16.NC
+    17.CR_GPIO0
+    18.SD_CMD
+    19.NC
+    20.SD_D3
+    21.SD_D2
+    22.NC
+    23.NC
+    24.V18
+    25.GND;
+  U601
+    1.USB_PP2
+    2.GND
+    3.USB_PP7
+    4.USB_PN7
+    5.USB20_VCCB
+    6.USB_PN2;
+  R201
+    1.SD_WP
+    2.SD_WP_5170;
+  R202
+    1.SD_CLK_5170
+    2.SD_CLK;
+  R203
+    1.USB_PP7
+    2.USB_PP7_R;
+  R204
+    1.USB_PN7
+    2.USB_PN7_R;
+  R205
+    1.RREF
+    2.GND;
+  R301
+    1.SD_CD#
+    2.SD_CD_R#;
+  R401
+    1.USB_PP2
+    2.USB_PP2_R;
+  R402
+    1.USB_PN2
+    2.USB_PN2_R;
+  R501
+    1.BAT_AMBER
+    2.BAT_AMBER_R;
+  R502
+    1.BAT_WHITE
+    2.BAT_WHITE_R;
+
+END

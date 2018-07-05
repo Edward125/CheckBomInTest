@@ -1,0 +1,65 @@
+!!!!    9    0    1 1458095954  V0065                                         
+!IPG: rev 08.30p  Sat Feb 08 08:33:42 2014
+threshold           65
+short "#%USB_PN2" to "#%USB_PN2_R"
+short "#%USB_PP2" to "#%USB_PP2_R"
+threshold 4
+settling delay 50.00u
+!! Start of Section 1
+!short "#%USB_PP7" to "#%USB_PP7_R"     ! A node is not accessible
+!short "#%USB_PN7" to "#%USB_PN7_R"     ! A node is not accessible
+!short "#%SD_WP" to "#%SD_WP_5170"     ! A node is not accessible
+!short "#%SD_CD_R#" to "#%SD_CD#"     ! A node is not accessible
+!short "#%BAT_WHITE" to "#%BAT_WHITE_R"     ! A node is not accessible
+!short "#%BAT_AMBER" to "#%BAT_AMBER_R"     ! A node is not accessible
+report phantoms
+!nodes "#%3D3V_CARD_S0"     ! Node not accessible
+!nodes "#%V18"     ! Node not accessible
+!nodes "#%SDREFG"     ! Node not accessible
+!nodes "#%BAT_AMBER"     ! Node not accessible
+!nodes "#%BAT_AMBER_R"     ! Node not accessible
+!nodes "#%BAT_WHITE"     ! Node not accessible
+!nodes "#%BAT_WHITE_R"     ! Node not accessible
+!nodes "#%SD_CLK"     ! Node not accessible
+!nodes "#%SD_CLK_5170"     ! Node not accessible
+!nodes "#%SD_D1"     ! Node not accessible
+!nodes "#%SD_D2"     ! Node not accessible
+!nodes "#%SD_D3"     ! Node not accessible
+!nodes "#%SD_CMD"     ! Node not accessible
+!nodes "#%SD_CD_R#"     ! Node not accessible
+!nodes "#%SD_CD#"     ! Node not accessible
+!nodes "#%SD_D0"     ! Node not accessible
+!nodes "#%SD_WP"     ! Node not accessible
+!nodes "#%SD_WP_5170"     ! Node not accessible
+!nodes "#%RREF"     ! Node not accessible
+!! Start of Section 2
+threshold        100
+!nodes "#%CR_GPIO0"
+!nodes "#%NC_31"     ! Node not accessible
+!nodes "#%NC_32"     ! Node not accessible
+!nodes "#%NC_33"     ! Node not accessible
+!nodes "#%NC_34"     ! Node not accessible
+!nodes "#%NC_35"     ! Node not accessible
+!nodes "#%NC_36"     ! Node not accessible
+!nodes "#%NC_37"     ! Node not accessible
+!nodes "#%NC_38"     ! Node not accessible
+!nodes "#%NC_39"     ! Node not accessible
+!nodes "#%NC_40"     ! Node not accessible
+!nodes "#%NC_41"     ! Node not accessible
+!nodes "#%USB_PN7"
+!nodes "#%USB_PN7_R"     ! Node not accessible
+!nodes "#%USB_PP7"
+!nodes "#%USB_PP7_R"     ! Node not accessible
+!! Start of Section 5
+settling delay 1.800m
+!nodes "#%3D3V_S0"
+settling delay 27.00m
+nodes "#%USB20_VCCB"
+settling delay 50.00u
+!nodes "#%GND"
+!! Start of Section 6
+nodes "#%USB_PN2"
+nodes "#%USB_PN2_R"
+nodes "#%USB_PP2"
+nodes "#%USB_PP2_R"
+

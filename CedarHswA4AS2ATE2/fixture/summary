@@ -1,0 +1,1584 @@
+------------------------------------------------------------------------------
+AGILENT ICT BOARD PLACEMENT                Sat Feb  8 08:18:43 2014      
+
+E:/board/Cedar-Hsw-1/fixture/summary
+------------------------------------------------------------------------------
+
+The fixture file will be initialized using values from a fixture
+   default object.  All fixture options in the board file will be ignored
+   except for fixture size and type.
+   
+   The default object is ./fixture_defaults.o. (WARNING BPL88)
+
+Inserted fixture part number "44200S" into the fixture object file.
+   The fixture part number was selected based on the fixture parameters
+   specified.  If you wish to use an alternative fixture part number, please
+   list the fixture object and replace the fixture part number in the fixture
+   file with one of the other recognized part numbers described in the manual.
+
+Trying to find a placement for the board that is compatible
+   with the board handler.
+
+The board "Cedar-Hsw-1" was placed at X =  110348, Y = -85177
+  with a rotation of  0.000 degrees.
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Sat Feb  8 08:19:50 2014      
+
+E:/board/Cedar-Hsw-1/fixture/summary
+------------------------------------------------------------------------------
+
+
+   BOARD Cedar-Hsw-1%1 PROBE REPORT FOR ALL NODES 
+
+
+   Summary Report 
+
+   Nodes that are inaccessible or need more probes           =    2
+   Maximum probe force density (oz./sq. in.)                 =  312
+   Number of probes exceeding density threshold              =  340
+   Number of light spring force probes used                  =  996
+   Number of 50MIL probes used                               =  549
+   Nodes marked for dual stage probes that could
+      not be assigned dual stage probes                      =    0
+   Number of probes close to the edge of the board
+      for a vacuum fixture                                   =    4
+   Number of probes close to the edge of the board
+      for a mechanical fixture                               =    1
+   Nodes added to the fixture                                = 1179
+   Nodes marked NO_PROBE or NO_ACCESS in board_xy            =   50
+   Alternate probing locations discarded                     =   68
+
+   BOARD Cedar-Hsw-1%2 PROBE REPORT FOR ALL NODES 
+
+
+   Summary Report 
+
+   Nodes that are inaccessible or need more probes           =    0
+   Maximum probe force density (oz./sq. in.)                 =   48
+   Number of probes exceeding density threshold              =    0
+   Number of light spring force probes used                  =    0
+   Number of 50MIL probes used                               =    0
+   Nodes marked for dual stage probes that could
+      not be assigned dual stage probes                      =    0
+   Number of probes close to the edge of the board
+      for a vacuum fixture                                   =    2
+   Number of probes close to the edge of the board
+      for a mechanical fixture                               =    0
+   Nodes added to the fixture                                =   42
+   Nodes marked NO_PROBE or NO_ACCESS in board_xy            =   32
+   Alternate probing locations discarded                     =    0
+
+   Pins blocked during this run of Probe Select              =   66
+      Blocked pins actually in the configuration             =   66
+      Blocked pins not in the configuration                  =    0
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Sat Feb  8 08:22:41 2014      
+
+E:/board/Cedar-Hsw-1/fixture/summary
+------------------------------------------------------------------------------
+
+
+   BOARD Cedar-Hsw-1%1 PROBE REPORT FOR ALL NODES 
+
+
+   Continue Summary Report 
+
+   Nodes that are inaccessible or need more probes           =    2
+   Maximum probe force density (oz./sq. in.)                 =  312
+   Number of probes exceeding density threshold              =    0
+   Number of light spring force probes used                  =    0
+   Number of 50MIL probes used                               =    0
+   Nodes marked for dual stage probes that could
+      not be assigned dual stage probes                      =    0
+   Number of probes close to the edge of the board
+      for a vacuum fixture                                   =    0
+   Number of probes close to the edge of the board
+      for a mechanical fixture                               =    0
+   Nodes added to the fixture                                =    1
+   Nodes marked NO_PROBE or NO_ACCESS in board_xy            =   50
+   Alternate probing locations discarded                     =   68
+
+   BOARD Cedar-Hsw-1%2 PROBE REPORT FOR ALL NODES 
+
+
+   Continue Summary Report 
+
+   Nodes that are inaccessible or need more probes           =    0
+   Maximum probe force density (oz./sq. in.)                 =   48
+   Number of probes exceeding density threshold              =    0
+   Number of light spring force probes used                  =    0
+   Number of 50MIL probes used                               =    0
+   Nodes marked for dual stage probes that could
+      not be assigned dual stage probes                      =    0
+   Number of probes close to the edge of the board
+      for a vacuum fixture                                   =    0
+   Number of probes close to the edge of the board
+      for a mechanical fixture                               =    0
+   Nodes added to the fixture                                =    1
+   Nodes marked NO_PROBE or NO_ACCESS in board_xy            =   32
+   Alternate probing locations discarded                     =    0
+
+   Pins blocked during this run of Probe Select              =    0
+      Blocked pins actually in the configuration             =    0
+      Blocked pins not in the configuration                  =    0
+------------------------------------------------------------------------------
+AGILENT ICT MODULE PIN ASSIGNMENT          Sat Feb  8 08:35:40 2014      
+
+E:/board/Cedar-Hsw-1/fixture/summary
+------------------------------------------------------------------------------
+
+     Module Pin Assignment was run at the standard experience level.
+ 
+Remote sense measurement for Node 1%+PCH_VCCDSW on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%1D05V_S0 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%1D05V_VGA_S0_DISCHG on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%1D35V_ENABLE on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%1D35V_S3 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%1D35V_VGA_EN# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%1D35V_VGA_S0 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%1D35V_VTT_PWRGD on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%3D3V_AUX_KBC on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%3D3V_AUX_S5 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%3D3V_LAN_S5 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%3D3V_S0 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%3D3V_S5 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%3D3V_VGA_S0 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%3V_5V_POK# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%5V_S0 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%5V_S5 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%AC_IN_KBC# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%AD+ on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%AD+_G_1 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%AD_OFF_R on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%AUD_AGND on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%AUD_SENSE on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%BAT_IN# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%BT+ on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%CLK_LAN_REQ4#_R on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%DC_IN_D on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%DCBATOUT on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%DDC_CLK_HDMI on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%DDC_DATA_HDMI on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%DDR_VTT_PG_CTRL on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%DGPU_PWR_EN# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%DIS_1D35V_VGA_S0 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%FB_CLAMP_MON_S on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%GC6_FB_EN_GPU on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%GPIO5_GC6_PWR_EN# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%GPU_EVENT# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%H_THERMTRIP_EN on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%HDMI_PLL_GND on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%I2C1_SCL_R on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%I2C1_SDA_R on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%KB_BL_CTRL# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%KBC_ON#_GATE on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%LAN_ENABLE_R_C on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%NCT7718_DXP on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%P_H_S# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PCH_PWROK on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PCH_SMBCLK on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PCH_SMBDATA on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PEG_CLKREQ# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PLT_RST# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PM_RSMRST# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PQ3808D on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PQ3809_D on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PQ4203_5 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PQ4405_3 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PQ4405_6 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PQ4408_E on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PS_ID_R2 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PS_S3CNTRL on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PURE_HW_SHUTDOWN# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_1D05V_FB on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_1D05V_PHASE on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_1D35V_SW on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_3D3V_LL2 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_5V_LL1 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_CHG_ACOK on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_CHG_AD_OFF_R on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_CHG_CMPIN_R on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_CHG_CMPIN_RR on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_CHG_PHASE on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_VCC_PHASE on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_VCC_VRHOT# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_VGA_CORE_PHASE1 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_VGA_CORE_PHASE2 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%PWR_VGA_CORE_VSNS on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%RTC_DET# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%RTC_RST# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%S5_ENABLE on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SLEEVE on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SLEEVE_CTRL on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SMB_CLK on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SMB_DATA on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SML1_CLK on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SML1_DATA on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%TP_VDD on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%VCC_CORE on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%VCC_SENSE on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%VD_IN1 on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%VGA_CORE on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%VGA_CORE_DISCHG on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%VIDEO_THERM_OVERT# on Board Cedar-Hsw-1 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Node 1%AC_IN#_G on board Cedar-Hsw-1 does not have a probe location 
+in the fixture file fixture/fixture.o. Since this node is inaccessible 
+tests involving this node will not work properly. 
+Brcs will be assigned but short wires cannot be guaranteed 
+for this node. (WARNING MPA403)
+
+Node 1%DC_IN_D on board Cedar-Hsw-1 does not have a probe location 
+in the fixture file fixture/fixture.o. Since this node is inaccessible 
+tests involving this node will not work properly. 
+Brcs will be assigned but short wires cannot be guaranteed 
+for this node. (WARNING MPA403)
+
+Node 1%NC on board Cedar-Hsw-1 does not have a probe location 
+in the fixture file fixture/fixture.o. Since this node is inaccessible 
+tests involving this node will not work properly. 
+Brcs will be assigned but short wires cannot be guaranteed 
+for this node. (WARNING MPA403)
+
+Node 1%PQ3809_D on board Cedar-Hsw-1 does not have a probe location 
+in the fixture file fixture/fixture.o. Since this node is inaccessible 
+tests involving this node will not work properly. 
+Brcs will be assigned but short wires cannot be guaranteed 
+for this node. (WARNING MPA403)
+
+Node 1%PU4401_6 on board Cedar-Hsw-1 does not have a probe location 
+in the fixture file fixture/fixture.o. Since this node is inaccessible 
+tests involving this node will not work properly. 
+Brcs will be assigned but short wires cannot be guaranteed 
+for this node. (WARNING MPA403)
+
+Node 1%Q6204_G on board Cedar-Hsw-1 does not have a probe location 
+in the fixture file fixture/fixture.o. Since this node is inaccessible 
+tests involving this node will not work properly. 
+Brcs will be assigned but short wires cannot be guaranteed 
+for this node. (WARNING MPA403)
+
+Node 1%+V1_05A_SUS_PCH on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%CLK_PCIE_LAN_P4 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%DC_TEST_A3_B3 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%DC_TEST_A61_B61 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%DC_TEST_AY2_AW2 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%DC_TEST_AY3_AW3 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%DC_TEST_B62_B63 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%DC_TEST_C1_C2 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%DGPU_TXP_CPU_RXP0 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%FBA_D1 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%FBA_D10 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%FBA_D32 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%FBA_D34 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%FBA_D41 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%FBA_D42 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%FBA_D46 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%FBA_DEBUG0 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%FBA_DQM4 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%FBA_DQS_RN0 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%FBA_EDC4 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%GPIO10_FBVREF on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%I2C0_SCL on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%INT_TP#_GPIO8 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%ISUM_R_R on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%LDO3_CAP on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%LPC_LAD0_PCH on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%LPC_LAD1_PCH on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%LPSS_SDIO_D0_CMNHDR on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%MCP_GPIO27 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%MCT on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%MCT0 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%MCT1 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%MCT2 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%MCT3 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%PCIE_PTX_LANRX_P4 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%PCIE_PTX_LANRX_P4_C on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%PCIE_PTX_WLANRX_P3 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%PCIE_RCOMP on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%PHASE_R_R on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%PM_SLP_LAN# on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%PWR_VCC_BOOT_RC on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%ROM_CS# on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%TD_IREF on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%TPS51216_PHS_SET on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 1%USB_PP4_EDP on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%3D3V_CARD_S0 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%BAT_AMBER on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%BAT_AMBER_R on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%BAT_WHITE on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%BAT_WHITE_R on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%NC_31 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%NC_32 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%NC_33 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%NC_34 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%NC_35 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%NC_36 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%NC_37 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%NC_38 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%NC_39 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%NC_40 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%NC_41 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%RREF on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%SD_CD# on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%SD_CD_R# on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%SD_CLK on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%SD_CLK_5170 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%SD_CMD on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%SD_D0 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%SD_D1 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%SD_D2 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%SD_D3 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%SD_WP on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%SD_WP_5170 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%SDREFG on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%USB_PN7_R on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%USB_PP7_R on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+Node 2%V18 on board Cedar-Hsw-1 is in the fixture file 
+fixture/fixture.o.  However, it is not in any requirements file, and it 
+is not in the old wirelist.  No wires are being generated for this node. 
+Check the fixture file, the old wirelist, and the test sources to make sure 
+that the node names are correct.  Make sure that the appropriate .r files 
+exist. (WARNING MPA404)
+
+------------------------------------------------------------------------------
+AGILENT ICT MODULE PIN ASSIGNMENT          Sat Feb  8 08:35:40 2014      
+
+E:/board/Cedar-Hsw-1/fixture/summary
+------------------------------------------------------------------------------
+
+                      ASSIGNMENT REPORT FOR ALL BOARDS
+ 
+     SUMMARY STATISTICS
+ 
+        For precision nodes:
+ 
+            The average BRC to probe distance is 0.327.
+            The standard deviation is 0.132.
+ 
+            * precision nodes include critical nodes, digital 
+              nodes, and analog nodes using external 
+              instrumentation or the time interval counter
+ 
+        For all nodes:
+ 
+            The assignment used 1440 interface pins for 1145 nodes.
+            The efficiency is 0.795.
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TOOLING                Sat Feb  8 08:36:00 2014      
+
+E:/board/Cedar-Hsw-1/fixture/summary
+------------------------------------------------------------------------------
+
+Insufficient probing access has been provided on the node "1%+RTC_VCC", 
+ causing the sense and power pins of supply 1 to share a probe.
+ It is STRONGLY suggested that additional access locations be added to
+ the node. This will enable the voltage to be sensed at the trace,
+ on an independent probe, rather than on a power probe. (WARNING FXT77)
+Fixture Tooling attempted to connect one probe per amp 
+ of current on node "1%+RTC_VCC" and failed.  1 more probe(s) would be 
+ required.  If no other warnings are observed, fixture tooling 
+ was able to adequately connect the supply using the available 
+ probes, however, changing probe contact resistance could cause 
+ overdriving digital tests to fail intermittently. (WARNING FXT64)
+The node '1%+V1_05A_SUS_PCH' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%CLK_PCIE_LAN_P4' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%DC_TEST_A3_B3' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%DC_TEST_A61_B61' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%DC_TEST_AY2_AW2' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%DC_TEST_AY3_AW3' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%DC_TEST_B62_B63' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%DC_TEST_C1_C2' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%DGPU_TXP_CPU_RXP0' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%FBA_D1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%FBA_D10' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%FBA_D32' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%FBA_D34' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%FBA_D41' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%FBA_D42' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%FBA_D46' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%FBA_DEBUG0' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%FBA_DQM4' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%FBA_DQS_RN0' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%FBA_EDC4' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%GPIO10_FBVREF' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%I2C0_SCL' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%INT_TP#_GPIO8' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%ISUM_R_R' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%LDO3_CAP' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%LPC_LAD0_PCH' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%LPC_LAD1_PCH' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%LPSS_SDIO_D0_CMNHDR' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%MCP_GPIO27' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%MCT' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%MCT0' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%MCT1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%MCT2' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%MCT3' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%PCIE_PTX_LANRX_P4' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%PCIE_PTX_LANRX_P4_C' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%PCIE_PTX_WLANRX_P3' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%PCIE_RCOMP' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%PHASE_R_R' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%PM_SLP_LAN#' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%PWR_VCC_BOOT_RC' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%ROM_CS#' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%TD_IREF' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%TPS51216_PHS_SET' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%USB_PP4_EDP' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%3D3V_CARD_S0' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%BAT_AMBER' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%BAT_AMBER_R' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%BAT_WHITE' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%BAT_WHITE_R' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%NC_31' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%NC_32' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%NC_33' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%NC_34' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%NC_35' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%NC_36' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%NC_37' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%NC_38' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%NC_39' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%NC_40' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%NC_41' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%RREF' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SD_CD#' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SD_CD_R#' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SD_CLK' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SD_CLK_5170' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SD_CMD' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SD_D0' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SD_D1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SD_D2' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SD_D3' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SD_WP' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SD_WP_5170' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SDREFG' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%USB_PN7_R' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%USB_PP7_R' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%V18' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+Fixture Type : Agilent SimPlate Express
+Fixture Size : Bank 2
+Fixture Part Number : 44200S
+Top Probes Allowed : Enabled
+Autofile : 4083
+Units : English
+Wiring Method : Automatic
+-----------------------------------------------------------------------------
+Count
+-----
+  549  Probes    Type:  50 mil  Spring Force Max.: 4 oz
+   39  Probes    Type:  75 mil  Spring Force Max.: 8 oz
+  161  Probes    Type:  75 mil  Spring Force Max.: 4 oz
+  139  Probes    Type: 100 mil  Spring Force Max.: 8 oz
+  286  Probes    Type: 100 mil  Spring Force Max.: 4 oz
+   95  Extra Probes Type: 100 mil
+   25  Extra Probes Type:  75 mil
+   32  Extra Probes Type:  50 mil
+   39  Probe :  Testjets         Using Keepout Method
+ 1648  Pins
+  138  Extra Pins
+    2  TestJet MUX Cards 
+    8  Hybrid Cards
+    8  Analog Cards
+  386  Transfer Probes
+  386  Transfer Pins
+  382  Extra Transfer Probes
+
+Count  Color  Gauge  Length 
+------|------|-----|---------
+    1  Black   30     4.0 in
+-----------------------------
+    1  Black   30     4.0 in
+
+   68  Black   28     1.0 in
+   15  Black   28     1.5 in
+    6  Black   28     2.0 in
+   14  Black   28     2.5 in
+    7  Black   28     3.0 in
+   23  Black   28     3.5 in
+   12  Black   28     4.0 in
+   10  Black   28     4.5 in
+    6  Black   28     5.0 in
+    7  Black   28     5.5 in
+    5  Black   28     6.0 in
+    6  Black   28     6.5 in
+    2  Black   28     7.0 in
+    2  Black   28     7.5 in
+    2  Black   28     8.0 in
+    9  Black   28     9.0 in
+    4  Black   28    10.0 in
+    1  Black   28    11.0 in
+-----------------------------
+  199  Black   28   646.5 in
+
+   95   Blue   30     1.0 in
+   25   Blue   30     1.5 in
+   27   Blue   30     2.0 in
+   33   Blue   30     2.5 in
+   29   Blue   30     3.0 in
+   25   Blue   30     3.5 in
+   30   Blue   30     4.0 in
+   45   Blue   30     4.5 in
+   21   Blue   30     5.0 in
+   25   Blue   30     5.5 in
+   25   Blue   30     6.0 in
+    8   Blue   30     6.5 in
+   14   Blue   30     7.0 in
+   18   Blue   30     7.5 in
+   17   Blue   30     8.0 in
+   29   Blue   30     9.0 in
+   23   Blue   30    10.0 in
+    9   Blue   30    11.0 in
+   38   Blue   30    12.0 in
+   11   Blue   30    13.0 in
+    1   Blue   30    14.0 in
+-----------------------------
+  548   Blue   30  2782.5 in
+
+  230   Blue   28     1.0 in
+   29   Blue   28     1.5 in
+   52   Blue   28     2.0 in
+   71   Blue   28     2.5 in
+   75   Blue   28     3.0 in
+   70   Blue   28     3.5 in
+   66   Blue   28     4.0 in
+   63   Blue   28     4.5 in
+   46   Blue   28     5.0 in
+   50   Blue   28     5.5 in
+   40   Blue   28     6.0 in
+   46   Blue   28     6.5 in
+   51   Blue   28     7.0 in
+   48   Blue   28     7.5 in
+   34   Blue   28     8.0 in
+   89   Blue   28     9.0 in
+   69   Blue   28    10.0 in
+   43   Blue   28    11.0 in
+   47   Blue   28    12.0 in
+   28   Blue   28    13.0 in
+   14   Blue   28    14.0 in
+-----------------------------
+ 1261   Blue   28  6693.5 in
+
+    1   Red    28     3.0 in
+    1   Red    28     4.5 in
+    1   Red    28     5.0 in
+    1   Red    28     5.5 in
+    4   Red    28     6.0 in
+    1   Red    28     6.5 in
+    1   Red    28    10.0 in
+-----------------------------
+   10   Red    28    58.5 in
+
+=============================
+ 2019              10185.0 in Total
+
+
+see files: wires, inserts, trace, drill, drillsup, drilltop, details
+------------------------------------------------------------------------------
+AGILENT ICT MODULE PIN ASSIGNMENT          Wed Feb 26 16:53:39 2014      
+
+D:/boards/Cedar-Hsw-1/fixture/summary
+------------------------------------------------------------------------------
+
+     Module Pin Assignment was run at the standard experience level.
+ 
+Module Pin Assignment did not add any new wires to or 
+delete any wires from the wirelist.
+ 
+                      ASSIGNMENT REPORT FOR ALL BOARDS
+ 
+     SUMMARY STATISTICS
+ 
+        For precision nodes:
+ 
+            The average BRC to probe distance is 0.327.
+            The standard deviation is 0.132.
+ 
+            * precision nodes include critical nodes, digital 
+              nodes, and analog nodes using external 
+              instrumentation or the time interval counter
+ 
+        For all nodes:
+ 
+            The assignment used 1440 interface pins for 1145 nodes.
+            The efficiency is 0.795.

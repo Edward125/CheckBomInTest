@@ -1,0 +1,177 @@
+!!!!    2    0    1 1372471756  Va8ed                                         
+
+!####################################################################
+!CheckPowerNode_2.5
+!Wistron 3B ATE
+!! nonanalog pins 1,2,3,4
+!! source dcv,am3,terminated 5000,ico1,on
+!! auxiliary dcv,am3.5,ico1,on
+!####################################################################
+
+test powered analog
+
+     test "DDR_VREF_S3"
+     test "5V_S0"
+     test "3D3V_S0"
+     test "1D5V_S0"
+     test "1D05V_S0"
+     test "1D35V_S3"
+     test "LCDVDD"
+     test "5V_HDMI_S0"
+     test "ODD_PWR_5V"
+     test "TP_VDD"
+     test "USB20_VCCA"
+     test "USB20_VCCB"
+     test "USB30_VCCC"
+     test "FAN_VCC1"
+     test "VCC_CORE"
+
+end test
+
+!====================================================================
+
+subtest "DDR_VREF_S3"
+   disconnect all
+   connect i to nodes"#%DDR_VREF_S3"
+   connect l to ground
+   detector dcv , expect 3.3
+   measure 3.3*1.1,3.3*0.9
+end subtest
+
+subtest "5V_S0"
+   disconnect all
+   connect i to nodes"#%5V_S0"
+   connect l to ground
+   detector dcv , expect 5
+   measure 5*1.1,5*0.9
+end subtest
+
+subtest "3D3V_S0"
+   disconnect all
+   connect i to nodes"#%3D3V_S0"
+   connect l to ground
+   detector dcv , expect 3.3
+   measure 3.3*1.1,3.3*0.9
+end subtest
+
+subtest "1D5V_S0"
+   disconnect all
+   connect i to nodes"#%1D5V_S0"
+   connect l to ground
+   detector dcv , expect 1.5
+   measure 1.5*1.1,1.5*0.9
+end subtest
+
+
+subtest "1D05V_S0"
+   disconnect all
+   connect i to nodes"#%1D05V_S0"
+   connect l to ground
+   detector dcv , expect 1.05
+   measure 1.05*1.1,1.05*0.9
+end subtest
+
+subtest "1D35V_S3"
+   disconnect all
+   connect i to nodes"#%1D35V_S3"
+   connect l to ground
+   detector dcv , expect 1.35
+   measure 1.35*1.1,1.35*0.9
+end subtest
+
+subtest "LCDVDD"
+   disconnect all
+!   connect s to nodes "#%3D3V_S0"
+   connect i to nodes "#%LCDVDD"
+   connect l to ground
+!   source dcv, amplitude 0,on
+   detector dcv , expect 3.3
+!   wait 100m
+   measure 3.3*1.05, 3.3*0.95
+end subtest
+
+subtest "5V_HDMI_S0"
+   disconnect all
+!   connect s to nodes "#%3D3V_S0"
+   connect i to nodes "#%5V_HDMI_S0"
+   connect l to ground
+!   source dcv, amplitude 0,on
+   detector dcv , expect 5
+!   wait 100m
+   measure 5*1.05, 5*0.95
+end subtest
+
+subtest "ODD_PWR_5V"
+   disconnect all
+!   connect s to nodes "#%5V_S0"
+   connect i to nodes "#%ODD_PWR_5V"
+   connect l to ground
+!   source dcv, amplitude 5,on
+   detector dcv , expect 5
+!   wait 100m
+   measure 5*1.05, 5*0.95
+end subtest
+
+subtest "TP_VDD"
+   disconnect all
+!   connect s to nodes "#%5V_S0"
+   connect i to nodes "#%TP_VDD"
+   connect l to ground
+!   source dcv, amplitude 5,on
+   detector dcv , expect 5
+!   wait 100m
+   measure 5*1.05, 5*0.95
+end subtest
+
+subtest "USB20_VCCA"
+   disconnect all
+!   connect s to nodes "#%5V_S5"
+   connect i to nodes "#%USB20_VCCA"
+   connect l to ground
+!   source dcv, amplitude 5,on
+   detector dcv , expect 5
+!   wait 100m
+   measure 5*1.05, 5*0.95
+end subtest
+
+subtest "USB20_VCCB"
+   disconnect all
+!   connect s to nodes "#%5V_S5"
+   connect i to nodes "#%USB20_VCCB"
+   connect l to ground
+!   source dcv, amplitude 5,on
+   detector dcv , expect 5
+!   wait 100m
+   measure 5*1.05, 5*0.95
+end subtest
+
+subtest "USB30_VCCC"
+   disconnect all
+!   connect s to nodes "#%5V_S5"
+   connect i to nodes "#%USB30_VCCC"
+   connect l to ground
+!   source dcv, amplitude 5,on
+   detector dcv , expect 5
+!   wait 100m
+   measure 5*1.05, 5*0.95
+end subtest
+
+subtest "FAN_VCC1"
+   disconnect all
+!   connect s to nodes "#%5V_S0"
+   connect i to nodes "#%FAN_VCC1"
+   connect l to ground
+!   source dcv, amplitude 5,on
+   detector dcv , expect 5
+!   wait 100m
+   measure 5*1.05, 5*0.95
+end subtest
+
+
+subtest "VCC_CORE"
+   disconnect all
+   connect i to nodes"#%VCC_CORE"
+   connect l to ground
+   detector dcv , expect 1.1
+   measure 1.1*1.1, 1.1*0.9
+end subtest

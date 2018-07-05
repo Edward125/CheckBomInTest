@@ -1,0 +1,63 @@
+  205    0   17 1460424392   0000                                         
+#MTDFiler i3 
+0 #BrdConfigC i0 i255 i4788818 i0 i-1 i-1 i-1 i-1 i-1 i-1 i-1 i-1 i0 i-1 i-1 i-1 i-1 i-1 i-1 i-1 i-1 i-1 i-1 i-1 i-1 i-1 i-1 i-1 i-1 @2 @3 @4 @5 @6 @7 @8 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @9 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 
+0 #CfgModuleB100 i0 i0 @0 @10 @11 @12 @13 @14 @15 @16 @17 @18 @19 @20 i0 i0 i0 i0 i0 i0 i0 i0 i0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 @0 @0 @0 @0 @0 @0 @0 
+0 #CfgModuleB100 i0 i0 @0 @21 @22 @23 @24 @25 @26 @27 @28 @29 @30 @31 i0 i0 i0 i0 i0 i0 i0 i0 i0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 @0 @0 @0 @0 @0 @0 @0 
+0 #CfgModuleB100 i0 i1 @0 @32 @33 @34 @35 @36 @37 @38 @39 @40 @41 @42 i0 i0 i0 i0 i0 i0 i0 i0 i0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 @0 @0 @0 @0 @0 @0 @0 
+0 #CfgModuleB100 i0 i1 @0 @43 @44 @45 @46 @47 @48 @49 @50 @51 @52 @53 i0 i0 i0 i0 i0 i0 i0 i0 i0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 c0 @0 @54 @55 @56 @57 @0 @0 
+20 #Dictionary @58 i20 i0 
+20 #Dictionary @59 i20 i0 
+20 #Dictionary @60 i20 i0 
+257 #CfgParallelBrds i257 $0 @61 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i0 
+0 #CfgCard i0 i1281 
+0 #CfgCard i0 i268437255 
+0 #CfgCard i0 i268437255 
+0 #CfgCard i0 i268437255 
+0 #CfgCard i0 i268437255 
+0 #CfgCard i0 i16779522 
+0 #CfgCard i0 i268436995 
+0 #CfgCard i0 i268436995 
+0 #CfgCard i0 i268437255 
+0 #CfgCard i0 i268436995 
+0 #CfgCard i0 i268436995 
+0 #CfgCard i0 i1281 
+0 #CfgCard i0 i268436995 
+0 #CfgCard i0 i268436995 
+0 #CfgCard i0 i268436995 
+0 #CfgCard i0 i268436995 
+0 #CfgCard i0 i16779522 
+0 #CfgCard i0 i268437255 
+0 #CfgCard i0 i268437255 
+0 #CfgCard i0 i268437255 
+0 #CfgCard i0 i268437255 
+0 #CfgCard i0 i0 
+0 #CfgAsruChannel i0 i1 i1 
+0 #CfgAsruChannel i0 i2 i1 
+0 #CfgAsruChannel i0 i3 i1 
+0 #CfgAsruChannel i0 i4 i1 
+20 #IdArray i20 $0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 
+20 #IdArray i20 $0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 
+20 #IdArray i20 $0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 
+1 #CfgBrdSuite i0 i0 *0" i-1 

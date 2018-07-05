@@ -1,0 +1,45 @@
+!!!!   16    0    1 1391819621   0000                                         
+!IPG: rev 08.30p  Sat Feb 08 08:33:42 2014
+!nodes "#%3D3V_CARD_S0"   ! Not accessible 
+nodes "#%GND"
+nodes "#%3D3V_S0"
+!nodes "#%V18"   ! Not accessible 
+!nodes "#%SDREFG"   ! Not accessible 
+nodes "#%USB20_VCCB"
+!nodes "#%BAT_AMBER"   ! Not accessible 
+!nodes "#%BAT_AMBER_R"   ! Not accessible 
+!nodes "#%BAT_WHITE"   ! Not accessible 
+!nodes "#%BAT_WHITE_R"   ! Not accessible 
+!nodes "#%SD_CLK"   ! Not accessible 
+!nodes "#%SD_CLK_5170"   ! Not accessible 
+!nodes "#%SD_D1"   ! Not accessible 
+!nodes "#%SD_D2"   ! Not accessible 
+!nodes "#%SD_D3"   ! Not accessible 
+!nodes "#%SD_CMD"   ! Not accessible 
+!nodes "#%SD_CD_R#"   ! Not accessible 
+!nodes "#%SD_CD#"   ! Not accessible 
+!nodes "#%SD_D0"   ! Not accessible 
+!nodes "#%SD_WP"   ! Not accessible 
+!nodes "#%SD_WP_5170"   ! Not accessible 
+!nodes "#%RREF"   ! Not accessible 
+nodes "#%CR_GPIO0"
+!nodes "#%NC_31"   ! Not accessible 
+!nodes "#%NC_32"   ! Not accessible 
+!nodes "#%NC_33"   ! Not accessible 
+!nodes "#%NC_34"   ! Not accessible 
+!nodes "#%NC_35"   ! Not accessible 
+!nodes "#%NC_36"   ! Not accessible 
+!nodes "#%NC_37"   ! Not accessible 
+!nodes "#%NC_38"   ! Not accessible 
+!nodes "#%NC_39"   ! Not accessible 
+!nodes "#%NC_40"   ! Not accessible 
+!nodes "#%NC_41"   ! Not accessible 
+nodes "#%USB_PN2"
+nodes "#%USB_PN2_R"
+nodes "#%USB_PN7"
+!nodes "#%USB_PN7_R"   ! Not accessible 
+nodes "#%USB_PP2"
+nodes "#%USB_PP2_R"
+nodes "#%USB_PP7"
+!nodes "#%USB_PP7_R"   ! Not accessible 
+

@@ -1,0 +1,42 @@
+!!!!    5    0    2 1460424388  V70bf                                         
+target hp3073 standard
+
+!enable drivethru
+enable software revision b
+enable express fixturing
+enable testjet
+enable paneltest
+!enable advanced boundary scan
+
+
+
+   module 2
+      cards 1 asru c revision
+      cards 2 analog double density
+      cards 3 analog double density
+      cards 4 analog double density
+      cards 5 analog double density
+      cards 6 control xtp
+      cards 7 hybrid standard double density
+      cards 8 hybrid standard double density
+      cards 9 analog double density
+      cards 10 hybrid standard double density
+      cards 11 hybrid standard double density
+!     supplies hp6624 5 to 8 asru channels 1 to 4
+   end module
+
+   module 3
+      cards 1 asru c revision
+      cards 2 hybrid standard double density
+      cards 3 hybrid standard double density
+      cards 4 hybrid standard double density
+      cards 5 hybrid standard double density
+      cards 6 control xtp
+      cards 7 analog double density
+      cards 8 analog double density
+      cards 9 analog double density
+      cards 10 analog double density
+ !    cards 11 analog double density
+      supplies hp6624 1 to 4 asru channels 1 to 4
+   end module
+

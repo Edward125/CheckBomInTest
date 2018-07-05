@@ -1,0 +1,1780 @@
+!!!!   25    0    1 1466098630  Vbe76                                         
+
+!===========================================================
+!
+! ADB   Tue Sep 09, 2014 15:24:52 PM
+!
+!==========================================================
+!
+! This test was automatically written by the Agilent
+! Vectorless Test EP AutoDebug tool. The previous version
+! of the file has been backed up.
+!
+!===========================================================
+!
+! The customizable parameters were:
+!     LowestLowLimit   2.0
+!     MinCpk           2.5
+!     HiPercent        2.0
+!     HiMinOffset      20.0
+!     LowPercent       0.50
+!     LowMinOffset     10.0
+!
+! These parameters can be modified by editing the file:
+!   debug/testjet/adb/CustomParameters.txt
+!   This can also be done from the AutoDebug menu.
+!
+!===========================================================
+
+
+default throughput adjustment 4
+device "1%con1" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 1, 7, 10, 13, 16, 17, 18, 2, 3    !! ground pins commented by IPG
+!       pins 4    !! ground pins commented by IPG
+!  test pins 5    !! fixed pins commented by IPG
+   test pins 9; threshold low 2 high 594  !ADB: 10,0.433,12.57,56.0,594.0,8.14
+   test pins 12; threshold low 2 high 514  !ADB: 10,0.474,12.78,35.0,514.0,7.58
+   test pins 11; threshold low 9 high 908  !ADB: 10,0.623,20.84,124.0,908.0,4.93
+   test pins 8; threshold low 11 high 963  !ADB: 10,0.378,23.51,149.0,963.0,5.21
+   test pins 14; threshold low 26 high 1945  !ADB: 10,0.651,53.48,261.0,1945.0,11.45
+   test pins 15; threshold low 31 high 1956  !ADB: 10,0.642,63.59,257.0,1956.0,13.58
+   inaccessible pins 6
+end device
+
+device "1%cpu1"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins "A11", "AH26", "AJ31", "AJ33"    !! ground pins commented by IPG
+!       pins "AJ37", "AN33", "AP43", "AR48"    !! ground pins commented by IPG
+!       pins "AY35", "AY40", "AY44", "AY50"    !! ground pins commented by IPG
+!       pins "K9", "L10", "M9", "B18", "B27"    !! ground pins commented by IPG
+!       pins "A12", "B11", "AA21", "AC22"    !! ground pins commented by IPG
+!       pins "AE9", "AE22", "AE23", "AF9"    !! ground pins commented by IPG
+!       pins "AG8", "AG13", "AG14", "AG16"    !! ground pins commented by IPG
+!       pins "AG17", "J17", "N8", "P9", "R21"    !! ground pins commented by IPG
+!       pins "T21", "W21", "J18", "K19"    !! ground pins commented by IPG
+!       pins "A20", "AE8", "AF22", "H11"    !! ground pins commented by IPG
+!       pins "H15", "J11", "AG10", "AU7"    !! ground pins commented by IPG
+!       pins "AV6", "K14", "K16", "T9", "U8"    !! ground pins commented by IPG
+!       pins "V8", "W9", "AA9", "AC9", "AE20"    !! ground pins commented by IPG
+!       pins "AE21", "AH11", "AH14", "A14"    !! ground pins commented by IPG
+!       pins "A18", "A24", "A28", "A32"    !! ground pins commented by IPG
+!       pins "A36", "A40", "A44", "A48"    !! ground pins commented by IPG
+!       pins "A52", "A56", "AA1", "AA58"    !! ground pins commented by IPG
+!       pins "AB7", "AB10", "AB20", "AB22"    !! ground pins commented by IPG
+!       pins "AC61", "AD3", "AD21", "AD63"    !! ground pins commented by IPG
+!       pins "AE5", "AE10", "AE58", "AF11"    !! ground pins commented by IPG
+!       pins "AF12", "AF14", "AF15", "AF17"    !! ground pins commented by IPG
+!       pins "AF18", "AG1", "AG11", "AG21"    !! ground pins commented by IPG
+!       pins "AG23", "AG60", "AG61", "AG62"    !! ground pins commented by IPG
+!       pins "AG63", "AH16", "AH17", "AH19"    !! ground pins commented by IPG
+!       pins "AH20", "AH22", "AH24", "AH28"    !! ground pins commented by IPG
+!       pins "AH30", "AH32", "AH34", "AH36"    !! ground pins commented by IPG
+!       pins "AH38", "AH40", "AH42", "AH44"    !! ground pins commented by IPG
+!       pins "AH46", "AH49", "AH51", "AH53"    !! ground pins commented by IPG
+!       pins "AH55", "AH57", "AJ13", "AJ14"    !! ground pins commented by IPG
+!       pins "AJ23", "AJ25", "AJ27", "AJ29"    !! ground pins commented by IPG
+!       pins "AJ35", "AJ39", "AJ41", "AJ43"    !! ground pins commented by IPG
+!       pins "AJ45", "AJ47", "AJ50", "AJ52"    !! ground pins commented by IPG
+!       pins "AJ54", "AJ56", "AJ58", "AJ60"    !! ground pins commented by IPG
+!       pins "AJ63", "AK3", "AK23", "AK52"    !! ground pins commented by IPG
+!       pins "AL10", "AL13", "AL17", "AL20"    !! ground pins commented by IPG
+!       pins "AL22", "AL23", "AL26", "AL29"    !! ground pins commented by IPG
+!       pins "AL31", "AL33", "AL36", "AL39"    !! ground pins commented by IPG
+!       pins "AL40", "AL45", "AL46", "AL51"    !! ground pins commented by IPG
+!       pins "AL52", "AL54", "AL57", "AL60"    !! ground pins commented by IPG
+!       pins "AL61", "AM1", "AM17", "AM23"    !! ground pins commented by IPG
+!       pins "AM31", "AM52", "AN7", "AN17"    !! ground pins commented by IPG
+!       pins "AN23", "AN31", "AN32", "AN35"    !! ground pins commented by IPG
+!       pins "AN36", "AN39", "AN40", "AN42"    !! ground pins commented by IPG
+!       pins "AN43", "AN45", "AN46", "AN48"    !! ground pins commented by IPG
+!       pins "AN49", "AN51", "AN52", "AN60"    !! ground pins commented by IPG
+!       pins "AN63", "AP3", "AP10", "AP17"    !! ground pins commented by IPG
+!       pins "AP20", "AP22", "AP23", "AP26"    !! ground pins commented by IPG
+!       pins "AP29", "AP31", "AP38", "AP39"    !! ground pins commented by IPG
+!       pins "AP48", "AP52", "AP54", "AP57"    !! ground pins commented by IPG
+!       pins "AR5", "AR11", "AR15", "AR17"    !! ground pins commented by IPG
+!       pins "AR23", "AR31", "AR33", "AR39"    !! ground pins commented by IPG
+!       pins "AR43", "AR49", "AR52", "AT13"    !! ground pins commented by IPG
+!       pins "AT35", "AT37", "AT40", "AT42"    !! ground pins commented by IPG
+!       pins "AT43", "AT46", "AT49", "AT61"    !! ground pins commented by IPG
+!       pins "AT62", "AT63", "AU1", "AU16"    !! ground pins commented by IPG
+!       pins "AU18", "AU20", "AU22", "AU24"    !! ground pins commented by IPG
+!       pins "AU26", "AU28", "AU30", "AU33"    !! ground pins commented by IPG
+!       pins "AU51", "AU53", "AU55", "AU57"    !! ground pins commented by IPG
+!       pins "AU59", "AV8", "AV14", "AV16"    !! ground pins commented by IPG
+!       pins "AV20", "AV24", "AV28", "AV33"    !! ground pins commented by IPG
+!       pins "AV34", "AV36", "AV39", "AV41"    !! ground pins commented by IPG
+!       pins "AV43", "AV46", "AV49", "AV51"    !! ground pins commented by IPG
+!       pins "AV55", "AV59", "AW4", "AW16"    !! ground pins commented by IPG
+!       pins "AW24", "AW33", "AW35", "AW37"    !! ground pins commented by IPG
+!       pins "AW40", "AW42", "AW44", "AW47"    !! ground pins commented by IPG
+!       pins "AW50", "AW51", "AW59", "AW60"    !! ground pins commented by IPG
+!       pins "AY4", "AY6", "AY11", "AY16"    !! ground pins commented by IPG
+!       pins "AY18", "AY22", "AY24", "AY26"    !! ground pins commented by IPG
+!       pins "AY30", "AY33", "AY51", "AY53"    !! ground pins commented by IPG
+!       pins "AY57", "AY59", "B4", "B20"    !! ground pins commented by IPG
+!       pins "B24", "B26", "B28", "B32"    !! ground pins commented by IPG
+!       pins "B36", "B40", "B44", "B48"    !! ground pins commented by IPG
+!       pins "B52", "B56", "B60", "C11"    !! ground pins commented by IPG
+!       pins "C14", "C18", "C20", "C25"    !! ground pins commented by IPG
+!       pins "C27", "C38", "C39", "C57", "D2"    !! ground pins commented by IPG
+!       pins "D5", "D8", "D12", "D14", "D18"    !! ground pins commented by IPG
+!       pins "D21", "D23", "D25", "D26"    !! ground pins commented by IPG
+!       pins "D27", "D29", "D30", "D31"    !! ground pins commented by IPG
+!       pins "D33", "D34", "D35", "D37"    !! ground pins commented by IPG
+!       pins "D38", "D39", "D41", "D42"    !! ground pins commented by IPG
+!       pins "D43", "D45", "D46", "D47"    !! ground pins commented by IPG
+!       pins "D49", "D50", "D51", "D53"    !! ground pins commented by IPG
+!       pins "D54", "D55", "D57", "D59"    !! ground pins commented by IPG
+!       pins "D62", "D63", "E11", "E17"    !! ground pins commented by IPG
+!       pins "F20", "F26", "F30", "F34"    !! ground pins commented by IPG
+!       pins "F38", "F42", "F46", "F50"    !! ground pins commented by IPG
+!       pins "F54", "F58", "F61", "G3", "G5"    !! ground pins commented by IPG
+!       pins "G6", "G8", "G18", "G22", "H13"    !! ground pins commented by IPG
+!       pins "H17", "H57", "J10", "J22"    !! ground pins commented by IPG
+!       pins "J59", "J63", "K1", "K12", "L7"    !! ground pins commented by IPG
+!       pins "L13", "L15", "L17", "L18"    !! ground pins commented by IPG
+!       pins "L20", "L58", "L61", "M22", "N3"    !! ground pins commented by IPG
+!       pins "N10", "N21", "P22", "P59"    !! ground pins commented by IPG
+!       pins "P62", "P63", "R8", "R10", "R22"    !! ground pins commented by IPG
+!       pins "T1", "T58", "U9", "U20", "U22"    !! ground pins commented by IPG
+!       pins "U61", "V3", "V7", "V10", "V23"    !! ground pins commented by IPG
+!       pins "V58", "W20", "W22", "Y10"    !! ground pins commented by IPG
+!       pins "Y59", "Y63", "AB57", "AD57"    !! ground pins commented by IPG
+!       pins "AG57", "C24", "C28", "C32"    !! ground pins commented by IPG
+!       pins "C36", "C40", "C44", "C48"    !! ground pins commented by IPG
+!       pins "C52", "C56", "E23", "E25"    !! ground pins commented by IPG
+!       pins "E27", "E29", "E31", "E33"    !! ground pins commented by IPG
+!       pins "E35", "E37", "E39", "E41"    !! ground pins commented by IPG
+!       pins "E43", "E45", "E47", "E49"    !! ground pins commented by IPG
+!       pins "E51", "E53", "E55", "E57"    !! ground pins commented by IPG
+!       pins "F24", "F28", "F32", "F36"    !! ground pins commented by IPG
+!       pins "F40", "F44", "F48", "F52"    !! ground pins commented by IPG
+!       pins "F56", "F59", "G23", "G25"    !! ground pins commented by IPG
+!       pins "G27", "G29", "G31", "G33"    !! ground pins commented by IPG
+!       pins "G35", "G37", "G39", "G41"    !! ground pins commented by IPG
+!       pins "G43", "G45", "G47", "G49"    !! ground pins commented by IPG
+!       pins "G51", "G53", "G55", "G57"    !! ground pins commented by IPG
+!       pins "H23", "J23", "K23", "K57"    !! ground pins commented by IPG
+!       pins "L22", "M23", "M57", "P57"    !! ground pins commented by IPG
+!       pins "U57", "W57", "AH10", "Y8"    !! ground pins commented by IPG
+!       pins "J15"    !! ground pins commented by IPG
+!  test pins "AB5", "AY7"    !! fixed pins commented by IPG
+!  test pins "AB8"    !! fixed pins commented by IPG
+!  test pins "AE7"    !! fixed pins commented by IPG
+!  test pins "AF3"    !! fixed pins commented by IPG
+!  test pins "AG2"    !! fixed pins commented by IPG
+!  test pins "AG4"    !! fixed pins commented by IPG
+!  test pins "AG19", "AG20"    !! fixed pins commented by IPG
+!  test pins "AH13"    !! fixed pins commented by IPG
+!  test pins "AJ6"    !! fixed pins commented by IPG
+!  test pins "AJ10", "AJ11"    !! fixed pins commented by IPG
+!  test pins "AK2", "AV4"    !! fixed pins commented by IPG
+!  test pins "AL2"    !! fixed pins commented by IPG
+!  test pins "AL5"    !! fixed pins commented by IPG
+!  test pins "AL7"    !! fixed pins commented by IPG
+!  test pins "AM4"    !! fixed pins commented by IPG
+!  test pins "AM5"    !! fixed pins commented by IPG
+!  test pins "AP4"    !! fixed pins commented by IPG
+!  test pins "AP5"    !! fixed pins commented by IPG
+!  test pins "AP49"    !! fixed pins commented by IPG
+!  test pins "AT4"    !! fixed pins commented by IPG
+!  test pins "B59"    !! fixed pins commented by IPG
+!  test pins "C59"    !! fixed pins commented by IPG
+!  test pins "D20"    !! fixed pins commented by IPG
+!  test pins "E20"    !! fixed pins commented by IPG
+!  test pins "E62"    !! fixed pins commented by IPG
+!  test pins "E63"    !! fixed pins commented by IPG
+!  test pins "F60"    !! fixed pins commented by IPG
+!  test pins "J13"    !! fixed pins commented by IPG
+!  test pins "L1"    !! fixed pins commented by IPG
+!  test pins "N6"    !! fixed pins commented by IPG
+!  test pins "R5"    !! fixed pins commented by IPG
+   !ADB  test pins "P20"; threshold low 2 high 21  !ADB: 10,0.146,0.03,20.0,10000.0,-3.28
+   !ADB  test pins "Y6"; threshold low 2 high 21  !ADB: 10,0.170,0.05,20.0,10000.0,-3.25
+   !ADB  test pins "AM7"; threshold low 2 high 21  !ADB: 10,0.259,0.1,20.0,10000.0,-2.45
+   !ADB  test pins "AD4"; threshold low 2 high 21  !ADB: 10,0.249,0.11,20.0,10000.0,-2.53
+   !ADB  test pins "Y7"; threshold low 2 high 21  !ADB: 10,0.156,0.13,20.0,10000.0,-3.12
+   !ADB  test pins "N62"; threshold low 2 high 21  !ADB: 10,0.178,0.15,20.0,10000.0,-3.08
+   !ADB  test pins "E3"; threshold low 2 high 21  !ADB: 10,0.171,0.19,20.0,10000.0,-3.02
+   !ADB  test pins "N4"; threshold low 2 high 21  !ADB: 10,0.133,0.19,20.0,10000.0,-3.02
+   !ADB  test pins "U7"; threshold low 2 high 21  !ADB: 10,0.194,0.19,20.0,10000.0,-3.02
+   !ADB  test pins "R20"; threshold low 2 high 21  !ADB: 10,0.220,0.2,20.0,10000.0,-2.73
+   !ADB  test pins "U6"; threshold low 2 high 21  !ADB: 10,0.207,0.24,20.0,10000.0,-2.83
+   !ADB  test pins "AJ8"; threshold low 2 high 21  !ADB: 10,0.147,0.25,20.0,10000.0,-2.92
+   !ADB  test pins "AN4"; threshold low 2 high 21  !ADB: 10,0.174,0.34,20.0,10000.0,-2.77
+   !ADB  test pins "J2"; threshold low 2 high 21  !ADB: 10,0.126,0.44,20.0,10000.0,-2.60
+   !ADB  test pins "U3"; threshold low 2 high 21  !ADB: 10,0.177,0.9,20.0,10000.0,-1.83
+   !ADB  test pins "AU3"; threshold low 2 high 21  !ADB: 10,0.165,0.96,20.0,10000.0,-1.73
+   !ADB  test pins "Y22"; threshold low 2 high 21  !ADB: 10,0.183,0.99,20.0,10000.0,-1.68
+   !ADB  test pins "AD1"; threshold low 2 high 22  !ADB: 10,0.146,1.03,20.0,10000.0,-1.62
+   !ADB  test pins "B51"; threshold low 2 high 22  !ADB: 10,0.076,1.03,20.0,10000.0,-1.62
+   !ADB  test pins "C33"; threshold low 2 high 22  !ADB: 10,0.224,1.05,20.0,10000.0,-1.41
+   !ADB  test pins "AE6"; threshold low 2 high 22  !ADB: 10,0.175,1.09,20.0,10000.0,-1.52
+   !ADB  test pins "B43"; threshold low 2 high 22  !ADB: 10,0.236,1.1,20.0,10000.0,-1.27
+   !ADB  test node "1%pcie_ptx_wlanrx_p3_c"; threshold low 2 high 22  !ADB: 10,0.177,1.2,20.0,10000.0,-1.33
+   !ADB  test pins "A51"; threshold low 2 high 22  !ADB: 10,0.112,1.32,20.0,10000.0,-1.13
+   !ADB  test pins "B34"; threshold low 2 high 22  !ADB: 10,0.233,1.44,20.0,10000.0,-0.80
+   !ADB  test pins "F13"; threshold low 2 high 22  !ADB: 10,0.165,1.44,20.0,10000.0,-0.93
+   !ADB  test pins "H8"; threshold low 2 high 22  !ADB: 10,0.217,1.44,20.0,10000.0,-0.86
+   !ADB  test pins "AN1"; threshold low 2 high 22  !ADB: 10,0.242,1.45,20.0,10000.0,-0.76
+   !ADB  test pins "N1"; threshold low 2 high 22  !ADB: 10,0.221,1.46,20.0,10000.0,-0.81
+   !ADB  test pins "J8"; threshold low 2 high 22  !ADB: 10,0.168,1.48,20.0,10000.0,-0.87
+   !ADB  test pins "AF1"; threshold low 2 high 22  !ADB: 10,0.162,1.49,20.0,10000.0,-0.85
+   !ADB  test pins "J5"; threshold low 2 high 22  !ADB: 10,0.160,1.57,20.0,10000.0,-0.72
+   !ADB  test pins "AB6"; threshold low 2 high 22  !ADB: 10,0.175,1.59,20.0,10000.0,-0.68
+   !ADB  test pins "G13"; threshold low 2 high 22  !ADB: 10,0.201,1.61,20.0,10000.0,-0.65
+   !ADB  test pins "G20"; threshold low 2 high 22  !ADB: 10,0.118,1.62,20.0,10000.0,-0.63
+   !ADB  test pins "J1"; threshold low 2 high 22  !ADB: 10,0.227,1.65,20.0,10000.0,-0.51
+   !ADB  test pins "H20"; threshold low 2 high 22  !ADB: 10,0.251,1.66,20.0,10000.0,-0.45
+   !ADB  test pins "H5"; threshold low 2 high 22  !ADB: 10,0.063,1.72,20.0,10000.0,-0.47
+   !ADB  test pins "V5"; threshold low 2 high 22  !ADB: 10,0.265,1.79,20.0,10000.0,-0.26
+   !ADB  test pins "B15"; threshold low 2 high 22  !ADB: 10,0.305,1.79,20.0,10000.0,-0.23
+   !ADB  test pins "B23"; threshold low 2 high 22  !ADB: 10,0.121,1.85,20.0,10000.0,-0.25
+   !ADB  test pins "AD6"; threshold low 2 high 22  !ADB: 10,0.142,1.85,20.0,10000.0,-0.25
+   !ADB  test pins "H10"; threshold low 2 high 22  !ADB: 10,0.209,1.88,20.0,10000.0,-0.19
+   !ADB  test pins "B17"; threshold low 2 high 22  !ADB: 10,0.185,1.9,20.0,10000.0,-0.17
+   !ADB  test pins "AG5"; threshold low 2 high 22  !ADB: 10,0.229,1.9,20.0,10000.0,-0.15
+   !ADB  test pins "F11"; threshold low 2 high 22  !ADB: 10,0.122,1.91,20.0,10000.0,-0.15
+   !ADB  test pins "C23"; threshold low 2 high 22  !ADB: 10,0.256,1.95,20.0,10000.0,-0.07
+   !ADB  test pins "C63"; threshold low 2 high 23  !ADB: 10,0.136,2.03,20.0,10000.0,0.05
+   !ADB  test pins "G10"; threshold low 2 high 23  !ADB: 10,0.120,2.06,20.0,10000.0,0.10
+   !ADB  test pins "G11"; threshold low 2 high 23  !ADB: 10,0.165,2.14,20.0,10000.0,0.23
+   !ADB  test pins "C62"; threshold low 2 high 23  !ADB: 10,0.198,2.29,20.0,10000.0,0.48
+   !ADB  test pins "A15"; threshold low 2 high 23  !ADB: 10,0.214,2.36,20.0,10000.0,0.56
+   !ADB  test pins "AM15"; threshold low 2 high 23  !ADB: 10,0.125,2.43,20.0,10000.0,0.72
+   !ADB  test pins "AL15"; threshold low 2 high 23  !ADB: 10,0.259,2.44,20.0,10000.0,0.57
+   !ADB  test pins "A17"; threshold low 2 high 23  !ADB: 10,0.162,2.49,20.0,10000.0,0.82
+   !ADB  test pins "A9"; threshold low 2 high 23  !ADB: 10,0.245,2.53,20.0,10000.0,0.72
+   !ADB  test pins "F8"; threshold low 2 high 23  !ADB: 10,0.160,2.53,20.0,10000.0,0.88
+   !ADB  test pins "B22"; threshold low 2 high 23  !ADB: 10,0.197,2.55,20.0,10000.0,0.92
+   !ADB  test pins "A47"; threshold low 2 high 23  !ADB: 10,0.243,2.59,20.0,10000.0,0.81
+   !ADB  test pins "AJ5"; threshold low 2 high 23  !ADB: 10,0.217,2.63,20.0,10000.0,0.97
+   !ADB  test pins "E10"; threshold low 2 high 23  !ADB: 10,0.204,2.66,20.0,10000.0,1.08
+   !ADB  test pins "E8"; threshold low 2 high 23  !ADB: 10,0.201,2.71,20.0,10000.0,1.18
+   !ADB  test pins "AD5"; threshold low 2 high 23  !ADB: 10,0.171,2.81,20.0,10000.0,1.35
+   !ADB  test pins "E6"; threshold low 2 high 23  !ADB: 10,0.221,2.85,20.0,10000.0,1.28
+   !ADB  test pins "AU63"; threshold low 2 high 23  !ADB: 10,0.271,2.98,20.0,10000.0,1.21
+   !ADB  test pins "B57"; threshold low 2 high 24  !ADB: 10,0.124,3.02,20.0,10000.0,1.70
+   !ADB  test pins "F10"; threshold low 2 high 24  !ADB: 10,0.226,3.03,20.0,10000.0,1.52
+   !ADB  test pins "F6"; threshold low 2 high 24  !ADB: 10,0.197,3.06,20.0,10000.0,1.77
+   !ADB  test pins "B8"; threshold low 2 high 24  !ADB: 10,0.171,3.19,20.0,10000.0,1.98
+   !ADB  test pins "AN13"; threshold low 2 high 24  !ADB: 10,0.168,3.22,20.0,10000.0,2.03
+   !ADB  test pins "A57"; threshold low 2 high 24  !ADB: 10,0.164,3.3,20.0,10000.0,2.17
+   !ADB  test pins "AM13"; threshold low 2 high 24  !ADB: 10,0.181,3.37,20.0,10000.0,2.28
+   !ADB  test pins "AK8"; threshold low 2 high 24  !ADB: 10,0.147,3.44,20.0,10000.0,2.40
+   !ADB  test pins "AL8"; threshold low 2 high 24  !ADB: 10,0.255,3.62,20.0,10000.0,2.12
+   !ADB  test pins "B9"; threshold low 2 high 24  !ADB: 10,0.301,3.78,2.0,24.0,1.97
+   !ADB  test pins "AA2"; threshold low 2 high 25  !ADB: 10,0.222,0.22,2.0,25.0,-2.67
+   !ADB  test pins "AA4"; threshold low 2 high 25  !ADB: 10,0.214,0.24,2.0,25.0,-2.74
+   !ADB  test pins "A25"; threshold low 2 high 25  !ADB: 10,0.120,0.56,2.0,25.0,-2.40
+   !ADB  test pins "AY5"; threshold low 2 high 80  !ADB: 10,0.253,0.67,12.0,80.0,-1.75
+   !ADB  test pins "B25"; threshold low 2 high 26  !ADB: 10,0.197,0.96,2.0,26.0,-1.73
+   !ADB  test pins "AW5"; threshold low 2 high 89  !ADB: 10,0.165,2.77,14.0,89.0,1.28
+   !ADB  test pins "AP11"; threshold low 2 high 25  !ADB: 10,0.309,4.25,2.0,25.0,2.43
+!  test pins "AR51"; threshold low 2 high 26  !ADB: 10,0.247,5.12,2.0,26.0,4.21
+ ! test pins "AL58"; threshold low 10 high 226  !ADB: 10,0.128,68.41,24.0,226.0,18.50
+   !ADB  test pins "B38"; threshold low 2 high 77  !ADB: 10,0.256,0.2,11.0,77.0,-2.34
+   !ADB  test pins "B45"; threshold low 2 high 25  !ADB: 10,0.165,2.77,2.0,25.0,1.28
+   !ADB  test pins "L8"; threshold low 2 high 27  !ADB: 10,0.103,2.91,2.0,27.0,1.52
+   !ADB  test pins "U5"; threshold low 2 high 27  !ADB: 10,0.268,3.31,2.0,27.0,1.63
+   !ADB  test pins "C22"; threshold low 2 high 26  !ADB: 10,0.307,3.39,2.0,26.0,1.51
+   !ADB  test pins "C58"; threshold low 2 high 25  !ADB: 10,0.228,3.39,2.0,25.0,2.03
+   !ADB  test pins "C21"; threshold low 2 high 24  !ADB: 10,0.337,3.6,2.0,24.0,1.58
+   !ADB  test pins "AN11"; threshold low 2 high 25  !ADB: 10,0.324,3.82,2.0,25.0,1.87
+!  test pins "AR13"; threshold low 2 high 26  !ADB: 10,0.300,4.69,2.0,26.0,2.99
+ ! test pins "AP13"; threshold low 2 high 26  !ADB: 10,0.209,5.12,2.0,26.0,4.98
+!P test pins "N63"; threshold low 2 high 26  !ADB: 10,0.216,5.28,2.0,26.0,5.06
+ ! test pins "AR57"; threshold low 2 high 228  !ADB: 10,0.248,8.95,24.0,228.0,9.34
+!  test pins "AM48"; threshold low 2 high 230  !ADB: 10,0.231,9.09,25.0,230.0,10.23
+ ! test pins "AJ61"; threshold low 10 high 265  !ADB: 10,0.214,21.64,37.0,265.0,4.85
+ ! test pins "AU39"; threshold low 12 high 312  !ADB: 10,0.197,24.05,39.0,312.0,5.02
+!m test pins "AW62"; threshold low 18 high 139  !ADB: 10,0.183,44.09,20.0,139.0,10.04
+  !test pins "AV61"; threshold low 20 high 216  !ADB: 10,0.176,70.08,20.0,216.0,20.87
+!  test pins "C61"; threshold low 35 high 359  !ADB: 10,0.220,119.4,53.0,357.0,27.67
+   !ADB  test pins "AM45"; threshold low 2 high 227  !ADB: 10,0.206,-0.38,2.0,227.0,-3.85
+   !ADB  test pins "AM42"; threshold low 2 high 225  !ADB: 10,0.232,-0.32,2.0,225.0,-3.33
+   !ADB  test pins "AM57"; threshold low 2 high 225  !ADB: 10,0.107,-0.3,2.0,225.0,-3.83
+   !ADB  test pins "AK55"; threshold low 2 high 225  !ADB: 10,0.235,-0.28,2.0,225.0,-3.23
+   !ADB  test pins "AM40"; threshold low 2 high 226  !ADB: 10,0.221,-0.26,2.0,226.0,-3.41
+   !ADB  test pins "AK51"; threshold low 2 high 229  !ADB: 10,0.156,-0.26,2.0,229.0,-3.77
+   !ADB  test pins "AK49"; threshold low 2 high 228  !ADB: 10,0.280,-0.26,2.0,228.0,-2.69
+   !ADB  test pins "AK46"; threshold low 2 high 229  !ADB: 10,0.312,-0.25,2.0,229.0,-2.40
+   !ADB  test pins "AM43"; threshold low 2 high 228  !ADB: 10,0.295,-0.25,2.0,228.0,-2.54
+   !ADB  test pins "AN57"; threshold low 2 high 207  !ADB: 10,0.207,-0.23,2.0,207.0,-3.59
+   !ADB  test pins "AR58"; threshold low 2 high 226  !ADB: 10,0.236,-0.23,2.0,226.0,-3.15
+   !ADB  test pins "AN55"; threshold low 2 high 227  !ADB: 10,0.285,-0.2,2.0,227.0,-2.57
+   !ADB  test pins "AM55"; threshold low 2 high 226  !ADB: 10,0.153,-0.19,2.0,226.0,-3.65
+   !ADB  test pins "AK43"; threshold low 2 high 228  !ADB: 10,0.268,-0.19,2.0,228.0,-2.72
+   !ADB  test pins "AM49"; threshold low 2 high 229  !ADB: 10,0.286,-0.19,2.0,229.0,-2.55
+   !ADB  test pins "AM51"; threshold low 2 high 229  !ADB: 10,0.216,-0.18,2.0,229.0,-3.36
+   !ADB  test pins "AM54"; threshold low 2 high 226  !ADB: 10,0.196,-0.17,2.0,226.0,-3.62
+   !ADB  test pins "AK42"; threshold low 2 high 228  !ADB: 10,0.236,-0.16,2.0,228.0,-3.05
+   !ADB  test pins "AK48"; threshold low 2 high 231  !ADB: 10,0.280,-0.14,2.0,231.0,-2.55
+   !ADB  test pins "AK57"; threshold low 2 high 226  !ADB: 10,0.227,-0.14,2.0,226.0,-3.14
+   !ADB  test pins "AN58"; threshold low 2 high 227  !ADB: 10,0.262,-0.14,2.0,227.0,-2.72
+   !ADB  test pins "AK45"; threshold low 2 high 226  !ADB: 10,0.236,-0.13,2.0,226.0,-3.01
+   !ADB  test pins "AL55"; threshold low 2 high 225  !ADB: 10,0.159,-0.12,2.0,225.0,-3.53
+   !ADB  test pins "AL48"; threshold low 2 high 230  !ADB: 10,0.166,-0.11,2.0,230.0,-3.52
+   !ADB  test pins "AL49"; threshold low 2 high 230  !ADB: 10,0.207,-0.1,2.0,230.0,-3.38
+   !ADB  test pins "AK58"; threshold low 2 high 227  !ADB: 10,0.237,-0.09,2.0,227.0,-2.94
+   !ADB  test pins "AP58"; threshold low 2 high 225  !ADB: 10,0.365,-0.08,2.0,225.0,-1.90
+   !ADB  test pins "AR54"; threshold low 2 high 226  !ADB: 10,0.279,-0.08,2.0,226.0,-2.49
+   !ADB  test pins "F63"; threshold low 2 high 133  !ADB: 10,0.219,-0.08,18.0,133.0,-3.17
+   !ADB  test pins "AK54"; threshold low 2 high 225  !ADB: 10,0.259,-0.07,2.0,225.0,-2.66
+   !ADB  test pins "AK40"; threshold low 2 high 225  !ADB: 10,0.182,-0.06,2.0,225.0,-3.43
+   !ADB  test pins "AM58"; threshold low 2 high 227  !ADB: 10,0.161,-0.06,2.0,227.0,-3.43
+   !ADB  test pins "AU60"; threshold low 2 high 135  !ADB: 10,0.227,-0.05,2.0,135.0,-3.01
+   !ADB  test pins "AM46"; threshold low 2 high 216  !ADB: 10,0.275,-0.05,2.0,216.0,-2.48
+   !ADB  test pins "AP55"; threshold low 2 high 224  !ADB: 10,0.193,-0.04,2.0,224.0,-3.40
+   !ADB  test pins "AV60"; threshold low 2 high 128  !ADB: 10,0.238,-0.02,2.0,128.0,-2.83
+   !ADB  test pins "AL43"; threshold low 2 high 228  !ADB: 10,0.258,-0.02,2.0,228.0,-2.61
+   !ADB  test pins "AL42"; threshold low 2 high 226  !ADB: 10,0.231,-0.01,2.0,226.0,-2.90
+   !ADB  test pins "AN54"; threshold low 2 high 224  !ADB: 10,0.246,-0.01,2.0,224.0,-2.72
+   !ADB  test pins "AR10"; threshold low 2 high 26  !ADB: 10,0.205,0.01,2.0,26.0,-3.24
+   !ADB  test pins "AR55"; threshold low 2 high 225  !ADB: 10,0.213,0.02,2.0,225.0,-3.10
+   !ADB  test pins "AN8"; threshold low 2 high 25  !ADB: 10,0.223,0.07,2.0,25.0,-2.88
+   !ADB  test pins "AM8"; threshold low 2 high 25  !ADB: 10,0.085,0.07,2.0,25.0,-3.22
+   !ADB  test pins "AP8"; threshold low 2 high 25  !ADB: 10,0.159,0.08,2.0,25.0,-3.20
+   !ADB  test pins "AT10"; threshold low 2 high 26  !ADB: 10,0.201,0.09,2.0,26.0,-3.17
+   !ADB  test pins "AR36"; threshold low 2 high 276  !ADB: 10,0.342,0.13,4.0,276.0,-1.82
+   !ADB  test pins "AA3"; threshold low 2 high 78  !ADB: 10,0.204,0.15,2.0,78.0,-3.02
+   !ADB  test pins "AR8"; threshold low 2 high 25  !ADB: 10,0.214,0.15,2.0,25.0,-2.88
+   !ADB  test pins "B21"; threshold low 2 high 28  !ADB: 10,0.213,0.17,2.0,28.0,-2.86
+   !ADB  test pins "C35"; threshold low 2 high 27  !ADB: 10,0.195,0.18,2.0,27.0,-3.03
+   !ADB  test pins "AF4"; threshold low 2 high 27  !ADB: 10,0.254,0.21,2.0,27.0,-2.35
+   !ADB  test pins "AN15"; threshold low 2 high 26  !ADB: 10,0.201,0.21,2.0,26.0,-2.97
+   !ADB  test pins "AR7"; threshold low 2 high 27  !ADB: 10,0.190,0.21,2.0,27.0,-2.98
+   !ADB  test pins "U1"; threshold low 2 high 28  !ADB: 10,0.369,0.22,2.0,28.0,-1.61
+   !ADB  test pins "L60"; threshold low 2 high 29  !ADB: 10,0.239,0.24,2.0,29.0,-2.45
+   !ADB  test pins "K61"; threshold low 2 high 30  !ADB: 10,0.142,0.25,2.0,30.0,-2.92
+   !ADB  test pins "AG3"; threshold low 2 high 26  !ADB: 10,0.186,0.26,1.0,26.0,-2.90
+   !ADB  test pins "AP33"; threshold low 2 high 274  !ADB: 10,0.232,0.28,5.0,274.0,-2.47
+   !ADB  test pins "AP15"; threshold low 2 high 26  !ADB: 10,0.353,0.28,2.0,26.0,-1.62
+   !ADB  test pins "K59"; threshold low 2 high 27  !ADB: 10,0.171,0.29,2.0,27.0,-2.85
+   !ADB  test pins "T2"; threshold low 2 high 27  !ADB: 10,0.249,0.29,2.0,27.0,-2.29
+   !ADB       pins "U2"
+   !ADB       pins "Y5"
+   !ADB  test pins "AP35"; threshold low 2 high 270  !ADB: 10,0.169,0.3,4.0,270.0,-2.83
+   !ADB  test pins "AP36"; threshold low 2 high 272  !ADB: 10,0.136,0.3,4.0,272.0,-2.83
+   !ADB  test pins "AP32"; threshold low 2 high 274  !ADB: 10,0.266,0.32,5.0,274.0,-2.11
+   !ADB  test pins "V1"; threshold low 2 high 28  !ADB: 10,0.232,0.32,2.0,28.0,-2.41
+   !ADB  test pins "AD2"; threshold low 2 high 28  !ADB: 10,0.264,0.33,2.0,28.0,-2.11
+   !ADB  test pins "AT7"; threshold low 2 high 27  !ADB: 10,0.230,0.33,2.0,27.0,-2.42
+   !ADB  test pins "AA61"; threshold low 2 high 28  !ADB: 10,0.331,0.34,2.0,28.0,-1.67
+   !ADB  test pins "U62"; threshold low 2 high 29  !ADB: 10,0.272,0.34,2.0,29.0,-2.03
+   !ADB  test pins "J4"; threshold low 2 high 29  !ADB: 10,0.214,0.34,2.0,29.0,-2.59
+   !ADB  test pins "P61"; threshold low 2 high 27  !ADB: 10,0.273,0.35,2.0,27.0,-2.01
+   !ADB  test pins "AR38"; threshold low 2 high 275  !ADB: 10,0.278,0.35,4.0,275.0,-1.98
+   !ADB  test pins "AR32"; threshold low 2 high 274  !ADB: 10,0.152,0.35,5.0,274.0,-2.75
+   !ADB  test pins "F2"; threshold low 2 high 40  !ADB: 10,0.256,0.37,2.0,40.0,-2.12
+   !ADB  test pins "P60"; threshold low 2 high 30  !ADB: 10,0.257,0.39,2.0,30.0,-2.09
+   !ADB  test pins "P4"; threshold low 2 high 30  !ADB: 10,0.241,0.4,2.0,30.0,-2.21
+   !ADB  test pins "P2"; threshold low 2 high 37  !ADB: 10,0.241,0.4,2.0,37.0,-2.21
+   !ADB  test pins "AU4"; threshold low 2 high 29  !ADB: 10,0.246,0.41,2.0,29.0,-2.15
+   !ADB  test pins "N61"; threshold low 2 high 30  !ADB: 10,0.281,0.41,2.0,30.0,-1.89
+   !ADB  test pins "N59"; threshold low 2 high 29  !ADB: 10,0.208,0.41,2.0,29.0,-2.55
+   !ADB  test pins "V2"; threshold low 2 high 27  !ADB: 10,0.173,0.43,2.0,27.0,-2.62
+   !ADB  test pins "AR35"; threshold low 2 high 270  !ADB: 10,0.223,0.43,4.0,270.0,-2.35
+   !ADB  test pins "AH3"; threshold low 2 high 33  !ADB: 10,0.290,0.44,2.0,33.0,-1.79
+   !ADB  test pins "K60"; threshold low 2 high 32  !ADB: 10,0.307,0.44,2.0,32.0,-1.69
+   !ADB  test pins "K3"; threshold low 2 high 36  !ADB: 10,0.275,0.46,2.0,36.0,-1.87
+   !ADB  test pins "L3"; threshold low 2 high 39  !ADB: 10,0.307,0.46,2.0,39.0,-1.67
+   !ADB  test pins "P3"; threshold low 2 high 30  !ADB: 10,0.269,0.47,2.0,30.0,-1.90
+   !ADB  test pins "C9"; threshold low 2 high 29  !ADB: 10,0.219,0.48,2.0,29.0,-2.31
+   !ADB  test pins "AK1"; threshold low 2 high 36  !ADB: 10,0.381,0.48,2.0,36.0,-1.33
+   !ADB  test pins "T4"; threshold low 2 high 30  !ADB: 10,0.254,0.49,2.0,30.0,-1.98
+   !ADB  test pins "V4"; threshold low 2 high 30  !ADB: 10,0.263,0.49,2.0,30.0,-1.91
+   !ADB  test pins "AV37"; threshold low 2 high 36  !ADB: 10,0.221,0.51,2.0,36.0,-2.25
+   !ADB  test pins "AH1"; threshold low 2 high 35  !ADB: 10,0.189,0.56,2.0,35.0,-2.40
+   !ADB  test pins "AU34"; threshold low 2 high 283  !ADB: 10,0.200,0.57,7.0,283.0,-2.38
+   !ADB  test pins "A23"; threshold low 2 high 34  !ADB: 10,0.230,0.57,2.0,34.0,-2.07
+   !ADB  test pins "G4"; threshold low 2 high 37  !ADB: 10,0.200,0.57,2.0,37.0,-2.38
+   !ADB  test pins "AU6"; threshold low 2 high 43  !ADB: 10,0.242,0.57,2.0,43.0,-1.97
+   !ADB  test pins "A35"; threshold low 2 high 33  !ADB: 10,0.221,0.59,2.0,33.0,-2.13
+   !ADB  test pins "AF2"; threshold low 2 high 44  !ADB: 10,0.285,0.6,2.0,44.0,-1.64
+   !ADB  test pins "C6"; threshold low 2 high 53  !ADB: 10,0.306,0.6,2.0,53.0,-1.53
+   !ADB  test pins "AV57"; threshold low 2 high 273  !ADB: 10,0.241,0.62,12.0,273.0,-1.91
+   !ADB  test pins "D6"; threshold low 2 high 47  !ADB: 10,0.156,0.63,2.0,47.0,-2.28
+   !ADB  test pins "AY36"; threshold low 2 high 47  !ADB: 10,0.173,0.63,2.0,47.0,-2.28
+   !ADB  test pins "AW34"; threshold low 2 high 285  !ADB: 10,0.285,0.63,7.0,285.0,-1.60
+   !ADB  test pins "AW36"; threshold low 2 high 46  !ADB: 10,0.211,0.64,2.0,46.0,-2.15
+   !ADB  test pins "J61"; threshold low 2 high 40  !ADB: 10,0.309,0.66,2.0,40.0,-1.45
+   !ADB  test pins "AJ62"; threshold low 2 high 265  !ADB: 10,0.236,0.66,10.0,265.0,-1.89
+   !ADB  test pins "AM3"; threshold low 2 high 40  !ADB: 10,0.156,0.67,2.0,40.0,-2.22
+   !ADB  test pins "A45"; threshold low 2 high 41  !ADB: 10,0.200,0.67,2.0,41.0,-2.22
+   !ADB  test pins "AU11"; threshold low 2 high 44  !ADB: 10,0.200,0.67,2.0,44.0,-2.22
+   !ADB  test pins "AH60"; threshold low 2 high 264  !ADB: 10,0.255,0.68,10.0,264.0,-1.73
+   !ADB  test pins "N2"; threshold low 2 high 42  !ADB: 10,0.164,0.68,2.0,42.0,-2.20
+   !ADB  test pins "B35"; threshold low 2 high 58  !ADB: 10,0.128,0.69,2.0,58.0,-2.18
+   !ADB  test pins "Y3"; threshold low 2 high 58  !ADB: 10,0.232,0.72,5.0,58.0,-1.84
+   !ADB  test pins "AU43"; threshold low 2 high 299  !ADB: 10,0.160,0.73,10.0,299.0,-2.12
+   !ADB  test pins "AU37"; threshold low 2 high 36  !ADB: 10,0.299,0.73,2.0,36.0,-1.42
+   !ADB  test pins "T3"; threshold low 2 high 55  !ADB: 10,0.247,0.73,5.0,55.0,-1.71
+   !ADB  test pins "K2"; threshold low 2 high 45  !ADB: 10,0.214,0.74,2.0,45.0,-1.96
+   !ADB  test pins "AV35"; threshold low 2 high 292  !ADB: 10,0.325,0.74,11.0,292.0,-1.29
+   !ADB  test pins "AW39"; threshold low 2 high 308  !ADB: 10,0.178,0.74,12.0,308.0,-2.10
+   !ADB  test pins "H63"; threshold low 2 high 42  !ADB: 10,0.221,0.75,2.0,42.0,-1.89
+   !ADB  test pins "AK60"; threshold low 2 high 269  !ADB: 10,0.340,0.75,11.0,269.0,-1.23
+   !ADB  test pins "H61"; threshold low 2 high 43  !ADB: 10,0.165,0.75,3.0,43.0,-2.08
+   !ADB  test pins "AL3"; threshold low 2 high 48  !ADB: 10,0.304,0.77,5.0,48.0,-1.35
+   !ADB  test pins "AY34"; threshold low 2 high 289  !ADB: 10,0.242,0.77,8.0,289.0,-1.69
+   !ADB  test pins "AC3"; threshold low 2 high 46  !ADB: 10,0.282,0.77,2.0,46.0,-1.45
+   !ADB  test pins "AA60"; threshold low 2 high 48  !ADB: 10,0.125,0.77,3.0,48.0,-2.05
+   !ADB  test pins "D11"; threshold low 2 high 56  !ADB: 10,0.160,0.77,2.0,56.0,-2.05
+   !ADB  test pins "AU40"; threshold low 2 high 303  !ADB: 10,0.243,0.79,11.0,303.0,-1.66
+   !ADB  test pins "P1"; threshold low 2 high 61  !ADB: 10,0.292,0.8,2.0,61.0,-1.37
+   !ADB  test pins "AP2"; threshold low 2 high 47  !ADB: 10,0.276,0.81,2.0,47.0,-1.44
+   !ADB  test pins "Y62"; threshold low 2 high 57  !ADB: 10,0.240,0.81,4.0,57.0,-1.65
+   !ADB  test pins "Y61"; threshold low 2 high 48  !ADB: 10,0.202,0.82,4.0,48.0,-1.95
+   !ADB  test pins "AW57"; threshold low 2 high 273  !ADB: 10,0.244,0.82,12.0,273.0,-1.61
+   !ADB  test pins "AU35"; threshold low 2 high 284  !ADB: 10,0.219,0.82,9.0,284.0,-1.80
+   !ADB  test pins "AU42"; threshold low 2 high 293  !ADB: 10,0.266,0.82,10.0,293.0,-1.48
+   !ADB  test pins "AA62"; threshold low 2 high 50  !ADB: 10,0.189,0.83,2.0,50.0,-1.95
+   !ADB  test pins "AN62"; threshold low 2 high 268  !ADB: 10,0.151,0.83,11.0,268.0,-1.95
+   !ADB  test pins "AC1"; threshold low 2 high 48  !ADB: 10,0.151,0.83,2.0,48.0,-1.95
+   !ADB  test pins "AV40"; threshold low 2 high 303  !ADB: 10,0.156,0.84,11.0,303.0,-1.93
+   !ADB  test pins "AN2"; threshold low 2 high 47  !ADB: 10,0.290,0.86,2.0,47.0,-1.31
+   !ADB  test pins "AU41"; threshold low 2 high 306  !ADB: 10,0.211,0.86,12.0,306.0,-1.80
+   !ADB  test pins "AV52"; threshold low 2 high 282  !ADB: 10,0.152,0.86,13.0,282.0,-1.90
+   !ADB  test pins "AE63"; threshold low 2 high 79  !ADB: 10,0.236,0.87,4.0,79.0,-1.60
+   !ADB  test pins "AV11"; threshold low 2 high 46  !ADB: 10,0.217,0.87,2.0,46.0,-1.74
+   !ADB  test pins "AN61"; threshold low 2 high 267  !ADB: 10,0.236,0.87,11.0,267.0,-1.60
+   !ADB  test pins "AV53"; threshold low 2 high 271  !ADB: 10,0.247,0.87,11.0,271.0,-1.52
+   !ADB  test pins "U4"; threshold low 2 high 57  !ADB: 10,0.261,0.88,2.0,57.0,-1.43
+   !ADB  test pins "AG7"; threshold low 2 high 67  !ADB: 10,0.226,0.9,6.0,67.0,-1.62
+   !ADB  test pins "AU56"; threshold low 2 high 276  !ADB: 10,0.335,0.9,12.0,276.0,-1.09
+   !ADB  test pins "AH61"; threshold low 2 high 270  !ADB: 10,0.244,0.92,11.0,270.0,-1.48
+   !ADB  test pins "AV42"; threshold low 2 high 305  !ADB: 10,0.279,0.92,12.0,305.0,-1.29
+   !ADB  test pins "AU58"; threshold low 2 high 278  !ADB: 10,0.256,0.93,13.0,278.0,-1.39
+   !ADB  test pins "AU54"; threshold low 2 high 276  !ADB: 10,0.233,0.93,12.0,276.0,-1.53
+   !ADB  test pins "AW7"; threshold low 2 high 62  !ADB: 10,0.262,0.95,6.0,62.0,-1.34
+   !ADB  test pins "AY39"; threshold low 2 high 319  !ADB: 10,0.224,0.95,14.0,319.0,-1.56
+   !ADB  test pins "AM60"; threshold low 2 high 267  !ADB: 10,0.245,0.96,11.0,267.0,-1.41
+   !ADB  test pins "AU8"; threshold low 2 high 47  !ADB: 10,0.207,0.97,2.0,47.0,-1.66
+   !ADB  test pins "AW41"; threshold low 2 high 309  !ADB: 10,0.240,0.99,12.0,309.0,-1.40
+   !ADB  test pins "AU52"; threshold low 2 high 274  !ADB: 10,0.251,0.99,12.0,274.0,-1.34
+   !ADB  test pins "AV56"; threshold low 2 high 280  !ADB: 10,0.429,0.99,13.0,280.0,-0.78
+   !ADB  test pins "C29"; threshold low 2 high 65  !ADB: 10,0.190,1.01,6.0,65.0,-1.65
+   !ADB  test pins "AW53"; threshold low 2 high 270  !ADB: 10,0.201,1.01,11.0,270.0,-1.64
+   !ADB  test pins "AD62"; threshold low 2 high 80  !ADB: 10,0.155,1.02,3.0,80.0,-1.63
+   !ADB  test pins "A55"; threshold low 2 high 61  !ADB: 10,0.206,1.02,7.0,61.0,-1.59
+   !ADB  test pins "B58"; threshold low 2 high 73  !ADB: 10,0.173,1.03,5.0,73.0,-1.62
+   !ADB  test pins "AT1"; threshold low 2 high 63  !ADB: 10,0.267,1.03,2.0,63.0,-1.21
+   !ADB  test pins "AM61"; threshold low 2 high 273  !ADB: 10,0.177,1.03,13.0,273.0,-1.62
+   !ADB  test pins "AE62"; threshold low 2 high 59  !ADB: 10,0.193,1.04,5.0,59.0,-1.60
+   !ADB  test pins "AY10"; threshold low 2 high 63  !ADB: 10,0.224,1.04,5.0,63.0,-1.43
+   !ADB  test pins "AU61"; threshold low 2 high 166  !ADB: 10,0.214,1.04,6.0,166.0,-1.50
+   !ADB  test pins "Y2"; threshold low 2 high 57  !ADB: 10,0.245,1.05,2.0,57.0,-1.29
+   !ADB  test pins "AC62"; threshold low 2 high 72  !ADB: 10,0.182,1.05,3.0,72.0,-1.58
+   !ADB  test pins "AP60"; threshold low 2 high 271  !ADB: 10,0.174,1.06,12.0,271.0,-1.57
+   !ADB  test pins "AV58"; threshold low 2 high 283  !ADB: 10,0.189,1.06,14.0,283.0,-1.57
+   !ADB  test pins "AC63"; threshold low 2 high 50  !ADB: 10,0.169,1.07,2.0,50.0,-1.55
+   !ADB  test pins "H62"; threshold low 2 high 60  !ADB: 10,0.107,1.07,6.0,60.0,-1.55
+   !ADB  test pins "AV12"; threshold low 2 high 81  !ADB: 10,0.213,1.07,9.0,81.0,-1.46
+   !ADB  test pins "AP62"; threshold low 2 high 287  !ADB: 10,0.185,1.07,14.0,287.0,-1.55
+   !ADB  test pins "AW10"; threshold low 2 high 53  !ADB: 10,0.180,1.08,4.0,53.0,-1.53
+   !ADB  test pins "AK61"; threshold low 2 high 275  !ADB: 10,0.213,1.08,12.0,275.0,-1.44
+   !ADB  test pins "C45"; threshold low 2 high 73  !ADB: 10,0.281,1.09,8.0,73.0,-1.08
+   !ADB  test pins "V63"; threshold low 2 high 47  !ADB: 10,0.207,1.1,4.0,47.0,-1.45
+   !ADB  test pins "A43"; threshold low 2 high 59  !ADB: 10,0.164,1.1,6.0,59.0,-1.50
+   !ADB  test pins "C55"; threshold low 2 high 63  !ADB: 10,0.195,1.12,8.0,63.0,-1.47
+   !ADB  test pins "AH63"; threshold low 2 high 283  !ADB: 10,0.315,1.12,14.0,283.0,-0.93
+   !ADB  test pins "AW54"; threshold low 2 high 289  !ADB: 10,0.209,1.12,15.0,289.0,-1.40
+   !ADB  test pins "C8"; threshold low 2 high 73  !ADB: 10,0.151,1.13,6.0,73.0,-1.45
+   !ADB  test pins "AW43"; threshold low 2 high 307  !ADB: 10,0.189,1.14,13.0,307.0,-1.43
+   !ADB  test pins "AY54"; threshold low 2 high 299  !ADB: 10,0.210,1.17,16.0,299.0,-1.32
+   !ADB  test node "1%lpc_ad0"; threshold low 2 high 64  !ADB: 10,0.201,1.19,6.0,64.0,-1.34
+   !ADB  test pins "AY37"; threshold low 2 high 316  !ADB: 10,0.359,1.19,13.0,316.0,-0.75
+   !ADB  test node "1%lpc_ad1"; threshold low 2 high 93  !ADB: 10,0.325,1.19,11.0,93.0,-0.83
+   !ADB  test pins "AC60"; threshold low 2 high 78  !ADB: 10,0.236,1.2,2.0,78.0,-1.13
+   !ADB  test pins "AU36"; threshold low 2 high 309  !ADB: 10,0.136,1.2,13.0,309.0,-1.33
+   !ADB  test pins "AM62"; threshold low 2 high 283  !ADB: 10,0.241,1.2,14.0,283.0,-1.11
+   !ADB  test pins "AH62"; threshold low 2 high 274  !ADB: 10,0.207,1.2,13.0,274.0,-1.29
+   !ADB  test pins "AW56"; threshold low 2 high 290  !ADB: 10,0.260,1.21,15.0,290.0,-1.01
+   !ADB  test pins "AW52"; threshold low 2 high 292  !ADB: 10,0.311,1.23,15.0,292.0,-0.83
+   !ADB  test pins "AY41"; threshold low 2 high 325  !ADB: 10,0.121,1.25,15.0,325.0,-1.25
+   !ADB  test pins "AW58"; threshold low 2 high 292  !ADB: 10,0.259,1.25,15.0,292.0,-0.97
+   !ADB  test pins "AK62"; threshold low 2 high 279  !ADB: 10,0.173,1.27,13.0,279.0,-1.22
+   !ADB  test pins "AV54"; threshold low 2 high 284  !ADB: 10,0.244,1.28,14.0,284.0,-0.98
+   !ADB  test pins "AP61"; threshold low 2 high 280  !ADB: 10,0.256,1.3,13.0,280.0,-0.91
+   !ADB  test pins "AK63"; threshold low 2 high 293  !ADB: 10,0.179,1.31,15.0,293.0,-1.15
+   !ADB  test pins "V60"; threshold low 2 high 100  !ADB: 10,0.249,1.31,12.0,100.0,-0.92
+   !ADB  test pins "Y60"; threshold low 2 high 70  !ADB: 10,0.155,1.32,9.0,70.0,-1.13
+   !ADB  test pins "B55"; threshold low 2 high 66  !ADB: 10,0.277,1.33,7.0,66.0,-0.81
+   !ADB  test pins "A21"; threshold low 2 high 68  !ADB: 10,0.280,1.35,8.0,68.0,-0.77
+   !ADB  test pins "AC20"; threshold low 2 high 95  !ADB: 10,0.230,1.36,13.0,95.0,-0.93
+   !ADB  test pins "V21"; threshold low 2 high 88  !ADB: 10,0.352,1.37,12.0,88.0,-0.60
+   !ADB  test pins "V62"; threshold low 2 high 101  !ADB: 10,0.250,1.4,12.0,101.0,-0.80
+   !ADB  test pins "F1"; threshold low 2 high 79  !ADB: 10,0.318,1.44,11.0,79.0,-0.59
+   !ADB  test pins "AY56"; threshold low 2 high 295  !ADB: 10,0.245,1.44,16.0,295.0,-0.76
+   !ADB  test pins "AP63"; threshold low 2 high 294  !ADB: 10,0.221,1.45,16.0,294.0,-0.83
+   !ADB  test pins "AY52"; threshold low 2 high 299  !ADB: 10,0.211,1.46,16.0,299.0,-0.85
+   !ADB  test pins "AM63"; threshold low 2 high 293  !ADB: 10,0.292,1.47,15.0,293.0,-0.61
+   !ADB  test pins "B46"; threshold low 2 high 88  !ADB: 10,0.184,1.48,12.0,88.0,-0.87
+   !ADB  test pins "B29"; threshold low 2 high 88  !ADB: 10,0.138,1.49,11.0,88.0,-0.85
+   !ADB  test pins "AW1"; threshold low 2 high 145  !ADB: 10,0.194,1.51,15.0,145.0,-0.82
+   !ADB  test pins "V6"; threshold low 2 high 73  !ADB: 10,0.256,1.54,7.0,73.0,-0.60
+   !ADB  test pins "V61"; threshold low 2 high 83  !ADB: 10,0.259,1.54,12.0,83.0,-0.59
+   !ADB  test pins "C34"; threshold low 2 high 103  !ADB: 10,0.314,1.59,12.0,103.0,-0.44
+   !ADB  test pins "AD61"; threshold low 2 high 109  !ADB: 10,0.314,1.59,11.0,109.0,-0.44
+   !ADB  test pins "AY58"; threshold low 2 high 301  !ADB: 10,0.261,1.6,16.0,301.0,-0.51
+   !ADB  test pins "AU62"; threshold low 2 high 86  !ADB: 10,0.253,1.63,11.0,86.0,-0.49
+   !ADB  test pins "T63"; threshold low 2 high 115  !ADB: 10,0.120,1.64,14.0,115.0,-0.60
+   !ADB  test pins "AA63"; threshold low 2 high 84  !ADB: 10,0.360,1.65,7.0,84.0,-0.32
+   !ADB  test pins "B42"; threshold low 2 high 100  !ADB: 10,0.230,1.65,13.0,100.0,-0.51
+   !ADB  test pins "C41"; threshold low 2 high 97  !ADB: 10,0.161,1.66,12.0,97.0,-0.57
+   !ADB  test pins "K63"; threshold low 2 high 105  !ADB: 10,0.315,1.68,8.0,105.0,-0.34
+   !ADB  test pins "U63"; threshold low 2 high 87  !ADB: 10,0.209,1.68,12.0,87.0,-0.51
+   !ADB  test pins "C54"; threshold low 2 high 90  !ADB: 10,0.222,1.68,12.0,90.0,-0.48
+   !ADB  test pins "AV7"; threshold low 2 high 78  !ADB: 10,0.135,1.68,10.0,78.0,-0.53
+   !ADB  test pins "B47"; threshold low 2 high 107  !ADB: 10,0.310,1.69,12.0,107.0,-0.33
+   !ADB  test pins "U60"; threshold low 2 high 110  !ADB: 10,0.158,1.69,13.0,110.0,-0.52
+   !ADB  test pins "AM2"; threshold low 2 high 75  !ADB: 10,0.231,1.71,6.0,75.0,-0.42
+   !ADB  test pins "AE61"; threshold low 2 high 112  !ADB: 10,0.211,1.74,11.0,112.0,-0.41
+   !ADB  test pins "AV3"; threshold low 2 high 99  !ADB: 10,0.266,1.82,12.0,99.0,-0.23
+   !ADB  test pins "T62"; threshold low 2 high 97  !ADB: 10,0.272,1.9,15.0,97.0,-0.12
+   !ADB  test pins "AD7"; threshold low 2 high 85  !ADB: 10,0.183,1.91,13.0,85.0,-0.15
+   !ADB       pins "AG6"
+   !ADB       pins "AH4"
+   !ADB       pins "AK4"
+   !ADB       pins "AL4"
+   !ADB       pins "AN3"
+   !ADB       pins "AP1"
+   !ADB       pins "AT3"
+   !ADB  test pins "H60"; threshold low 2 high 107  !ADB: 10,0.175,1.91,15.0,107.0,-0.15
+   !ADB  test pins "AV1"; threshold low 2 high 157  !ADB: 10,0.242,1.93,20.0,157.0,-0.10
+   !ADB  test pins "E59"; threshold low 2 high 106  !ADB: 10,0.270,1.94,16.0,106.0,-0.07
+   !ADB  test pins "T61"; threshold low 2 high 101  !ADB: 10,0.211,1.99,14.0,101.0,-0.02
+   !ADB  test pins "J60"; threshold low 2 high 105  !ADB: 10,0.224,2.05,14.0,105.0,0.07
+   !ADB  test pins "A39"; threshold low 2 high 109  !ADB: 10,0.251,2.05,16.0,109.0,0.07
+   !ADB  test pins "T60"; threshold low 2 high 117  !ADB: 10,0.168,2.08,16.0,117.0,0.13
+   !ADB  test pins "AW11"; threshold low 2 high 112  !ADB: 10,0.257,2.09,16.0,112.0,0.12
+   !ADB  test pins "AT5"; threshold low 2 high 97  !ADB: 10,0.290,2.14,12.0,97.0,0.16
+   !ADB  test pins "C26"; threshold low 2 high 139  !ADB: 10,0.217,2.24,16.0,139.0,0.37
+   !ADB  test pins "E60"; threshold low 2 high 112  !ADB: 10,0.217,2.26,16.0,112.0,0.40
+   !ADB  test pins "AV15"; threshold low 2 high 126  !ADB: 10,0.239,2.3,14.0,126.0,0.42
+   !ADB  test pins "F62"; threshold low 2 high 112  !ADB: 10,0.247,2.32,17.0,112.0,0.43
+   !ADB  test pins "E61"; threshold low 2 high 130  !ADB: 10,0.169,2.33,18.0,130.0,0.55
+   !ADB  test pins "AY12"; threshold low 2 high 122  !ADB: 10,0.232,2.48,16.0,122.0,0.69
+   !ADB  test pins "H59"; threshold low 2 high 117  !ADB: 10,0.247,2.52,18.0,117.0,0.70
+   !ADB  test pins "AH2"; threshold low 2 high 138  !ADB: 10,0.125,2.53,18.0,138.0,0.88
+   !ADB  test pins "AW8"; threshold low 2 high 119  !ADB: 10,0.091,2.58,15.0,119.0,0.97
+   !ADB  test pins "AY15"; threshold low 2 high 111  !ADB: 10,0.315,2.62,17.0,111.0,0.66
+   !ADB  test pins "C12"; threshold low 2 high 121  !ADB: 10,0.208,2.81,18.0,121.0,1.30
+   !ADB  test pins "AW61"; threshold low 2 high 135  !ADB: 10,0.245,2.87,15.0,135.0,1.18
+   !ADB       pins "AY61"
+   !ADB  test pins "AW15"; threshold low 2 high 117  !ADB: 10,0.135,3.02,18.0,117.0,1.70
+   !ADB  test pins "B39"; threshold low 2 high 185  !ADB: 10,0.221,3.04,24.0,185.0,1.57
+   !ADB  test pins "K62"; threshold low 2 high 154  !ADB: 10,0.233,3.26,24.0,154.0,1.80
+   !ADB  test pins "J62"; threshold low 2 high 164  !ADB: 10,0.169,3.43,22.0,164.0,2.38
+   !ADB  test pins "AV5"; threshold low 2 high 180  !ADB: 10,0.241,3.5,25.0,180.0,2.07
+   !ADB       pins "AW6"
+   test pins "AV63"; threshold low 2 high 241  !ADB: 10,0.180,4.38,26.0,241.0,3.97
+!  test pins "Y20"; threshold low 2 high 95  !ADB: 10,0.197,4.44,13.0,95.0,4.07
+   test pins "AY60"; threshold low 2 high 156  !ADB: 10,0.247,4.7,24.0,156.0,3.64
+   test pins "A62"; threshold low 1 high 156  !ADB: 10,0.232,4.88,23.0,156.0,4.14
+   test pins "A60"; threshold low 1 high 149  !ADB: 10,0.304,5.17,23.0,149.0,3.48
+   test pins "L63"; threshold low 2 high 271  !ADB: 10,0.186,5.46,42.0,271.0,5.77
+!  test pins "K18"; threshold low 2 high 90  !ADB: 10,0.317,5.48,5.0,90.0,3.66
+!  test pins "L62"; threshold low 2 high 303  !ADB: 10,0.180,5.58,43.0,303.0,5.97
+   test pins "D60"; threshold low 2 high 344  !ADB: 10,0.181,6.37,48.0,344.0,7.28
+   test pins "M20"; threshold low 2 high 110  !ADB: 10,0.138,6.51,15.0,110.0,7.52
+   test pins "A59"; threshold low 2 high 225  !ADB: 10,0.296,6.81,25.0,225.0,5.42
+!  test pins "AW63"; threshold low 2 high 160  !ADB: 10,0.161,7.75,19.0,160.0,9.58
+   test pins "B2"; threshold low 1 high 111  !ADB: 10,0.255,8.88,10.0,111.0,8.99
+   test pins "A4"; threshold low 2 high 128  !ADB: 10,0.230,9.83,10.0,128.0,11.35
+   inaccessible pins "A3", "B3", "A5", "A6", "A8", "A31", "A33", "A37"
+   inaccessible pins "A41", "A49", "A53", "AA23", "AA59", "AB21", "AB23", "AC2"
+   inaccessible pins "AC4", "AC58", "AC59", "AD23", "AD59", "AD60", "AE59", "AE60"
+   inaccessible pins "AF20", "AG58", "AK18", "AK20", "AK21", "AK22", "AK25", "AK26"
+   inaccessible pins "AK28", "AK29", "AK32", "AK33", "AK35", "AK36", "AK38", "AL1"
+   inaccessible pins "AL11", "AL18", "AL21", "AL25", "AL28", "AL32", "AL35", "AL38"
+   inaccessible pins "AM10", "AM11", "AM18", "AM20", "AM21", "AM22", "AM25", "AM26"
+   inaccessible pins "AM28", "AM29", "AM32", "AM33", "AM35", "AM36", "AM38", "AN10"
+   inaccessible pins "AN18", "AN20", "AN21", "AN22", "AN25", "AN26", "AN28", "AN29"
+   inaccessible pins "AN38", "AP7", "AP18", "AP21", "AP25", "AP28", "AP40", "AP42"
+   inaccessible pins "AP45", "AP46", "AP51", "AR18", "AR20", "AR21", "AR22", "AR25"
+   inaccessible pins "AR26", "AR28", "AR29", "AR40", "AR42", "AR45", "AR46", "AT2"
+   inaccessible pins "AU10", "AU12", "AU15", "AU17", "AU19", "AU21", "AU23", "AU25"
+   inaccessible pins "AU27", "AU29", "AU31", "AU44", "AU46", "AU47", "AU49", "AU50"
+   inaccessible pins "AV2", "AV10", "AV17", "AV18", "AV19", "AV21", "AV22", "AV23"
+   inaccessible pins "AV25", "AV26", "AV27", "AV29", "AV30", "AV31", "AV44", "AV47"
+   inaccessible pins "AV50", "AV62", "AW14", "AW17", "AW18", "AW19", "AW21", "AW22"
+   inaccessible pins "AW23", "AW25", "AW26", "AW27", "AW29", "AW30", "AW31", "AW46"
+   inaccessible pins "AW49", "AY8", "AY14", "AY17", "AY19", "AY21", "AY23", "AY25"
+   inaccessible pins "AY27", "AY29", "AY31", "AY42", "AY43", "AY46", "AY47", "AY49"
+   inaccessible pins "B5", "B6", "B14", "B31", "B33", "B37", "B41", "B49"
+   inaccessible pins "B50", "B53", "B54", "C3", "C4", "C5", "C15", "C17"
+   inaccessible pins "C30", "C31", "C42", "C43", "C46", "C47", "C49", "C50"
+   inaccessible pins "C51", "C53", "D1", "D9", "D15", "D17", "D58", "D61"
+   inaccessible pins "E1", "E2", "E4", "E5", "E13", "E15", "E18", "F4"
+   inaccessible pins "F5", "F15", "F17", "F18", "F22", "G1", "G2", "G15"
+   inaccessible pins "G17", "H6", "H18", "H22", "J3", "J6", "J20", "J21"
+   inaccessible pins "J58", "K4", "K10", "K21", "L2", "L4", "L5", "L6"
+   inaccessible pins "L11", "L59", "M21", "N5", "N7", "N23", "N58", "N60"
+   inaccessible pins "R6", "R7", "R23", "T23", "T59", "U10", "U59", "V59"
+   inaccessible pins "W23", "Y1", "Y4", "A27", "A29", "A61", "B61", "AD8"
+   inaccessible pins "AD10", "AJ7", "AN5", "AU2", "AW2", "AY2", "AW3", "AY3"
+   inaccessible pins "B12", "B62", "B63", "C1", "C2", "C37", "D3", "F3"
+   inaccessible pins "AU14", "AW12", "B30"
+end device
+
+device "1%dcin1" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 1, 2, 3    !! fixed pins commented by IPG
+!  test pins 5, 6, 7    !! fixed pins commented by IPG
+   test pins 4; threshold low 13 high 1397  !ADB: 10,0.228,27.99,202.0,1397.0,6.25
+   inaccessible pins 8, 9
+end device
+
+device "1%dm1"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 2, 75, 76, 81, 82, 87, 88, 93    !! ground pins commented by IPG
+!       pins 94, 99, 100, 105, 106, 111, 112    !! ground pins commented by IPG
+!       pins 117, 118, 123, 124, 203, 204    !! ground pins commented by IPG
+!       pins 199, 3, 8, 9, 11, 13, 14, 19, 20    !! ground pins commented by IPG
+!       pins 25, 26, 28, 31, 32, 37, 38, 43    !! ground pins commented by IPG
+!       pins 44, 46, 48, 49, 54, 55, 60, 61    !! ground pins commented by IPG
+!       pins 63, 65, 66, 71, 72, 127, 128    !! ground pins commented by IPG
+!       pins 133, 134, 136, 138, 139, 144    !! ground pins commented by IPG
+!       pins 145, 150, 151, 153, 155, 156    !! ground pins commented by IPG
+!       pins 161, 162, 167, 168, 170, 172    !! ground pins commented by IPG
+!       pins 173, 178, 179, 184, 185, 187    !! ground pins commented by IPG
+!       pins 189, 190, 195, 196, 197, 201    !! ground pins commented by IPG
+!       pins 205, 206    !! ground pins commented by IPG
+!  test pins 126    !! fixed pins commented by IPG
+   !ADB  test pins 200; threshold low 2 high 312  !ADB: 10,0.236,1.15,50.0,312.0,-1.20
+   !ADB  test pins 181; threshold low 2 high 26  !ADB: 10,0.323,4.34,2.0,26.0,2.41
+ ! test pins 85; threshold low 2 high 25  !ADB: 10,0.173,4.5,2.0,25.0,4.17
+ ! test pins 89; threshold low 2 high 26  !ADB: 10,0.122,4.69,2.0,26.0,4.48
+!  test pins 83; threshold low 2 high 25  !ADB: 10,0.147,4.74,2.0,25.0,4.57
+!  test pins 91; threshold low 2 high 26  !ADB: 10,0.239,4.84,2.0,26.0,3.96
+ ! test pins 191; threshold low 2 high 26  !ADB: 10,0.198,4.91,2.0,26.0,4.85
+ ! test pins 175; threshold low 2 high 26  !ADB: 10,0.165,4.93,2.0,26.0,4.88
+ ! test pins 5; threshold low 2 high 26  !ADB: 10,0.221,4.96,2.0,26.0,4.46
+ ! test pins 171; threshold low 2 high 26  !ADB: 10,0.261,5.02,2.0,26.0,3.86
+ ! test pins 183; threshold low 2 high 26  !ADB: 10,0.200,5.05,2.0,26.0,5.08
+!  test pins 159; threshold low 2 high 26  !ADB: 10,0.137,5.05,2.0,26.0,5.08
+!  test pins 141; threshold low 2 high 26  !ADB: 10,0.174,5.06,2.0,26.0,5.10
+!  test pins 193; threshold low 2 high 26  !ADB: 10,0.159,5.08,2.0,26.0,5.13
+!  test pins 157; threshold low 2 high 26  !ADB: 10,0.151,5.1,2.0,26.0,5.17
+  !test pins 143; threshold low 2 high 26  !ADB: 10,0.119,5.1,2.0,26.0,5.17
+ ! test pins 137; threshold low 2 high 26  !ADB: 10,0.053,5.1,2.0,26.0,5.17
+ ! test pins 165; threshold low 2 high 26  !ADB: 10,0.153,5.11,2.0,26.0,5.18
+ ! test pins 135; threshold low 2 high 26  !ADB: 10,0.128,5.11,2.0,26.0,5.18
+!  test pins 177; threshold low 2 high 26  !ADB: 10,0.130,5.12,2.0,26.0,5.20
+!  test pins 115; threshold low 2 high 26  !ADB: 10,0.219,5.12,2.0,26.0,4.75
+ ! test pins 163; threshold low 2 high 26  !ADB: 10,0.180,5.12,2.0,26.0,5.20
+ ! test pins 95; threshold low 2 high 26  !ADB: 10,0.156,5.14,2.0,26.0,5.23
+ ! test pins 107; threshold low 2 high 26  !ADB: 10,0.142,5.14,2.0,26.0,5.23
+ ! test pins 169; threshold low 2 high 26  !ADB: 10,0.196,5.17,2.0,26.0,5.28
+ ! test pins 7; threshold low 1 high 26  !ADB: 10,0.215,5.19,2.0,26.0,4.95
+ ! test pins 149; threshold low 2 high 26  !ADB: 10,0.141,5.2,2.0,26.0,5.33
+!  test pins 39; threshold low 2 high 26  !ADB: 10,0.160,5.2,2.0,26.0,5.33
+ ! test pins 147; threshold low 2 high 26  !ADB: 10,0.136,5.2,2.0,26.0,5.33
+ ! test pins 53; threshold low 2 high 26  !ADB: 10,0.142,5.24,2.0,26.0,5.40
+ ! test pins 47; threshold low 2 high 26  !ADB: 10,0.132,5.25,2.0,26.0,5.42
+!  test pins 103; threshold low 2 high 26  !ADB: 10,0.178,5.26,2.0,26.0,5.43
+ ! test pins 101; threshold low 2 high 26  !ADB: 10,0.105,5.28,2.0,26.0,5.47
+ ! test pins 109; threshold low 2 high 26  !ADB: 10,0.143,5.29,2.0,26.0,5.48
+ ! test pins 131; threshold low 2 high 26  !ADB: 10,0.158,5.29,2.0,26.0,5.48
+ ! test pins 57; threshold low 2 high 26  !ADB: 10,0.113,5.3,2.0,26.0,5.50
+ ! test pins 27; threshold low 2 high 26  !ADB: 10,0.169,5.3,2.0,26.0,5.50
+ ! test pins 45; threshold low 2 high 26  !ADB: 10,0.190,5.31,2.0,26.0,5.52
+!  test pins 113; threshold low 2 high 26  !ADB: 10,0.159,5.32,2.0,26.0,5.53
+ ! test pins 97; threshold low 2 high 26  !ADB: 10,0.107,5.33,2.0,26.0,5.55
+!  test pins 23; threshold low 2 high 26  !ADB: 10,0.146,5.33,2.0,26.0,5.55
+ ! test pins 41; threshold low 2 high 26  !ADB: 10,0.156,5.33,2.0,26.0,5.55
+  !test pins 59; threshold low 2 high 26  !ADB: 10,0.193,5.35,2.0,26.0,5.58
+ ! test pins 129; threshold low 2 high 26  !ADB: 10,0.156,5.37,2.0,26.0,5.62
+ ! test pins 15; threshold low 2 high 26  !ADB: 10,0.235,5.38,2.0,26.0,4.79
+ ! test pins 51; threshold low 2 high 26  !ADB: 10,0.136,5.4,2.0,26.0,5.67
+ ! test pins 119; threshold low 2 high 26  !ADB: 10,0.213,5.4,2.0,26.0,5.32
+ ! test pins 33; threshold low 2 high 26  !ADB: 10,0.138,5.41,2.0,26.0,5.68
+!  test pins 35; threshold low 2 high 26  !ADB: 10,0.143,5.41,2.0,26.0,5.68
+!  test pins 21; threshold low 2 high 26  !ADB: 10,0.177,5.43,2.0,26.0,5.72
+!  test pins 17; threshold low 2 high 26  !ADB: 10,0.125,5.43,2.0,26.0,5.72
+!  test pins 29; threshold low 2 high 26  !ADB: 10,0.195,5.52,2.0,26.0,5.87
+ ! test pins 121; threshold low 2 high 26  !ADB: 10,0.202,5.52,2.0,26.0,5.81
+!  test pins 67; threshold low 2 high 27  !ADB: 10,0.173,5.93,2.0,27.0,6.55
+!  test pins 1; threshold low 2 high 27  !ADB: 10,0.184,6.82,2.0,27.0,8.03
+ ! test pins 79; threshold low 2 high 28  !ADB: 10,0.161,7.35,2.0,28.0,8.92
+ ! test pins 69; threshold low 2 high 28  !ADB: 10,0.217,7.37,2.0,28.0,8.25
+ ! test pins 92; threshold low 38 high 258  !ADB: 10,0.124,77.48,40.0,258.0,16.45
+!m test pins 158; threshold low 38 high 260  !ADB: 10,0.274,77.68,40.0,260.0,16.53
+   !ADB  test pins 73; threshold low 2 high 64  !ADB: 10,1.665,1.61,8.0,64.0,-0.08
+   !ADB  test pins 188; threshold low 2 high 258  !ADB: 10,1.396,5.65,33.0,258.0,0.87
+   !ADB  test pins 146; threshold low 2 high 271  !ADB: 10,1.573,6.0,38.0,271.0,0.85
+   !ADB  test pins 176; threshold low 2 high 250  !ADB: 10,1.201,6.02,36.0,250.0,1.12
+   !ADB  test pins 110; threshold low 2 high 264  !ADB: 10,1.368,6.06,38.0,264.0,0.99
+   !ADB  test pins 174; threshold low 2 high 263  !ADB: 10,1.734,6.14,37.0,263.0,0.80
+   !ADB  test pins 164; threshold low 2 high 251  !ADB: 10,1.331,6.22,39.0,251.0,1.06
+   !ADB  test pins 192; threshold low 2 high 249  !ADB: 10,1.924,6.25,31.0,249.0,0.74
+   !ADB  test pins 180; threshold low 2 high 254  !ADB: 10,1.326,6.43,35.0,254.0,1.11
+   !ADB  test pins 186; threshold low 2 high 251  !ADB: 10,1.918,6.45,32.0,251.0,0.77
+   !ADB  test pins 24; threshold low 2 high 262  !ADB: 10,1.153,6.52,39.0,262.0,1.31
+   !ADB  test pins 160; threshold low 2 high 301  !ADB: 10,1.688,6.57,39.0,301.0,0.90
+   !ADB  test pins 182; threshold low 2 high 254  !ADB: 10,1.194,6.59,34.0,254.0,1.28
+   !ADB  test pins 202; threshold low 2 high 220  !ADB: 10,1.581,6.69,25.0,220.0,0.99
+   !ADB  test pins 40; threshold low 2 high 268  !ADB: 10,1.082,6.73,37.0,268.0,1.46
+   !ADB  test pins 4; threshold low 2 high 258  !ADB: 10,1.620,6.75,34.0,258.0,0.98
+   !ADB  test pins 36; threshold low 2 high 270  !ADB: 10,1.452,6.76,38.0,270.0,1.09
+   !ADB  test pins 140; threshold low 2 high 278  !ADB: 10,1.509,6.82,37.0,278.0,1.06
+ ! test pins 90; threshold low 2 high 255  !ADB: 10,0.517,6.84,37.0,255.0,3.12
+   !ADB  test pins 194; threshold low 2 high 262  !ADB: 10,1.286,6.87,32.0,262.0,1.26
+   !ADB  test pins 58; threshold low 2 high 271  !ADB: 10,1.175,6.9,38.0,271.0,1.39
+   !ADB  test pins 22; threshold low 2 high 268  !ADB: 10,1.301,6.92,37.0,268.0,1.26
+   !ADB  test pins 104; threshold low 2 high 262  !ADB: 10,1.224,6.94,39.0,262.0,1.35
+   !ADB  test pins 56; threshold low 2 high 268  !ADB: 10,1.363,6.97,36.0,268.0,1.22
+   !ADB  test pins 152; threshold low 2 high 264  !ADB: 10,0.999,7.03,37.0,264.0,1.68
+   !ADB  test pins 132; threshold low 2 high 264  !ADB: 10,1.574,7.05,38.0,264.0,1.07
+   !ADB  test pins 98; threshold low 2 high 263  !ADB: 10,1.693,7.05,38.0,263.0,0.99
+   !ADB  test pins 16; threshold low 2 high 259  !ADB: 10,2.066,7.07,38.0,259.0,0.82
+   !ADB  test pins 34; threshold low 2 high 269  !ADB: 10,1.105,7.13,38.0,269.0,1.55
+   !ADB  test pins 52; threshold low 2 high 264  !ADB: 10,1.142,7.13,37.0,264.0,1.50
+   !ADB  test pins 148; threshold low 2 high 267  !ADB: 10,0.880,7.19,37.0,267.0,1.97
+   !ADB  test pins 64; threshold low 2 high 270  !ADB: 10,1.124,7.23,38.0,270.0,1.55
+   !ADB  test pins 78; threshold low 2 high 264  !ADB: 10,1.475,7.26,39.0,264.0,1.19
+   !ADB  test pins 50; threshold low 2 high 281  !ADB: 10,1.273,7.26,39.0,281.0,1.38
+   !ADB  test pins 102; threshold low 2 high 265  !ADB: 10,1.365,7.28,38.0,265.0,1.29
+   !ADB  test pins 108; threshold low 2 high 263  !ADB: 10,1.198,7.31,37.0,263.0,1.48
+   !ADB  test pins 42; threshold low 2 high 269  !ADB: 10,0.845,7.31,38.0,269.0,2.09
+   !ADB  test pins 166; threshold low 2 high 255  !ADB: 10,1.332,7.32,39.0,255.0,1.33
+   !ADB  test pins 142; threshold low 2 high 263  !ADB: 10,1.212,7.36,38.0,263.0,1.47
+   !ADB  test pins 68; threshold low 2 high 269  !ADB: 10,1.748,7.36,39.0,269.0,1.02
+   !ADB  test pins 6; threshold low 2 high 256  !ADB: 10,1.476,7.38,35.0,256.0,1.21
+   !ADB  test pins 62; threshold low 2 high 258  !ADB: 10,0.939,7.39,36.0,258.0,1.91
+   !ADB  test pins 80; threshold low 2 high 261  !ADB: 10,1.354,7.41,38.0,261.0,1.33
+   !ADB  test pins 18; threshold low 2 high 259  !ADB: 10,0.903,7.44,38.0,259.0,2.01
+   !ADB  test pins 96; threshold low 2 high 255  !ADB: 10,0.974,7.51,38.0,255.0,1.89
+   !ADB  test pins 116; threshold low 2 high 284  !ADB: 10,1.175,7.54,41.0,284.0,1.57
+   !ADB  test pins 86; threshold low 2 high 271  !ADB: 10,1.103,7.55,38.0,271.0,1.68
+   !ADB  test pins 154; threshold low 2 high 270  !ADB: 10,1.175,7.56,39.0,270.0,1.58
+   !ADB  test pins 12; threshold low 2 high 268  !ADB: 10,1.271,7.57,37.0,268.0,1.46
+   !ADB  test pins 10; threshold low 2 high 262  !ADB: 10,1.623,7.64,37.0,262.0,1.16
+   !ADB  test pins 130; threshold low 2 high 278  !ADB: 10,0.920,7.95,38.0,278.0,2.16
+   !ADB  test pins 114; threshold low 2 high 266  !ADB: 10,1.661,7.99,39.0,266.0,1.20
+   !ADB  test pins 84; threshold low 2 high 258  !ADB: 10,1.337,8.03,38.0,258.0,1.50
+   !ADB  test pins 70; threshold low 2 high 291  !ADB: 10,2.135,8.08,43.0,291.0,0.95
+!  test pins 30; threshold low 2 high 376  !ADB: 10,0.846,9.09,50.0,376.0,2.79
+   !ADB  test pins 120; threshold low 2 high 356  !ADB: 10,1.355,9.93,51.0,356.0,1.95
+   !ADB  test pins 74; threshold low 2 high 471  !ADB: 10,1.837,12.34,68.0,471.0,1.88
+   inaccessible pins 77, 122, 125, 198, 207, 208
+end device
+
+device "1%fan1"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 2, 4, 5    !! ground pins commented by IPG
+!h test pins 3; threshold low 2 high 155  !ADB: 10,0.193,4.25,21.0,155.0,3.75
+!h test pins 1; threshold low 2 high 183  !ADB: 10,0.155,4.8,27.0,183.0,4.67
+end device
+
+device "1%hdd1"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 6, 9, 10, 11, 7, 8, 12, 14, 18    !! ground pins commented by IPG
+!       pins 21, 23, 24, 26    !! ground pins commented by IPG
+   test pins 20; threshold low 2 high 665  !ADB: 10,0.788,10.85,72.0,665.0,3.74
+   test pins 19; threshold low 2 high 750  !ADB: 10,0.556,12.41,21.0,750.0,6.24
+   test pins 22; threshold low 3 high 812  !ADB: 10,0.802,13.56,88.0,812.0,4.39
+   test pins 25; threshold low 7 high 980  !ADB: 10,0.808,18.5,68.0,980.0,4.74
+   inaccessible pins 1, 2, 3, 4, 5, 13, 15, 16
+   inaccessible pins 17
+end device
+
+device "1%kb1" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 1, 31, 32    !! ground pins commented by IPG
+   test pins 21; threshold low 2 high 404  !ADB: 10,0.269,8.37,49.0,404.0,7.89
+   test pins 20; threshold low 2 high 538  !ADB: 10,0.207,10.05,61.0,538.0,12.96
+!  test pins 22; threshold low 2 high 482  !ADB: 10,0.209,10.32,51.0,482.0,13.27
+   test pins 18; threshold low 2 high 634  !ADB: 10,0.296,12.02,70.0,634.0,11.28
+   test pins 17; threshold low 2 high 669  !ADB: 10,0.196,12.07,68.0,669.0,16.78
+   test pins 23; threshold low 2 high 613  !ADB: 10,0.277,12.1,65.0,613.0,12.15
+   test pins 19; threshold low 2 high 617  !ADB: 10,0.319,12.11,69.0,617.0,10.56
+   test pins 29; threshold low 2 high 655  !ADB: 10,0.320,12.32,61.0,655.0,10.75
+   test pins 13; threshold low 2 high 662  !ADB: 10,0.271,12.39,65.0,662.0,12.78
+   test pins 24; threshold low 2 high 622  !ADB: 10,0.292,12.47,64.0,622.0,11.95
+   test pins 28; threshold low 2 high 674  !ADB: 10,0.322,12.48,62.0,674.0,10.85
+   test pins 10; threshold low 2 high 639  !ADB: 10,0.203,12.7,63.0,639.0,17.57
+   test pins 14; threshold low 2 high 656  !ADB: 10,0.302,12.76,69.0,656.0,11.88
+   test pins 9; threshold low 2 high 622  !ADB: 10,0.259,12.8,67.0,622.0,13.90
+   test pins 16; threshold low 2 high 653  !ADB: 10,0.274,12.82,69.0,653.0,13.16
+   test pins 12; threshold low 2 high 692  !ADB: 10,0.259,12.96,65.0,692.0,14.11
+   test pins 25; threshold low 3 high 627  !ADB: 10,0.200,13.13,62.0,627.0,16.88
+   test pins 11; threshold low 3 high 678  !ADB: 10,0.237,13.21,65.0,678.0,14.36
+   test pins 27; threshold low 3 high 680  !ADB: 10,0.200,13.3,70.0,680.0,17.17
+   test pins 26; threshold low 3 high 660  !ADB: 10,0.271,13.38,68.0,660.0,12.77
+   test pins 15; threshold low 3 high 667  !ADB: 10,0.243,13.41,72.0,667.0,14.28
+   test pins 8; threshold low 3 high 684  !ADB: 10,0.378,13.41,67.0,684.0,9.18
+   test pins 6; threshold low 4 high 686  !ADB: 10,0.254,14.46,62.0,686.0,13.73
+   test pins 7; threshold low 4 high 700  !ADB: 10,0.314,14.74,68.0,700.0,11.40
+   test pins 5; threshold low 4 high 725  !ADB: 10,0.247,14.88,68.0,725.0,14.68
+   test pins 30; threshold low 7 high 951  !ADB: 10,0.282,17.82,116.0,951.0,12.79
+   test pins 4; threshold low 32 high 2025  !ADB: 10,0.215,65.49,269.0,2025.0,13.95
+   inaccessible pins 2, 3
+end device
+
+device "1%kb2" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 1, 31, 32    !! ground pins commented by IPG
+   !ADB  test pins 21; threshold low 2 high 432  !ADB: 10,0.892,8.13,37.0,432.0,2.29
+   test pins 20; threshold low 2 high 584  !ADB: 10,0.868,9.35,47.0,584.0,2.82
+   !ADB  test pins 22; threshold low 2 high 546  !ADB: 10,1.219,10.21,45.0,546.0,2.25
+   test pins 19; threshold low 2 high 650  !ADB: 10,0.555,10.58,52.0,650.0,5.15
+   test pins 25; threshold low 2 high 695  !ADB: 10,0.909,11.03,57.0,695.0,3.31
+   test pins 24; threshold low 2 high 681  !ADB: 10,0.772,11.14,60.0,681.0,3.95
+   test pins 26; threshold low 2 high 712  !ADB: 10,0.759,11.18,59.0,712.0,4.03
+   test pins 10; threshold low 2 high 559  !ADB: 10,0.877,11.24,56.0,559.0,3.51
+   test pins 23; threshold low 2 high 693  !ADB: 10,0.827,11.29,58.0,693.0,3.74
+   test pins 9; threshold low 2 high 569  !ADB: 10,1.011,11.57,59.0,569.0,3.16
+   test pins 8; threshold low 2 high 606  !ADB: 10,0.781,11.91,60.0,606.0,4.23
+   test pins 27; threshold low 2 high 701  !ADB: 10,0.803,12.1,62.0,701.0,4.19
+   test pins 18; threshold low 2 high 638  !ADB: 10,0.873,12.11,52.0,638.0,3.86
+   test pins 28; threshold low 2 high 697  !ADB: 10,0.510,12.13,62.0,697.0,6.62
+   test pins 14; threshold low 2 high 627  !ADB: 10,0.711,12.18,54.0,627.0,4.77
+   test pins 29; threshold low 2 high 695  !ADB: 10,0.691,12.2,64.0,695.0,4.92
+   test pins 17; threshold low 2 high 636  !ADB: 10,0.953,12.27,51.0,636.0,3.59
+   test pins 16; threshold low 2 high 646  !ADB: 10,0.917,12.32,50.0,646.0,3.75
+   test pins 11; threshold low 2 high 589  !ADB: 10,0.969,12.62,58.0,589.0,3.65
+   test pins 12; threshold low 2 high 614  !ADB: 10,0.487,12.69,57.0,614.0,7.32
+   test pins 13; threshold low 2 high 611  !ADB: 10,0.625,12.72,57.0,611.0,5.72
+   test pins 15; threshold low 2 high 656  !ADB: 10,0.845,12.9,51.0,656.0,4.30
+   test pins 30; threshold low 3 high 775  !ADB: 10,0.788,13.15,76.0,775.0,4.29
+   test pins 5; threshold low 3 high 683  !ADB: 10,0.821,13.67,68.0,683.0,4.33
+   test pins 7; threshold low 2 high 638  !ADB: 10,1.301,14.01,64.0,638.0,3.08
+   test pins 6; threshold low 4 high 654  !ADB: 10,0.658,14.27,68.0,654.0,5.20
+   test pins 4; threshold low 6 high 1412  !ADB: 10,0.974,19.03,97.0,1412.0,4.46
+   inaccessible pins 2, 3
+end device
+
+device "1%odd1"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 2, 5, 6, 9, 12, 14, 15, 17, 3    !! fixed pins commented by IPG
+   test pins 4; threshold low 2 high 274  !ADB: 10,0.329,9.96,32.0,274.0,8.06
+   test pins 1; threshold low 2 high 363  !ADB: 10,0.502,11.6,37.0,363.0,6.37
+   test pins 11; threshold low 2 high 795  !ADB: 10,0.320,12.12,56.0,795.0,10.54
+   test pins 10; threshold low 3 high 743  !ADB: 10,0.435,13.93,76.0,743.0,8.38
+   test pins 13; threshold low 5 high 662  !ADB: 10,0.388,15.77,83.0,662.0,9.25
+   test pins 16; threshold low 8 high 982  !ADB: 10,0.390,19.44,82.0,982.0,9.78
+   inaccessible pins 7, 8
+end device
+
+device "1%spk1" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 5, 6    !! ground pins commented by IPG
+   test pins 1; threshold low 2 high 213  !ADB: 10,0.204,4.94,32.0,213.0,4.80
+   test pins 2; threshold low 15 high 1267  !ADB: 10,0.179,31.09,195.0,1267.0,6.70
+   test pins 4; threshold low 23 high 1729  !ADB: 10,0.268,46.21,212.0,1729.0,9.67
+!zhtest pins 3; threshold low 26 high 1753  !ADB: 10,0.153,52.61,252.0,1753.0,11.09
+end device
+
+device "1%tpad1" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 5, 9, 10    !! ground pins commented by IPG
+   test pins 8; threshold low 7 high 1208  !ADB: 10,0.074,17.78,131.0,1208.0,17.97
+   test pins 7; threshold low 8 high 1477  !ADB: 10,0.096,19.39,119.0,1477.0,18.98
+   test pins 1; threshold low 9 high 1112  !ADB: 10,0.168,20.42,154.0,1112.0,4.76
+   test pins 2; threshold low 9 high 959  !ADB: 10,0.128,21.09,103.0,959.0,5.04
+   test pins 6; threshold low 13 high 1566  !ADB: 10,0.151,26.07,151.0,1566.0,5.45
+   test pins 3; threshold low 16 high 1407  !ADB: 10,0.131,33.4,203.0,1407.0,7.25
+   test pins 4; threshold low 28 high 2221  !ADB: 10,0.153,57.39,230.0,2221.0,12.25
+end device
+
+device "1%wlan1"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 2, 4, 9, 15, 18, 21, 26, 27, 29    !! fixed pins commented by IPG
+!       pins 34, 35, 37, 40, 43, 50, 53, 54    !! fixed pins commented by IPG
+!       pins 24, 39, 41, 52    !! fixed pins commented by IPG
+!  test pins 22; threshold low 2 high 36  !ADB: 10,0.177,9.7,2.0,36.0,12.83
+!  test pins 38; threshold low 2 high 62  !ADB: 10,0.141,11.63,2.0,62.0,16.05
+ ! test pins 20; threshold low 12 high 110  !ADB: 10,0.258,27.82,12.0,110.0,6.59
+   !ADB  test pins 36; threshold low 2 high 109  !ADB: 10,1.416,1.75,5.0,109.0,-0.06
+   !ADB  test pins 46; threshold low 2 high 169  !ADB: 10,1.017,3.77,16.0,169.0,0.58
+   !ADB  test pins 31; threshold low 2 high 360  !ADB: 10,1.223,7.47,44.0,360.0,1.49
+   !ADB  test pins 7; threshold low 2 high 342  !ADB: 10,0.943,7.55,26.0,342.0,1.96
+   !ADB  test pins 11; threshold low 2 high 348  !ADB: 10,0.864,7.59,45.0,348.0,2.16
+!h test pins 5; threshold low 2 high 374  !ADB: 10,0.687,7.64,46.0,374.0,2.74
+   !ADB  test pins 33; threshold low 2 high 308  !ADB: 10,0.888,8.18,8.0,308.0,2.32
+   !ADB  test pins 44; threshold low 2 high 194  !ADB: 10,1.028,8.29,22.0,194.0,2.04
+   !ADB  test pins 25; threshold low 2 high 376  !ADB: 10,1.170,8.52,45.0,376.0,1.86
+   !ADB  test pins 13; threshold low 2 high 358  !ADB: 10,1.133,8.94,48.0,358.0,2.04
+   !ADB  test pins 23; threshold low 2 high 360  !ADB: 10,1.134,9.24,45.0,360.0,2.13
+   !ADB  test pins 19; threshold low 2 high 404  !ADB: 10,1.263,9.47,3.0,404.0,1.97
+   test pins 49; threshold low 2 high 449  !ADB: 10,0.742,9.9,23.0,449.0,3.55
+   !ADB  test pins 51; threshold low 2 high 461  !ADB: 10,1.162,10.26,25.0,461.0,2.37
+   test pins 3; threshold low 11 high 1068  !ADB: 10,0.695,22.68,152.0,1068.0,4.87
+   test pins 17; threshold low 23 high 2357  !ADB: 10,1.053,47.35,217.0,2357.0,7.71
+   inaccessible pins 1, 6, 8, 10, 12, 14, 16, 28
+   inaccessible pins 30, 32, 42, 45, 47, 48, 55, 56
+end device
+
+ device "1%db1"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 1, 8, 10, 11, 12    !! fixed pins commented by IPG
+!  test pins 3; threshold low 2 high 3676  !ADB: 10,0.132,11.16,2.0,3676.0,15.27
+   !ADB  test pins 7; threshold low 2 high 3991  !ADB: 10,0.195,-0.12,2.0,3991.0,-3.53
+   !ADB  test pins 4; threshold low 2 high 3495  !ADB: 10,0.180,-0.12,2.0,3495.0,-3.53
+   !ADB  test pins 2; threshold low 2 high 3562  !ADB: 10,0.234,-0.01,2.0,3562.0,-2.86
+   !ADB  test pins 5; threshold low 2 high 3269  !ADB: 10,0.234,0.01,2.0,3269.0,-2.83
+   !ADB  test pins 6; threshold low 2 high 3040  !ADB: 10,0.193,0.05,2.0,3040.0,-3.25
+   !ADB  test pins 9; threshold low 2 high 1655  !ADB: 10,0.272,0.73,7.0,1655.0,-1.56
+ end device
+
+ device "1%gpu1"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins "A2", "AA10", "AA12", "AA13"    !! ground pins commented by IPG
+!       pins "AA16", "AA18", "AA19", "AA20"    !! ground pins commented by IPG
+!       pins "AA21", "AA22", "AB22", "AB23"    !! ground pins commented by IPG
+!       pins "AC23", "AC24", "AD24", "AD25"    !! ground pins commented by IPG
+!       pins "AE25", "AE26", "AE27", "AF26"    !! ground pins commented by IPG
+!       pins "AF27", "AA8", "AA9", "AB8"    !! ground pins commented by IPG
+!       pins "G10", "G12", "AA14", "AA15"    !! ground pins commented by IPG
+!       pins "B26", "C25", "E23", "E26"    !! ground pins commented by IPG
+!       pins "F14", "F21", "G13", "G14"    !! ground pins commented by IPG
+!       pins "G15", "G16", "G18", "G19"    !! ground pins commented by IPG
+!       pins "G20", "G21", "H24", "H26"    !! ground pins commented by IPG
+!       pins "J21", "K21", "L22", "L24"    !! ground pins commented by IPG
+!       pins "L26", "M21", "N21", "R21"    !! ground pins commented by IPG
+!       pins "T21", "V21", "W21", "F16"    !! ground pins commented by IPG
+!       pins "H22", "P22", "M6", "N6", "L6"    !! ground pins commented by IPG
+!       pins "K10", "K12", "K14", "K16"    !! ground pins commented by IPG
+!       pins "K18", "L11", "L13", "L15"    !! ground pins commented by IPG
+!       pins "L17", "M10", "M12", "M14"    !! ground pins commented by IPG
+!       pins "M16", "M18", "N11", "N13"    !! ground pins commented by IPG
+!       pins "N15", "N17", "P10", "P12"    !! ground pins commented by IPG
+!       pins "P14", "P16", "P18", "R11"    !! ground pins commented by IPG
+!       pins "R13", "R15", "R17", "T10"    !! ground pins commented by IPG
+!       pins "T12", "T14", "T16", "T18"    !! ground pins commented by IPG
+!       pins "U11", "U13", "U15", "U17"    !! ground pins commented by IPG
+!       pins "V10", "V12", "V14", "V16"    !! ground pins commented by IPG
+!       pins "V18", "G8", "G9", "A26", "AA7"    !! ground pins commented by IPG
+!       pins "AB7", "AB11", "AB14", "AB17"    !! ground pins commented by IPG
+!       pins "AB20", "AB24", "AC2", "AC5"    !! ground pins commented by IPG
+!       pins "AC8", "AC22", "AC26", "AD12"    !! ground pins commented by IPG
+!       pins "AD13", "AD15", "AD16", "AD18"    !! ground pins commented by IPG
+!       pins "AD19", "AD21", "AD22", "AE11"    !! ground pins commented by IPG
+!       pins "AE14", "AE17", "AE20", "AF1"    !! ground pins commented by IPG
+!       pins "AF5", "AF8", "AF11", "AF14"    !! ground pins commented by IPG
+!       pins "AF17", "AF20", "AF23", "AG2"    !! ground pins commented by IPG
+!       pins "AG26", "B1", "B5", "B8", "B11"    !! ground pins commented by IPG
+!       pins "B14", "B17", "B20", "B23"    !! ground pins commented by IPG
+!       pins "B27", "E2", "E5", "E8", "E11"    !! ground pins commented by IPG
+!       pins "E14", "E17", "E20", "E22"    !! ground pins commented by IPG
+!       pins "E25", "H2", "H5", "H23", "H25"    !! ground pins commented by IPG
+!       pins "K11", "K13", "K15", "K17", "L2"    !! ground pins commented by IPG
+!       pins "L5", "L10", "L12", "L14", "L16"    !! ground pins commented by IPG
+!       pins "L18", "L23", "L25", "M11"    !! ground pins commented by IPG
+!       pins "M13", "M15", "M17", "N10"    !! ground pins commented by IPG
+!       pins "N12", "N14", "N16", "N18", "P2"    !! ground pins commented by IPG
+!       pins "P5", "P11", "P13", "P15", "P17"    !! ground pins commented by IPG
+!       pins "P23", "P26", "R10", "R12"    !! ground pins commented by IPG
+!       pins "R14", "R16", "R18", "T11"    !! ground pins commented by IPG
+!       pins "T13", "T15", "T17", "U2", "U5"    !! ground pins commented by IPG
+!       pins "U10", "U12", "U14", "U16"    !! ground pins commented by IPG
+!       pins "U18", "U23", "U26", "V11"    !! ground pins commented by IPG
+!       pins "V13", "V15", "V17", "Y2", "Y5"    !! ground pins commented by IPG
+!       pins "Y23", "Y26"    !! ground pins commented by IPG
+!  test pins "A3"    !! fixed pins commented by IPG
+!  test pins "D22"    !! fixed pins commented by IPG
+   !ADB  test pins "C9"; threshold low 2 high 20  !ADB: 10,0.201,-0.01,20.0,10000.0,-3.33
+   !ADB  test pins "R6"; threshold low 2 high 21  !ADB: 10,0.114,0.04,20.0,10000.0,-3.27
+   !ADB  test pins "J7"; threshold low 2 high 21  !ADB: 10,0.147,0.05,20.0,10000.0,-3.25
+   !ADB       pins "K7"
+   !ADB  test pins "W6"; threshold low 2 high 21  !ADB: 10,0.184,0.08,20.0,10000.0,-3.20
+   !ADB       pins "Y6"
+   !ADB  test pins "H6"; threshold low 2 high 21  !ADB: 10,0.122,0.09,20.0,10000.0,-3.18
+   !ADB       pins "J6"
+   !ADB  test pins "R7"; threshold low 2 high 21  !ADB: 10,0.169,0.1,20.0,10000.0,-3.17
+   !ADB       pins "T7"
+   !ADB  test pins "P25"; threshold low 2 high 21  !ADB: 10,0.164,0.1,20.0,10000.0,-3.17
+   !ADB  test pins "E16"; threshold low 2 high 21  !ADB: 10,0.171,0.11,20.0,10000.0,-3.15
+   !ADB  test pins "V7"; threshold low 2 high 21  !ADB: 10,0.213,0.12,20.0,10000.0,-2.94
+   !ADB       pins "W7"
+   !ADB  test pins "V23"; threshold low 2 high 21  !ADB: 10,0.145,0.12,20.0,10000.0,-3.13
+   !ADB  test pins "G22"; threshold low 2 high 21  !ADB: 10,0.126,0.14,20.0,10000.0,-3.10
+   !ADB  test pins "J23"; threshold low 2 high 21  !ADB: 10,0.169,0.14,20.0,10000.0,-3.10
+   !ADB  test pins "N24"; threshold low 2 high 21  !ADB: 10,0.189,0.14,20.0,10000.0,-3.10
+   !ADB  test pins "D21"; threshold low 2 high 21  !ADB: 10,0.137,0.15,20.0,10000.0,-3.08
+   !ADB  test pins "E19"; threshold low 2 high 21  !ADB: 10,0.211,0.15,20.0,10000.0,-2.92
+   !ADB  test pins "M7"; threshold low 2 high 21  !ADB: 10,0.126,0.15,20.0,10000.0,-3.08
+   !ADB       pins "N7"
+   !ADB  test pins "AA24"; threshold low 2 high 21  !ADB: 10,0.132,0.16,20.0,10000.0,-3.07
+   !ADB  test pins "AE5"; threshold low 2 high 21  !ADB: 10,0.120,0.16,20.0,10000.0,-3.07
+   !ADB  test pins "K25"; threshold low 2 high 21  !ADB: 10,0.165,0.17,20.0,10000.0,-3.05
+   !ADB  test pins "E13"; threshold low 2 high 21  !ADB: 10,0.180,0.18,20.0,10000.0,-3.03
+   !ADB  test pins "F17"; threshold low 2 high 21  !ADB: 10,0.083,0.18,20.0,10000.0,-3.03
+   !ADB  test pins "J24"; threshold low 2 high 21  !ADB: 10,0.159,0.18,20.0,10000.0,-3.03
+   !ADB  test pins "D15"; threshold low 2 high 21  !ADB: 10,0.162,0.19,20.0,10000.0,-3.02
+   !ADB  test pins "W22"; threshold low 2 high 21  !ADB: 10,0.133,0.19,20.0,10000.0,-3.02
+   !ADB  test pins "W23"; threshold low 2 high 21  !ADB: 10,0.203,0.2,20.0,10000.0,-2.96
+   !ADB  test pins "C8"; threshold low 2 high 21  !ADB: 10,0.171,0.21,20.0,10000.0,-2.98
+   !ADB  test pins "F13"; threshold low 2 high 21  !ADB: 10,0.208,0.21,20.0,10000.0,-2.87
+   !ADB  test pins "E15"; threshold low 2 high 21  !ADB: 10,0.192,0.22,20.0,10000.0,-2.97
+   !ADB  test pins "J25"; threshold low 2 high 21  !ADB: 10,0.105,0.22,20.0,10000.0,-2.97
+   !ADB  test pins "M23"; threshold low 2 high 21  !ADB: 10,0.124,0.22,20.0,10000.0,-2.97
+   !ADB  test pins "J22"; threshold low 2 high 21  !ADB: 10,0.141,0.23,20.0,10000.0,-2.95
+   !ADB  test pins "N25"; threshold low 2 high 21  !ADB: 10,0.233,0.23,20.0,10000.0,-2.53
+   !ADB  test pins "P6"; threshold low 2 high 21  !ADB: 10,0.137,0.24,20.0,10000.0,-2.93
+   !ADB  test pins "U22"; threshold low 2 high 21  !ADB: 10,0.120,0.24,20.0,10000.0,-2.93
+   !ADB  test pins "AA23"; threshold low 2 high 21  !ADB: 10,0.165,0.25,20.0,10000.0,-2.92
+   !ADB  test pins "AE6"; threshold low 2 high 21  !ADB: 10,0.186,0.25,20.0,10000.0,-2.92
+   !ADB  test pins "D19"; threshold low 2 high 21  !ADB: 10,0.204,0.25,20.0,10000.0,-2.86
+   !ADB  test pins "G24"; threshold low 2 high 21  !ADB: 10,0.211,0.25,20.0,10000.0,-2.76
+   !ADB  test pins "AB9"; threshold low 2 high 21  !ADB: 10,0.200,0.26,20.0,10000.0,-2.90
+   !ADB  test pins "D14"; threshold low 2 high 21  !ADB: 10,0.221,0.26,20.0,10000.0,-2.62
+   !ADB  test pins "K24"; threshold low 2 high 21  !ADB: 10,0.160,0.27,20.0,10000.0,-2.88
+   !ADB  test pins "C14"; threshold low 2 high 21  !ADB: 10,0.185,0.27,20.0,10000.0,-2.88
+   !ADB  test pins "E18"; threshold low 2 high 21  !ADB: 10,0.181,0.27,20.0,10000.0,-2.88
+   !ADB  test pins "F6"; threshold low 2 high 21  !ADB: 10,0.141,0.27,20.0,10000.0,-2.88
+   !ADB  test pins "D7"; threshold low 2 high 21  !ADB: 10,0.216,0.28,20.0,10000.0,-2.65
+   !ADB  test pins "F12"; threshold low 2 high 21  !ADB: 10,0.135,0.28,20.0,10000.0,-2.87
+   !ADB  test pins "AD6"; threshold low 2 high 21  !ADB: 10,0.222,0.28,20.0,10000.0,-2.58
+   !ADB  test pins "G23"; threshold low 2 high 21  !ADB: 10,0.096,0.29,20.0,10000.0,-2.85
+   !ADB  test pins "R23"; threshold low 2 high 21  !ADB: 10,0.162,0.29,20.0,10000.0,-2.85
+   !ADB  test pins "E24"; threshold low 2 high 21  !ADB: 10,0.138,0.29,20.0,10000.0,-2.85
+   !ADB  test pins "K22"; threshold low 2 high 21  !ADB: 10,0.125,0.3,20.0,10000.0,-2.83
+   !ADB  test pins "AC6"; threshold low 2 high 21  !ADB: 10,0.241,0.3,20.0,10000.0,-2.35
+   !ADB  test pins "E12"; threshold low 2 high 21  !ADB: 10,0.185,0.3,20.0,10000.0,-2.83
+   !ADB  test pins "W24"; threshold low 2 high 21  !ADB: 10,0.119,0.3,20.0,10000.0,-2.83
+   !ADB  test pins "AC12"; threshold low 2 high 21  !ADB: 10,0.162,0.31,20.0,10000.0,-2.82
+   !ADB  test pins "F23"; threshold low 2 high 21  !ADB: 10,0.186,0.31,20.0,10000.0,-2.82
+   !ADB  test pins "C15"; threshold low 2 high 21  !ADB: 10,0.118,0.32,20.0,10000.0,-2.80
+   !ADB  test pins "F3"; threshold low 2 high 21  !ADB: 10,0.168,0.32,20.0,10000.0,-2.80
+   !ADB  test node "1%cpu_rxp_c_dgpu_txp0"; threshold low 2 high 21  !ADB: 10,0.165,0.33,20.0,10000.0,-2.78
+   !ADB  test pins "F20"; threshold low 2 high 21  !ADB: 10,0.146,0.33,20.0,10000.0,-2.78
+   !ADB  test pins "C13"; threshold low 2 high 21  !ADB: 10,0.220,0.33,20.0,10000.0,-2.53
+   !ADB  test pins "Y24"; threshold low 2 high 21  !ADB: 10,0.230,0.34,20.0,10000.0,-2.41
+   !ADB  test pins "C10"; threshold low 2 high 21  !ADB: 10,0.132,0.35,20.0,10000.0,-2.75
+   !ADB  test pins "N23"; threshold low 2 high 21  !ADB: 10,0.182,0.35,20.0,10000.0,-2.75
+   !ADB  test pins "E21"; threshold low 2 high 21  !ADB: 10,0.147,0.36,20.0,10000.0,-2.73
+   !ADB  test pins "D20"; threshold low 2 high 21  !ADB: 10,0.146,0.37,20.0,10000.0,-2.72
+   !ADB  test pins "D9"; threshold low 2 high 21  !ADB: 10,0.169,0.4,20.0,10000.0,-2.67
+   !ADB  test pins "AB25"; threshold low 2 high 21  !ADB: 10,0.133,0.41,20.0,10000.0,-2.65
+   !ADB  test pins "F24"; threshold low 2 high 21  !ADB: 10,0.171,0.41,20.0,10000.0,-2.65
+   !ADB  test pins "K23"; threshold low 2 high 21  !ADB: 10,0.103,0.41,20.0,10000.0,-2.65
+   !ADB  test pins "AC25"; threshold low 2 high 21  !ADB: 10,0.169,0.43,20.0,10000.0,-2.62
+   !ADB  test pins "AD11"; threshold low 2 high 21  !ADB: 10,0.107,0.43,20.0,10000.0,-2.62
+   !ADB  test pins "AD8"; threshold low 2 high 21  !ADB: 10,0.242,0.45,20.0,10000.0,-2.13
+   !ADB  test pins "C4"; threshold low 2 high 21  !ADB: 10,0.165,0.46,20.0,10000.0,-2.57
+   !ADB  test pins "D11"; threshold low 2 high 21  !ADB: 10,0.147,0.46,20.0,10000.0,-2.57
+   !ADB  test pins "AE8"; threshold low 2 high 21  !ADB: 10,0.197,0.46,20.0,10000.0,-2.57
+   !ADB  test pins "K26"; threshold low 2 high 21  !ADB: 10,0.138,0.49,20.0,10000.0,-2.52
+   !ADB  test pins "AC11"; threshold low 2 high 21  !ADB: 10,0.180,0.52,20.0,10000.0,-2.47
+   !ADB  test pins "C19"; threshold low 2 high 21  !ADB: 10,0.161,0.54,20.0,10000.0,-2.43
+   !ADB  test pins "AC10"; threshold low 2 high 21  !ADB: 10,0.141,0.57,20.0,10000.0,-2.38
+   !ADB  test pins "J26"; threshold low 2 high 21  !ADB: 10,0.160,0.57,20.0,10000.0,-2.38
+   !ADB  test pins "AB12"; threshold low 2 high 21  !ADB: 10,0.239,0.64,20.0,10000.0,-1.90
+   !ADB  test pins "R24"; threshold low 2 high 21  !ADB: 10,0.126,0.64,20.0,10000.0,-2.27
+   !ADB  test pins "G25"; threshold low 2 high 21  !ADB: 10,0.156,0.66,20.0,10000.0,-2.23
+   !ADB  test pins "AB10"; threshold low 2 high 21  !ADB: 10,0.261,0.67,20.0,10000.0,-1.70
+   !ADB  test pins "B7"; threshold low 2 high 21  !ADB: 10,0.116,0.69,20.0,10000.0,-2.18
+   !ADB  test pins "M26"; threshold low 2 high 21  !ADB: 10,0.181,0.7,20.0,10000.0,-2.17
+   !ADB  test pins "D8"; threshold low 2 high 21  !ADB: 10,0.199,0.72,20.0,10000.0,-2.13
+   !ADB  test pins "A7"; threshold low 2 high 21  !ADB: 10,0.157,0.75,20.0,10000.0,-2.08
+   !ADB  test pins "M22"; threshold low 2 high 21  !ADB: 10,0.126,0.75,20.0,10000.0,-2.08
+   !ADB  test pins "E4"; threshold low 2 high 21  !ADB: 10,0.132,0.75,20.0,10000.0,-2.08
+   !ADB  test pins "E9"; threshold low 2 high 21  !ADB: 10,0.156,0.76,20.0,10000.0,-2.07
+   !ADB  test pins "AD26"; threshold low 2 high 21  !ADB: 10,0.151,0.77,20.0,10000.0,-2.05
+   !ADB  test pins "F25"; threshold low 2 high 21  !ADB: 10,0.105,0.78,20.0,10000.0,-2.03
+   !ADB  test pins "AF6"; threshold low 2 high 21  !ADB: 10,0.133,0.81,20.0,10000.0,-1.98
+   !ADB  test pins "M24"; threshold low 2 high 21  !ADB: 10,0.152,0.85,20.0,10000.0,-1.92
+   !ADB  test pins "B9"; threshold low 2 high 21  !ADB: 10,0.110,0.89,20.0,10000.0,-1.85
+   !ADB  test pins "N22"; threshold low 2 high 21  !ADB: 10,0.225,0.89,20.0,10000.0,-1.64
+   !ADB  test pins "D25"; threshold low 2 high 21  !ADB: 10,0.256,0.9,20.0,10000.0,-1.43
+   !ADB  test pins "N26"; threshold low 2 high 21  !ADB: 10,0.145,0.92,20.0,10000.0,-1.80
+   !ADB  test pins "A9"; threshold low 2 high 21  !ADB: 10,0.151,0.93,20.0,10000.0,-1.78
+   !ADB  test pins "D24"; threshold low 2 high 21  !ADB: 10,0.156,0.93,20.0,10000.0,-1.78
+   !ADB  test pins "F8"; threshold low 2 high 22  !ADB: 10,0.194,1.01,20.0,10000.0,-1.65
+   !ADB  test pins "AG4"; threshold low 2 high 22  !ADB: 10,0.114,1.04,20.0,10000.0,-1.60
+   !ADB  test pins "AA25"; threshold low 2 high 22  !ADB: 10,0.211,1.06,20.0,10000.0,-1.48
+   !ADB  test pins "C21"; threshold low 2 high 22  !ADB: 10,0.181,1.07,20.0,10000.0,-1.55
+   !ADB  test pins "B13"; threshold low 2 high 22  !ADB: 10,0.200,1.1,20.0,10000.0,-1.50
+   !ADB  test pins "B21"; threshold low 2 high 22  !ADB: 10,0.107,1.13,20.0,10000.0,-1.45
+   !ADB  test pins "G26"; threshold low 2 high 22  !ADB: 10,0.076,1.13,20.0,10000.0,-1.45
+   !ADB  test pins "B18"; threshold low 2 high 22  !ADB: 10,0.171,1.21,20.0,10000.0,-1.32
+   !ADB  test pins "A10"; threshold low 2 high 22  !ADB: 10,0.128,1.29,20.0,10000.0,-1.18
+   !ADB  test pins "C27"; threshold low 2 high 22  !ADB: 10,0.247,1.3,20.0,10000.0,-0.94
+   !ADB  test pins "A19"; threshold low 2 high 22  !ADB: 10,0.182,1.34,20.0,10000.0,-1.10
+   !ADB  test pins "C6"; threshold low 2 high 22  !ADB: 10,0.211,1.34,20.0,10000.0,-1.04
+   !ADB  test pins "C20"; threshold low 2 high 22  !ADB: 10,0.197,1.34,20.0,10000.0,-1.10
+   !ADB  test pins "B16"; threshold low 2 high 22  !ADB: 10,0.247,1.37,20.0,10000.0,-0.85
+   !ADB  test pins "D13"; threshold low 2 high 22  !ADB: 10,0.165,1.43,20.0,10000.0,-0.95
+   !ADB  test pins "D26"; threshold low 2 high 22  !ADB: 10,0.148,1.49,20.0,10000.0,-0.85
+   !ADB  test pins "C24"; threshold low 2 high 22  !ADB: 10,0.209,1.52,20.0,10000.0,-0.77
+   !ADB  test pins "AE9"; threshold low 2 high 22  !ADB: 10,0.151,1.53,20.0,10000.0,-0.78
+   !ADB  test pins "A15"; threshold low 2 high 22  !ADB: 10,0.137,1.54,20.0,10000.0,-0.77
+   !ADB  test pins "A22"; threshold low 2 high 22  !ADB: 10,0.207,1.55,20.0,10000.0,-0.72
+   !ADB  test pins "D23"; threshold low 2 high 22  !ADB: 10,0.176,1.58,20.0,10000.0,-0.70
+   !ADB  test pins "F27"; threshold low 2 high 22  !ADB: 10,0.158,1.61,20.0,10000.0,-0.65
+   !ADB  test pins "F26"; threshold low 2 high 22  !ADB: 10,0.126,1.66,20.0,10000.0,-0.57
+   !ADB  test pins "M25"; threshold low 2 high 22  !ADB: 10,0.183,1.79,20.0,10000.0,-0.35
+   !ADB  test pins "AF9"; threshold low 2 high 22  !ADB: 10,0.181,1.83,20.0,10000.0,-0.28
+   !ADB  test pins "B15"; threshold low 2 high 22  !ADB: 10,0.169,1.84,20.0,10000.0,-0.27
+   !ADB  test pins "C26"; threshold low 2 high 22  !ADB: 10,0.171,1.89,20.0,10000.0,-0.18
+   !ADB  test pins "A16"; threshold low 2 high 22  !ADB: 10,0.162,1.89,20.0,10000.0,-0.18
+   !ADB  test pins "D27"; threshold low 2 high 23  !ADB: 10,0.169,2.04,20.0,10000.0,0.07
+   !ADB  test pins "E3"; threshold low 2 high 23  !ADB: 10,0.164,2.08,20.0,10000.0,0.13
+   !ADB  test pins "J27"; threshold low 2 high 23  !ADB: 10,0.179,2.09,20.0,10000.0,0.15
+   !ADB  test pins "A21"; threshold low 2 high 23  !ADB: 10,0.122,2.19,20.0,10000.0,0.32
+   !ADB  test pins "C12"; threshold low 2 high 23  !ADB: 10,0.152,2.35,20.0,10000.0,0.58
+   !ADB  test pins "AB26"; threshold low 2 high 23  !ADB: 10,0.091,2.38,20.0,10000.0,0.63
+   !ADB  test pins "AG9"; threshold low 2 high 23  !ADB: 10,0.140,2.42,20.0,10000.0,0.70
+   !ADB  test pins "A24"; threshold low 2 high 23  !ADB: 10,0.166,2.49,20.0,10000.0,0.82
+   !ADB  test pins "AG10"; threshold low 2 high 23  !ADB: 10,0.183,2.51,20.0,10000.0,0.85
+   !ADB  test pins "C11"; threshold low 2 high 23  !ADB: 10,0.135,2.58,20.0,10000.0,0.97
+   !ADB  test pins "AB27"; threshold low 2 high 23  !ADB: 10,0.239,2.7,20.0,10000.0,0.98
+   !ADB  test pins "N27"; threshold low 2 high 23  !ADB: 10,0.198,2.71,20.0,10000.0,1.18
+   !ADB  test pins "B25"; threshold low 2 high 23  !ADB: 10,0.143,2.79,20.0,10000.0,1.32
+   !ADB  test pins "B4"; threshold low 2 high 24  !ADB: 10,0.135,3.02,20.0,10000.0,1.70
+   !ADB  test pins "AD27"; threshold low 2 high 24  !ADB: 10,0.107,3.03,20.0,10000.0,1.72
+   !ADB  test pins "W25"; threshold low 2 high 24  !ADB: 10,0.168,3.18,20.0,10000.0,1.97
+   !ADB  test pins "B24"; threshold low 2 high 24  !ADB: 10,0.245,3.35,20.0,10000.0,1.84
+   !ADB  test pins "U25"; threshold low 2 high 24  !ADB: 10,0.272,3.36,20.0,10000.0,1.67
+   !ADB  test pins "V26"; threshold low 2 high 25  !ADB: 10,0.181,2.77,2.0,25.0,1.28
+   !ADB  test pins "V27"; threshold low 2 high 25  !ADB: 10,0.210,2.9,2.0,25.0,1.43
+   !ADB  test pins "AE7"; threshold low 2 high 26  !ADB: 10,0.210,3.13,2.0,26.0,1.79
+   !ADB  test pins "AC7"; threshold low 2 high 27  !ADB: 10,0.152,3.35,2.0,27.0,2.25
+   !ADB  test pins "T27"; threshold low 2 high 26  !ADB: 10,0.241,3.58,2.0,26.0,2.19
+ ! test pins "A18"; threshold low 2 high 26  !ADB: 10,0.125,4.37,2.0,26.0,3.95
+!  test pins "B10"; threshold low 2 high 60  !ADB: 10,0.200,4.5,2.0,60.0,4.17
+!  test pins "W26"; threshold low 2 high 25  !ADB: 10,0.225,4.51,2.0,25.0,3.72
+ ! test pins "E7"; threshold low 2 high 26  !ADB: 10,0.193,4.54,2.0,26.0,4.23
+ ! test pins "A4"; threshold low 2 high 26  !ADB: 10,0.159,4.72,2.0,26.0,4.53
+ ! test pins "R27"; threshold low 2 high 26  !ADB: 10,0.159,4.98,2.0,26.0,4.97
+!  test pins "C23"; threshold low 2 high 26  !ADB: 10,0.080,5.09,2.0,26.0,5.15
+!  test pins "AA26"; threshold low 2 high 26  !ADB: 10,0.186,5.16,2.0,26.0,5.27
+!  test pins "B12"; threshold low 2 high 26  !ADB: 10,0.136,5.33,2.0,26.0,5.55
+!  test pins "W27"; threshold low 2 high 26  !ADB: 10,0.100,5.37,2.0,26.0,5.62
+!  test pins "Y25"; threshold low 2 high 27  !ADB: 10,0.199,6.02,2.0,26.0,6.70
+ ! test pins "B22"; threshold low 2 high 28  !ADB: 10,0.226,6.1,2.0,28.0,6.05
+ ! test pins "AG6"; threshold low 2 high 28  !ADB: 10,0.146,6.4,2.0,28.0,7.33
+   !ADB  test pins "D1"; threshold low 2 high 26  !ADB: 10,0.244,-0.22,2.0,26.0,-3.03
+   !ADB  test pins "D3"; threshold low 2 high 26  !ADB: 10,0.169,-0.04,2.0,26.0,-3.40
+   !ADB  test pins "F2"; threshold low 2 high 35  !ADB: 10,0.200,-2.77555756156e-018,2.0,35.0,-3.33
+   !ADB  test pins "A25"; threshold low 2 high 28  !ADB: 10,0.273,0.01,2.0,28.0,-2.43
+   !ADB  test pins "C16"; threshold low 2 high 28  !ADB: 10,0.222,0.08,2.0,28.0,-2.88
+   !ADB  test pins "T26"; threshold low 2 high 28  !ADB: 10,0.217,0.1,2.0,28.0,-2.92
+   !ADB  test pins "AA27"; threshold low 2 high 26  !ADB: 10,0.302,0.16,2.0,26.0,-2.03
+   !ADB  test pins "A12"; threshold low 2 high 35  !ADB: 10,0.183,0.21,2.0,35.0,-2.98
+   !ADB  test pins "T25"; threshold low 2 high 30  !ADB: 10,0.120,0.43,2.0,30.0,-2.62
+   !ADB  test pins "AE22"; threshold low 2 high 35  !ADB: 10,0.190,0.51,2.0,35.0,-2.48
+   !ADB  test pins "AG7"; threshold low 2 high 35  !ADB: 10,0.160,0.53,2.0,35.0,-2.45
+   !ADB  test pins "C22"; threshold low 2 high 52  !ADB: 10,0.247,0.57,2.0,52.0,-1.93
+   !ADB  test pins "R26"; threshold low 2 high 42  !ADB: 10,0.164,0.68,2.0,42.0,-2.20
+   !ADB  test pins "A13"; threshold low 2 high 70  !ADB: 10,0.196,0.77,7.0,70.0,-2.05
+   !ADB  test pins "C17"; threshold low 2 high 63  !ADB: 10,0.199,0.88,5.0,63.0,-1.87
+   !ADB  test pins "AF25"; threshold low 2 high 38  !ADB: 10,0.209,0.92,2.0,38.0,-1.72
+   !ADB  test pins "A6"; threshold low 2 high 81  !ADB: 10,0.161,0.95,8.0,81.0,-1.75
+   !ADB  test pins "G27"; threshold low 2 high 55  !ADB: 10,0.199,1.02,6.0,55.0,-1.63
+   !ADB  test pins "K27"; threshold low 2 high 61  !ADB: 10,0.204,1.04,6.0,61.0,-1.57
+   !ADB  test pins "AD9"; threshold low 2 high 55  !ADB: 10,0.311,1.22,2.0,55.0,-0.84
+   !ADB  test pins "D2"; threshold low 2 high 93  !ADB: 10,0.141,1.47,8.0,93.0,-0.88
+   !ADB  test pins "M27"; threshold low 2 high 73  !ADB: 10,0.189,1.8,9.0,73.0,-0.33
+   !ADB  test pins "AF22"; threshold low 2 high 69  !ADB: 10,0.165,1.85,3.0,69.0,-0.25
+   !ADB  test pins "AF7"; threshold low 2 high 78  !ADB: 10,0.199,2.02,4.0,78.0,0.03
+   !ADB  test pins "F1"; threshold low 2 high 36  !ADB: 10,0.292,2.17,2.0,36.0,0.19
+   inaccessible pins "AA1", "AA2", "AA3", "AA4", "AA5", "AA6", "AB1", "AB2"
+   inaccessible pins "AB3", "AB4", "AB5", "AB6", "AB13", "AB15", "AB16", "AB18"
+   inaccessible pins "AB19", "AB21", "AC3", "AC4", "AC13", "AC14", "AC15", "AC16"
+   inaccessible pins "AC17", "AC18", "AC19", "AC20", "AC21", "AD1", "AD2", "AD3"
+   inaccessible pins "AD4", "AD5", "AD7", "AD10", "AD14", "AD17", "AD20", "AD23"
+   inaccessible pins "AE1", "AE2", "AE3", "AE4", "AE10", "AE12", "AE13", "AE15"
+   inaccessible pins "AE16", "AE18", "AE19", "AE21", "AE23", "AE24", "AF2", "AF3"
+   inaccessible pins "AF4", "AF10", "AF12", "AF13", "AF15", "AF16", "AF18", "AF19"
+   inaccessible pins "AF21", "AF24", "AG3", "AG12", "AG13", "AG15", "AG16", "AG18"
+   inaccessible pins "AG19", "AG21", "AG22", "AG24", "AG25", "B2", "B3", "B6"
+   inaccessible pins "B19", "C1", "C2", "C3", "C7", "C18", "D4", "D5"
+   inaccessible pins "D6", "D10", "D16", "D17", "D18", "E6", "E10", "F4"
+   inaccessible pins "F5", "F7", "F9", "F10", "F11", "G1", "G2", "G3"
+   inaccessible pins "G4", "G5", "G6", "G7", "H3", "H4", "J1", "J2"
+   inaccessible pins "J3", "J4", "J5", "K1", "K2", "K3", "K4", "K5"
+   inaccessible pins "K6", "L3", "L4", "M1", "M2", "M3", "M4", "M5"
+   inaccessible pins "N1", "N2", "N3", "N4", "N5", "P3", "P4", "R1"
+   inaccessible pins "R2", "R3", "R4", "R5", "T1", "T2", "T3", "T4"
+   inaccessible pins "T5", "T6", "T24", "U3", "U4", "U6", "U24", "V1"
+   inaccessible pins "V2", "V3", "V4", "V5", "V6", "V24", "V25", "W1"
+   inaccessible pins "W2", "W3", "W4", "W5", "Y3", "Y4", "C5", "D12"
+   inaccessible pins "F15", "F18", "F19", "F22", "P24", "R22", "R25", "T22"
+   inaccessible pins "T23", "V22", "Y22", "AC9"
+ end device
+
+
+
+device "1%kblit1" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 1    !! fixed pins commented by IPG
+!  test pins 5, 6    !! ground pins commented by IPG
+   test pins 2; threshold low 18 high 1353  !ADB: 10,0.130,36.08,212.0,1353.0,7.53
+   test pins 4; threshold low 25 high 1632  !ADB: 10,0.110,51.89,238.0,1632.0,11.20
+   inaccessible pins 3
+end device
+
+device "1%lcd1" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 1, 2    !! fixed pins commented by IPG
+!  test pins 4, 13, 16, 19, 23, 24, 25, 26    !! fixed pins commented by IPG
+!       pins 29, 36, 41, 42, 5, 6, 7    !! fixed pins commented by IPG
+!  test pins 32    !! fixed pins commented by IPG
+!  test pins 40    !! fixed pins commented by IPG
+   !ADB  test pins 12; threshold low 2 high 346  !ADB: 10,0.444,4.78,30.0,346.0,2.09
+!  test pins 35; threshold low 2 high 436  !ADB: 10,0.270,5.04,35.0,436.0,3.75
+   test pins 10; threshold low 2 high 296  !ADB: 10,0.176,5.22,24.0,296.0,5.37
+   test pins 15; threshold low 2 high 376  !ADB: 10,0.351,5.68,37.0,376.0,3.49
+   test pins 22; threshold low 2 high 307  !ADB: 10,0.464,5.79,24.0,307.0,2.72
+   test pins 28; threshold low 2 high 318  !ADB: 10,0.357,5.89,37.0,318.0,3.63
+   test pins 27; threshold low 2 high 327  !ADB: 10,0.266,5.98,36.0,327.0,4.99
+   test pins 17; threshold low 2 high 365  !ADB: 10,0.364,6.65,21.0,365.0,4.26
+   test pins 11; threshold low 2 high 378  !ADB: 10,0.395,6.92,44.0,378.0,4.15
+   test pins 30; threshold low 2 high 630  !ADB: 10,0.308,6.92,40.0,630.0,5.32
+   test pins 31; threshold low 2 high 844  !ADB: 10,0.364,7.96,47.0,844.0,5.46
+   test pins 14; threshold low 2 high 491  !ADB: 10,0.314,9.75,60.0,491.0,8.23
+   test pins 8; threshold low 2 high 411  !ADB: 10,0.330,9.82,45.0,411.0,7.90
+   test pins 9; threshold low 2 high 899  !ADB: 10,0.388,10.57,55.0,899.0,7.36
+   test pins 18; threshold low 4 high 720  !ADB: 10,0.370,14.54,98.0,720.0,9.50
+   test pins 38; threshold low 6 high 778  !ADB: 10,0.227,16.45,97.0,778.0,15.35
+   test pins 37; threshold low 10 high 1005  !ADB: 10,0.238,22.02,134.0,1005.0,5.01
+   test pins 21; threshold low 12 high 1145  !ADB: 10,0.383,25.05,150.0,1145.0,5.44
+   test pins 20; threshold low 17 high 1138  !ADB: 10,0.259,35.13,41.0,1138.0,7.55
+   test pins 34; threshold low 25 high 1834  !ADB: 10,0.214,50.76,249.0,1834.0,10.73
+   inaccessible pins 3, 33, 39
+end device
+
+device "1%pu4503" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 3, 21    !! fixed pins commented by IPG
+!  test pins 6, 20    !! fixed pins commented by IPG
+!  test pins 7    !! fixed pins commented by IPG
+!  test pins 8    !! fixed pins commented by IPG
+!  test pins 12    !! fixed pins commented by IPG
+!  test pins 13    !! fixed pins commented by IPG
+!  test pins 14, 18    !! fixed pins commented by IPG
+   !ADB  test pins 11; threshold low 2 high 61  !ADB: 10,0.164,0.52,5.0,61.0,-2.47
+   !ADB  test pins 10; threshold low 2 high 51  !ADB: 10,0.112,0.58,3.0,51.0,-2.37
+   !ADB  test pins 16; threshold low 2 high 43  !ADB: 10,0.133,0.69,2.0,43.0,-2.18
+   !ADB  test pins 2; threshold low 2 high 46  !ADB: 10,0.161,0.76,2.0,46.0,-2.07
+   !ADB  test pins 15; threshold low 2 high 62  !ADB: 10,0.100,1.3,5.0,62.0,-1.17
+!P test pins 1; threshold low 3 high 59  !ADB: 10,0.094,19.56,3.0,56.0,27.60
+   test pins 17; threshold low 4 high 1096  !ADB: 10,0.133,14.79,112.0,1096.0,17.98
+   test pins 9; threshold low 8 high 1261  !ADB: 10,0.100,19.27,117.0,1261.0,18.78
+   test pins 19; threshold low 19 high 1545  !ADB: 10,0.108,38.24,206.0,1545.0,8.02
+   test pins 5; threshold low 22 high 1470  !ADB: 10,0.203,44.27,204.0,1470.0,9.28
+   test pins 4; threshold low 52 high 4400  !ADB: 10,0.153,104.71,501.0,4400.0,21.96
+end device
+
+device "1%pu4601" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 1    !! fixed pins commented by IPG
+!  test pins 2    !! fixed pins commented by IPG
+!  test pins 3    !! fixed pins commented by IPG
+!  test pins 4    !! fixed pins commented by IPG
+!  test pins 5    !! fixed pins commented by IPG
+!  test pins 6    !! fixed pins commented by IPG
+!  test pins 8    !! fixed pins commented by IPG
+!  test pins 9    !! fixed pins commented by IPG
+!  test pins 10    !! fixed pins commented by IPG
+!  test pins 11    !! fixed pins commented by IPG
+!  test pins 12, 21    !! fixed pins commented by IPG
+!  test pins 13    !! fixed pins commented by IPG
+!  test pins 14    !! fixed pins commented by IPG
+!  test pins 15    !! fixed pins commented by IPG
+!  test pins 16    !! fixed pins commented by IPG
+!  test pins 17    !! fixed pins commented by IPG
+!  test pins 19    !! fixed pins commented by IPG
+!P test pins 20; threshold low 2 high 37  !ADB: 10,0.165,12.03,2.0,32.0,16.72
+   !ADB  test pins 18; threshold low 2 high 34  !ADB: 10,0.096,1.61,2.0,34.0,-0.65
+   test pins 7; threshold low 2 high 283  !ADB: 10,0.153,4.69,39.0,283.0,4.48
+end device
+
+device "1%pu4806" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 1    !! fixed pins commented by IPG
+!  test pins 3    !! fixed pins commented by IPG
+!  test pins 7, 11    !! fixed pins commented by IPG
+!  test pins 8    !! fixed pins commented by IPG
+   !ADB  test pins 6; threshold low 2 high 61  !ADB: 10,0.142,0.65,8.0,61.0,-2.25
+   !ADB  test pins 9; threshold low 2 high 54  !ADB: 10,0.147,0.95,2.0,54.0,-1.75
+   test pins 10; threshold low 2 high 713  !ADB: 10,0.190,11.31,85.0,713.0,15.52
+   test pins 4; threshold low 16 high 1259  !ADB: 10,0.124,32.12,189.0,1259.0,6.72
+   test pins 5; threshold low 30 high 2292  !ADB: 10,0.100,60.4,335.0,2292.0,12.67
+   test pins 2; threshold low 45 high 3249  !ADB: 10,0.146,90.87,378.0,3249.0,19.11
+end device
+
+device "1%pu5102"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 1    !! fixed pins commented by IPG
+!  test pins 3    !! fixed pins commented by IPG
+!  test pins 5    !! fixed pins commented by IPG
+!  test pins 6    !! fixed pins commented by IPG
+!  test pins 7    !! fixed pins commented by IPG
+!  test pins 8, 9    !! fixed pins commented by IPG
+!  test pins 10    !! fixed pins commented by IPG
+   !ADB  test pins 2; threshold low 2 high 22  !ADB: 10,0.229,1.02,20.0,10000.0,-1.43
+   test pins 4; threshold low 2 high 363  !ADB: 10,0.168,8.78,54.0,363.0,11.30
+end device
+
+device "1%pu8201"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 13    !! fixed pins commented by IPG
+!  test pins 18    !! fixed pins commented by IPG
+!  test pins 21    !! ground pins commented by IPG
+   !ADB  test pins 20; threshold low 2 high 22  !ADB: 10,0.151,1.23,20.0,10000.0,-1.28
+   !ADB  test pins 10; threshold low 2 high 22  !ADB: 10,0.124,1.28,20.0,10000.0,-1.20
+   !ADB  test pins 16; threshold low 2 high 22  !ADB: 10,0.131,1.33,20.0,10000.0,-1.12
+   !ADB  test pins 12; threshold low 2 high 22  !ADB: 10,0.164,1.7,20.0,10000.0,-0.50
+   !ADB  test pins 7; threshold low 2 high 24  !ADB: 10,0.143,3.19,20.0,10000.0,1.98
+!P test pins 2; threshold low 2 high 30  !ADB: 10,0.169,7.1,2.0,30.0,8.50
+!P test pins 19; threshold low 2 high 39  !ADB: 10,0.132,12.36,2.0,39.0,17.27
+!P test pins 17; threshold low 6 high 54  !ADB: 10,0.161,16.84,6.0,54.0,18.07
+!P test pins 14; threshold low 5 high 57  !ADB: 10,0.066,17.57,5.0,57.0,20.95
+!P test pins 1; threshold low 186 high 1229  !ADB: 10,3.688,403.29,186.0,1229.0,19.64
+!  test pins 5; threshold low 2 high 42  !ADB: 10,0.172,13.98,2.0,29.0,19.97
+   !ADB  test pins 11; threshold low 2 high 30  !ADB: 10,0.121,0.15,2.0,30.0,-3.08
+   !ADB  test pins 8; threshold low 2 high 76  !ADB: 10,0.164,0.9,2.0,76.0,-1.83
+   !ADB  test pins 6; threshold low 2 high 897  !ADB: 10,0.141,1.03,3.0,897.0,-1.62
+   test pins 4; threshold low 2 high 654  !ADB: 10,0.118,3.68,36.0,654.0,2.80
+   test pins 3; threshold low 2 high 297  !ADB: 10,0.151,7.87,47.0,297.0,9.78
+   test pins 9; threshold low 2 high 1413  !ADB: 10,0.147,33.36,2.0,1413.0,13.07
+   test pins 15; threshold low 53 high 5212  !ADB: 10,0.177,106.2,718.0,5212.0,22.17
+end device
+
+device "1%spi25"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 4, 8    !! ground pins commented by IPG
+   !ADB  test pins 3; threshold low 2 high 102  !ADB: 10,0.120,1.14,16.0,102.0,-1.43
+   !ADB  test pins 7; threshold low 2 high 83  !ADB: 10,0.204,1.25,13.0,83.0,-1.23
+   !ADB  test pins 1; threshold low 2 high 112  !ADB: 10,0.125,1.3,17.0,112.0,-1.17
+   !ADB  test pins 6; threshold low 2 high 242  !ADB: 10,0.131,2.03,16.0,242.0,0.05
+   !ADB  test pins 5; threshold low 2 high 374  !ADB: 10,0.119,3.4,31.0,374.0,2.33
+   test pins 2; threshold low 6 high 887  !ADB: 10,0.133,17.49,116.0,887.0,19.15
+end device
+
+device "1%thm26" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 1, 5    !! fixed pins commented by IPG
+   !ADB  test pins 8; threshold low 2 high 96  !ADB: 10,0.231,-0.41,2.0,96.0,-3.48
+   !ADB  test pins 7; threshold low 2 high 260  !ADB: 10,0.208,-0.31,2.0,260.0,-3.70
+   !ADB  test pins 3; threshold low 2 high 234  !ADB: 10,0.174,2.66,31.0,234.0,1.10
+   test pins 6; threshold low 2 high 1041  !ADB: 10,0.122,12.51,118.0,1041.0,17.52
+   test pins 2; threshold low 5 high 806  !ADB: 10,0.150,15.02,107.0,806.0,16.70
+   test pins 4; threshold low 30 high 2171  !ADB: 10,0.128,60.31,290.0,2171.0,12.63
+end device
+
+ device "1%u3101"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 3, 8    !! ground pins commented by IPG
+   !ADB  test pins 2; threshold low 2 high 609  !ADB: 10,0.152,-0.66,73.0,609.0,-4.43
+   !ADB       pins 9
+   !ADB  test pins 4; threshold low 2 high 350  !ADB: 10,0.229,-0.5,3.0,350.0,-3.64
+   !ADB       pins 7
+   !ADB  test pins 5; threshold low 2 high 899  !ADB: 10,0.152,-0.46,130.0,899.0,-4.10
+   !ADB       pins 6
+   !ADB  test pins 1; threshold low 2 high 365  !ADB: 10,0.162,-0.31,52.0,365.0,-3.85
+   !ADB       pins 10
+ end device
+
+device "1%u3102" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 3, 8    !! ground pins commented by IPG
+   test pins 4; threshold low 2 high 270  !ADB: 10,0.172,8.58,36.0,270.0,10.97
+        pins 7
+   test pins 2; threshold low 2 high 501  !ADB: 10,0.277,11.1,77.0,501.0,10.95
+        pins 9
+   test pins 1; threshold low 29 high 2140  !ADB: 10,0.136,59.8,292.0,2140.0,12.83
+        pins 10
+   test pins 5; threshold low 57 high 4101  !ADB: 10,4.354,114.62,544.0,4101.0,4.41
+        pins 6
+end device
+
+ device "1%u3402"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 3, 8    !! ground pins commented by IPG
+   !ADB  test pins 5; threshold low 2 high 4884  !ADB: 10,0.217,-0.63,610.0,4884.0,-4.04
+   !ADB       pins 6
+   !ADB  test pins 4; threshold low 2 high 550  !ADB: 10,0.201,-0.61,58.0,550.0,-4.33
+   !ADB       pins 7
+   !ADB  test pins 2; threshold low 2 high 902  !ADB: 10,0.185,-0.6,91.0,902.0,-4.33
+   !ADB       pins 9
+   !ADB  test pins 1; threshold low 2 high 259  !ADB: 10,0.185,-0.37,28.0,259.0,-3.95
+   !ADB       pins 10
+ end device
+
+device "1%u5602"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 3, 8    !! ground pins commented by IPG
+   test pins 1; threshold low 2 high 355  !ADB: 10,0.176,7.78,38.0,355.0,9.63
+        pins 10
+   test pins 2; threshold low 17 high 1376  !ADB: 10,0.143,35.69,202.0,1376.0,7.79
+        pins 9
+   test pins 5; threshold low 30 high 1909  !ADB: 10,0.155,60.1,237.0,1909.0,12.54
+        pins 6
+   test pins 4; threshold low 61 high 5433  !ADB: 10,6.938,143.13,827.0,5433.0,3.95
+        pins 7
+end device
+
+device "1%vram1" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins "A1", "A9", "B1", "B3", "B9"    !! fixed pins commented by IPG
+!       pins "D1", "D8", "E1", "E2", "E8"    !! fixed pins commented by IPG
+!       pins "F9", "G1", "G8", "G9", "J2"    !! fixed pins commented by IPG
+!       pins "J8", "M1", "M9", "P1", "P9"    !! fixed pins commented by IPG
+!       pins "T1", "T9", "A8", "B2", "C1"    !! fixed pins commented by IPG
+!       pins "C9", "D2", "D9", "E9", "F1"    !! fixed pins commented by IPG
+!       pins "G7", "H2", "H9", "K2", "K8"    !! fixed pins commented by IPG
+!       pins "N1", "N9", "R1", "R9"    !! fixed pins commented by IPG
+   !ADB  test pins "E3"; threshold low 2 high 21  !ADB: 10,0.094,0.34,20.0,10000.0,-2.77
+   !ADB  test pins "F3"; threshold low 2 high 21  !ADB: 10,0.091,0.38,20.0,10000.0,-2.70
+   !ADB  test pins "G2"; threshold low 2 high 21  !ADB: 10,0.107,0.4,20.0,10000.0,-2.67
+   !ADB  test pins "H8"; threshold low 2 high 21  !ADB: 10,0.142,0.46,20.0,10000.0,-2.57
+   !ADB  test pins "H7"; threshold low 2 high 21  !ADB: 10,0.133,0.59,20.0,10000.0,-2.35
+   !ADB  test pins "D3"; threshold low 2 high 21  !ADB: 10,0.124,0.78,20.0,10000.0,-2.03
+   !ADB  test pins "E7"; threshold low 2 high 21  !ADB: 10,0.121,0.85,20.0,10000.0,-1.92
+   !ADB  test pins "N7"; threshold low 2 high 21  !ADB: 10,0.160,0.9,20.0,10000.0,-1.83
+   !ADB  test pins "F8"; threshold low 2 high 22  !ADB: 10,0.136,1.07,20.0,10000.0,-1.55
+   !ADB  test pins "M3"; threshold low 2 high 23  !ADB: 10,0.101,2.56,20.0,10000.0,0.93
+   !ADB  test pins "C8"; threshold low 2 high 23  !ADB: 10,0.092,2.6,20.0,10000.0,1.00
+   !ADB  test pins "C7"; threshold low 2 high 23  !ADB: 10,0.156,2.77,20.0,10000.0,1.28
+   !ADB  test pins "H1"; threshold low 2 high 23  !ADB: 10,0.168,2.82,20.0,10000.0,1.37
+   !ADB       pins "M8"
+   !ADB  test pins "L7"; threshold low 2 high 23  !ADB: 10,0.113,2.87,20.0,10000.0,1.45
+!  test pins "C3"; threshold low 2 high 25  !ADB: 10,0.160,4.63,20.0,10000.0,4.38
+   !ADB  test pins "L2"; threshold low 2 high 80  !ADB: 10,0.112,1.62,13.0,80.0,-0.63
+   !ADB  test pins "B7"; threshold low 2 high 34  !ADB: 10,0.102,3.35,1.0,34.0,2.25
+   !ADB  test pins "R7"; threshold low 2 high 56  !ADB: 10,0.156,3.23,2.0,56.0,2.05
+!  test pins "N3"; threshold low 2 high 38  !ADB: 10,0.126,3.54,2.0,38.0,2.57
+!  test pins "T3"; threshold low 2 high 61  !ADB: 10,0.194,3.79,2.0,61.0,2.98
+   !ADB  test pins "T8"; threshold low 2 high 74  !ADB: 10,0.169,1.1,2.0,74.0,-1.50
+   !ADB  test pins "K3"; threshold low 2 high 40  !ADB: 10,0.168,1.18,2.0,40.0,-1.37
+   !ADB  test pins "P7"; threshold low 2 high 30  !ADB: 10,0.132,1.34,2.0,30.0,-1.10
+   !ADB  test pins "N2"; threshold low 2 high 37  !ADB: 10,0.086,1.36,2.0,37.0,-1.07
+   !ADB  test pins "T7"; threshold low 2 high 111  !ADB: 10,0.150,1.42,2.0,111.0,-0.97
+   !ADB  test pins "A3"; threshold low 2 high 344  !ADB: 10,0.107,1.47,2.0,344.0,-0.88
+   !ADB  test pins "K7"; threshold low 2 high 27  !ADB: 10,0.201,1.61,2.0,27.0,-0.65
+   !ADB  test pins "J3"; threshold low 2 high 71  !ADB: 10,0.125,1.73,5.0,71.0,-0.45
+   !ADB  test pins "L3"; threshold low 2 high 83  !ADB: 10,0.192,1.98,7.0,83.0,-0.03
+   !ADB  test pins "M2"; threshold low 2 high 95  !ADB: 10,0.166,2.19,11.0,95.0,0.32
+   !ADB  test pins "N8"; threshold low 2 high 106  !ADB: 10,0.110,2.99,13.0,106.0,1.65
+   !ADB  test pins "T2"; threshold low 2 high 86  !ADB: 10,0.118,3.48,2.0,86.0,2.47
+   test pins "C2"; threshold low 1 high 251  !ADB: 10,0.186,3.64,16.0,251.0,2.73
+   test pins "A2"; threshold low 1 high 482  !ADB: 10,0.196,3.93,12.0,482.0,3.22
+ !wtest pins "J7"; threshold low 2 high 67  !ADB: 10,0.145,4.52,2.0,26.0,4.20
+   test pins "P2"; threshold low 2 high 253  !ADB: 10,0.169,6.44,35.0,253.0,7.40
+   test pins "B8"; threshold low 2 high 277  !ADB: 10,0.137,7.05,32.0,277.0,8.42
+   test pins "P3"; threshold low 2 high 525  !ADB: 10,0.236,7.36,41.0,525.0,7.57
+   test pins "K9"; threshold low 2 high 468  !ADB: 10,0.118,9.72,46.0,468.0,12.87
+   test pins "A7"; threshold low 2 high 500  !ADB: 10,0.112,10.28,29.0,500.0,13.80
+   test pins "R8"; threshold low 2 high 472  !ADB: 10,0.210,10.7,49.0,472.0,13.81
+   test pins "R2"; threshold low 3 high 467  !ADB: 10,0.239,13.04,73.0,467.0,14.00
+   test pins "F2"; threshold low 5 high 649  !ADB: 10,0.168,15.12,65.0,649.0,16.87
+   test pins "K1"; threshold low 6 high 794  !ADB: 10,0.148,16.31,98.0,794.0,17.18
+   test pins "R3"; threshold low 6 high 570  !ADB: 10,0.165,17.37,21.0,570.0,18.95
+   test pins "F7"; threshold low 9 high 1233  !ADB: 10,0.186,21.04,122.0,1233.0,5.02
+   test pins "L8"; threshold low 10 high 985  !ADB: 10,0.122,21.89,125.0,985.0,4.95
+   test pins "P8"; threshold low 11 high 997  !ADB: 10,0.209,22.68,113.0,997.0,4.87
+   inaccessible pins "D7", "G3", "H3", "J1", "J9", "L1", "L9", "M7"
+end device
+
+ device "1%vram2"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins "A1", "A9", "B1", "B3", "B9"    !! fixed pins commented by IPG
+!       pins "D1", "D8", "E1", "E2", "E8"    !! fixed pins commented by IPG
+!       pins "F9", "G1", "G8", "G9", "J2"    !! fixed pins commented by IPG
+!       pins "J8", "M1", "M9", "P1", "P9"    !! fixed pins commented by IPG
+!       pins "T1", "T9", "A8", "B2", "C1"    !! fixed pins commented by IPG
+!       pins "C9", "D2", "D9", "E9", "F1"    !! fixed pins commented by IPG
+!       pins "G7", "H2", "H9", "K2", "K8"    !! fixed pins commented by IPG
+!       pins "N1", "N9", "R1", "R9"    !! fixed pins commented by IPG
+   !ADB  test pins "F3"; threshold low 2 high 21  !ADB: 10,0.070,0.41,20.0,10000.0,-2.65
+   !ADB  test pins "G3"; threshold low 2 high 21  !ADB: 10,0.165,0.43,20.0,10000.0,-2.62
+   !ADB  test pins "L2"; threshold low 2 high 21  !ADB: 10,0.165,0.47,20.0,10000.0,-2.55
+   !ADB  test pins "H3"; threshold low 2 high 21  !ADB: 10,0.166,0.49,20.0,10000.0,-2.52
+   !ADB  test pins "F8"; threshold low 2 high 21  !ADB: 10,0.141,0.5,20.0,10000.0,-2.50
+   !ADB  test pins "G2"; threshold low 2 high 21  !ADB: 10,0.138,0.51,20.0,10000.0,-2.48
+   !ADB  test pins "H8"; threshold low 2 high 21  !ADB: 10,0.182,0.55,20.0,10000.0,-2.42
+   !ADB  test pins "K9"; threshold low 2 high 21  !ADB: 10,0.121,0.65,20.0,10000.0,-2.25
+   !ADB  test pins "J3"; threshold low 2 high 21  !ADB: 10,0.143,0.69,20.0,10000.0,-2.18
+   !ADB  test pins "L7"; threshold low 2 high 21  !ADB: 10,0.185,0.73,20.0,10000.0,-2.12
+   !ADB  test pins "K3"; threshold low 2 high 21  !ADB: 10,0.103,0.81,20.0,10000.0,-1.98
+   !ADB  test pins "K1"; threshold low 2 high 21  !ADB: 10,0.202,0.88,20.0,10000.0,-1.85
+   !ADB  test pins "M3"; threshold low 2 high 21  !ADB: 10,0.158,0.99,20.0,10000.0,-1.68
+   !ADB  test pins "L3"; threshold low 2 high 22  !ADB: 10,0.153,1.01,20.0,10000.0,-1.65
+   !ADB  test pins "N3"; threshold low 2 high 22  !ADB: 10,0.196,1.67,20.0,10000.0,-0.55
+   !ADB  test pins "F7"; threshold low 2 high 23  !ADB: 10,0.128,2.01,20.0,10000.0,0.02
+   !ADB  test pins "N8"; threshold low 2 high 23  !ADB: 10,0.172,2.62,20.0,10000.0,1.03
+   !ADB  test pins "F2"; threshold low 2 high 23  !ADB: 10,0.189,2.83,20.0,10000.0,1.38
+   !ADB  test pins "E3"; threshold low 2 high 23  !ADB: 10,0.150,2.98,20.0,10000.0,1.63
+   !ADB  test pins "H7"; threshold low 2 high 24  !ADB: 10,0.156,3.46,20.0,10000.0,2.43
+!  test pins "M2"; threshold low 2 high 25  !ADB: 10,0.169,4.3,20.0,10000.0,3.83
+!  test pins "P7"; threshold low 2 high 31  !ADB: 10,0.213,10.18,20.0,10000.0,12.80
+!  test pins "P3"; threshold low 2 high 33  !ADB: 10,0.152,10.96,20.0,10000.0,14.93
+!  test pins "R7"; threshold low 2 high 53  !ADB: 10,0.190,17.39,20.0,10000.0,18.98
+   !ADB  test pins "R3"; threshold low 2 high 47  !ADB: 10,0.150,3.12,2.0,47.0,1.87
+   !ADB  test pins "J7"; threshold low 2 high 25  !ADB: 10,0.176,2.72,2.0,25.0,1.20
+   !ADB  test pins "K7"; threshold low 2 high 25  !ADB: 10,0.227,2.75,2.0,25.0,1.10
+   !ADB  test pins "T7"; threshold low 2 high 78  !ADB: 10,0.230,2.83,2.0,78.0,1.20
+   !ADB  test pins "R2"; threshold low 2 high 65  !ADB: 10,0.217,3.04,2.0,65.0,1.60
+   !ADB  test pins "T8"; threshold low 2 high 69  !ADB: 10,0.312,3.19,2.0,69.0,1.27
+!  test pins "N2"; threshold low 2 high 25  !ADB: 10,0.143,3.89,2.0,25.0,3.15
+!m test pins "A3"; threshold low 32 high 781  !ADB: 10,0.120,65.27,35.0,781.0,13.86
+   !ADB  test pins "P8"; threshold low 2 high 45  !ADB: 10,0.025,0.0,2.0,45.0,-3.33
+   !ADB  test pins "P2"; threshold low 2 high 39  !ADB: 10,0.025,0.0,2.0,39.0,-3.33
+   !ADB  test pins "R8"; threshold low 2 high 63  !ADB: 10,0.025,0.0,2.0,63.0,-3.33
+   !ADB  test pins "T2"; threshold low 2 high 70  !ADB: 10,0.025,0.0,2.0,70.0,-3.33
+   !ADB  test pins "D7"; threshold low 2 high 63  !ADB: 10,0.025,0.0,2.0,63.0,-3.33
+   !ADB  test pins "C7"; threshold low 2 high 62  !ADB: 10,0.025,0.0,2.0,62.0,-3.33
+   !ADB  test pins "E7"; threshold low 2 high 382  !ADB: 10,0.025,0.0,2.0,382.0,-3.33
+   !ADB  test pins "C8"; threshold low 2 high 109  !ADB: 10,0.025,0.0,2.0,109.0,-3.33
+   !ADB  test pins "A7"; threshold low 2 high 158  !ADB: 10,0.025,0.0,4.0,158.0,-3.33
+   !ADB  test pins "B7"; threshold low 2 high 121  !ADB: 10,0.025,0.0,5.0,121.0,-3.33
+   !ADB  test pins "C3"; threshold low 2 high 131  !ADB: 10,0.025,0.0,7.0,131.0,-3.33
+   !ADB  test pins "D3"; threshold low 2 high 101  !ADB: 10,0.025,0.0,10.0,101.0,-3.33
+   !ADB  test pins "N7"; threshold low 2 high 380  !ADB: 10,0.025,0.0,17.0,380.0,-3.33
+   !ADB  test pins "B8"; threshold low 2 high 148  !ADB: 10,0.025,0.0,6.0,148.0,-3.33
+   !ADB  test pins "A2"; threshold low 2 high 809  !ADB: 10,0.025,0.0,41.0,809.0,-3.33
+   !ADB  test pins "T3"; threshold low 2 high 636  !ADB: 10,0.025,0.0,18.0,636.0,-3.33
+   !ADB  test pins "H1"; threshold low 2 high 1121  !ADB: 10,0.025,0.0,120.0,1121.0,-3.33
+   !ADB       pins "M8"
+   !ADB  test pins "C2"; threshold low 2 high 1329  !ADB: 10,0.025,0.0,152.0,1329.0,-3.33
+   !ADB  test pins "L8"; threshold low 2 high 1274  !ADB: 10,0.025,0.0,149.0,1274.0,-3.33
+   inaccessible pins "J1", "J9", "L1", "L9", "M7"
+ end device
+
+ device "1%vram3"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins "A1", "A9", "B1", "B3", "B9"    !! fixed pins commented by IPG
+!       pins "D1", "D8", "E1", "E2", "E8"    !! fixed pins commented by IPG
+!       pins "F9", "G1", "G8", "G9", "J2"    !! fixed pins commented by IPG
+!       pins "J8", "M1", "M9", "P1", "P9"    !! fixed pins commented by IPG
+!       pins "T1", "T9", "A8", "B2", "C1"    !! fixed pins commented by IPG
+!       pins "C9", "D2", "D9", "E9", "F1"    !! fixed pins commented by IPG
+!       pins "G7", "H2", "H9", "K2", "K8"    !! fixed pins commented by IPG
+!       pins "N1", "N9", "R1", "R9"    !! fixed pins commented by IPG
+   !ADB  test pins "F7"; threshold low 2 high 21  !ADB: 10,0.077,0.16,20.0,10000.0,-3.07
+   !ADB  test pins "H7"; threshold low 2 high 21  !ADB: 10,0.125,0.2,20.0,10000.0,-3.00
+   !ADB  test pins "F2"; threshold low 2 high 21  !ADB: 10,0.094,0.24,20.0,10000.0,-2.93
+   !ADB  test pins "M3"; threshold low 2 high 21  !ADB: 10,0.108,0.24,20.0,10000.0,-2.93
+   !ADB  test pins "H8"; threshold low 2 high 21  !ADB: 10,0.182,0.25,20.0,10000.0,-2.92
+   !ADB  test pins "L7"; threshold low 2 high 21  !ADB: 10,0.136,0.27,20.0,10000.0,-2.88
+   !ADB  test pins "G3"; threshold low 2 high 21  !ADB: 10,0.176,0.28,20.0,10000.0,-2.87
+   !ADB  test pins "J3"; threshold low 2 high 21  !ADB: 10,0.165,0.33,20.0,10000.0,-2.78
+   !ADB  test pins "K3"; threshold low 2 high 21  !ADB: 10,0.147,0.34,20.0,10000.0,-2.77
+   !ADB  test pins "G2"; threshold low 2 high 21  !ADB: 10,0.200,0.35,20.0,10000.0,-2.75
+   !ADB  test pins "L3"; threshold low 2 high 21  !ADB: 10,0.124,0.38,20.0,10000.0,-2.70
+   !ADB  test pins "F8"; threshold low 2 high 21  !ADB: 10,0.120,0.47,20.0,10000.0,-2.55
+   !ADB  test pins "L2"; threshold low 2 high 21  !ADB: 10,0.176,0.52,20.0,10000.0,-2.47
+   !ADB  test pins "L8"; threshold low 2 high 21  !ADB: 10,0.180,0.78,20.0,10000.0,-2.03
+   !ADB  test pins "M2"; threshold low 2 high 22  !ADB: 10,0.126,1.86,20.0,10000.0,-0.23
+   !ADB  test pins "N3"; threshold low 2 high 23  !ADB: 10,0.113,2.07,20.0,10000.0,0.12
+   !ADB  test pins "N8"; threshold low 2 high 23  !ADB: 10,0.094,2.76,20.0,10000.0,1.27
+   !ADB  test pins "N2"; threshold low 2 high 24  !ADB: 10,0.238,3.18,20.0,10000.0,1.65
+!  test pins "P3"; threshold low 2 high 26  !ADB: 10,0.092,5.9,20.0,10000.0,6.50
+!  test pins "P7"; threshold low 2 high 28  !ADB: 10,0.115,7.35,20.0,10000.0,8.92
+   !ADB  test pins "R7"; threshold low 2 high 40  !ADB: 10,0.156,2.54,2.0,40.0,0.90
+   !ADB  test pins "R3"; threshold low 2 high 38  !ADB: 10,0.198,3.29,2.0,38.0,2.15
+   !ADB  test pins "P8"; threshold low 2 high 38  !ADB: 10,0.160,3.33,2.0,38.0,2.22
+   !ADB  test pins "T7"; threshold low 2 high 65  !ADB: 10,0.116,3.49,2.0,65.0,2.48
+   !ADB  test pins "R2"; threshold low 2 high 59  !ADB: 10,0.171,-0.59,2.0,59.0,-4.32
+   !ADB  test pins "C2"; threshold low 2 high 225  !ADB: 10,0.197,-0.56,27.0,225.0,-4.27
+   !ADB  test pins "C7"; threshold low 2 high 299  !ADB: 10,0.101,-0.54,20.0,299.0,-4.23
+   !ADB  test pins "A7"; threshold low 2 high 135  !ADB: 10,0.226,-0.53,4.0,135.0,-3.73
+   !ADB  test pins "C3"; threshold low 2 high 1140  !ADB: 10,0.192,-0.53,147.0,1140.0,-4.22
+   !ADB  test pins "T3"; threshold low 2 high 58  !ADB: 10,0.188,-0.52,2.0,58.0,-4.20
+   !ADB  test pins "C8"; threshold low 2 high 121  !ADB: 10,0.209,-0.52,2.0,121.0,-4.02
+   !ADB  test pins "A2"; threshold low 2 high 421  !ADB: 10,0.155,-0.52,38.0,421.0,-4.20
+   !ADB  test pins "K9"; threshold low 2 high 549  !ADB: 10,0.130,-0.52,28.0,549.0,-4.20
+   !ADB  test pins "J7"; threshold low 2 high 855  !ADB: 10,0.192,-0.52,69.0,855.0,-4.20
+   !ADB  test pins "P2"; threshold low 2 high 30  !ADB: 10,0.110,-0.51,2.0,30.0,-4.18
+   !ADB  test pins "N7"; threshold low 2 high 62  !ADB: 10,0.138,-0.51,2.0,62.0,-4.18
+   !ADB  test pins "A3"; threshold low 2 high 289  !ADB: 10,0.084,-0.5,29.0,289.0,-4.17
+   !ADB  test pins "K1"; threshold low 2 high 584  !ADB: 10,0.213,-0.48,38.0,584.0,-3.88
+   !ADB  test pins "H1"; threshold low 2 high 1230  !ADB: 10,0.245,-0.46,100.0,1230.0,-3.35
+   !ADB       pins "M8"
+   !ADB  test pins "B8"; threshold low 2 high 565  !ADB: 10,0.114,-0.46,33.0,565.0,-4.10
+   !ADB  test pins "K7"; threshold low 2 high 205  !ADB: 10,0.193,-0.45,14.0,205.0,-4.08
+   !ADB  test pins "D3"; threshold low 2 high 599  !ADB: 10,0.204,-0.44,76.0,599.0,-3.99
+   !ADB  test pins "R8"; threshold low 2 high 58  !ADB: 10,0.126,-0.44,2.0,58.0,-4.07
+   !ADB  test pins "T8"; threshold low 2 high 67  !ADB: 10,0.177,-0.43,2.0,67.0,-4.05
+   !ADB  test pins "B7"; threshold low 2 high 971  !ADB: 10,0.177,-0.37,100.0,971.0,-3.95
+   !ADB  test pins "T2"; threshold low 2 high 62  !ADB: 10,0.161,-0.35,2.0,62.0,-3.92
+   !ADB  test pins "D7"; threshold low 2 high 749  !ADB: 10,0.242,-0.33,29.0,749.0,-3.21
+   inaccessible pins "E3", "E7", "F3", "H3", "J1", "J9", "L1", "L9"
+   inaccessible pins "M7"
+ end device
+
+ device "1%pu4404"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 1, 14, 21, 2    !! fixed pins commented by IPG
+!  test pins 12    !! fixed pins commented by IPG
+!  test pins 13    !! fixed pins commented by IPG
+!  test pins 16    !! ground pins commented by IPG
+!  test pins 19    !! fixed pins commented by IPG
+!  test pins 20    !! fixed pins commented by IPG
+   !ADB  test pins 17; threshold low 2 high 67  !ADB: 10,0.162,0.31,6.0,67.0,-2.82
+   !ADB  test pins 18; threshold low 2 high 47  !ADB: 10,0.100,0.37,4.0,47.0,-2.72
+   !ADB  test pins 15; threshold low 2 high 70  !ADB: 10,0.211,0.45,9.0,70.0,-2.45
+   !ADB  test pins 11; threshold low 2 high 50  !ADB: 10,0.113,0.27,5.0,50.0,-2.88
+   !ADB  test pins 4; threshold low 2 high 125  !ADB: 10,0.184,0.32,16.0,125.0,-2.80
+   !ADB  test pins 7; threshold low 2 high 35  !ADB: 10,0.184,0.48,2.0,35.0,-2.53
+   !ADB  test pins 9; threshold low 2 high 41  !ADB: 10,0.025,0.0,2.0,41.0,-3.33
+   !ADB  test pins 5; threshold low 2 high 50  !ADB: 10,0.025,0.0,2.0,50.0,-3.33
+   !ADB  test pins 6; threshold low 2 high 409  !ADB: 10,0.025,0.0,57.0,409.0,-3.33
+   !ADB  test pins 3; threshold low 2 high 489  !ADB: 10,0.025,0.0,60.0,489.0,-3.33
+   !ADB  test pins 8; threshold low 2 high 475  !ADB: 10,0.025,0.0,62.0,475.0,-3.33
+   !ADB  test pins 10; threshold low 2 high 1647  !ADB: 10,0.025,0.0,196.0,1647.0,-3.33
+ end device
+ device "1%lom30"   !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins 3, 33, 24, 8, 22, 30    !! ground pins commented by IPG
+!  test pins 11, 23, 32    !! fixed pins commented by IPG
+   !ADB  test pins 20; threshold low 2 high 38  !ADB: 10,0.226,0.02,2.0,38.0,-2.92
+   !ADB  test pins 6; threshold low 2 high 26  !ADB: 10,0.202,0.12,2.0,26.0,-3.10
+   !ADB  test pins 7; threshold low 2 high 27  !ADB: 10,0.132,0.15,2.0,27.0,-3.08
+   !ADB  test pins 10; threshold low 2 high 27  !ADB: 10,0.156,0.17,2.0,27.0,-3.05
+   !ADB  test pins 12; threshold low 2 high 42  !ADB: 10,0.243,0.21,3.0,42.0,-2.46
+   !ADB  test pins 19; threshold low 2 high 39  !ADB: 10,0.165,0.24,2.0,39.0,-2.93
+   !ADB  test pins 16; threshold low 2 high 778  !ADB: 10,0.103,0.29,111.0,778.0,-2.85
+   !ADB  test pins 9; threshold low 2 high 237  !ADB: 10,0.159,0.32,34.0,237.0,-2.80
+   !ADB  test pins 14; threshold low 2 high 1311  !ADB: 10,0.135,0.38,206.0,1311.0,-2.70
+   !ADB  test pins 17; threshold low 2 high 2076  !ADB: 10,0.098,0.38,312.0,2076.0,-2.70
+   !ADB  test pins 31; threshold low 2 high 263  !ADB: 10,0.147,0.46,38.0,263.0,-2.57
+   !ADB  test pins 18; threshold low 2 high 664  !ADB: 10,0.205,0.69,88.0,664.0,-2.13
+   !ADB  test pins 29; threshold low 2 high 1054  !ADB: 10,0.175,0.89,119.0,1054.0,-1.85
+   !ADB  test pins 27; threshold low 2 high 1365  !ADB: 10,0.103,0.99,208.0,1365.0,-1.68
+   !ADB  test pins 1; threshold low 2 high 419  !ADB: 10,0.250,1.28,63.0,419.0,-0.96
+   !ADB  test pins 5; threshold low 2 high 227  !ADB: 10,0.076,1.37,34.0,227.0,-1.05
+   !ADB  test pins 4; threshold low 2 high 269  !ADB: 10,0.125,1.43,41.0,269.0,-0.95
+   !ADB  test pins 2; threshold low 2 high 571  !ADB: 10,0.169,1.63,87.0,571.0,-0.62
+   !ADB  test pins 21; threshold low 2 high 2026  !ADB: 10,0.192,1.72,257.0,2026.0,-0.47
+   !ADB  test pins 28; threshold low 2 high 91  !ADB: 10,0.131,1.77,6.0,91.0,-0.38
+   !ADB  test pins 25; threshold low 2 high 159  !ADB: 10,0.147,2.24,23.0,159.0,0.40
+   !ADB  test pins 26; threshold low 2 high 69  !ADB: 10,0.153,3.39,9.0,69.0,2.32
+   inaccessible pins 13, 15
+ end device
+ device "1%vram4" bottom  !ADB
+   !--------------------------------------------------------------------------------
+   !Per-pin  comments: N, std dev, mean,  previous low limit, previous hi limit, cpk
+   !--------------------------------------------------------------------------------
+!  test pins "A1", "A9", "B1", "B3", "B9"    !! fixed pins commented by IPG
+!       pins "D1", "D8", "E1", "E2", "E8"    !! fixed pins commented by IPG
+!       pins "F9", "G1", "G8", "G9", "J2"    !! fixed pins commented by IPG
+!       pins "J8", "M1", "M9", "P1", "P9"    !! fixed pins commented by IPG
+!       pins "T1", "T9", "A8", "B2", "C1"    !! fixed pins commented by IPG
+!       pins "C9", "D2", "D9", "E9", "F1"    !! fixed pins commented by IPG
+!       pins "G7", "H2", "H9", "K2", "K8"    !! fixed pins commented by IPG
+!       pins "N1", "N9", "R1", "R9"    !! fixed pins commented by IPG
+   !ADB  test pins "F7"; threshold low 2 high 21  !ADB: 10,0.118,0.52,20.0,10000.0,-2.47
+   !ADB  test pins "G3"; threshold low 2 high 21  !ADB: 10,0.086,0.55,20.0,10000.0,-2.42
+   !ADB  test pins "F3"; threshold low 2 high 21  !ADB: 10,0.174,0.64,20.0,10000.0,-2.27
+   !ADB  test pins "F8"; threshold low 2 high 21  !ADB: 10,0.103,0.89,20.0,10000.0,-1.85
+   !ADB  test pins "L8"; threshold low 2 high 21  !ADB: 10,0.141,0.9,20.0,10000.0,-1.83
+   !ADB  test pins "E7"; threshold low 2 high 21  !ADB: 10,0.093,0.93,20.0,10000.0,-1.78
+   !ADB  test pins "N7"; threshold low 2 high 22  !ADB: 10,0.105,1.38,20.0,10000.0,-1.03
+   !ADB  test pins "D7"; threshold low 2 high 23  !ADB: 10,0.172,2.68,20.0,10000.0,1.13
+   !ADB  test pins "L2"; threshold low 2 high 23  !ADB: 10,0.175,2.69,20.0,10000.0,1.15
+   !ADB  test pins "H3"; threshold low 2 high 23  !ADB: 10,0.130,2.88,20.0,10000.0,1.47
+   !ADB  test pins "K1"; threshold low 2 high 24  !ADB: 10,0.165,3.05,20.0,10000.0,1.75
+   !ADB  test pins "J3"; threshold low 2 high 24  !ADB: 10,0.156,3.14,20.0,10000.0,1.90
+   !ADB  test pins "J7"; threshold low 2 high 24  !ADB: 10,0.164,3.3,20.0,10000.0,2.17
+   !ADB  test pins "L3"; threshold low 2 high 24  !ADB: 10,0.156,3.36,20.0,10000.0,2.27
+!  test pins "P3"; threshold low 2 high 27  !ADB: 10,0.132,6.45,20.0,10000.0,7.42
+   !ADB  test pins "C3"; threshold low 2 high 27  !ADB: 10,0.118,1.42,2.0,27.0,-0.97
+   !ADB  test pins "H1"; threshold low 2 high 40  !ADB: 10,0.138,1.59,2.0,40.0,-0.68
+   !ADB       pins "M8"
+   !ADB  test pins "A3"; threshold low 2 high 48  !ADB: 10,0.120,1.83,2.0,48.0,-0.28
+   !ADB  test pins "T7"; threshold low 2 high 62  !ADB: 10,0.122,1.99,5.0,62.0,-0.02
+   !ADB  test pins "K9"; threshold low 2 high 25  !ADB: 10,0.137,2.04,2.0,25.0,0.07
+   !ADB  test pins "C8"; threshold low 2 high 26  !ADB: 10,0.124,2.12,2.0,26.0,0.20
+   !ADB  test pins "T2"; threshold low 2 high 47  !ADB: 10,0.174,2.26,2.0,47.0,0.43
+   !ADB  test pins "C2"; threshold low 2 high 26  !ADB: 10,0.125,2.33,2.0,26.0,0.55
+   !ADB  test pins "H7"; threshold low 2 high 27  !ADB: 10,0.138,2.69,2.0,27.0,1.15
+   !ADB  test pins "T3"; threshold low 2 high 41  !ADB: 10,0.151,2.93,2.0,41.0,1.55
+   !ADB  test pins "B8"; threshold low 2 high 64  !ADB: 10,0.122,3.31,5.0,64.0,2.18
+   !ADB  test pins "P8"; threshold low 2 high 33  !ADB: 10,36.709,-192.95,2.0,33.0,-1.77
+   !ADB  test pins "M2"; threshold low 2 high 26  !ADB: 10,36.335,-186.1,2.0,26.0,-1.73
+   !ADB  test pins "N8"; threshold low 2 high 73  !ADB: 10,33.199,-179.84,2.0,73.0,-1.83
+   !ADB  test pins "R2"; threshold low 2 high 61  !ADB: 10,28.031,-174.29,2.0,61.0,-2.10
+   !ADB  test pins "P2"; threshold low 2 high 49  !ADB: 10,37.083,-173.27,2.0,37.0,-1.58
+   !ADB  test pins "N3"; threshold low 2 high 80  !ADB: 10,29.288,-172.29,2.0,80.0,-1.98
+   !ADB  test pins "D3"; threshold low 2 high 158  !ADB: 10,51.259,-171.06,3.0,90.0,-1.13
+   !ADB  test pins "A2"; threshold low 2 high 158  !ADB: 10,51.159,-171.02,2.0,63.0,-1.13
+   !ADB  test pins "A7"; threshold low 2 high 265  !ADB: 10,43.704,-170.21,2.0,265.0,-1.31
+   !ADB  test pins "P7"; threshold low 2 high 142  !ADB: 10,46.675,-157.74,2.0,42.0,-1.14
+   !ADB  test pins "R8"; threshold low 2 high 143  !ADB: 10,46.725,-156.88,4.0,133.0,-1.13
+   !ADB  test pins "K3"; threshold low 2 high 275  !ADB: 10,63.545,-152.72,2.0,113.0,-0.81
+   !ADB  test pins "C7"; threshold low 2 high 197  !ADB: 10,39.317,-151.41,16.0,197.0,-1.30
+   !ADB  test pins "K7"; threshold low 2 high 375  !ADB: 10,72.926,-130.34,2.0,26.0,-0.60
+   !ADB  test pins "R3"; threshold low 2 high 257  !ADB: 10,56.622,-127.02,8.0,60.0,-0.76
+   !ADB  test pins "M3"; threshold low 2 high 334  !ADB: 10,64.412,-113.24,2.0,163.0,-0.60
+   !ADB  test pins "B7"; threshold low 2 high 438  !ADB: 10,77.628,-109.89,2.0,65.0,-0.48
+   !ADB  test pins "L7"; threshold low 2 high 341  !ADB: 10,62.566,-97.84,15.0,106.0,-0.53
+   !ADB  test pins "R7"; threshold low 2 high 425  !ADB: 10,44.367,-56.27,24.0,425.0,-0.44
+   !ADB  test pins "N2"; threshold low 2 high 758  !ADB: 10,26.845,27.82,19.0,758.0,0.32
+   !ADB  test pins "T8"; threshold low 2 high 720  !ADB: 10,24.676,35.59,30.0,720.0,0.45
+   !ADB  test pins "F2"; threshold low 2 high 1117  !ADB: 10,31.847,49.87,118.0,1117.0,0.50
+   inaccessible pins "E3", "G2", "H8", "J1", "J9", "L1", "L9", "M7"
+ end device
