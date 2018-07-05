@@ -6,3 +6,11 @@ D:\Edward\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.csproj.Generate
 D:\Edward\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.exe
 D:\Edward\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.pdb
 D:\Edward\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.csprojResolveAssemblyReference.cache
+\\psf\Home\EdwardCode\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.exe
+\\psf\Home\EdwardCode\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.pdb
+\\psf\Home\EdwardCode\CheckBomInTest\CheckBomInTest\bin\Debug\CheckBomInTest.exe
+\\psf\Home\EdwardCode\CheckBomInTest\CheckBomInTest\bin\Debug\CheckBomInTest.pdb
+\\psf\Home\EdwardCode\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.csprojResolveAssemblyReference.cache
+\\psf\Home\EdwardCode\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.Form1.resources
+\\psf\Home\EdwardCode\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.Properties.Resources.resources
+\\psf\Home\EdwardCode\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.csproj.GenerateResource.Cache

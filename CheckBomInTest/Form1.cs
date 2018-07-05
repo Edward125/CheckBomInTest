@@ -72,7 +72,7 @@ namespace CheckBomInTest
 
 
         /// <summary>
-        /// 
+        /// check 3070 board file exists
         /// </summary>
         private void checkProgramFile(string programfolder, CheckBox chktestorder,
             CheckBox chktestplan,CheckBox chkboard,CheckBox chkboardxy)
@@ -160,5 +160,59 @@ namespace CheckBomInTest
                 txtProgramFolder.Focus();
             }
         }
+
+        private void btnLoadboard_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtProgramFolder.Text.Trim()))
+            {
+                MessageBox.Show("u must select a 3070 program...", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtProgramFolder.Focus();
+                return;
+            }
+        }
+
+
+
+
+        /// <summary>
+        /// read board file ,check board panel or not ,if panle ,return board list
+        /// </summary>
+        /// <param name="programfolder"></param>
+        /// <returns>panel,board list</returns>
+        private List<string> CheckBoards(string programfolder)
+        {
+
+            bool bPanel = false;
+            bool bBoards = false;
+            bool bHeading = false;
+            string sHeading = string.Empty;
+
+            List<string> boards = new List<string>();
+            string boardfile = "";
+
+            if (string.IsNullOrEmpty(programfolder))
+                return boards;
+            if (programfolder.EndsWith(@"\"))
+                boardfile = programfolder + "board";
+            else
+                boardfile = programfolder + @"\board";
+
+            
+            StreamReader sr = new StreamReader(boardfile);
+
+
+
+
+            sr.Close();
+
+
+
+            return boards;
+
+        }
+
+
+
+
     }
 }
