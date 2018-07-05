@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.IO;
 
 namespace CheckBomInTest
 {
@@ -13,6 +14,151 @@ namespace CheckBomInTest
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+
+
+
+        /// <summary>
+        /// open folder
+        /// </summary>
+        /// <param name="textbox"></param>
+        private void openfolder(TextBox textbox)
+        {
+            FolderBrowserDialog op = new FolderBrowserDialog();
+            if (op.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                textbox.Text = op.SelectedPath;
+            }
+        }
+
+        /// <summary>
+        /// open file
+        /// </summary>
+        /// <param name="textbox"></param>
+        private void openfile(TextBox textbox)
+        {
+            OpenFileDialog op = new OpenFileDialog();
+            if (op.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                textbox.Text = op.FileName;                
+            }
+        }
+
+        private void txtProgramFolder_DoubleClick(object sender, EventArgs e)
+        {
+            openfolder(txtProgramFolder);
+            if (!string.IsNullOrEmpty (txtProgramFolder.Text .Trim ()))
+               checkProgramFile(txtProgramFolder.Text, chkTestorder, chkTestplan, chkBoard, chkBoardxy);
+        }
+
+        private void txtBOmFolder_DoubleClick(object sender, EventArgs e)
+        {
+            openfolder(txtBOmFolder);
+        }
+
+        private void txtSingleBom_DoubleClick(object sender, EventArgs e)
+        {
+            openfile(txtSingleBom);
+        }
+
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        private void checkProgramFile(string programfolder, CheckBox chktestorder,
+            CheckBox chktestplan,CheckBox chkboard,CheckBox chkboardxy)
+        {
+            if (!Directory.Exists(programfolder))
+            {
+                chktestorder.Checked = false;
+                chktestplan.Checked = false;
+                chkboard.Checked = false;
+                chkboardxy .Checked = false;
+                return;
+            }
+
+            DirectoryInfo di = new DirectoryInfo(programfolder);
+            FileInfo[] fi = di.GetFiles();
+            foreach (var item in fi )
+            {
+                if (item.Name.ToLower() == "testplan")
+                    chktestplan.Checked = true;
+                if (item.Name.ToLower() == "testorder")
+                    chktestorder.Checked = true;
+                if (item.Name.ToLower() == "board")
+                    chkboard.Checked = true;
+                if (item.Name.ToLower() == "board_xy")
+                    chkboardxy.Checked = true;
+            }
+
+        }
+
+        private void btnCompare_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty (txtProgramFolder.Text.Trim ()))
+            {
+                MessageBox.Show ("u must select a 3070 program...","Error",MessageBoxButtons.OK ,MessageBoxIcon.Error );
+                txtProgramFolder.Focus();
+                return;
+            }
+
+            if (string.IsNullOrEmpty(txtSingleBom.Text.Trim()))
+            {
+                MessageBox.Show("u must select a bom...", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtSingleBom.Focus();
+                return;
+            }
+
+            checkProgramFile(txtProgramFolder.Text, chkTestorder, chkTestplan, chkBoard, chkBoardxy);
+            if (chkTestplan.Checked && chkTestorder.Checked && chkBoard.Checked && chkBoardxy.Checked)
+            {
+
+            }
+            else  //
+            {
+                MessageBox.Show("The program u select may miss some file,eg:'testplan''testorder''board''board_xy',pls check and retry...", "STOP", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                txtProgramFolder.SelectAll();
+                txtProgramFolder.Focus();
+            }
+
+        }
+
+        private void btnBatchCompare_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtProgramFolder.Text.Trim()))
+            {
+                MessageBox.Show("u must select a 3070 program...", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtProgramFolder.Focus();
+                return;
+            }
+
+            if (string.IsNullOrEmpty(txtSingleBom.Text.Trim()))
+            {
+                MessageBox.Show("u must select a bom...", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtSingleBom.Focus();
+                return;
+            }
+
+            checkProgramFile(txtProgramFolder.Text, chkTestorder, chkTestplan, chkBoard, chkBoardxy);
+            if (chkTestplan.Checked && chkTestorder.Checked && chkBoard.Checked && chkBoardxy.Checked)
+            {
+
+            }
+            else  //
+            {
+                MessageBox.Show("The program u select may miss some file,eg:'testplan''testorder''board''board_xy',pls check and retry...", "STOP", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                txtProgramFolder.SelectAll();
+                txtProgramFolder.Focus();
+            }
         }
     }
 }
