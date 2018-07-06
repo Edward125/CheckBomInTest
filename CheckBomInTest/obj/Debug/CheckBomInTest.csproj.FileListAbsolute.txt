@@ -18,7 +18,6 @@ Y:\EdwardCode\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.exe
 Y:\EdwardCode\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.pdb
 Y:\EdwardCode\CheckBomInTest\CheckBomInTest\bin\Debug\CheckBomInTest.exe
 Y:\EdwardCode\CheckBomInTest\CheckBomInTest\bin\Debug\CheckBomInTest.pdb
-Y:\EdwardCode\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.csprojResolveAssemblyReference.cache
 Y:\EdwardCode\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.Form1.resources
 Y:\EdwardCode\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.Properties.Resources.resources
 Y:\EdwardCode\CheckBomInTest\CheckBomInTest\obj\Debug\CheckBomInTest.csproj.GenerateResource.Cache

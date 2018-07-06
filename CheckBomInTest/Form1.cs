@@ -17,13 +17,30 @@ namespace CheckBomInTest
         }
 
 
-
+        //v1.0 -- 只check analog部分,IC testjet部分暂时不check，小电阻在Jumper部分不check
 
 
         #region 参数
 
-        bool bPanel = false;
+
+        const string BOARD = "board";
+        const string BOARD_XY = "board_xy";
+        const string TESTORDER = "testorder";
+        const string TESTPLAN = "testplan";
+
+
+        bool bPanel = false; //board is panel?if it is,must select the board name
         string sDefaultFilePath = "";
+
+       
+
+
+
+
+        List<string> analogInBoard = new List<string>();   //从board里面找到的在analog部分测试的(res,cap,pin lib),包含需要从testorder去掉的电容部分
+        List<string> jumperInBoard = new List<string>();   //jumper open close
+        List<string> testjetInBoard = new List<string>();  //
+        List<string> ntInBoard = new List<string>();
 
 
         #endregion
@@ -236,13 +253,8 @@ namespace CheckBomInTest
             string sLine = string.Empty;
 
             List<string> boards = new List<string>();
-            string boardfile = "";
-            if (string.IsNullOrEmpty(programfolder))
-                return boards;
-            if (programfolder.EndsWith(@"\"))
-                boardfile = programfolder + "board";
-            else
-                boardfile = programfolder + @"\board";
+            string boardfile = GetFileFrom3070Program(programfolder, BOARD);
+           
             StreamReader sr = new StreamReader(boardfile);
             while (!sr.EndOfStream )
             {
@@ -301,6 +313,57 @@ namespace CheckBomInTest
             return board.Remove(0, 1);
         }
 
+
+
+        /// <summary>
+        /// 从3070程式中获取特定的文件路径
+        /// </summary>
+        /// <param name="programfolder">3070 program folder</param>
+        /// <param name="keyvalue">testplan testorder board or board_xy/param>
+        /// <returns></returns>
+        private string GetFileFrom3070Program(string programfolder,string keyvalue)
+        {
+            string filepath = string.Empty;
+
+            if (string.IsNullOrEmpty(programfolder))
+                return filepath;
+            if (programfolder.EndsWith(@"\"))
+                filepath = programfolder + keyvalue;
+            else
+                filepath = programfolder + @"\" + keyvalue;
+
+            return filepath;
+        }
+
+
+   
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="boardfile"></param>
+        /// <param name="boardname"></param>
+        private void ReadBoard(string boardfile,string boardname)
+        {
+            //clear data
+            analogInBoard = new List<string>();   //从board里面找到的在analog部分测试的(res,cap,pin lib),包含需要从testorder去掉的电容部分
+            jumperInBoard = new List<string>();   //jumper open close
+            testjetInBoard = new List<string>();  //
+            ntInBoard = new List<string>();
+            //
+            string sLine = string.Empty;
+
+ 
+            StreamReader sr = new StreamReader(boardfile);
+            while (!sr.EndOfStream )
+            {
+                if (!string.IsNullOrEmpty(sLine))
+                {
+
+                }
+            }
+            sr.Close ();
+
+        }
 
     }
 }
