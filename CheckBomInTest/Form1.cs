@@ -169,6 +169,11 @@ namespace CheckBomInTest
                 txtProgramFolder.Focus();
                 return;
             }
+            foreach (var item in CheckBoards(txtProgramFolder.Text .Trim ()))
+            {
+                lstBoards.Items.Add(item);
+            }
+
         }
 
 
@@ -186,32 +191,70 @@ namespace CheckBomInTest
             bool bBoards = false;
             bool bHeading = false;
             string sHeading = string.Empty;
+            string sLine = string.Empty;
 
             List<string> boards = new List<string>();
             string boardfile = "";
-
             if (string.IsNullOrEmpty(programfolder))
                 return boards;
             if (programfolder.EndsWith(@"\"))
                 boardfile = programfolder + "board";
             else
                 boardfile = programfolder + @"\board";
-
-            
             StreamReader sr = new StreamReader(boardfile);
+            while (!sr.EndOfStream )
+            {
+                sLine = sr.ReadLine();
 
+                //get heading 
+                if (sLine.ToUpper().Trim () == "HEADING")
+                    bHeading = true;
+                if ( sLine.EndsWith(";") && bHeading)
+                {
+                    sHeading = sLine.Replace("\"", "").Replace(";", "");
+                    bHeading = false;
+                }
+                //check if panel 
 
+                if (sLine.ToUpper().Trim() == "BOARDS")
+                {
+                    bPanel = true;
+                    bBoards = true;
+                }
+                if (bBoards && sLine.ToUpper().Trim ().Substring (0,6).Trim () =="BOARD")
+                    bBoards = false;
+                if (bBoards && sLine.EndsWith(";"))
+                {
+                    MessageBox.Show(GetBoardFromLineString(sLine));
+                }
+               
 
-
+            }
+           
             sr.Close();
-
-
-
             return boards;
 
         }
 
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="linestring"></param>
+        /// <returns></returns>
+        private string GetBoardFromLineString(string linestring)
+        {
+            //  1    "13269-1"    "MB";
+            string board = string.Empty;
+            foreach (string temp in linestring.Trim().Split(' '))
+            {
+                if (temp.Trim().Contains("\""))
+                {
+                    board = board +"_"+ temp.Trim().Replace("\"", "").Replace(";", "");
+                }
+            }
+            return board.Remove(0, 1);
+        }
 
 
     }
