@@ -16,6 +16,19 @@ namespace CheckBomInTest
             InitializeComponent();
         }
 
+
+
+
+
+        #region 参数
+
+        bool bPanel = false;
+        string sDefaultFilePath = "";
+
+
+        #endregion
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -33,9 +46,14 @@ namespace CheckBomInTest
         private void openfolder(TextBox textbox)
         {
             FolderBrowserDialog op = new FolderBrowserDialog();
+
+            if (sDefaultFilePath != "")
+                op.SelectedPath = sDefaultFilePath;
+
             if (op.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 textbox.Text = op.SelectedPath;
+                sDefaultFilePath = op.SelectedPath;
             }
         }
 
@@ -128,6 +146,7 @@ namespace CheckBomInTest
                 MessageBox.Show("The program u select may miss some file,eg:'testplan''testorder''board''board_xy',pls check and retry...", "STOP", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 txtProgramFolder.SelectAll();
                 txtProgramFolder.Focus();
+                return;
             }
 
         }
@@ -158,21 +177,44 @@ namespace CheckBomInTest
                 MessageBox.Show("The program u select may miss some file,eg:'testplan''testorder''board''board_xy',pls check and retry...", "STOP", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 txtProgramFolder.SelectAll();
                 txtProgramFolder.Focus();
+                return;
             }
         }
 
         private void btnLoadboard_Click(object sender, EventArgs e)
         {
+
+           
             if (string.IsNullOrEmpty(txtProgramFolder.Text.Trim()))
             {
                 MessageBox.Show("u must select a 3070 program...", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtProgramFolder.Focus();
                 return;
             }
+
+            checkProgramFile(txtProgramFolder.Text, chkTestorder, chkTestplan, chkBoard, chkBoardxy);
+            if (chkTestplan.Checked && chkTestorder.Checked && chkBoard.Checked && chkBoardxy.Checked)
+            {
+
+            }
+            else  //
+            {
+                MessageBox.Show("The program u select may miss some file,eg:'testplan''testorder''board''board_xy',pls check and retry...", "STOP", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                txtProgramFolder.SelectAll();
+                txtProgramFolder.Focus();
+                return;
+            }
+
+
+            lstBoards.Items.Clear();
             foreach (var item in CheckBoards(txtProgramFolder.Text .Trim ()))
             {
                 lstBoards.Items.Add(item);
             }
+
+
+            if (lstBoards.Items.Count > 0)
+                lstBoards.SelectedIndex = 0;
 
         }
 
@@ -187,7 +229,7 @@ namespace CheckBomInTest
         private List<string> CheckBoards(string programfolder)
         {
 
-            bool bPanel = false;
+            bPanel = false;
             bool bBoards = false;
             bool bHeading = false;
             string sHeading = string.Empty;
@@ -205,30 +247,33 @@ namespace CheckBomInTest
             while (!sr.EndOfStream )
             {
                 sLine = sr.ReadLine();
-
-                //get heading 
-                if (sLine.ToUpper().Trim () == "HEADING")
-                    bHeading = true;
-                if ( sLine.EndsWith(";") && bHeading)
+                if (!string.IsNullOrEmpty(sLine)) //不能为空
                 {
-                    sHeading = sLine.Replace("\"", "").Replace(";", "");
-                    bHeading = false;
-                }
-                //check if panel 
 
-                if (sLine.ToUpper().Trim() == "BOARDS")
-                {
-                    bPanel = true;
-                    bBoards = true;
-                }
-                if (bBoards && sLine.ToUpper().Trim ().Substring (0,6).Trim () =="BOARD")
-                    bBoards = false;
-                if (bBoards && sLine.EndsWith(";"))
-                {
-                    MessageBox.Show(GetBoardFromLineString(sLine));
-                }
-               
+                    //get heading 
+                    if (sLine.ToUpper().Trim() == "HEADING")
+                        bHeading = true;
+                    if (sLine.EndsWith(";") && bHeading)
+                    {
+                        sHeading = sLine.Replace("\"", "").Replace(";", "");
+                        bHeading = false;
+                    }
+                    //check if panel 
 
+                    if (sLine.ToUpper().Trim() == "BOARDS")
+                    {
+                        bPanel = true;
+                        bBoards = true;
+                    }
+                    if (bBoards && sLine.ToUpper().Trim().Substring(0, 6).Trim() == "BOARD")
+                        bBoards = false;
+                    if (bBoards && sLine.EndsWith(";"))
+                    {
+                        //MessageBox.Show(GetBoardFromLineString(sLine));
+                        boards.Add(GetBoardFromLineString(sLine));
+                    }
+
+                }
             }
            
             sr.Close();
